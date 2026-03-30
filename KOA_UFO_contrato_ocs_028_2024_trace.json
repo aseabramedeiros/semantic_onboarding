@@ -1,0 +1,3158 @@
+{
+  "contract_id": "contrato_ocs_0028_2024",
+  "source_file": "KOA_Contrato_OCS_028_2024_-_G4F_SOLUCOES_CORPORATIVAS_LTDA.pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_0028_2024",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "g4f_solucoes_corporativas_ltda",
+        "label": "'G4F SOLUÇÕES CORPORATIVAS LTDA'",
+        "cnpj": "07.094.346/0001-45"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_0028_2024"
+      },
+      {
+        "agent_id": "g4f_solucoes_corporativas_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_0028_2024"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "provide_it_services",
+      "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_it_services",
+      "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "operate_it_infrastructure",
+      "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "present_manifestation_about_extension",
+      "evidence": "O CONTRATADO deverá [...] apresentar sua manifestação sobre a prorrogação do Contrato.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "communicate_interest_in_extension",
+      "evidence": "o CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "subjection",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "refuse_to_celebrate_contract_addendum",
+      "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação [...]",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "submit_substitution_request",
+      "evidence": "o CONTRATADO deverá submeter ao BNDES um pedido de substituição",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "convene_preliminary_meeting",
+      "evidence": "O BNDES convocará o CONTRATADO a comparecer à reunião preliminar.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "clarify_doubts",
+      "evidence": "Nesta reunião o BNDES esclarecerá ao CONTRATADO todas as dúvidas relativas à execução do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "approve_substitution",
+      "evidence": "A substituição somente poderá ser realizada após a aprovação pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "dispose_qualified_personnel_cadastro",
+      "evidence": "O CONTRATADO deverá dispor de cadastro de pessoal qualificado para proceder à substituição dos profissionais alocados na execução dos serviços",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "replace_professionals",
+      "evidence": "a substituição deverá ser realizada em até 20 (vinte) dias úteis",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_price_reduction_for_breach",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "be_subject_to_price_reduction",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "enforce_service_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do Plano de Implantação...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do Plano de Implantação...",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "bear_quantification_error_costs",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay_indemnization_for_partial_demand",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "demand_indemnization_for_partial_demand",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "execute_contract_object",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_executed_object",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_monthly_payment",
+      "evidence": "O BNDES efetuará o pagamento mensalmente, por meio de crédito em conta bancária, em até 10 (dez) dias úteis",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "apresentação do documento fiscal ou equivalente legal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "provide_labor_compliance_documentation",
+      "evidence": "Para possibilitar a verificação do cumprimento das obrigações trabalhistas... deverão ser apresentados ao BNDES, a respectiva documentação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "receive_monthly_payment",
+      "evidence": "O BNDES efetuará o pagamento mensalmente",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "reject_out_of_time_document",
+      "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_values",
+      "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "not_present_out_of_time_document",
+      "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_economic_financial_balance",
+      "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato a ser realizado mediante repactuação, reajuste ou revisão de preços.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_repactuation_reajuste_revision",
+      "evidence": "O BNDES deverá analisar o pedido de repactuação, reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "present_cost_information",
+      "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "request_price_repactuation",
+      "evidence": "A repactuação de preços, na forma prevista na legislação, poderá ser requerida pelo CONTRATADO a cada período de 12 (doze) meses",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "request_price_readjustment",
+      "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO a cada período de 12 (doze) meses",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "revise_prices",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada ... mediante solicitação do CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "subjection",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "penalty_for_failure_to_provide_guarantee",
+      "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "obtain_guarantor_agreement",
+      "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "notify_guarantor_about_contract_changes",
+      "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "accept_or_reject_guarantee",
+      "evidence": "observadas as condições para sua aceitação estipuladas nos incisos abaixo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extend_guarantee_presentation_period",
+      "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado, por igual período... desde que ocorra motivo justificado e aceito pelo BNDES.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "provide_supplementary_or_renewed_guarantee",
+      "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "maintain_conditions_of_qualification",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "communicate_imposition_of_penalty",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "repair_correct_remove_reconstruct_substitute",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir o objeto do Contrato em que se verificarem vícios",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "repair_damages_and_losses",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "pay_charges_and_taxes",
+      "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "assume_responsibility_for_charges",
+      "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "provide_exclusion_from_simples_nacional",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "allow_inspections_and_monitoring",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "obey_instructions_and_procedures",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigações_trabalhistas_e_previdenciárias_do_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "comply_with_labor_obligations",
+      "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigações_trabalhistas_e_previdenciárias_do_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "pay_salaries",
+      "evidence": "pagar os salários e demais verbas passadas diretamente ao profissional",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigações_trabalhistas_e_previdenciárias_do_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "maintain_labor_records",
+      "evidence": "Devem ser mantidos e atualizados pelo CONTRATADO ... os registros, anotações e documentos que comprovem o cumprimento das obrigações trabalhistas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigações_trabalhistas_e_previdenciárias_do_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "provide_documentation_to_bndes",
+      "evidence": "bem como exibidos por meio de cópias eletrônicas, sempre que solicitadas pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigações_trabalhistas_e_previdenciárias_do_contratado",
+      "legal_moment_class": "subjection",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "reimburse_bndes_for_labor_expenses",
+      "evidence": "cabendo-lhe reembolsar o BNDES ou suas subsidiárias de todas as despesas que estes tiverem...resultantes de sua condenação judicial",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "maintain_integrity",
+      "evidence": "O CONTRATADO [...] comprometem-se a manter a integridade nas relações público-privadas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "maintain_integrity",
+      "evidence": "o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "act_in_good_faith",
+      "evidence": "agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "act_in_good_faith",
+      "evidence": "agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "follow_ethics",
+      "evidence": "pautar sua conduta por preceitos éticos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "follow_ethics",
+      "evidence": "pautar sua conduta por preceitos éticos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "avoid_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "prevent_corruption",
+      "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados...de fazê-lo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "prevent_favoritism",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "comply_with_secrecy_rules",
+      "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "comply_with_bndes_security_policy",
+      "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "not_access_confidential_info",
+      "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "maintain_secrecy_of_info",
+      "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "limit_access_to_info",
+      "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "inform_bndes_of_violation",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "deliver_material_to_bndes",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "not_use_confidential_info",
+      "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "apresentar, em até 10 (dez) dias úteis Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "ensure_adhesion_to_rules",
+      "evidence": "assegurar a aceitação e adesão às mesmas por profissionais",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "protect_fundamental_rights",
+      "evidence": "As partes assumem o compromisso de proteger os direitos fundamentais de liberdade e de privacidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "adopt_good_governance_measures",
+      "evidence": "devendo, para tanto, adotar medidas de boa governança sob o aspecto técnico, jurídico e administrativo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "follow_bndes_instructions",
+      "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "maintain_data_confidentiality",
+      "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "store_data_securely",
+      "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "inform_employees_service_providers",
+      "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "provide_data_access_channel",
+      "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada e gratuita",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "inform_bndes_of_requests",
+      "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "maintain_records_of_data_processing",
+      "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "communicate_security_incidents",
+      "evidence": "Qualquer incidente... deverá ser prontamente comunicado ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contracted_party",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "receive_payments_from_bndes",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Marcelo Pinto do Nascimento",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager_substitute",
+      "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_receiving_committee",
+      "evidence": "designar a Comissão de Recebimento, a quem caberá o recebimento do objeto, em conjunto com o Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_access_to_ethics_code",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "access_to_ethics_code",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "receive_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions_or_procedures",
+      "evidence": "comunicar ao CONTRATADO, por escrito: quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "prove_absence_of_administrative_sanction",
+      "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_proof_of_absence_of_sanction",
+      "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_contract_execution",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "subjection",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "contract_execution_can_be_suspended",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "handle_supervening_events",
+      "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "g4f_solucoes_corporativas_ltda",
+      "action_id": "respect_clause_of_economic_financial_balance",
+      "evidence": "respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_handling_of_supervening_events",
+      "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+      "confidence": 0.5
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_it_services",
+            "action_label": "Provide IT services",
+            "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "operate_it_infrastructure",
+            "action_label": "Operate IT Infrastructure",
+            "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+            "confidence": 0.5,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_it_services",
+            "action_label": "Receive IT Services",
+            "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_it_services",
+          "action_label": "Provide IT services",
+          "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_it_services",
+          "action_label": "Receive IT Services",
+          "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "operate_it_infrastructure",
+          "action_label": "Operate IT Infrastructure",
+          "evidence": "prestação continuada de serviços de operação da infraestrutura de tecnologia da informação (TI) do BNDES",
+          "confidence": 0.5,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_manifestation_about_extension",
+            "action_label": "Present manifestation about extension",
+            "evidence": "O CONTRATADO deverá [...] apresentar sua manifestação sobre a prorrogação do Contrato.",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_interest_in_extension",
+            "action_label": "Communicate interest in extension",
+            "evidence": "o CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "contracted_party",
+            "action_id": "refuse_to_celebrate_contract_addendum",
+            "action_label": "Refuse to celebrate contract addendum",
+            "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação [...]",
+            "confidence": 0.6,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato",
+            "confidence": 0.7,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_manifestation_about_extension",
+          "action_label": "Present manifestation about extension",
+          "evidence": "O CONTRATADO deverá [...] apresentar sua manifestação sobre a prorrogação do Contrato.",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_interest_in_extension",
+          "action_label": "Communicate interest in extension",
+          "evidence": "o CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato",
+          "confidence": 0.7,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "contracted_party",
+          "action_id": "refuse_to_celebrate_contract_addendum",
+          "action_label": "Refuse to celebrate contract addendum",
+          "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação [...]",
+          "confidence": 0.6,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "dispose_qualified_personnel_cadastro",
+            "action_label": "Maintain qualified personnel registry",
+            "evidence": "O CONTRATADO deverá dispor de cadastro de pessoal qualificado para proceder à substituição dos profissionais alocados na execução dos serviços",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "submit_substitution_request",
+            "action_label": "Submit substitution request to BNDES",
+            "evidence": "o CONTRATADO deverá submeter ao BNDES um pedido de substituição",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "convene_preliminary_meeting",
+            "action_label": "Convene preliminary meeting",
+            "evidence": "O BNDES convocará o CONTRATADO a comparecer à reunião preliminar.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "clarify_doubts",
+            "action_label": "Clarify doubts",
+            "evidence": "Nesta reunião o BNDES esclarecerá ao CONTRATADO todas as dúvidas relativas à execução do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "replace_professionals",
+            "action_label": "Replace professionals",
+            "evidence": "a substituição deverá ser realizada em até 20 (vinte) dias úteis",
+            "confidence": 0.7,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "approve_substitution",
+            "action_label": "Approve professional substitution",
+            "evidence": "A substituição somente poderá ser realizada após a aprovação pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "submit_substitution_request",
+          "action_label": "Submit substitution request to BNDES",
+          "evidence": "o CONTRATADO deverá submeter ao BNDES um pedido de substituição",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "convene_preliminary_meeting",
+          "action_label": "Convene preliminary meeting",
+          "evidence": "O BNDES convocará o CONTRATADO a comparecer à reunião preliminar.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "clarify_doubts",
+          "action_label": "Clarify doubts",
+          "evidence": "Nesta reunião o BNDES esclarecerá ao CONTRATADO todas as dúvidas relativas à execução do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "approve_substitution",
+          "action_label": "Approve professional substitution",
+          "evidence": "A substituição somente poderá ser realizada após a aprovação pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "dispose_qualified_personnel_cadastro",
+          "action_label": "Maintain qualified personnel registry",
+          "evidence": "O CONTRATADO deverá dispor de cadastro de pessoal qualificado para proceder à substituição dos profissionais alocados na execução dos serviços",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "replace_professionals",
+          "action_label": "Replace professionals",
+          "evidence": "a substituição deverá ser realizada em até 20 (vinte) dias úteis",
+          "confidence": 0.7,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services to standard",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "enforce_service_standards",
+            "action_label": "Enforce service standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_price_reduction_for_breach",
+            "action_label": "Apply price reduction for breach",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_price_reduction",
+            "action_label": "Be subject to price reduction",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services to standard",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_price_reduction_for_breach",
+          "action_label": "Apply price reduction for breach",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_price_reduction",
+          "action_label": "Be subject to price reduction",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "enforce_service_standards",
+          "action_label": "Enforce service standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do Plano de Implantação...",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do Plano de Implantação...",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do Plano de Implantação...",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do Plano de Implantação...",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "g4f_solucoes_corporativas_ltda",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+            "confidence": 0.7,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "receive_executed_object",
+            "action_label": "Receive executed object",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "g4f_solucoes_corporativas_ltda",
+            "action_id": "bear_quantification_error_costs",
+            "action_label": "Bear quantification error costs",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "pay_indemnization_for_partial_demand",
+            "action_label": "Omit paying indemnization",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "g4f_solucoes_corporativas_ltda",
+            "action_id": "demand_indemnization_for_partial_demand",
+            "action_label": "No right to demand indemnization",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "g4f_solucoes_corporativas_ltda",
+          "action_id": "bear_quantification_error_costs",
+          "action_label": "Bear quantification error costs",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "pay_indemnization_for_partial_demand",
+          "action_label": "Omit paying indemnization",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "g4f_solucoes_corporativas_ltda",
+          "action_id": "demand_indemnization_for_partial_demand",
+          "action_label": "No right to demand indemnization",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "g4f_solucoes_corporativas_ltda",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+          "confidence": 0.7,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "receive_executed_object",
+          "action_label": "Receive executed object",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_monthly_payment",
+            "action_label": "Make monthly payment",
+            "evidence": "O BNDES efetuará o pagamento mensalmente, por meio de crédito em conta bancária, em até 10 (dez) dias úteis",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_monthly_payment",
+            "action_label": "Receive monthly payment",
+            "evidence": "O BNDES efetuará o pagamento mensalmente",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "apresentação do documento fiscal ou equivalente legal",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "reject_out_of_time_document",
+            "action_label": "Reject out of time document",
+            "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_present_out_of_time_document",
+            "action_label": "Do not present document out of time",
+            "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+            "confidence": 0.7,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_values",
+            "action_label": "Deduct values",
+            "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_labor_compliance_documentation",
+            "action_label": "Provide labor compliance documentation",
+            "evidence": "Para possibilitar a verificação do cumprimento das obrigações trabalhistas... deverão ser apresentados ao BNDES, a respectiva documentação",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_monthly_payment",
+          "action_label": "Make monthly payment",
+          "evidence": "O BNDES efetuará o pagamento mensalmente, por meio de crédito em conta bancária, em até 10 (dez) dias úteis",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "apresentação do documento fiscal ou equivalente legal",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_labor_compliance_documentation",
+          "action_label": "Provide labor compliance documentation",
+          "evidence": "Para possibilitar a verificação do cumprimento das obrigações trabalhistas... deverão ser apresentados ao BNDES, a respectiva documentação",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_monthly_payment",
+          "action_label": "Receive monthly payment",
+          "evidence": "O BNDES efetuará o pagamento mensalmente",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "reject_out_of_time_document",
+          "action_label": "Reject out of time document",
+          "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_values",
+          "action_label": "Deduct values",
+          "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_present_out_of_time_document",
+          "action_label": "Do not present document out of time",
+          "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+          "confidence": 0.7,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "request_economic_financial_balance",
+            "action_label": "Request economic balance",
+            "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato a ser realizado mediante repactuação, reajuste ou revisão de preços.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_repactuation_reajuste_revision",
+            "action_label": "Analyze repactuation request",
+            "evidence": "O BNDES deverá analisar o pedido de repactuação, reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_cost_information",
+            "action_label": "Present cost information",
+            "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_repactuation",
+            "action_label": "Request price repactuation",
+            "evidence": "A repactuação de preços, na forma prevista na legislação, poderá ser requerida pelo CONTRATADO a cada período de 12 (doze) meses",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment",
+            "action_label": "Request price readjustment",
+            "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO a cada período de 12 (doze) meses",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "revise_prices",
+            "action_label": "Revise prices",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada ... mediante solicitação do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "request_economic_financial_balance",
+          "action_label": "Request economic balance",
+          "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato a ser realizado mediante repactuação, reajuste ou revisão de preços.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_repactuation_reajuste_revision",
+          "action_label": "Analyze repactuation request",
+          "evidence": "O BNDES deverá analisar o pedido de repactuação, reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_cost_information",
+          "action_label": "Present cost information",
+          "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_repactuation",
+          "action_label": "Request price repactuation",
+          "evidence": "A repactuação de preços, na forma prevista na legislação, poderá ser requerida pelo CONTRATADO a cada período de 12 (doze) meses",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment",
+          "action_label": "Request price readjustment",
+          "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO a cada período de 12 (doze) meses",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "revise_prices",
+          "action_label": "Revise prices",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada ... mediante solicitação do CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "penalty_for_failure_to_provide_guarantee",
+            "action_label": "Subject to penalty for not providing guarantee",
+            "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "accept_or_reject_guarantee",
+            "action_label": "Accept or reject guarantee",
+            "evidence": "observadas as condições para sua aceitação estipuladas nos incisos abaixo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extend_guarantee_presentation_period",
+            "action_label": "Extend guarantee period",
+            "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado, por igual período... desde que ocorra motivo justificado e aceito pelo BNDES.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supplementary_or_renewed_guarantee",
+            "action_label": "Provide supplementary guarantee",
+            "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+            "confidence": 0.7,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_agreement",
+            "action_label": "Obtain guarantor agreement",
+            "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_guarantor_about_contract_changes",
+            "action_label": "Notify guarantor about changes",
+            "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "penalty_for_failure_to_provide_guarantee",
+          "action_label": "Subject to penalty for not providing guarantee",
+          "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_agreement",
+          "action_label": "Obtain guarantor agreement",
+          "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "notify_guarantor_about_contract_changes",
+          "action_label": "Notify guarantor about changes",
+          "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "accept_or_reject_guarantee",
+          "action_label": "Accept or reject guarantee",
+          "evidence": "observadas as condições para sua aceitação estipuladas nos incisos abaixo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extend_guarantee_presentation_period",
+          "action_label": "Extend guarantee period",
+          "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado, por igual período... desde que ocorra motivo justificado e aceito pelo BNDES.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supplementary_or_renewed_guarantee",
+          "action_label": "Provide supplementary guarantee",
+          "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+          "confidence": 0.7,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigacoes_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_conditions_of_qualification",
+            "action_label": "Maintain conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_imposition_of_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_correct_remove_reconstruct_substitute",
+            "action_label": "Repair defects",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir o objeto do Contrato em que se verificarem vícios",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages_and_losses",
+            "action_label": "Repair damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_charges_and_taxes",
+            "action_label": "Pay charges and taxes",
+            "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_responsibility_for_charges",
+            "action_label": "Assume responsibility",
+            "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_exclusion_from_simples_nacional",
+            "action_label": "Provide exclusion",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_inspections_and_monitoring",
+            "action_label": "Allow inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions_and_procedures",
+            "action_label": "Obey instructions",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_information_declaration",
+            "action_label": "Present declaration",
+            "evidence": "apresentar, em até 10 (dez) dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF, adequadamente preenchida",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guide_professionals",
+            "action_label": "Guide professionals",
+            "evidence": "orientar os profissionais alocados na execução dos serviços para que se comportem de forma cordial",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "control_frequency",
+            "action_label": "Control frequency",
+            "evidence": "controlar a frequência, a assiduidade e a pontualidade dos empregados alocados na execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_uniforms",
+            "action_label": "Provide uniforms",
+            "evidence": "fornecer uniformes a cada um dos empregados alocados na prestação dos serviços, sem quaisquer ônus para eles",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_safety",
+            "action_label": "Ensure safety",
+            "evidence": "zelar pela segurança dos profissionais alocados na execução dos serviços, responsabilizando-se por quaisquer acidentes",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_conditions_of_qualification",
+          "action_label": "Maintain conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_imposition_of_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_correct_remove_reconstruct_substitute",
+          "action_label": "Repair defects",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir o objeto do Contrato em que se verificarem vícios",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages_and_losses",
+          "action_label": "Repair damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_charges_and_taxes",
+          "action_label": "Pay charges and taxes",
+          "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "assume_responsibility_for_charges",
+          "action_label": "Assume responsibility",
+          "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_exclusion_from_simples_nacional",
+          "action_label": "Provide exclusion",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "allow_inspections_and_monitoring",
+          "action_label": "Allow inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_instructions_and_procedures",
+          "action_label": "Obey instructions",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_obrigações_trabalhistas_e_previdenciárias_do_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_obrigações_trabalhistas_e_previdenciárias_do_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_labor_obligations",
+            "action_label": "Comply with labor obligations",
+            "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_salaries",
+            "action_label": "Pay salaries",
+            "evidence": "pagar os salários e demais verbas passadas diretamente ao profissional",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_labor_records",
+            "action_label": "Maintain labor records",
+            "evidence": "Devem ser mantidos e atualizados pelo CONTRATADO ... os registros, anotações e documentos que comprovem o cumprimento das obrigações trabalhistas",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_documentation_to_bndes",
+            "action_label": "Provide documentation to BNDES",
+            "evidence": "bem como exibidos por meio de cópias eletrônicas, sempre que solicitadas pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "reimburse_bndes_for_labor_expenses",
+            "action_label": "Reimburse BNDES labor expenses",
+            "evidence": "cabendo-lhe reembolsar o BNDES ou suas subsidiárias de todas as despesas que estes tiverem...resultantes de sua condenação judicial",
+            "confidence": 0.7,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_labor_obligations",
+          "action_label": "Comply with labor obligations",
+          "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_salaries",
+          "action_label": "Pay salaries",
+          "evidence": "pagar os salários e demais verbas passadas diretamente ao profissional",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_labor_records",
+          "action_label": "Maintain labor records",
+          "evidence": "Devem ser mantidos e atualizados pelo CONTRATADO ... os registros, anotações e documentos que comprovem o cumprimento das obrigações trabalhistas",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_documentation_to_bndes",
+          "action_label": "Provide documentation to BNDES",
+          "evidence": "bem como exibidos por meio de cópias eletrônicas, sempre que solicitadas pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "reimburse_bndes_for_labor_expenses",
+          "action_label": "Reimburse BNDES labor expenses",
+          "evidence": "cabendo-lhe reembolsar o BNDES ou suas subsidiárias de todas as despesas que estes tiverem...resultantes de sua condenação judicial",
+          "confidence": 0.7,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_conduta_ética_do_contratado_e_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_integrity",
+            "action_label": "Maintain integrity",
+            "evidence": "O CONTRATADO [...] comprometem-se a manter a integridade nas relações público-privadas",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "maintain_integrity",
+            "action_label": "Maintain integrity",
+            "evidence": "o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "act_in_good_faith",
+            "action_label": "Act in good faith",
+            "evidence": "agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "act_in_good_faith",
+            "action_label": "Act in good faith",
+            "evidence": "agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "follow_ethics",
+            "action_label": "Follow ethics",
+            "evidence": "pautar sua conduta por preceitos éticos",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "follow_ethics",
+            "action_label": "Follow ethics",
+            "evidence": "pautar sua conduta por preceitos éticos",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "avoid_undue_advantage",
+            "action_label": "Avoid undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_corruption",
+            "action_label": "Prevent corruption",
+            "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados...de fazê-lo",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_favoritism",
+            "action_label": "Prevent favoritism",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_allow_favoritism",
+            "action_label": "Not allow favoritism",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_family_allocation",
+            "action_label": "Prevent family allocation",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_allocate_family",
+            "action_label": "Not allocate family",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_bndes_policies",
+            "action_label": "Observe BNDES policies",
+            "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainable_practices",
+            "action_label": "Adopt sustainable practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_conflict_of_interest",
+            "action_label": "Inform conflict of interest",
+            "evidence": "informar imediatamente ao BNDES a ocorrência de potencial situação de conflito de interesses",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_investigations",
+            "action_label": "Notify investigations",
+            "evidence": "notificar imediatamente o BNDES sobre qualquer investigação...relacionado à violação de Leis Anticorrupção",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_integrity",
+          "action_label": "Maintain integrity",
+          "evidence": "O CONTRATADO [...] comprometem-se a manter a integridade nas relações público-privadas",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "maintain_integrity",
+          "action_label": "Maintain integrity",
+          "evidence": "o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "act_in_good_faith",
+          "action_label": "Act in good faith",
+          "evidence": "agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "act_in_good_faith",
+          "action_label": "Act in good faith",
+          "evidence": "agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "follow_ethics",
+          "action_label": "Follow ethics",
+          "evidence": "pautar sua conduta por preceitos éticos",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "follow_ethics",
+          "action_label": "Follow ethics",
+          "evidence": "pautar sua conduta por preceitos éticos",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "avoid_undue_advantage",
+          "action_label": "Avoid undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_corruption",
+          "action_label": "Prevent corruption",
+          "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados...de fazê-lo",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_favoritism",
+          "action_label": "Prevent favoritism",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_sigilo_das_informações": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_sigilo_das_informações",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_secrecy_rules",
+            "action_label": "Comply with secrecy rules",
+            "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_adhesion_to_rules",
+            "action_label": "Ensure adhesion to rules",
+            "evidence": "assegurar a aceitação e adesão às mesmas por profissionais",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_security_policy",
+            "action_label": "Comply with BNDES security policy",
+            "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_access_confidential_info",
+            "action_label": "Not access confidential info",
+            "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_secrecy_of_info",
+            "action_label": "Maintain secrecy of info",
+            "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_access_to_info",
+            "action_label": "Limit access to info",
+            "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_of_violation",
+            "action_label": "Inform BNDES of violation",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "deliver_material_to_bndes",
+            "action_label": "Deliver material to BNDES",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_use_confidential_info",
+            "action_label": "Not use confidential info",
+            "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "apresentar, em até 10 (dez) dias úteis Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_secrecy_rules",
+          "action_label": "Comply with secrecy rules",
+          "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_security_policy",
+          "action_label": "Comply with BNDES security policy",
+          "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_access_confidential_info",
+          "action_label": "Not access confidential info",
+          "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_secrecy_of_info",
+          "action_label": "Maintain secrecy of info",
+          "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_access_to_info",
+          "action_label": "Limit access to info",
+          "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_of_violation",
+          "action_label": "Inform BNDES of violation",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "deliver_material_to_bndes",
+          "action_label": "Deliver material to BNDES",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_use_confidential_info",
+          "action_label": "Not use confidential info",
+          "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "apresentar, em até 10 (dez) dias úteis Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "ensure_adhesion_to_rules",
+          "action_label": "Ensure adhesion to rules",
+          "evidence": "assegurar a aceitação e adesão às mesmas por profissionais",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_acesso_protecao_dados_pessoais": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_acesso_protecao_dados_pessoais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "protect_fundamental_rights",
+            "action_label": "Protect fundamental rights",
+            "evidence": "As partes assumem o compromisso de proteger os direitos fundamentais de liberdade e de privacidade",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_good_governance_measures",
+            "action_label": "Adopt good governance measures",
+            "evidence": "devendo, para tanto, adotar medidas de boa governança sob o aspecto técnico, jurídico e administrativo",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "follow_bndes_instructions",
+            "action_label": "Follow BNDES instructions",
+            "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_data_confidentiality",
+            "action_label": "Maintain data confidentiality",
+            "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "store_data_securely",
+            "action_label": "Store data securely",
+            "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_employees_service_providers",
+            "action_label": "Inform employees/service providers",
+            "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_access_channel",
+            "action_label": "Provide data access channel",
+            "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada e gratuita",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_of_requests",
+            "action_label": "Inform BNDES of requests",
+            "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_records_of_data_processing",
+            "action_label": "Maintain records of data processing",
+            "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_security_incidents",
+            "action_label": "Communicate security incidents",
+            "evidence": "Qualquer incidente... deverá ser prontamente comunicado ao BNDES",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "eliminate_personal_data",
+            "action_label": "Eliminate personal data",
+            "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_data_processing_info",
+            "action_label": "Demand data processing information",
+            "evidence": "disponibilizando, sempre que solicitado pelo BNDES, as informações necessárias à produção do Relatório de Impacto de Dados Pessoais",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "approve_data_collection",
+            "action_label": "Approve data collection",
+            "evidence": "em caso de necessidade de coleta de dados pessoais diretamente pelo CONTRATADO, esta será realizada mediante prévia aprovação do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "exercise_right_of_recourse",
+            "action_label": "Exercise right of recourse",
+            "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos causados por este",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "share_or_use_data_without_authorization",
+            "action_label": "Not to share/use data without authorization",
+            "evidence": "em hipótese alguma, poderão ser compartilhados ou utilizados para outros fins, sem a prévia autorização do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "protect_fundamental_rights",
+          "action_label": "Protect fundamental rights",
+          "evidence": "As partes assumem o compromisso de proteger os direitos fundamentais de liberdade e de privacidade",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_good_governance_measures",
+          "action_label": "Adopt good governance measures",
+          "evidence": "devendo, para tanto, adotar medidas de boa governança sob o aspecto técnico, jurídico e administrativo",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "follow_bndes_instructions",
+          "action_label": "Follow BNDES instructions",
+          "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_data_confidentiality",
+          "action_label": "Maintain data confidentiality",
+          "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "store_data_securely",
+          "action_label": "Store data securely",
+          "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_employees_service_providers",
+          "action_label": "Inform employees/service providers",
+          "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_data_access_channel",
+          "action_label": "Provide data access channel",
+          "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada e gratuita",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_of_requests",
+          "action_label": "Inform BNDES of requests",
+          "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_records_of_data_processing",
+          "action_label": "Maintain records of data processing",
+          "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_security_incidents",
+          "action_label": "Communicate security incidents",
+          "evidence": "Qualquer incidente... deverá ser prontamente comunicado ao BNDES",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_obrigacoes_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contracted_party",
+            "action_label": "Make payments to contracted party",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments_from_bndes",
+            "action_label": "Receive payments from BNDES",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, Marcelo Pinto do Nascimento",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager_substitute",
+            "action_label": "Designate contract manager substitute",
+            "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_receiving_committee",
+            "action_label": "Designate receiving committee",
+            "evidence": "designar a Comissão de Recebimento, a quem caberá o recebimento do objeto, em conjunto com o Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_access_to_ethics_code",
+            "action_label": "Provide access to ethics code",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "access_to_ethics_code",
+            "action_label": "Access to ethics code",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_necessary_information",
+            "action_label": "Receive necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions_or_procedures",
+            "action_label": "Communicate instructions or procedures",
+            "evidence": "comunicar ao CONTRATADO, por escrito: quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_opening_of_administrative_procedure",
+            "action_label": "Communicate opening of procedure",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a abertura de procedimento administrativo para a apuração de condutas irregulares",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_application_of_penalty",
+            "action_label": "Communicate application of penalty",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a aplicação de eventual penalidade, nos termos deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contracted_party",
+          "action_label": "Make payments to contracted party",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments_from_bndes",
+          "action_label": "Receive payments from BNDES",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, Marcelo Pinto do Nascimento",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager_substitute",
+          "action_label": "Designate contract manager substitute",
+          "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_receiving_committee",
+          "action_label": "Designate receiving committee",
+          "evidence": "designar a Comissão de Recebimento, a quem caberá o recebimento do objeto, em conjunto com o Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_access_to_ethics_code",
+          "action_label": "Provide access to ethics code",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "access_to_ethics_code",
+          "action_label": "Access to ethics code",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_necessary_information",
+          "action_label": "Receive necessary information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions_or_procedures",
+          "action_label": "Communicate instructions or procedures",
+          "evidence": "comunicar ao CONTRATADO, por escrito: quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_equidade_genero_valorizacao_diversidade": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prove_absence_of_administrative_sanction",
+            "action_label": "Prove absence of sanction",
+            "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+            "confidence": 0.9,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_proof_of_absence_of_sanction",
+            "action_label": "Request proof of absence",
+            "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract_execution",
+            "action_label": "Suspend contract execution",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "contract_execution_can_be_suspended",
+            "action_label": "Contract can be suspended",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+            "confidence": 0.6,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prove_absence_of_administrative_sanction",
+          "action_label": "Prove absence of sanction",
+          "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+          "confidence": 0.9,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_proof_of_absence_of_sanction",
+          "action_label": "Request proof of absence",
+          "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_contract_execution",
+          "action_label": "Suspend contract execution",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "contract_execution_can_be_suspended",
+          "action_label": "Contract can be suspended",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+          "confidence": 0.6,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "handle_supervening_events",
+            "action_label": "Handle supervening events",
+            "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_handling_of_supervening_events",
+            "action_label": "Demand handling of supervening events",
+            "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_clause_of_economic_financial_balance",
+            "action_label": "Respect Economic-Financial Balance",
+            "evidence": "respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro",
+            "confidence": 0.6,
+            "bearer": "g4f_solucoes_corporativas_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "handle_supervening_events",
+          "action_label": "Handle supervening events",
+          "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_clause_of_economic_financial_balance",
+          "action_label": "Respect Economic-Financial Balance",
+          "evidence": "respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro",
+          "confidence": 0.6,
+          "bearer": "g4f_solucoes_corporativas_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_handling_of_supervening_events",
+          "action_label": "Demand handling of supervening events",
+          "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

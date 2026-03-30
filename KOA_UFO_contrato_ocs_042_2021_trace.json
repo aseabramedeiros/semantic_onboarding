@@ -1,0 +1,3396 @@
+{
+  "contract_id": "contrato_ocs_042_2021",
+  "source_file": "KOA_Contrato_OCS_042_2021_-_TIVIT_(Data_Center_Alternativo).pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_042_2021",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+        "label": "'TIVIT TERCEIRIZACAO DE PROCESSOS SERVIÇOS E TECNOLOGIA S/A'",
+        "cnpj": "07.073.027/0001-53"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_042_2021"
+      },
+      {
+        "agent_id": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_042_2021"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "provide_data_center_infrastructure",
+      "evidence": "contratação de serviços de disponibilização de infraestrutura de data center alternativo do BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_data_center_infrastructure",
+      "evidence": "contratação de serviços de disponibilização de infraestrutura de data center alternativo do BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "provide_datacenter_service",
+      "evidence": "efetiva prestação do serviço de disponibilização do DC alternativo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_datacenter_service",
+      "evidence": "efetiva prestação do serviço de disponibilização do DC alternativo",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "execute_service_according_to_proposal",
+      "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "execute_service_according_to_reference_term",
+      "evidence": "A execução do serviço respeitará as especificações constantes do Termo de Referência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_service_according_to_proposal",
+      "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_service_according_to_reference_term",
+      "evidence": "A execução do serviço respeitará as especificações constantes do Termo de Referência",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "execute_service_according_to_standards",
+      "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "price_reduction_due_to_non_compliance",
+      "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "stipulate_service_standards",
+      "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_price_reduction",
+      "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "penalties_for_non_compliance",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_receipt_of_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_receipt_of_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay_contracted_party",
+      "evidence": "O BNDES pagará à CONTRATADA... o valor de até R$ 32.877.000,00",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES pagará à CONTRATADA, pela execução do objeto contratado, o valor de até R$ 32.877.000,00",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "bear_costs_of_errors",
+      "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "demand_indemnification",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "be_subject_to_reduced_payment",
+      "evidence": "Na hipótese de o objeto ser... parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "bndes_effect_payment",
+      "evidence": "O BNDES efetuará o pagamento [...] em até 10 (dez) dias úteis",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "contracted_party_present_invoice",
+      "evidence": "a contar da data de apresentação do documento fiscal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "contracted_party_provide_fiscal_docs",
+      "evidence": "A CONTRATADA deverá encaminhar 1 (uma) via do documento fiscal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "bndes_not_pay_subcontractor",
+      "evidence": "O BNDES não efetuará pagamento diretamente em favor da(s) SUBCONTRATADA(S)",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "contracted_party_receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "bndes_deduct_values",
+      "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal [...] os valores referentes a multas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "bndes_pay_interest",
+      "evidence": "aos valores devidos serão acrescidos juros de mora",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "request_price_readjustment",
+      "evidence": "O reajuste de preços poderá ser requerido pela CONTRATADA a cada período de 12 (doze) meses",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada mediante solicitação da CONTRATADA, quando ocorrer fato imprevisível...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "initiate_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "negotiate_price_reduction",
+      "evidence": "o BNDES poderá convocar a CONTRATADA para negociar a redução dos preços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "present_information_for_price_reduction",
+      "evidence": "cabendo à CONTRATADA apresentar as informações solicitadas pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "request_price_adjustment_revision_before_contract_end",
+      "evidence": "A CONTRATADA deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_readjustment_revision_request",
+      "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "not_request_price_adjustment_revision",
+      "evidence": "caso a CONTRATADA não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "A CONTRATADA prestará garantia contratual, no prazo de até 10 (dez) dias úteis, contados da convocação.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "application_of_penalty",
+      "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "complement_or_replace_guarantee",
+      "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "obtain_guarantor_consent",
+      "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "maintain_integrity_in_public_private_relations",
+      "evidence": "A CONTRATADA e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "maintain_integrity_in_public_private_relations",
+      "evidence": "A CONTRATADA e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "act_in_good_faith",
+      "evidence": "agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "act_in_good_faith",
+      "evidence": "agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "base_conduct_on_ethical_precepts",
+      "evidence": "pautar sua conduta em preceitos éticos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "base_conduct_on_ethical_precepts",
+      "evidence": "pautar sua conduta em preceitos éticos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "prevent_favoritism",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "ensure_no_family_allocation",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "observe_bndes_ethics_code",
+      "evidence": "observar o Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "comply_with_bndes_security_policy",
+      "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "not_access_confidential_info_without_auth",
+      "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "maintain_confidentiality",
+      "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "limit_access_to_info",
+      "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação do serviço objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "report_security_breaches",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "return_bndes_property",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "not_use_confidential_info_post_contract",
+      "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "observe_confidentiality_term",
+      "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contratada",
+      "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Marcelo Pinto Nascimento",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "alter_contract_manager",
+      "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_ethics_code_copy",
+      "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions",
+      "evidence": "comunicar à CONTRATADA, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_irregularity_investigation",
+      "evidence": "comunicar à CONTRATADA, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_penalty",
+      "evidence": "comunicar à CONTRATADA, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "receive_payments_from_bndes",
+      "evidence": "CONTRATADA is entitled to receive payments from BNDES under this contract",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "assign_contract_or_credit",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "issue_credit_title",
+      "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito em razão do mesmo.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "contractual_succession",
+      "evidence": "É vedada a sucessão contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_risks_or_damages",
+      "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "maintain_contractual_conditions",
+      "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_risks_or_damages_of_subcontracting",
+      "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "remain_responsible_for_execution",
+      "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "a CONTRATADA deverá apresentar os Termos de Confidencialidade",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "merger_spin_off_or_incorporation",
+      "evidence": "salvo nas hipóteses em que a CONTRATADA realizar as operações societárias de fusão, cisão ou incorporação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unknown",
+      "action_id": "assume_position_of_successor",
+      "evidence": "o sucessor assumirá integralmente a posição do sucedido",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "appeal_penalty_decision",
+      "evidence": "Contra a decisão de aplicação de penalidade, a CONTRATADA poderá interpor o recurso cabível",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_multas_from_credits",
+      "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "present_defense",
+      "evidence": "facultada à CONTRATADA a defesa prévia, no prazo de 10 (dez) dias úteis",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "charge_judicially",
+      "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "ensure_due_process",
+      "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo, e desde que assegurados o contraditório e a ampla defesa",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "claim_damages_for_refusal",
+      "evidence": "A party refusing amendment must answer for caused damages.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_amendment",
+      "evidence": "Parties cannot refuse to formalize an amendment necessary for execution.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "answer_for_damages",
+      "evidence": "The party who refuses must answer for the damages caused.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "agree_to_contract_amendment",
+      "evidence": "The contract may be altered by agreement between the parties.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_written_notification",
+      "evidence": "Casos de extinção contratual deverão ser precedidos de notificação escrita à outra parte",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_opportunity_for_defense",
+      "evidence": "Oportunidade de defesa, dispensada a necessidade de interpelação judicial",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_execution",
+      "evidence": "Suspensão da execução do Contrato, por ordem escrita do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "subjection_to_contract_termination",
+      "evidence": "Quando for decretada a falência da CONTRATADA",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "subjection_to_loss_of_habilitation",
+      "evidence": "Caso a CONTRATADA perca uma das condições de habilitação exigidas",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "subjection_to_being_declared_inidonea",
+      "evidence": "Caso a CONTRATADA seja declarada inidônea",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_disposições_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights_at_any_time",
+      "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_disposições_finais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "strictly_comply_with_contract_obligations",
+      "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_disposições_finais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_renouncing_rights",
+      "evidence": "A omissão ou tolerância (...) não constituirá renúncia",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_foro",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "choose_rio_de_janeiro_forum",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_vigésima_foro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "choose_another_forum",
+      "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "not_create_additives_for_allocated_risks",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_additives_for_allocated_risks",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "respect_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_respect_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "send_and_keep_updated_list_to_bndes",
+      "evidence": "'enviar ao BNDES e manter atualizada lista com nome completo, telefone fixo e móvel, e endereço de e-mail'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "promptly_meet_any_requirements_of_bndes",
+      "evidence": "'atender prontamente a quaisquer exigências do BNDES'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "provide_all_clarifications_requested_by_bndes",
+      "evidence": "'prestar todos os esclarecimentos que lhe forem solicitados pelo BNDES'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "identify_professionals_with_company_badges",
+      "evidence": "'identificar seus profissionais com crachás da empresa'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "adopt_appropriate_security_measures",
+      "evidence": "'adotar medidas de segurança adequadas'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "limit_access_to_information",
+      "evidence": "'limitar o acesso às informações aos seus gerentes, diretores e outros profissionais'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "not_use_copy_duplicate_or_reproduce_bndes_info",
+      "evidence": "'não usar, copiar, duplicar ou de alguma outra forma reproduzir ou reter todas ou quaisquer informações do BNDES'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "not_reverse_compile_or_engineer",
+      "evidence": "'não efetuar a compilação reversa, montagem reversa ou engenharia reversa'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "ensure_awareness_of_confidentiality",
+      "evidence": "'garantir que as pessoas com acesso a qualquer parte das informações do BNDES estejam cientes de sua natureza sigilosa'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+      "action_id": "return_identification_badges",
+      "evidence": "'devolver, ao final do contrato, os crachás de identificação fornecidos pelo BNDES'",
+      "confidence": 0.9
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_center_infrastructure",
+            "action_label": "Provide data center infrastructure",
+            "evidence": "contratação de serviços de disponibilização de infraestrutura de data center alternativo do BNDES",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_data_center_infrastructure",
+            "action_label": "Receive data center infrastructure",
+            "evidence": "contratação de serviços de disponibilização de infraestrutura de data center alternativo do BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_data_center_infrastructure",
+          "action_label": "Provide data center infrastructure",
+          "evidence": "contratação de serviços de disponibilização de infraestrutura de data center alternativo do BNDES",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_data_center_infrastructure",
+          "action_label": "Receive data center infrastructure",
+          "evidence": "contratação de serviços de disponibilização de infraestrutura de data center alternativo do BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+            "action_id": "provide_datacenter_service",
+            "action_label": "Provide datacenter service",
+            "evidence": "efetiva prestação do serviço de disponibilização do DC alternativo",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "receive_datacenter_service",
+            "action_label": "Receive datacenter service",
+            "evidence": "efetiva prestação do serviço de disponibilização do DC alternativo",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a",
+          "action_id": "provide_datacenter_service",
+          "action_label": "Provide datacenter service",
+          "evidence": "efetiva prestação do serviço de disponibilização do DC alternativo",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "receive_datacenter_service",
+          "action_label": "Receive datacenter service",
+          "evidence": "efetiva prestação do serviço de disponibilização do DC alternativo",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_service_according_to_proposal",
+            "action_label": "Execute service per proposal",
+            "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_service_according_to_reference_term",
+            "action_label": "Execute service per reference term",
+            "evidence": "A execução do serviço respeitará as especificações constantes do Termo de Referência",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_service_according_to_proposal",
+            "action_label": "Expect service per proposal",
+            "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_service_according_to_reference_term",
+            "action_label": "Expect service per reference term",
+            "evidence": "A execução do serviço respeitará as especificações constantes do Termo de Referência",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_service_according_to_proposal",
+          "action_label": "Execute service per proposal",
+          "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_service_according_to_reference_term",
+          "action_label": "Execute service per reference term",
+          "evidence": "A execução do serviço respeitará as especificações constantes do Termo de Referência",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_service_according_to_proposal",
+          "action_label": "Expect service per proposal",
+          "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_service_according_to_reference_term",
+          "action_label": "Expect service per reference term",
+          "evidence": "A execução do serviço respeitará as especificações constantes do Termo de Referência",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_service_according_to_standards",
+            "action_label": "Execute service according to standards",
+            "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "stipulate_service_standards",
+            "action_label": "Stipulate service standards",
+            "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "price_reduction_due_to_non_compliance",
+            "action_label": "Subject to price reduction",
+            "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_price_reduction",
+            "action_label": "Apply price reduction",
+            "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "penalties_for_non_compliance",
+            "action_label": "Subject to penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_service_according_to_standards",
+          "action_label": "Execute service according to standards",
+          "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "price_reduction_due_to_non_compliance",
+          "action_label": "Subject to price reduction",
+          "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "stipulate_service_standards",
+          "action_label": "Stipulate service standards",
+          "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_price_reduction",
+          "action_label": "Apply price reduction",
+          "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "penalties_for_non_compliance",
+          "action_label": "Subject to penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_receipt_of_object",
+            "action_label": "Effect receipt of object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "effect_receipt_of_object",
+            "action_label": "Effect receipt of object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_receipt_of_object",
+          "action_label": "Effect receipt of object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "effect_receipt_of_object",
+          "action_label": "Effect receipt of object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pay_contracted_party",
+            "action_label": "Pay the contracted party",
+            "evidence": "O BNDES pagará à CONTRATADA... o valor de até R$ 32.877.000,00",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES pagará à CONTRATADA, pela execução do objeto contratado, o valor de até R$ 32.877.000,00",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_costs_of_errors",
+            "action_label": "Bear cost of proposal errors",
+            "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_reduced_payment",
+            "action_label": "Subject to reduced payment",
+            "evidence": "Na hipótese de o objeto ser... parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_indemnification",
+            "action_label": "No right to demand indemnification",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "pay_contracted_party",
+          "action_label": "Pay the contracted party",
+          "evidence": "O BNDES pagará à CONTRATADA... o valor de até R$ 32.877.000,00",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES pagará à CONTRATADA, pela execução do objeto contratado, o valor de até R$ 32.877.000,00",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_costs_of_errors",
+          "action_label": "Bear cost of proposal errors",
+          "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_indemnification",
+          "action_label": "No right to demand indemnification",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_reduced_payment",
+          "action_label": "Subject to reduced payment",
+          "evidence": "Na hipótese de o objeto ser... parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_effect_payment",
+            "action_label": "BNDES must make payment",
+            "evidence": "O BNDES efetuará o pagamento [...] em até 10 (dez) dias úteis",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_receive_payment",
+            "action_label": "Right to receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_present_invoice",
+            "action_label": "Present invoice",
+            "evidence": "a contar da data de apresentação do documento fiscal",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_deduct_values",
+            "action_label": "Deduct amounts owed",
+            "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal [...] os valores referentes a multas",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_provide_fiscal_docs",
+            "action_label": "Provide fiscal documents",
+            "evidence": "A CONTRATADA deverá encaminhar 1 (uma) via do documento fiscal",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_not_pay_subcontractor",
+            "action_label": "Do not pay subcontractor",
+            "evidence": "O BNDES não efetuará pagamento diretamente em favor da(s) SUBCONTRATADA(S)",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_pay_interest",
+            "action_label": "Pay interest on late payments",
+            "evidence": "aos valores devidos serão acrescidos juros de mora",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "bndes_effect_payment",
+          "action_label": "BNDES must make payment",
+          "evidence": "O BNDES efetuará o pagamento [...] em até 10 (dez) dias úteis",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_present_invoice",
+          "action_label": "Present invoice",
+          "evidence": "a contar da data de apresentação do documento fiscal",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_provide_fiscal_docs",
+          "action_label": "Provide fiscal documents",
+          "evidence": "A CONTRATADA deverá encaminhar 1 (uma) via do documento fiscal",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "bndes",
+          "action_id": "bndes_not_pay_subcontractor",
+          "action_label": "Do not pay subcontractor",
+          "evidence": "O BNDES não efetuará pagamento diretamente em favor da(s) SUBCONTRATADA(S)",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_receive_payment",
+          "action_label": "Right to receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "bndes_deduct_values",
+          "action_label": "Deduct amounts owed",
+          "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal [...] os valores referentes a multas",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "bndes_pay_interest",
+          "action_label": "Pay interest on late payments",
+          "evidence": "aos valores devidos serão acrescidos juros de mora",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment",
+            "action_label": "Request price readjustment",
+            "evidence": "O reajuste de preços poderá ser requerido pela CONTRATADA a cada período de 12 (doze) meses",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada mediante solicitação da CONTRATADA, quando ocorrer fato imprevisível...",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "initiate_price_revision",
+            "action_label": "Initiate price revision",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "negotiate_price_reduction",
+            "action_label": "Negotiate price reduction",
+            "evidence": "o BNDES poderá convocar a CONTRATADA para negociar a redução dos preços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_information_for_price_reduction",
+            "action_label": "Present information for price reduction",
+            "evidence": "cabendo à CONTRATADA apresentar as informações solicitadas pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment_revision_before_contract_end",
+            "action_label": "Request adjustment/revision before end",
+            "evidence": "A CONTRATADA deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_readjustment_revision_request",
+            "action_label": "Analyze adjustment/revision request",
+            "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_request_price_adjustment_revision",
+            "action_label": "Not request price adjustment/revision",
+            "evidence": "caso a CONTRATADA não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+            "confidence": 0.6,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment",
+          "action_label": "Request price readjustment",
+          "evidence": "O reajuste de preços poderá ser requerido pela CONTRATADA a cada período de 12 (doze) meses",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada mediante solicitação da CONTRATADA, quando ocorrer fato imprevisível...",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "initiate_price_revision",
+          "action_label": "Initiate price revision",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "negotiate_price_reduction",
+          "action_label": "Negotiate price reduction",
+          "evidence": "o BNDES poderá convocar a CONTRATADA para negociar a redução dos preços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_information_for_price_reduction",
+          "action_label": "Present information for price reduction",
+          "evidence": "cabendo à CONTRATADA apresentar as informações solicitadas pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment_revision_before_contract_end",
+          "action_label": "Request adjustment/revision before end",
+          "evidence": "A CONTRATADA deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_readjustment_revision_request",
+          "action_label": "Analyze adjustment/revision request",
+          "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_request_price_adjustment_revision",
+          "action_label": "Not request price adjustment/revision",
+          "evidence": "caso a CONTRATADA não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+          "confidence": 0.6,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "A CONTRATADA prestará garantia contratual, no prazo de até 10 (dez) dias úteis, contados da convocação.",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "application_of_penalty",
+            "action_label": "Subject to penalty",
+            "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complement_or_replace_guarantee",
+            "action_label": "Complement/replace guarantee",
+            "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_consent",
+            "action_label": "Obtain guarantor's consent",
+            "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "A CONTRATADA prestará garantia contratual, no prazo de até 10 (dez) dias úteis, contados da convocação.",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "application_of_penalty",
+          "action_label": "Subject to penalty",
+          "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complement_or_replace_guarantee",
+          "action_label": "Complement/replace guarantee",
+          "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_consent",
+          "action_label": "Obtain guarantor's consent",
+          "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_conduta_etica_contratada_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_integrity_in_public_private_relations",
+            "action_label": "Maintain integrity in public relations",
+            "evidence": "A CONTRATADA e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "maintain_integrity_in_public_private_relations",
+            "action_label": "Maintain integrity in public relations",
+            "evidence": "A CONTRATADA e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "act_in_good_faith",
+            "action_label": "Act in good faith",
+            "evidence": "agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "act_in_good_faith",
+            "action_label": "Act in good faith",
+            "evidence": "agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "base_conduct_on_ethical_precepts",
+            "action_label": "Base conduct on ethics",
+            "evidence": "pautar sua conduta em preceitos éticos",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "base_conduct_on_ethical_precepts",
+            "action_label": "Base conduct on ethics",
+            "evidence": "pautar sua conduta em preceitos éticos",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_favoritism",
+            "action_label": "Prevent favoritism",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_no_family_allocation",
+            "action_label": "Ensure no family allocation",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_bndes_ethics_code",
+            "action_label": "Observe BNDES ethics code",
+            "evidence": "observar o Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_good_environmental_practices",
+            "action_label": "Adopt environmental practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_integrity_in_public_private_relations",
+          "action_label": "Maintain integrity in public relations",
+          "evidence": "A CONTRATADA e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "maintain_integrity_in_public_private_relations",
+          "action_label": "Maintain integrity in public relations",
+          "evidence": "A CONTRATADA e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "act_in_good_faith",
+          "action_label": "Act in good faith",
+          "evidence": "agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "act_in_good_faith",
+          "action_label": "Act in good faith",
+          "evidence": "agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "base_conduct_on_ethical_precepts",
+          "action_label": "Base conduct on ethics",
+          "evidence": "pautar sua conduta em preceitos éticos",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "base_conduct_on_ethical_precepts",
+          "action_label": "Base conduct on ethics",
+          "evidence": "pautar sua conduta em preceitos éticos",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_favoritism",
+          "action_label": "Prevent favoritism",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "ensure_no_family_allocation",
+          "action_label": "Ensure no family allocation",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_bndes_ethics_code",
+          "action_label": "Observe BNDES ethics code",
+          "evidence": "observar o Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_sigilo_informacoes": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_security_policy",
+            "action_label": "Comply with BNDES security policy",
+            "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_access_confidential_info_without_auth",
+            "action_label": "Not access confidential info without authorization",
+            "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality of BNDES information",
+            "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_access_to_info",
+            "action_label": "Limit access to confidential information",
+            "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação do serviço objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "report_security_breaches",
+            "action_label": "Report security breaches",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_bndes_property",
+            "action_label": "Return BNDES property at contract end",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_use_confidential_info_post_contract",
+            "action_label": "Not use confidential information after contract",
+            "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_confidentiality_term",
+            "action_label": "Observe confidentiality term",
+            "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_security_policy",
+          "action_label": "Comply with BNDES security policy",
+          "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_access_confidential_info_without_auth",
+          "action_label": "Not access confidential info without authorization",
+          "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality",
+          "action_label": "Maintain confidentiality of BNDES information",
+          "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_access_to_info",
+          "action_label": "Limit access to confidential information",
+          "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação do serviço objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "report_security_breaches",
+          "action_label": "Report security breaches",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "return_bndes_property",
+          "action_label": "Return BNDES property at contract end",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_use_confidential_info_post_contract",
+          "action_label": "Not use confidential information after contract",
+          "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_confidentiality_term",
+          "action_label": "Observe confidentiality term",
+          "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_obrigações_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_obrigações_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contratada",
+            "action_label": "Make payments",
+            "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments_from_bndes",
+            "action_label": "Receive Payments",
+            "evidence": "CONTRATADA is entitled to receive payments from BNDES under this contract",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, Marcelo Pinto Nascimento",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "alter_contract_manager",
+            "action_label": "Alter contract manager",
+            "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_ethics_code_copy",
+            "action_label": "Provide ethics code copy",
+            "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar à CONTRATADA, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_irregularity_investigation",
+            "action_label": "Communicate irregularity investigation",
+            "evidence": "comunicar à CONTRATADA, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar à CONTRATADA, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contratada",
+          "action_label": "Make payments",
+          "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, Marcelo Pinto Nascimento",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary information",
+          "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "alter_contract_manager",
+          "action_label": "Alter contract manager",
+          "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_ethics_code_copy",
+          "action_label": "Provide ethics code copy",
+          "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar à CONTRATADA, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_irregularity_investigation",
+          "action_label": "Communicate irregularity investigation",
+          "evidence": "comunicar à CONTRATADA, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar à CONTRATADA, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments_from_bndes",
+          "action_label": "Receive Payments",
+          "evidence": "CONTRATADA is entitled to receive payments from BNDES under this contract",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+        "candidates": [
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "assign_contract_or_credit",
+            "action_label": "No right to assign contract",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente.",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "issue_credit_title",
+            "action_label": "Duty not to issue credit title",
+            "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito em razão do mesmo.",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "contractual_succession",
+            "action_label": "No right to contractual succession",
+            "evidence": "É vedada a sucessão contratual",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "merger_spin_off_or_incorporation",
+            "action_label": "Permitted corporate operations",
+            "evidence": "salvo nas hipóteses em que a CONTRATADA realizar as operações societárias de fusão, cisão ou incorporação",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_risks_or_damages",
+            "action_label": "Analyze risks/damages",
+            "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_contractual_conditions",
+            "action_label": "Maintain contract conditions",
+            "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "unknown",
+            "action_id": "assume_position_of_successor",
+            "action_label": "Assume position of successor",
+            "evidence": "o sucessor assumirá integralmente a posição do sucedido",
+            "confidence": 0.7,
+            "bearer": "unknown"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "subcontract_part_of_object",
+            "action_label": "Permitted to subcontract",
+            "evidence": "É admitida a subcontratação da parcela do objeto deste Contrato",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_risks_or_damages_of_subcontracting",
+            "action_label": "Analyze risks of subcontracting",
+            "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "remain_responsible_for_execution",
+            "action_label": "Responsible for contract execution",
+            "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subject_to_penalties",
+            "action_label": "Subject to penalties",
+            "evidence": "sujeitando-se, inclusive, às penalidades previstas neste Contrato",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "a CONTRATADA deverá apresentar os Termos de Confidencialidade",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "assign_contract_or_credit",
+          "action_label": "No right to assign contract",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente.",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "issue_credit_title",
+          "action_label": "Duty not to issue credit title",
+          "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito em razão do mesmo.",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "contractual_succession",
+          "action_label": "No right to contractual succession",
+          "evidence": "É vedada a sucessão contratual",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_risks_or_damages",
+          "action_label": "Analyze risks/damages",
+          "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_contractual_conditions",
+          "action_label": "Maintain contract conditions",
+          "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_risks_or_damages_of_subcontracting",
+          "action_label": "Analyze risks of subcontracting",
+          "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "remain_responsible_for_execution",
+          "action_label": "Responsible for contract execution",
+          "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "a CONTRATADA deverá apresentar os Termos de Confidencialidade",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "merger_spin_off_or_incorporation",
+          "action_label": "Permitted corporate operations",
+          "evidence": "salvo nas hipóteses em que a CONTRATADA realizar as operações societárias de fusão, cisão ou incorporação",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "unknown",
+          "action_id": "assume_position_of_successor",
+          "action_label": "Assume position of successor",
+          "evidence": "o sucessor assumirá integralmente a posição do sucedido",
+          "confidence": 0.7,
+          "bearer": "unknown"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "ensure_due_process",
+            "action_label": "Ensure due process",
+            "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo, e desde que assegurados o contraditório e a ampla defesa",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_defense",
+            "action_label": "Present defense",
+            "evidence": "facultada à CONTRATADA a defesa prévia, no prazo de 10 (dez) dias úteis",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "appeal_penalty_decision",
+            "action_label": "Appeal penalty decision",
+            "evidence": "Contra a decisão de aplicação de penalidade, a CONTRATADA poderá interpor o recurso cabível",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_multas_from_credits",
+            "action_label": "Deduct from credits",
+            "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "charge_judicially",
+            "action_label": "Charge judicially",
+            "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "appeal_penalty_decision",
+          "action_label": "Appeal penalty decision",
+          "evidence": "Contra a decisão de aplicação de penalidade, a CONTRATADA poderá interpor o recurso cabível",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_multas_from_credits",
+          "action_label": "Deduct from credits",
+          "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_defense",
+          "action_label": "Present defense",
+          "evidence": "facultada à CONTRATADA a defesa prévia, no prazo de 10 (dez) dias úteis",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "charge_judicially",
+          "action_label": "Charge judicially",
+          "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "ensure_due_process",
+          "action_label": "Ensure due process",
+          "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo, e desde que assegurados o contraditório e a ampla defesa",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_alterações_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_alterações_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "agree_to_contract_amendment",
+            "action_label": "Agree to amendment",
+            "evidence": "The contract may be altered by agreement between the parties.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_amendment",
+            "action_label": "Formalize amendment",
+            "evidence": "Parties cannot refuse to formalize an amendment necessary for execution.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "claim_damages_for_refusal",
+            "action_label": "Claim damages for refusal",
+            "evidence": "A party refusing amendment must answer for caused damages.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "answer_for_damages",
+            "action_label": "Answer for damages",
+            "evidence": "The party who refuses must answer for the damages caused.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "claim_damages_for_refusal",
+          "action_label": "Claim damages for refusal",
+          "evidence": "A party refusing amendment must answer for caused damages.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_amendment",
+          "action_label": "Formalize amendment",
+          "evidence": "Parties cannot refuse to formalize an amendment necessary for execution.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "answer_for_damages",
+          "action_label": "Answer for damages",
+          "evidence": "The party who refuses must answer for the damages caused.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "agree_to_contract_amendment",
+          "action_label": "Agree to amendment",
+          "evidence": "The contract may be altered by agreement between the parties.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_extinção_contrato": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_extinção_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_execution",
+            "action_label": "Suspend contract execution",
+            "evidence": "Suspensão da execução do Contrato, por ordem escrita do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_written_notification",
+            "action_label": "Provide written notification",
+            "evidence": "Casos de extinção contratual deverão ser precedidos de notificação escrita à outra parte",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_opportunity_for_defense",
+            "action_label": "Provide opportunity for defense",
+            "evidence": "Oportunidade de defesa, dispensada a necessidade de interpelação judicial",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subjection_to_contract_termination",
+            "action_label": "Subject to termination",
+            "evidence": "Quando for decretada a falência da CONTRATADA",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subjection_to_loss_of_habilitation",
+            "action_label": "Subject to loss of habilition",
+            "evidence": "Caso a CONTRATADA perca uma das condições de habilitação exigidas",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subjection_to_being_declared_inidonea",
+            "action_label": "Subject to being declared inidonea",
+            "evidence": "Caso a CONTRATADA seja declarada inidônea",
+            "confidence": 0.7,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_written_notification",
+          "action_label": "Provide written notification",
+          "evidence": "Casos de extinção contratual deverão ser precedidos de notificação escrita à outra parte",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_opportunity_for_defense",
+          "action_label": "Provide opportunity for defense",
+          "evidence": "Oportunidade de defesa, dispensada a necessidade de interpelação judicial",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_execution",
+          "action_label": "Suspend contract execution",
+          "evidence": "Suspensão da execução do Contrato, por ordem escrita do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subjection_to_contract_termination",
+          "action_label": "Subject to termination",
+          "evidence": "Quando for decretada a falência da CONTRATADA",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subjection_to_loss_of_habilitation",
+          "action_label": "Subject to loss of habilition",
+          "evidence": "Caso a CONTRATADA perca uma das condições de habilitação exigidas",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subjection_to_being_declared_inidonea",
+          "action_label": "Subject to being declared inidonea",
+          "evidence": "Caso a CONTRATADA seja declarada inidônea",
+          "confidence": 0.7,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_disposições_finais": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_disposições_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "strictly_comply_with_contract_obligations",
+            "action_label": "Strictly comply with obligations",
+            "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights_at_any_time",
+            "action_label": "Exercise rights",
+            "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_renouncing_rights",
+            "action_label": "Omit renouncing rights",
+            "evidence": "A omissão ou tolerância (...) não constituirá renúncia",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights_at_any_time",
+          "action_label": "Exercise rights",
+          "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "strictly_comply_with_contract_obligations",
+          "action_label": "Strictly comply with obligations",
+          "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_renouncing_rights",
+          "action_label": "Omit renouncing rights",
+          "evidence": "A omissão ou tolerância (...) não constituirá renúncia",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_foro": {
+      "raw": {
+        "clause_id": "clausula_vigésima_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "choose_rio_de_janeiro_forum",
+            "action_label": "Choose Rio de Janeiro forum",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "choose_another_forum",
+            "action_label": "Choose another forum",
+            "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "choose_rio_de_janeiro_forum",
+          "action_label": "Choose Rio de Janeiro forum",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "choose_another_forum",
+          "action_label": "Choose another forum",
+          "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_economic_financial_equilibrium_clause",
+            "action_label": "Respect equilibrium clause",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.8,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_respect_economic_financial_equilibrium_clause",
+            "action_label": "Demand respect for equilibrium clause",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_create_additives_for_allocated_risks",
+            "action_label": "Do not create additives for allocated risks",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_additives_for_allocated_risks",
+            "action_label": "No right to demand additives for allocated risks",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_create_additives_for_allocated_risks",
+          "action_label": "Do not create additives for allocated risks",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_additives_for_allocated_risks",
+          "action_label": "No right to demand additives for allocated risks",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_economic_financial_equilibrium_clause",
+          "action_label": "Respect equilibrium clause",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.8,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_respect_economic_financial_equilibrium_clause",
+          "action_label": "Demand respect for equilibrium clause",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigacoes_contratada": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigacoes_contratada",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "send_and_keep_updated_list_to_bndes",
+            "action_label": "Send and update list to BNDES",
+            "evidence": "'enviar ao BNDES e manter atualizada lista com nome completo, telefone fixo e móvel, e endereço de e-mail'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "promptly_meet_any_requirements_of_bndes",
+            "action_label": "Meet BNDES requirements",
+            "evidence": "'atender prontamente a quaisquer exigências do BNDES'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_all_clarifications_requested_by_bndes",
+            "action_label": "Provide clarifications",
+            "evidence": "'prestar todos os esclarecimentos que lhe forem solicitados pelo BNDES'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "identify_professionals_with_company_badges",
+            "action_label": "Identify professionals",
+            "evidence": "'identificar seus profissionais com crachás da empresa'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_appropriate_security_measures",
+            "action_label": "Adopt security measures",
+            "evidence": "'adotar medidas de segurança adequadas'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_access_to_information",
+            "action_label": "Limit access to information",
+            "evidence": "'limitar o acesso às informações aos seus gerentes, diretores e outros profissionais'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_use_copy_duplicate_or_reproduce_bndes_info",
+            "action_label": "Do not use/copy BNDES info",
+            "evidence": "'não usar, copiar, duplicar ou de alguma outra forma reproduzir ou reter todas ou quaisquer informações do BNDES'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_reverse_compile_or_engineer",
+            "action_label": "Do not reverse engineer",
+            "evidence": "'não efetuar a compilação reversa, montagem reversa ou engenharia reversa'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_awareness_of_confidentiality",
+            "action_label": "Ensure awareness of confidentiality",
+            "evidence": "'garantir que as pessoas com acesso a qualquer parte das informações do BNDES estejam cientes de sua natureza sigilosa'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_identification_badges",
+            "action_label": "Return ID badges",
+            "evidence": "'devolver, ao final do contrato, os crachás de identificação fornecidos pelo BNDES'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "report_any_irregularity_observed",
+            "action_label": "Report irregularities",
+            "evidence": "'informar ao BNDES toda e qualquer irregularidade observada'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_complete_and_absolute_secrecy",
+            "action_label": "Maintain secrecy",
+            "evidence": "'manter o mais completo e absoluto sigilo'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_access_to_terms_documents_information",
+            "action_label": "Allow access to information",
+            "evidence": "'permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_qualification_conditions",
+            "action_label": "Maintain qualification",
+            "evidence": "'manter durante a vigência deste Contrato todas as condições de habilitação e qualificação'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_imposition_of_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "'comunicar a imposição, a si ou a qualquer consorciada, de penalidade'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_correct_remove_reconstruct_or_replace",
+            "action_label": "Repair, correct, etc.",
+            "evidence": "'reparar, corrigir, remover, reconstruir ou substituir'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages_losses",
+            "action_label": "Repair damages",
+            "evidence": "'reparar todos os danos e prejuízos causados ao BNDES ou a terceiros'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_charges_taxes",
+            "action_label": "Pay charges, taxes",
+            "evidence": "'pagar todos os encargos e tributos'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_proof_of_exclusion_from_simples_nacional",
+            "action_label": "Prove exclusion from Simples",
+            "evidence": "'providenciar, perante a Receita Federal do Brasil – RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_inspections_monitoring",
+            "action_label": "Allow inspections",
+            "evidence": "'permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions_procedures",
+            "action_label": "Obey instructions",
+            "evidence": "'obedecer às instruções e aos procedimentos estabelecidos pelo BNDES'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "'designar 1 (um) preposto como responsável pelo Contrato'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "attend_to_transition_requests",
+            "action_label": "Attend to transition",
+            "evidence": "'atender às solicitações do BNDES relativas à transição contratual'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guarantee_non_infringement_of_rights",
+            "action_label": "Guarantee non-infringement",
+            "evidence": "'garantir que o objeto do Contrato não infringe quaisquer direitos autorais, patentes ou registros'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_responsible_for_compliance_with_safety_standards",
+            "action_label": "Responsible for safety",
+            "evidence": "'responsabilizar-se pelo cumprimento das normas de segurança'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_funds_revoke_access_profiles_remove_mailboxes",
+            "action_label": "Return funds, revoke access",
+            "evidence": "'devolver recursos disponibilizados pelo BNDES, revogar perfis de acesso de seus profissionais, eliminar suas caixas postais'",
+            "confidence": 0.9,
+            "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "send_and_keep_updated_list_to_bndes",
+          "action_label": "Send and update list to BNDES",
+          "evidence": "'enviar ao BNDES e manter atualizada lista com nome completo, telefone fixo e móvel, e endereço de e-mail'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "promptly_meet_any_requirements_of_bndes",
+          "action_label": "Meet BNDES requirements",
+          "evidence": "'atender prontamente a quaisquer exigências do BNDES'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_all_clarifications_requested_by_bndes",
+          "action_label": "Provide clarifications",
+          "evidence": "'prestar todos os esclarecimentos que lhe forem solicitados pelo BNDES'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "identify_professionals_with_company_badges",
+          "action_label": "Identify professionals",
+          "evidence": "'identificar seus profissionais com crachás da empresa'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_appropriate_security_measures",
+          "action_label": "Adopt security measures",
+          "evidence": "'adotar medidas de segurança adequadas'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_access_to_information",
+          "action_label": "Limit access to information",
+          "evidence": "'limitar o acesso às informações aos seus gerentes, diretores e outros profissionais'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_use_copy_duplicate_or_reproduce_bndes_info",
+          "action_label": "Do not use/copy BNDES info",
+          "evidence": "'não usar, copiar, duplicar ou de alguma outra forma reproduzir ou reter todas ou quaisquer informações do BNDES'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_reverse_compile_or_engineer",
+          "action_label": "Do not reverse engineer",
+          "evidence": "'não efetuar a compilação reversa, montagem reversa ou engenharia reversa'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "ensure_awareness_of_confidentiality",
+          "action_label": "Ensure awareness of confidentiality",
+          "evidence": "'garantir que as pessoas com acesso a qualquer parte das informações do BNDES estejam cientes de sua natureza sigilosa'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "return_identification_badges",
+          "action_label": "Return ID badges",
+          "evidence": "'devolver, ao final do contrato, os crachás de identificação fornecidos pelo BNDES'",
+          "confidence": 0.9,
+          "bearer": "tivit_terceirizacao_de_processos_servicos_e_tecnologia_s_a"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

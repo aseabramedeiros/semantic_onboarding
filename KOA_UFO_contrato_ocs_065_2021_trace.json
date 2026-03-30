@@ -1,0 +1,4120 @@
+{
+  "contract_id": "contrato_ocs_065_2021",
+  "source_file": "KOA_Contrato_OCS_065_2021_-_SOFTON.pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_065_2021",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "softon_sistemas_inteligentes_ltda",
+        "label": "SOFTON SISTEMAS INTELIGENTES LTDA",
+        "cnpj": "38.885.778/0001-06"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_065_2021"
+      },
+      {
+        "agent_id": "softon_sistemas_inteligentes_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_065_2021"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "provide_software_and_services",
+      "evidence": "A prestação dos serviços subscrição de Solução de software para suporte ao processo de prevenção à lavagem de dinheiro",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "provide_software_and_services",
+      "evidence": "A prestação dos serviços subscrição de Solução de software para suporte ao processo de prevenção à lavagem de dinheiro",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_software_and_services",
+      "evidence": "O presente Contrato tem por objeto a prestação dos serviços subscrição de Solução de software",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "communicate_intention_not_to_extend",
+      "evidence": "Até 90 (noventa) dias antes do término de cada período de vigência contratual, cabe ao CONTRATADO comunicar...o seu propósito de não prorrogar",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "subject_to_penalties_for_refusal",
+      "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação...ficará sujeito às penalidades previstas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_communicate_intention_not_to_extend",
+      "evidence": "sob pena de se presumir a sua anuência em celebrar o aditivo de prorrogação",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "execute_service_per_specs",
+      "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do Termo de Referência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_service_per_specs",
+      "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do Termo de Referência",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "execute_service_according_to_bndes_standards",
+      "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_reduction_index_due_to_non_compliance",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "be_subject_to_price_reduction_for_non_compliance",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_service_execution_according_to_standards",
+      "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties_for_non_compliance",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "be_subject_to_penalties_for_non_compliance",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "efetuar_recebimento_objeto",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "efetuar_recebimento_objeto",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "bear_burdens_of_quantification_errors",
+      "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_paying_indemnization",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "no_right_to_indemnification",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "complement_initial_quantities",
+      "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta, devendo complementá-los",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "be_subjected_to_paying_for_quantification_errors",
+      "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_payment",
+      "evidence": "O BNDES efetuará o pagamento [...] por meio de crédito em conta bancária, em até 10 (dez) dias úteis",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_values",
+      "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "return_fiscal_document",
+      "evidence": "Caso sejam verificadas divergências, o BNDES devolverá o documento fiscal ou equivalente legal à CONTRATADA",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "withhold_taxes",
+      "evidence": "Os pagamentos a serem efetuados em favor da CONTRATADA estarão sujeitos [...] às retenções de tributos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_payment",
+      "evidence": "Caso sejam verificadas divergências, o BNDES devolverá o documento fiscal [...] interrompendo-se o prazo de pagamento",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "initiate_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada [...] mediante solicitação do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "request_price_readjustment",
+      "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "solicit_price_adjustment",
+      "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "provide_supporting_documents",
+      "evidence": "entrega pelo CONTRATADO dos comprovantes de variação dos custos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "present_cost_information",
+      "evidence": "o CONTRATADO deverá apresentar as informações solicitadas pelo BNDES.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "negotiate_price_reduction",
+      "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "present_cost_documentation",
+      "evidence": "com o requerimento, o CONTRATADO deverá apresentar planilhas de custos unitários",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_price_adjustment_request",
+      "evidence": "O BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "A CONTRATADA prestará garantia contratual no prazo de até 10 (dez) dias úteis",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "complement_or_replace_guarantee",
+      "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia prestada no prazo determinado pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "obtain_guarantor_agreement",
+      "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "obtain_new_guarantee",
+      "evidence": "cabe à CONTRATADA obter nova garantia no mesmo prazo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_money_deposit_instructions",
+      "evidence": "Caução em dinheiro: deverá ser depositada em favor do BNDES, de acordo com as orientações que serão fornecidas por este",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "maintain_qualification_conditions",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "communicate_penalty_imposition",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "repair_correct_remove_reconstruct_substitute",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "repair_damages_losses",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "pay_charges_taxes",
+      "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "provide_to_rfb",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "allow_inspections_monitoring",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "obey_instructions_procedures",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "present_dif",
+      "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_offer_promise_give_undue_advantage",
+      "evidence": "A CONTRATADA obriga-se a não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_favoring_bndes_employee",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_allocating_bndes_employee_relatives",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "observe_bndes_ethics_code",
+      "evidence": "observar o Código de Ética do Sistema BNDES vigente ao tempo da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "take_measures_to_prevent_corruption",
+      "evidence": "tomar todas as medidas ao seu alcance para impedir administradores...de fazê-lo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "adopt_good_environmental_practices",
+      "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "remove_agents_involved_in_impediments",
+      "evidence": "compete à CONTRATADA afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "communicate_impediments_to_bndes",
+      "evidence": "além de comunicar tal fato ao BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "comply_with_bndes_info_security_policies",
+      "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "not_access_confidential_info_without_authorization",
+      "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "maintain_confidentiality_of_accessed_info",
+      "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "limit_access_to_info_to_involved_professionals",
+      "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação do serviço",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "inform_bndes_of_info_security_violations",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "return_info_to_bndes_at_contract_end",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer mantidos sob seu controle ou posse",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "not_use_confidential_info_after_contract_end",
+      "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "present_confidentiality_agreements",
+      "evidence": "apresentar, antes do início da prestação do serviço, Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "observe_confidentiality_agreement_signed_by_representatives",
+      "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contracted_party",
+      "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "receive_payments",
+      "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Sr. Deividy Attila Marcelino",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_substitute_contract_manager",
+      "evidence": "designar como substituto do gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_inspector",
+      "evidence": "Designar o Fiscal do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_receipt_committee",
+      "evidence": "Designar a Comissão de Recebimento",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_requested_documents",
+      "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "receive_requested_documents",
+      "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_irregularities",
+      "evidence": "comunicar à CONTRATADA, por escrito:  b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_contract_cession",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "no_right_to_assign_contract",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_credit_cession",
+      "evidence": "É vedada...de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "no_right_to_assign_credit",
+      "evidence": "É vedada...de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_issue_credit_title",
+      "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "no_right_to_issue_credit_title",
+      "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_risks_prejudices",
+      "evidence": "que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "omit_subcontracting",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "no_right_to_subcontract",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "obtain_bndes_acquiescence",
+      "evidence": "aquiescência prévia do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "impose_penalties",
+      "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "provide_service",
+      "evidence": "em caso de inexecução total ou parcial do Contrato",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_service_execution",
+      "evidence": "em caso de inexecução total ou parcial do Contrato",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_primeiro",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "present_preliminary_defense",
+      "evidence": "Facultada à CONTRATADA a defesa prévia, no prazo de 10 (dez) dias úteis.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_primeiro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties_without_defense",
+      "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas [...] desde que assegurados o contraditório e a ampla defesa",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_primeiro",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "ensure_due_process",
+      "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas [...] desde que assegurados o contraditório e a ampla defesa",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_segundo",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "interpor_recurso_cabivel",
+      "evidence": "a CONTRATADA poderá interpor o recurso cabível",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_terceiro",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_despite_penalty",
+      "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_quarto",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_penalties_over_limit",
+      "evidence": "O total das multas aplicadas não poderá exceder o montante de 30%",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_quarto",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "no_right_to_charge_penalties_over_limit",
+      "evidence": "O total das multas aplicadas não poderá exceder o montante de 30%",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_sexto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_fines_from_credits",
+      "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_sexto",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "fines_deducted_from_credits",
+      "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_sexto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_fines_from_guarantee",
+      "evidence": "assim como da garantia prestada",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_sexto",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "fines_deducted_from_guarantee",
+      "evidence": "assim como da garantia prestada",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_sexto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "judicial_collection_of_difference",
+      "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_sexto",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "subject_to_judicial_collection",
+      "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_setimo",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "observe_data_protection_laws",
+      "evidence": "observar-se-ão, no que couber, os termos da Lei nº 12.527/2011 e do Decreto nº 7.724/2012",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_oitavo",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "observe_law_12846",
+      "evidence": "observar-se-ão os termos da Lei nº 12.846/2013",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_oitavo",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "be_subject_to_law_12846",
+      "evidence": "observar-se-ão os termos da Lei nº 12.846/2013",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_nono",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_sanction_for_fraudulent_tax_collection",
+      "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...fraude fiscal",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_nono",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_sanction_for_frustrating_bidding_objectives",
+      "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...frustrar os objetivos da licitação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_nono",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_sanction_for_lack_of_idoneity",
+      "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...não possuir idoneidade",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades_paragrafo_nono",
+      "legal_moment_class": "disability",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "receive_bndes_contract",
+      "evidence": "demonstrem não possuir idoneidade para contratar com o BNDES",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "preserve_financial_equilibrium",
+      "evidence": "as alterações devem preservar o equilíbrio econômico-financeiro do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "avoid_denaturing_contract_object",
+      "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "agree_contract_changes",
+      "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_contract_change",
+      "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_primeiro",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_primeiro",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "refuse_contract_alteration_formalization",
+      "evidence": "salvo em caso de justo motivo, devidamente comprovado",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_segundo",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "liable_for_damages_for_refusal_to_amend",
+      "evidence": "deverá responder pelos danos eventualmente causados",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_segundo",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "promote_contract_amendment",
+      "evidence": "A parte que injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior...",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_terceiro",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_changes_via_addendum",
+      "evidence": "Alterações contratuais serão formalizadas mediante instrumento aditivo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_terceiro",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_minor_corrections_via_letter",
+      "evidence": "pequenos ajustes ... que poderão ser formalizados por meio epistolar",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_terceiro",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_changes_via_apostille",
+      "evidence": "alteração por apostilamento",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_party_breach",
+      "evidence": "cabendo à parte inocente notificar a outra por escrito",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_suspension",
+      "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_failure_bndes_release",
+      "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução, nos prazos contratuais",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "allow_reasonable_cure_period",
+      "evidence": "assinalando-lhe prazo razoável para o cumprimento das obrigações",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato_paragrafo_primeiro",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payment",
+      "evidence": "mora superior a 90 (noventa) dias",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato_paragrafo_primeiro",
+      "legal_moment_class": "right_to_action",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "receive_payment",
+      "evidence": "mora superior a 90 (noventa) dias",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato_paragrafo_segundo",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_other_party_of_contract_termination",
+      "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato_paragrafo_segundo",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_opportunity_for_defense",
+      "evidence": "oportunidade de defesa",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extincao_contrato_paragrafo_segundo",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_with_notification",
+      "evidence": "casos de extinção contratual convencionados no caput desta Cláusula deverão ser precedidos de notificação escrita",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_disposicoes_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_contractual_rights",
+      "evidence": "A omissão ou tolerância... não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_disposicoes_finais",
+      "legal_moment_class": "permission_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "tolerate_non_compliance",
+      "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais... não constituirá renúncia.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_foro",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "celebrate_contract",
+      "evidence": "Reputa-se celebrado o presente contrato na data em que for registrada a última assinatura dos representantes do BNDES.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_foro",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "digitally_sign_contract",
+      "evidence": "A assinatura dos representantes da CONTRATADA se dará de forma digital.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_foro",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "digitally_sign_contract",
+      "evidence": "A assinatura dos representantes do BNDES se dará de forma digital.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_foro",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "digitally_sign_contract",
+      "evidence": "A assinatura dos representantes do BNDES se dará de forma digital.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "bear_risks",
+      "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "subjection",
+      "bearer": "softon_sistemas_inteligentes_ltda",
+      "action_id": "adjustment_clause",
+      "evidence": "Cláusula de Equilíbrio Econômico-Financeiro",
+      "confidence": 0.6
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_software_and_services",
+            "action_label": "Provide software and services",
+            "evidence": "A prestação dos serviços subscrição de Solução de software para suporte ao processo de prevenção à lavagem de dinheiro",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_software_and_services",
+            "action_label": "Provide software and services",
+            "evidence": "A prestação dos serviços subscrição de Solução de software para suporte ao processo de prevenção à lavagem de dinheiro",
+            "confidence": 0.5,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_software_and_services",
+            "action_label": "Receive software and services",
+            "evidence": "O presente Contrato tem por objeto a prestação dos serviços subscrição de Solução de software",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_software_and_services",
+          "action_label": "Provide software and services",
+          "evidence": "A prestação dos serviços subscrição de Solução de software para suporte ao processo de prevenção à lavagem de dinheiro",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_software_and_services",
+          "action_label": "Provide software and services",
+          "evidence": "A prestação dos serviços subscrição de Solução de software para suporte ao processo de prevenção à lavagem de dinheiro",
+          "confidence": 0.5,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_software_and_services",
+          "action_label": "Receive software and services",
+          "evidence": "O presente Contrato tem por objeto a prestação dos serviços subscrição de Solução de software",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "softon_sistemas_inteligentes_ltda",
+            "action_id": "communicate_intention_not_to_extend",
+            "action_label": "Communicate intention not to extend",
+            "evidence": "Até 90 (noventa) dias antes do término de cada período de vigência contratual, cabe ao CONTRATADO comunicar...o seu propósito de não prorrogar",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "softon_sistemas_inteligentes_ltda",
+            "action_id": "omit_communicate_intention_not_to_extend",
+            "action_label": "Omit communicating intention not to extend",
+            "evidence": "sob pena de se presumir a sua anuência em celebrar o aditivo de prorrogação",
+            "confidence": 0.6,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "softon_sistemas_inteligentes_ltda",
+            "action_id": "subject_to_penalties_for_refusal",
+            "action_label": "Subject to penalties for refusal",
+            "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação...ficará sujeito às penalidades previstas",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "softon_sistemas_inteligentes_ltda",
+          "action_id": "communicate_intention_not_to_extend",
+          "action_label": "Communicate intention not to extend",
+          "evidence": "Até 90 (noventa) dias antes do término de cada período de vigência contratual, cabe ao CONTRATADO comunicar...o seu propósito de não prorrogar",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "softon_sistemas_inteligentes_ltda",
+          "action_id": "subject_to_penalties_for_refusal",
+          "action_label": "Subject to penalties for refusal",
+          "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação...ficará sujeito às penalidades previstas",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "softon_sistemas_inteligentes_ltda",
+          "action_id": "omit_communicate_intention_not_to_extend",
+          "action_label": "Omit communicating intention not to extend",
+          "evidence": "sob pena de se presumir a sua anuência em celebrar o aditivo de prorrogação",
+          "confidence": 0.6,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_service_per_specs",
+            "action_label": "Execute service per specifications",
+            "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do Termo de Referência",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_service_per_specs",
+            "action_label": "Expect service per specifications",
+            "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do Termo de Referência",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_service_per_specs",
+          "action_label": "Execute service per specifications",
+          "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do Termo de Referência",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_service_per_specs",
+          "action_label": "Expect service per specifications",
+          "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do Termo de Referência",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_service_according_to_bndes_standards",
+            "action_label": "Execute service per BNDES standards",
+            "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_service_execution_according_to_standards",
+            "action_label": "Demand service per standards",
+            "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_reduction_index_due_to_non_compliance",
+            "action_label": "Apply price reduction",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_price_reduction_for_non_compliance",
+            "action_label": "Be subject to price reduction",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties_for_non_compliance",
+            "action_label": "Apply penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties_for_non_compliance",
+            "action_label": "Be subject to penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+            "confidence": 0.7,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_service_according_to_bndes_standards",
+          "action_label": "Execute service per BNDES standards",
+          "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_reduction_index_due_to_non_compliance",
+          "action_label": "Apply price reduction",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_price_reduction_for_non_compliance",
+          "action_label": "Be subject to price reduction",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação de índice de redução do preço previsto no Termo de Referência",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_service_execution_according_to_standards",
+          "action_label": "Demand service per standards",
+          "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties_for_non_compliance",
+          "action_label": "Apply penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties_for_non_compliance",
+          "action_label": "Be subject to penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+          "confidence": 0.7,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "efetuar_recebimento_objeto",
+            "action_label": "Receive the object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "efetuar_recebimento_objeto",
+            "action_label": "Receive the object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "efetuar_recebimento_objeto",
+          "action_label": "Receive the object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "efetuar_recebimento_objeto",
+          "action_label": "Receive the object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "softon_sistemas_inteligentes_ltda",
+            "action_id": "bear_burdens_of_quantification_errors",
+            "action_label": "Bear quantification error burden",
+            "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta.",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "softon_sistemas_inteligentes_ltda",
+            "action_id": "be_subjected_to_paying_for_quantification_errors",
+            "action_label": "Subjected to pay for quantification error",
+            "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta.",
+            "confidence": 0.7,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "omit_paying_indemnization",
+            "action_label": "Omit paying indemnization",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "softon_sistemas_inteligentes_ltda",
+            "action_id": "no_right_to_indemnification",
+            "action_label": "No right to indemnification",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "softon_sistemas_inteligentes_ltda",
+            "action_id": "complement_initial_quantities",
+            "action_label": "Complement initial quantities",
+            "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta, devendo complementá-los",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "softon_sistemas_inteligentes_ltda",
+          "action_id": "bear_burdens_of_quantification_errors",
+          "action_label": "Bear quantification error burden",
+          "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta.",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "omit_paying_indemnization",
+          "action_label": "Omit paying indemnization",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "softon_sistemas_inteligentes_ltda",
+          "action_id": "no_right_to_indemnification",
+          "action_label": "No right to indemnification",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "softon_sistemas_inteligentes_ltda",
+          "action_id": "complement_initial_quantities",
+          "action_label": "Complement initial quantities",
+          "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta, devendo complementá-los",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "softon_sistemas_inteligentes_ltda",
+          "action_id": "be_subjected_to_paying_for_quantification_errors",
+          "action_label": "Subjected to pay for quantification error",
+          "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta.",
+          "confidence": 0.7,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_payment",
+            "action_label": "Effect payment",
+            "evidence": "O BNDES efetuará o pagamento [...] por meio de crédito em conta bancária, em até 10 (dez) dias úteis",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+            "confidence": 0.7,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "return_fiscal_document",
+            "action_label": "Return fiscal document",
+            "evidence": "Caso sejam verificadas divergências, o BNDES devolverá o documento fiscal ou equivalente legal à CONTRATADA",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "bndes",
+            "action_id": "omit_payment",
+            "action_label": "Omit payment",
+            "evidence": "Caso sejam verificadas divergências, o BNDES devolverá o documento fiscal [...] interrompendo-se o prazo de pagamento",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "withhold_taxes",
+            "action_label": "Subject to tax withholding",
+            "evidence": "Os pagamentos a serem efetuados em favor da CONTRATADA estarão sujeitos [...] às retenções de tributos",
+            "confidence": 0.7,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_values",
+            "action_label": "Deduct values",
+            "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_payment",
+          "action_label": "Effect payment",
+          "evidence": "O BNDES efetuará o pagamento [...] por meio de crédito em conta bancária, em até 10 (dez) dias úteis",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_values",
+          "action_label": "Deduct values",
+          "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+          "confidence": 0.7,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "return_fiscal_document",
+          "action_label": "Return fiscal document",
+          "evidence": "Caso sejam verificadas divergências, o BNDES devolverá o documento fiscal ou equivalente legal à CONTRATADA",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "withhold_taxes",
+          "action_label": "Subject to tax withholding",
+          "evidence": "Os pagamentos a serem efetuados em favor da CONTRATADA estarão sujeitos [...] às retenções de tributos",
+          "confidence": 0.7,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "bndes",
+          "action_id": "omit_payment",
+          "action_label": "Omit payment",
+          "evidence": "Caso sejam verificadas divergências, o BNDES devolverá o documento fiscal [...] interrompendo-se o prazo de pagamento",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "initiate_price_revision",
+            "action_label": "Initiate price revision",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada [...] mediante solicitação do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment",
+            "action_label": "Request price readjustment",
+            "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_cost_information",
+            "action_label": "Present cost information",
+            "evidence": "o CONTRATADO deverá apresentar as informações solicitadas pelo BNDES.",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "negotiate_price_reduction",
+            "action_label": "Negotiate price reduction",
+            "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "solicit_price_adjustment",
+            "action_label": "Solicit price adjustment",
+            "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supporting_documents",
+            "action_label": "Provide supporting documents",
+            "evidence": "entrega pelo CONTRATADO dos comprovantes de variação dos custos",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_cost_documentation",
+            "action_label": "Present cost documentation",
+            "evidence": "com o requerimento, o CONTRATADO deverá apresentar planilhas de custos unitários",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_price_adjustment_request",
+            "action_label": "Analyze price adjustment request",
+            "evidence": "O BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "initiate_price_revision",
+          "action_label": "Initiate price revision",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada [...] mediante solicitação do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment",
+          "action_label": "Request price readjustment",
+          "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "solicit_price_adjustment",
+          "action_label": "Solicit price adjustment",
+          "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supporting_documents",
+          "action_label": "Provide supporting documents",
+          "evidence": "entrega pelo CONTRATADO dos comprovantes de variação dos custos",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_cost_information",
+          "action_label": "Present cost information",
+          "evidence": "o CONTRATADO deverá apresentar as informações solicitadas pelo BNDES.",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "negotiate_price_reduction",
+          "action_label": "Negotiate price reduction",
+          "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_cost_documentation",
+          "action_label": "Present cost documentation",
+          "evidence": "com o requerimento, o CONTRATADO deverá apresentar planilhas de custos unitários",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_price_adjustment_request",
+          "action_label": "Analyze price adjustment request",
+          "evidence": "O BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "A CONTRATADA prestará garantia contratual no prazo de até 10 (dez) dias úteis",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_money_deposit_instructions",
+            "action_label": "Request deposit instructions",
+            "evidence": "Caução em dinheiro: deverá ser depositada em favor do BNDES, de acordo com as orientações que serão fornecidas por este",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complement_or_replace_guarantee",
+            "action_label": "Complement/replace guarantee",
+            "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia prestada no prazo determinado pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_agreement",
+            "action_label": "Obtain guarantor agreement",
+            "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_new_guarantee",
+            "action_label": "Obtain new guarantee",
+            "evidence": "cabe à CONTRATADA obter nova garantia no mesmo prazo",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "A CONTRATADA prestará garantia contratual no prazo de até 10 (dez) dias úteis",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complement_or_replace_guarantee",
+          "action_label": "Complement/replace guarantee",
+          "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia prestada no prazo determinado pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_agreement",
+          "action_label": "Obtain guarantor agreement",
+          "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_new_guarantee",
+          "action_label": "Obtain new guarantee",
+          "evidence": "cabe à CONTRATADA obter nova garantia no mesmo prazo",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_money_deposit_instructions",
+          "action_label": "Request deposit instructions",
+          "evidence": "Caução em dinheiro: deverá ser depositada em favor do BNDES, de acordo com as orientações que serão fornecidas por este",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigações_contratada": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigações_contratada",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_qualification_conditions",
+            "action_label": "Maintain qualification conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_penalty_imposition",
+            "action_label": "Communicate penalty imposition",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_correct_remove_reconstruct_substitute",
+            "action_label": "Repair, correct, remove, reconstruct, or substitute",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages_losses",
+            "action_label": "Repair damages and losses",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_charges_taxes",
+            "action_label": "Pay charges and taxes",
+            "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_to_rfb",
+            "action_label": "Provide to RFB",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_inspections_monitoring",
+            "action_label": "Allow inspections and monitoring",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "conduct_inspections_monitoring",
+            "action_label": "Conduct inspections and monitoring",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions_procedures",
+            "action_label": "Obey instructions and procedures",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_dif",
+            "action_label": "Present DIF",
+            "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guarantee_copyrights_patents",
+            "action_label": "Guarantee copyrights and patents",
+            "evidence": "garantir que o objeto do Contrato não infringe quaisquer direitos autorais, patentes ou registros",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_security_norms",
+            "action_label": "Comply with security norms",
+            "evidence": "responsabilizar-se pelo cumprimento das normas de segurança das dependências do BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_bacen_access",
+            "action_label": "Allow BACEN access",
+            "evidence": "permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_qualification_conditions",
+          "action_label": "Maintain qualification conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_penalty_imposition",
+          "action_label": "Communicate penalty imposition",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_correct_remove_reconstruct_substitute",
+          "action_label": "Repair, correct, remove, reconstruct, or substitute",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages_losses",
+          "action_label": "Repair damages and losses",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_charges_taxes",
+          "action_label": "Pay charges and taxes",
+          "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_to_rfb",
+          "action_label": "Provide to RFB",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "allow_inspections_monitoring",
+          "action_label": "Allow inspections and monitoring",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_instructions_procedures",
+          "action_label": "Obey instructions and procedures",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_dif",
+          "action_label": "Present DIF",
+          "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_conduta_etica_contratada_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_conduta_etica_contratada_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_offer_promise_give_undue_advantage",
+            "action_label": "Omit offering undue advantage",
+            "evidence": "A CONTRATADA obriga-se a não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "take_measures_to_prevent_corruption",
+            "action_label": "Prevent corruption",
+            "evidence": "tomar todas as medidas ao seu alcance para impedir administradores...de fazê-lo",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_favoring_bndes_employee",
+            "action_label": "Omit favoring BNDES employee",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_allocating_bndes_employee_relatives",
+            "action_label": "Omit allocating BNDES relatives",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_bndes_ethics_code",
+            "action_label": "Observe BNDES ethics code",
+            "evidence": "observar o Código de Ética do Sistema BNDES vigente ao tempo da contratação",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_good_environmental_practices",
+            "action_label": "Adopt good environmental practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "remove_agents_involved_in_impediments",
+            "action_label": "Remove agents in impediments",
+            "evidence": "compete à CONTRATADA afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_impediments_to_bndes",
+            "action_label": "Communicate impediments to BNDES",
+            "evidence": "além de comunicar tal fato ao BNDES",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_offer_promise_give_undue_advantage",
+          "action_label": "Omit offering undue advantage",
+          "evidence": "A CONTRATADA obriga-se a não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_favoring_bndes_employee",
+          "action_label": "Omit favoring BNDES employee",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_allocating_bndes_employee_relatives",
+          "action_label": "Omit allocating BNDES relatives",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_bndes_ethics_code",
+          "action_label": "Observe BNDES ethics code",
+          "evidence": "observar o Código de Ética do Sistema BNDES vigente ao tempo da contratação",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "take_measures_to_prevent_corruption",
+          "action_label": "Prevent corruption",
+          "evidence": "tomar todas as medidas ao seu alcance para impedir administradores...de fazê-lo",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_good_environmental_practices",
+          "action_label": "Adopt good environmental practices",
+          "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "remove_agents_involved_in_impediments",
+          "action_label": "Remove agents in impediments",
+          "evidence": "compete à CONTRATADA afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_impediments_to_bndes",
+          "action_label": "Communicate impediments to BNDES",
+          "evidence": "além de comunicar tal fato ao BNDES",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_sigilo_informacoes": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_info_security_policies",
+            "action_label": "Comply with BNDES info security policies",
+            "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_access_confidential_info_without_authorization",
+            "action_label": "Do not access confidential info without authorization",
+            "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality_of_accessed_info",
+            "action_label": "Maintain confidentiality of accessed info",
+            "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_access_to_info_to_involved_professionals",
+            "action_label": "Limit access to info",
+            "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação do serviço",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_of_info_security_violations",
+            "action_label": "Inform BNDES of security violations",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_info_to_bndes_at_contract_end",
+            "action_label": "Return info to BNDES at contract end",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer mantidos sob seu controle ou posse",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_use_confidential_info_after_contract_end",
+            "action_label": "Do not use confidential info after contract end",
+            "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_agreements",
+            "action_label": "Present confidentiality agreements",
+            "evidence": "apresentar, antes do início da prestação do serviço, Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_confidentiality_agreement_signed_by_representatives",
+            "action_label": "Observe confidentiality agreement signed by representatives",
+            "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_info_security_policies",
+          "action_label": "Comply with BNDES info security policies",
+          "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_access_confidential_info_without_authorization",
+          "action_label": "Do not access confidential info without authorization",
+          "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality_of_accessed_info",
+          "action_label": "Maintain confidentiality of accessed info",
+          "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_access_to_info_to_involved_professionals",
+          "action_label": "Limit access to info",
+          "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação do serviço",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_of_info_security_violations",
+          "action_label": "Inform BNDES of security violations",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "return_info_to_bndes_at_contract_end",
+          "action_label": "Return info to BNDES at contract end",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer mantidos sob seu controle ou posse",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_use_confidential_info_after_contract_end",
+          "action_label": "Do not use confidential info after contract end",
+          "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_agreements",
+          "action_label": "Present confidentiality agreements",
+          "evidence": "apresentar, antes do início da prestação do serviço, Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_confidentiality_agreement_signed_by_representatives",
+          "action_label": "Observe confidentiality agreement signed by representatives",
+          "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_obrigações_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_obrigações_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contracted_party",
+            "action_label": "Make payments to contracted party",
+            "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments",
+            "action_label": "Right to receive payments",
+            "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, Sr. Deividy Attila Marcelino",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_substitute_contract_manager",
+            "action_label": "Designate substitute manager",
+            "evidence": "designar como substituto do gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_inspector",
+            "action_label": "Designate contract inspector",
+            "evidence": "Designar o Fiscal do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_receipt_committee",
+            "action_label": "Designate receipt committee",
+            "evidence": "Designar a Comissão de Recebimento",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_requested_documents",
+            "action_label": "Provide requested documents",
+            "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_requested_documents",
+            "action_label": "Right to receive documents",
+            "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_irregularities",
+            "action_label": "Communicate irregularities",
+            "evidence": "comunicar à CONTRATADA, por escrito:  b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalties",
+            "action_label": "Communicate penalties",
+            "evidence": "comunicar à CONTRATADA, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "allow_contracted_party_to_defend",
+            "action_label": "Allow defense",
+            "evidence": "concedendo-lhe prazo para defesa",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contracted_party",
+          "action_label": "Make payments to contracted party",
+          "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments",
+          "action_label": "Right to receive payments",
+          "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, Sr. Deividy Attila Marcelino",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_substitute_contract_manager",
+          "action_label": "Designate substitute manager",
+          "evidence": "designar como substituto do gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_inspector",
+          "action_label": "Designate contract inspector",
+          "evidence": "Designar o Fiscal do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_receipt_committee",
+          "action_label": "Designate receipt committee",
+          "evidence": "Designar a Comissão de Recebimento",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_requested_documents",
+          "action_label": "Provide requested documents",
+          "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_requested_documents",
+          "action_label": "Right to receive documents",
+          "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary information",
+          "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_irregularities",
+          "action_label": "Communicate irregularities",
+          "evidence": "comunicar à CONTRATADA, por escrito:  b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_cessao_contrato_credito_sucessao_subcontratacao",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_contract_cession",
+            "action_label": "Omit contract assignment",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_assign_contract",
+            "action_label": "No right to assign contract",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_credit_cession",
+            "action_label": "Omit credit assignment",
+            "evidence": "É vedada...de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_assign_credit",
+            "action_label": "No right to assign credit",
+            "evidence": "É vedada...de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_issue_credit_title",
+            "action_label": "Omit issue credit title",
+            "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_issue_credit_title",
+            "action_label": "No right to issue credit title",
+            "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "perform_corporate_operations",
+            "action_label": "Perform corporate operations",
+            "evidence": "nas hipóteses em que a CONTRATADA realizar as operações societárias de fusão, cisão ou incorporação",
+            "confidence": 0.7,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_bndes_acquiescence",
+            "action_label": "Obtain BNDES acquiescence",
+            "evidence": "aquiescência prévia do BNDES",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_risks_prejudices",
+            "action_label": "Analyze risks and prejudices",
+            "evidence": "que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_subcontracting",
+            "action_label": "Omit subcontracting",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_subcontract",
+            "action_label": "No right to subcontract",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_contract_cession",
+          "action_label": "Omit contract assignment",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_assign_contract",
+          "action_label": "No right to assign contract",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_credit_cession",
+          "action_label": "Omit credit assignment",
+          "evidence": "É vedada...de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_assign_credit",
+          "action_label": "No right to assign credit",
+          "evidence": "É vedada...de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_issue_credit_title",
+          "action_label": "Omit issue credit title",
+          "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_issue_credit_title",
+          "action_label": "No right to issue credit title",
+          "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_risks_prejudices",
+          "action_label": "Analyze risks and prejudices",
+          "evidence": "que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_subcontracting",
+          "action_label": "Omit subcontracting",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_subcontract",
+          "action_label": "No right to subcontract",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_bndes_acquiescence",
+          "action_label": "Obtain BNDES acquiescence",
+          "evidence": "aquiescência prévia do BNDES",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Subject to penalties",
+            "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "impose_penalties",
+            "action_label": "Impose penalties",
+            "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_service",
+            "action_label": "Provide service",
+            "evidence": "em caso de inexecução total ou parcial do Contrato",
+            "confidence": 0.6,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_service_execution",
+            "action_label": "Demand service execution",
+            "evidence": "em caso de inexecução total ou parcial do Contrato",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Subject to penalties",
+          "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "impose_penalties",
+          "action_label": "Impose penalties",
+          "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_service",
+          "action_label": "Provide service",
+          "evidence": "em caso de inexecução total ou parcial do Contrato",
+          "confidence": 0.6,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_service_execution",
+          "action_label": "Demand service execution",
+          "evidence": "em caso de inexecução total ou parcial do Contrato",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_primeiro": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_primeiro",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_preliminary_defense",
+            "action_label": "Present preliminary defense",
+            "evidence": "Facultada à CONTRATADA a defesa prévia, no prazo de 10 (dez) dias úteis.",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties_without_defense",
+            "action_label": "Apply penalties without defense",
+            "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas [...] desde que assegurados o contraditório e a ampla defesa",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "ensure_due_process",
+            "action_label": "Ensure due process",
+            "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas [...] desde que assegurados o contraditório e a ampla defesa",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_preliminary_defense",
+          "action_label": "Present preliminary defense",
+          "evidence": "Facultada à CONTRATADA a defesa prévia, no prazo de 10 (dez) dias úteis.",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties_without_defense",
+          "action_label": "Apply penalties without defense",
+          "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas [...] desde que assegurados o contraditório e a ampla defesa",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "ensure_due_process",
+          "action_label": "Ensure due process",
+          "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas [...] desde que assegurados o contraditório e a ampla defesa",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_segundo": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_segundo",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "interpor_recurso_cabivel",
+            "action_label": "File appropriate appeal",
+            "evidence": "a CONTRATADA poderá interpor o recurso cabível",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "interpor_recurso_cabivel",
+          "action_label": "File appropriate appeal",
+          "evidence": "a CONTRATADA poderá interpor o recurso cabível",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_terceiro": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_terceiro",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_despite_penalty",
+            "action_label": "Terminate contract despite penalty",
+            "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_despite_penalty",
+          "action_label": "Terminate contract despite penalty",
+          "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_quarto": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_quarto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_penalties_over_limit",
+            "action_label": "Omit penalties over 30% contract value.",
+            "evidence": "O total das multas aplicadas não poderá exceder o montante de 30%",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "no_right_to_charge_penalties_over_limit",
+            "action_label": "No right to charge over 30% contract value.",
+            "evidence": "O total das multas aplicadas não poderá exceder o montante de 30%",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_penalties_over_limit",
+          "action_label": "Omit penalties over 30% contract value.",
+          "evidence": "O total das multas aplicadas não poderá exceder o montante de 30%",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "no_right_to_charge_penalties_over_limit",
+          "action_label": "No right to charge over 30% contract value.",
+          "evidence": "O total das multas aplicadas não poderá exceder o montante de 30%",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_sexto": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_sexto",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_fines_from_credits",
+            "action_label": "Deduct fines from credits",
+            "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "fines_deducted_from_credits",
+            "action_label": "Fines deducted from credits",
+            "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_fines_from_guarantee",
+            "action_label": "Deduct fines from guarantee",
+            "evidence": "assim como da garantia prestada",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "fines_deducted_from_guarantee",
+            "action_label": "Fines deducted from guarantee",
+            "evidence": "assim como da garantia prestada",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "judicial_collection_of_difference",
+            "action_label": "Judicial collection of difference",
+            "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subject_to_judicial_collection",
+            "action_label": "Subject to judicial collection",
+            "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+            "confidence": 0.7,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_fines_from_credits",
+          "action_label": "Deduct fines from credits",
+          "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "fines_deducted_from_credits",
+          "action_label": "Fines deducted from credits",
+          "evidence": "A multa aplicada à CONTRATADA e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ela devidos",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_fines_from_guarantee",
+          "action_label": "Deduct fines from guarantee",
+          "evidence": "assim como da garantia prestada",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "fines_deducted_from_guarantee",
+          "action_label": "Fines deducted from guarantee",
+          "evidence": "assim como da garantia prestada",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "judicial_collection_of_difference",
+          "action_label": "Judicial collection of difference",
+          "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subject_to_judicial_collection",
+          "action_label": "Subject to judicial collection",
+          "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+          "confidence": 0.7,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_setimo": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_setimo",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_data_protection_laws",
+            "action_label": "Observe data protection laws",
+            "evidence": "observar-se-ão, no que couber, os termos da Lei nº 12.527/2011 e do Decreto nº 7.724/2012",
+            "confidence": 0.7,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_data_protection_laws",
+          "action_label": "Observe data protection laws",
+          "evidence": "observar-se-ão, no que couber, os termos da Lei nº 12.527/2011 e do Decreto nº 7.724/2012",
+          "confidence": 0.7,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_oitavo": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_oitavo",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_law_12846",
+            "action_label": "Observe law 12.846/2013",
+            "evidence": "observar-se-ão os termos da Lei nº 12.846/2013",
+            "confidence": 0.9,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_law_12846",
+            "action_label": "Subject to Law 12.846/2013",
+            "evidence": "observar-se-ão os termos da Lei nº 12.846/2013",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_law_12846",
+          "action_label": "Observe law 12.846/2013",
+          "evidence": "observar-se-ão os termos da Lei nº 12.846/2013",
+          "confidence": 0.9,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_law_12846",
+          "action_label": "Subject to Law 12.846/2013",
+          "evidence": "observar-se-ão os termos da Lei nº 12.846/2013",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades_paragrafo_nono": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades_paragrafo_nono",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_sanction_for_fraudulent_tax_collection",
+            "action_label": "Apply sanction for tax fraud",
+            "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...fraude fiscal",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_sanction_for_frustrating_bidding_objectives",
+            "action_label": "Apply sanction for frustrating bidding",
+            "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...frustrar os objetivos da licitação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_sanction_for_lack_of_idoneity",
+            "action_label": "Apply sanction for lack of idoneity",
+            "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...não possuir idoneidade",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "disability",
+            "bearer_hint": "supplier",
+            "action_id": "receive_bndes_contract",
+            "action_label": "Cannot receive BNDES contract",
+            "evidence": "demonstrem não possuir idoneidade para contratar com o BNDES",
+            "confidence": 0.6,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_sanction_for_fraudulent_tax_collection",
+          "action_label": "Apply sanction for tax fraud",
+          "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...fraude fiscal",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_sanction_for_frustrating_bidding_objectives",
+          "action_label": "Apply sanction for frustrating bidding",
+          "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...frustrar os objetivos da licitação",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_sanction_for_lack_of_idoneity",
+          "action_label": "Apply sanction for lack of idoneity",
+          "evidence": "A sanção prevista no Inciso III desta Cláusula também poderá ser aplicada às sociedades ou profissionais que...não possuir idoneidade",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "disability",
+          "bearer_hint": "supplier",
+          "action_id": "receive_bndes_contract",
+          "action_label": "Cannot receive BNDES contract",
+          "evidence": "demonstrem não possuir idoneidade para contratar com o BNDES",
+          "confidence": 0.6,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_alteracoes_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_alteracoes_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "agree_contract_changes",
+            "action_label": "Agree to contract changes",
+            "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "request_contract_change",
+            "action_label": "Request contract change",
+            "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "preserve_financial_equilibrium",
+            "action_label": "Preserve financial equilibrium",
+            "evidence": "as alterações devem preservar o equilíbrio econômico-financeiro do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "avoid_denaturing_contract_object",
+            "action_label": "Avoid denaturing contract object",
+            "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "preserve_financial_equilibrium",
+          "action_label": "Preserve financial equilibrium",
+          "evidence": "as alterações devem preservar o equilíbrio econômico-financeiro do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "avoid_denaturing_contract_object",
+          "action_label": "Avoid denaturing contract object",
+          "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "agree_contract_changes",
+          "action_label": "Agree to contract changes",
+          "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "request_contract_change",
+          "action_label": "Request contract change",
+          "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_alteracoes_contratuais_paragrafo_primeiro": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_primeiro",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_alteration",
+            "action_label": "Formalize contract alteration",
+            "evidence": "não caberá a recusa das partes à respectiva formalização",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "refuse_contract_alteration_formalization",
+            "action_label": "Refuse contract alteration",
+            "evidence": "salvo em caso de justo motivo, devidamente comprovado",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_alteration",
+          "action_label": "Formalize contract alteration",
+          "evidence": "não caberá a recusa das partes à respectiva formalização",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "refuse_contract_alteration_formalization",
+          "action_label": "Refuse contract alteration",
+          "evidence": "salvo em caso de justo motivo, devidamente comprovado",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_alteracoes_contratuais_paragrafo_segundo": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_segundo",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "promote_contract_amendment",
+            "action_label": "Promote contract amendment",
+            "evidence": "A parte que injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior...",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "liable_for_damages_for_refusal_to_amend",
+            "action_label": "Liable for refusal to amend",
+            "evidence": "deverá responder pelos danos eventualmente causados",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "liable_for_damages_for_refusal_to_amend",
+          "action_label": "Liable for refusal to amend",
+          "evidence": "deverá responder pelos danos eventualmente causados",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "promote_contract_amendment",
+          "action_label": "Promote contract amendment",
+          "evidence": "A parte que injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior...",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_alteracoes_contratuais_paragrafo_terceiro": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_alteracoes_contratuais_paragrafo_terceiro",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_changes_via_addendum",
+            "action_label": "Formalize contract changes via addendum",
+            "evidence": "Alterações contratuais serão formalizadas mediante instrumento aditivo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_changes_via_apostille",
+            "action_label": "Formalize changes via apostille",
+            "evidence": "alteração por apostilamento",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_minor_corrections_via_letter",
+            "action_label": "Formalize minor corrections via letter",
+            "evidence": "pequenos ajustes ... que poderão ser formalizados por meio epistolar",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_changes_via_addendum",
+          "action_label": "Formalize contract changes via addendum",
+          "evidence": "Alterações contratuais serão formalizadas mediante instrumento aditivo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_minor_corrections_via_letter",
+          "action_label": "Formalize minor corrections via letter",
+          "evidence": "pequenos ajustes ... que poderão ser formalizados por meio epistolar",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_changes_via_apostille",
+          "action_label": "Formalize changes via apostille",
+          "evidence": "alteração por apostilamento",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_extincao_contrato": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_extincao_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_party_breach",
+            "action_label": "Notify breach",
+            "evidence": "cabendo à parte inocente notificar a outra por escrito",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "allow_reasonable_cure_period",
+            "action_label": "Allow cure period",
+            "evidence": "assinalando-lhe prazo razoável para o cumprimento das obrigações",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_due_suspension",
+            "action_label": "Terminate due to suspension",
+            "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_failure_bndes_release",
+            "action_label": "Terminate contract due failure BNDES release",
+            "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução, nos prazos contratuais",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_party_breach",
+          "action_label": "Notify breach",
+          "evidence": "cabendo à parte inocente notificar a outra por escrito",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_due_suspension",
+          "action_label": "Terminate due to suspension",
+          "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_failure_bndes_release",
+          "action_label": "Terminate contract due failure BNDES release",
+          "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução, nos prazos contratuais",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "allow_reasonable_cure_period",
+          "action_label": "Allow cure period",
+          "evidence": "assinalando-lhe prazo razoável para o cumprimento das obrigações",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_extincao_contrato_paragrafo_primeiro": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_extincao_contrato_paragrafo_primeiro",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "make_payment",
+            "action_label": "Make payment",
+            "evidence": "mora superior a 90 (noventa) dias",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "mora superior a 90 (noventa) dias",
+            "confidence": 0.6,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "make_payment",
+          "action_label": "Make payment",
+          "evidence": "mora superior a 90 (noventa) dias",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "mora superior a 90 (noventa) dias",
+          "confidence": 0.6,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_extincao_contrato_paragrafo_segundo": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_extincao_contrato_paragrafo_segundo",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_other_party_of_contract_termination",
+            "action_label": "Notify other party of termination",
+            "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_with_notification",
+            "action_label": "Terminate contract with notification",
+            "evidence": "casos de extinção contratual convencionados no caput desta Cláusula deverão ser precedidos de notificação escrita",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_opportunity_for_defense",
+            "action_label": "Provide opportunity for defense",
+            "evidence": "oportunidade de defesa",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_other_party_of_contract_termination",
+          "action_label": "Notify other party of termination",
+          "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_opportunity_for_defense",
+          "action_label": "Provide opportunity for defense",
+          "evidence": "oportunidade de defesa",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_with_notification",
+          "action_label": "Terminate contract with notification",
+          "evidence": "casos de extinção contratual convencionados no caput desta Cláusula deverão ser precedidos de notificação escrita",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_disposicoes_finais": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_disposicoes_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_contractual_rights",
+            "action_label": "Exercise contractual rights",
+            "evidence": "A omissão ou tolerância... não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "tolerate_non_compliance",
+            "action_label": "Tolerate non-compliance",
+            "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais... não constituirá renúncia.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_contractual_rights",
+          "action_label": "Exercise contractual rights",
+          "evidence": "A omissão ou tolerância... não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "tolerate_non_compliance",
+          "action_label": "Tolerate non-compliance",
+          "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais... não constituirá renúncia.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_foro": {
+      "raw": {
+        "clause_id": "clausula_vigesima_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "celebrate_contract",
+            "action_label": "Celebrate contract",
+            "evidence": "Reputa-se celebrado o presente contrato na data em que for registrada a última assinatura dos representantes do BNDES.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "digitally_sign_contract",
+            "action_label": "Digitally sign contract",
+            "evidence": "A assinatura dos representantes da CONTRATADA se dará de forma digital.",
+            "confidence": 0.6,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "digitally_sign_contract",
+            "action_label": "Digitally sign contract",
+            "evidence": "A assinatura dos representantes do BNDES se dará de forma digital.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "digitally_sign_contract",
+            "action_label": "Digitally sign contract",
+            "evidence": "A assinatura dos representantes do BNDES se dará de forma digital.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "celebrate_contract",
+          "action_label": "Celebrate contract",
+          "evidence": "Reputa-se celebrado o presente contrato na data em que for registrada a última assinatura dos representantes do BNDES.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "digitally_sign_contract",
+          "action_label": "Digitally sign contract",
+          "evidence": "A assinatura dos representantes da CONTRATADA se dará de forma digital.",
+          "confidence": 0.6,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "digitally_sign_contract",
+          "action_label": "Digitally sign contract",
+          "evidence": "A assinatura dos representantes do BNDES se dará de forma digital.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "digitally_sign_contract",
+          "action_label": "Digitally sign contract",
+          "evidence": "A assinatura dos representantes do BNDES se dará de forma digital.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_risks",
+            "action_label": "Bear allocated risks",
+            "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA",
+            "confidence": 0.8,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "adjustment_clause",
+            "action_label": "Subject to matrix adjustment clause",
+            "evidence": "Cláusula de Equilíbrio Econômico-Financeiro",
+            "confidence": 0.6,
+            "bearer": "softon_sistemas_inteligentes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_risks",
+          "action_label": "Bear allocated risks",
+          "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA",
+          "confidence": 0.8,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "adjustment_clause",
+          "action_label": "Subject to matrix adjustment clause",
+          "evidence": "Cláusula de Equilíbrio Econômico-Financeiro",
+          "confidence": 0.6,
+          "bearer": "softon_sistemas_inteligentes_ltda"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

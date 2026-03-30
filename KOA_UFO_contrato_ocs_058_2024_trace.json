@@ -1,0 +1,3803 @@
+{
+  "contract_id": "contrato_ocs_058_2024",
+  "source_file": "KOA_Contrato_OCS_058_2024_-_Cabine_JD_Gestao_AF.pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_058_2024",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "'33.657.248/0001-89'"
+      },
+      {
+        "agent_id": "jardim_e_macedo_2001_empreendimentos_ltda",
+        "label": "'JARDIM E MACEDO 2001 EMPREENDIMENTOS LTDA.'",
+        "cnpj": "'04.358.798/0001-07'"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_058_2024"
+      },
+      {
+        "agent_id": "jardim_e_macedo_2001_empreendimentos_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_058_2024"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "provide_subscription_service",
+      "evidence": "prestação continuada de serviços de subscrição de uma solução para operação, gerenciamento, auditoria e monitoramento",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_subscription_service",
+      "evidence": "O presente Contrato tem por objeto a prestação continuada de serviços de subscrição",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "benefit_from_contract_terms",
+      "evidence": "Contract duration is 5 years.",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "execute_object_according_specifications",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_object_execution_per_specifications",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_reduction_indices_for_non_compliance",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_service_execution_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties_for_non_compliance",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effectuate_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effectuate_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay_contracted_party",
+      "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 1.270.000,00",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 1.270.000,00",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_indemnification",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "demand_indemnification",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "bear_quantification_error_burden",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "reduce_payment_proportionally",
+      "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_payments",
+      "evidence": "Fica assegurado ao BNDES o direito de deduzir do pagamento devido ao CONTRATADO... o valor correspondente aos pagamentos efetuados a maior ou em duplicidade",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "reject_late_document",
+      "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "not_emit_non_compliant_document",
+      "evidence": "O documento fiscal ou equivalente legal emitido pelo CONTRATADO deverá estar em conformidade com a legislação... sob pena de devolução do documento",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "request_price_adjustment",
+      "evidence": "O CONTRATADO poderá requerer o reajuste de preços a cada período de 12 meses.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada mediante solicitação do CONTRATADO, quando ocorrer fato imprevisível",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "initiate_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "convene_price_reduction_negotiation",
+      "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "provide_requested_information",
+      "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "disability",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "receive_retroactive_effects",
+      "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, não fará jus aos efeitos retroativos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_price_adjustment_revision_request",
+      "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_request_analysis",
+      "evidence": "ficando este prazo suspenso, a critério do BNDES, enquanto o CONTRATADO não apresentar a documentação solicitada",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "request_price_adjustment_revision",
+      "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, garantia contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "obtain_guarantor_consent",
+      "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "notify_guarantor",
+      "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "subjection",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "penalty_for_failure_to_provide_guarantee",
+      "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "provide_additional_guarantee",
+      "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "obtain_new_guarantee",
+      "evidence": "cabe ao CONTRATADO obter nova garantia no mesmo prazo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará... garantia contratual, sob pena de aplicação de penalidade",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extend_guarantee_presentation_period",
+      "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado... desde que ocorra motivo justificado e aceito pelo BNDES.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "request_guarantee_extension",
+      "evidence": "quando solicitado pelo CONTRATADO durante o respectivo transcurso",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "maintain_conditions",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "communicate_impediment",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "repair_object",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, o objeto do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "repair_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "pay_charges_taxes",
+      "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "assume_responsibility",
+      "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "providenciar_exclusao",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "permit_inspection",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "obey_instructions",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "not_offer_advantage",
+      "evidence": "o CONTRATADO obriga-se a: I. não oferecer...qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "prevent_employee_favortism",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "prevent_family_allocation",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "observe_bndes_policies",
+      "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "adopt_sustainability_practices",
+      "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "inform_conflict_of_interest",
+      "evidence": "informar imediatamente ao BNDES a ocorrência de potencial situação de conflito de interesses",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "notify_investigations",
+      "evidence": "notificar imediatamente o BNDES sobre qualquer investigação ou procedimento iniciado by govt",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "comply_with_bndes_info_security_policy",
+      "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "not_access_confidential_info_without_authorization",
+      "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "maintain_confidentiality_of_info",
+      "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "report_breaches_of_confidentiality",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "return_bndes_property",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "observe_terms_of_confidentiality_agreement",
+      "evidence": "observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "limit_access_to_info",
+      "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "submit_confidentiality_agreements",
+      "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_obtain_consent",
+      "evidence": "o CONTRATADO, esta será realizada mediante prévia aprovação do BNDES, responsabilizando-se o CONTRATADO por obter o consentimento dos titulares",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_follow_instructions",
+      "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_maintain_confidentiality",
+      "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_securely_store_data",
+      "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_inform_employees",
+      "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_provide_data_access_channel",
+      "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_inform_bndes_of_requests",
+      "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_maintain_data_operations_record",
+      "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_report_incidents",
+      "evidence": "Qualquer incidente ao qual o CONTRATADO tiver dado causa [...] deverá ser prontamente comunicado ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "contracted_party_delete_data",
+      "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "receive_payments",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Guilherme Rebello Lamenza",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_access_to_ethics_code",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "request_access_to_ethics_code",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "receive_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions",
+      "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_irregular_conduct_investigation",
+      "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_penalty_application",
+      "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "prove_absence_of_sanctioning_decision",
+      "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_proof_of_absence_of_sanctioning_decision",
+      "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_contract_execution",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "omit_discrimination",
+      "evidence": "atos...que importem em discriminação de raça ou gênero, exploração irregular...do trabalho infantil...",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "omit_contract_cession",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "no_right_to_contract_cession",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "omit_credit_cession",
+      "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "no_right_to_credit_cession",
+      "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "omit_issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "no_right_to_issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "omit_subcontracting",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "no_right_to_subcontracting",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "proceed_with_corporate_operation",
+      "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "maintain_contractual_conditions",
+      "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "subject_to_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "não impede a extinção do Contrato pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_credits",
+      "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ele devidos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "comply_with_bndes_requirements",
+      "evidence": "descumprimento de exigência expressamente formulada pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "request_reconsideration",
+      "evidence": "o CONTRATADO poderá requerer a reconsideração",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "appeal_penalty_decision",
+      "evidence": "interpor o recurso cabível para as demais penalidades",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_contract_alteration_that_changes_contract_nature",
+      "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "not_modify_contract_nature",
+      "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "no_right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "not_refuse_to_formalize_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "answer_for_damages",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "agree_to_contract_alteration",
+      "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "alter_contract",
+      "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "The contract may be terminated based on law and specific reasons with BNDES's written authorization.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_breach",
+      "evidence": "inadimplemento total ou parcial de qualquer de suas obrigações, cabendo à parte inocente notificar a outra por escrito",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_written_notification",
+      "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_opportunity_of_defense",
+      "evidence": "e de oportunidade de defesa",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_by_mutual_agreement",
+      "evidence": "Consensually, formalised in written authorization and grounded by BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_non_release",
+      "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_suspension",
+      "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_bankruptcy",
+      "evidence": "quando for decretada a falência do CONTRATADO",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_lack_of_qualification",
+      "evidence": "caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_illegal_act",
+      "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_disposições_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_disposições_finais",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_from_demanding_strict_compliance",
+      "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais ... não constituirá renúncia",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_disposições_finais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+      "confidence": 0.4
+    },
+    {
+      "clause_id": "clausula_vigésima_segunda_foro",
+      "legal_moment_class": "power",
+      "bearer": "unknown",
+      "action_id": "resolve_litigations",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_segunda_foro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unknown",
+      "action_id": "resolve_litigations_other_forums",
+      "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "omit_additives_for_allocated_events",
+      "evidence": "'aditivos decorrentes de eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "respect_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "jardim_e_macedo_2001_empreendimentos_ltda",
+      "action_id": "no_right_to_create_additives",
+      "evidence": "'aditivos decorrentes de eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "enforce_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.7
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_subscription_service",
+            "action_label": "Provide subscription service",
+            "evidence": "prestação continuada de serviços de subscrição de uma solução para operação, gerenciamento, auditoria e monitoramento",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_subscription_service",
+            "action_label": "Demand subscription service",
+            "evidence": "O presente Contrato tem por objeto a prestação continuada de serviços de subscrição",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_subscription_service",
+          "action_label": "Provide subscription service",
+          "evidence": "prestação continuada de serviços de subscrição de uma solução para operação, gerenciamento, auditoria e monitoramento",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_subscription_service",
+          "action_label": "Demand subscription service",
+          "evidence": "O presente Contrato tem por objeto a prestação continuada de serviços de subscrição",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "benefit_from_contract_terms",
+            "action_label": "Benefit from contract terms",
+            "evidence": "Contract duration is 5 years.",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "benefit_from_contract_terms",
+          "action_label": "Benefit from contract terms",
+          "evidence": "Contract duration is 5 years.",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_object_according_specifications",
+            "action_label": "Execute object per specifications",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_object_execution_per_specifications",
+            "action_label": "Expect execution per specifications",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_object_according_specifications",
+          "action_label": "Execute object per specifications",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_object_execution_per_specifications",
+          "action_label": "Expect execution per specifications",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services according to standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_service_execution_according_to_standards",
+            "action_label": "Demand service execution",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "apply_reduction_indices_for_non_compliance",
+            "action_label": "Apply reduction indices",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties_for_non_compliance",
+            "action_label": "Apply penalties for non-compliance",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services according to standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "apply_reduction_indices_for_non_compliance",
+          "action_label": "Apply reduction indices",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_service_execution_according_to_standards",
+          "action_label": "Demand service execution",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties_for_non_compliance",
+          "action_label": "Apply penalties for non-compliance",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effectuate_object_receipt",
+            "action_label": "Effectuate object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "effectuate_object_receipt",
+            "action_label": "Effectuate object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effectuate_object_receipt",
+          "action_label": "Effectuate object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "effectuate_object_receipt",
+          "action_label": "Effectuate object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pay_contracted_party",
+            "action_label": "Pay the contracted party",
+            "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 1.270.000,00",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 1.270.000,00",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "reduce_payment_proportionally",
+            "action_label": "Reduce payment proportionally",
+            "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "bndes",
+            "action_id": "omit_indemnification",
+            "action_label": "Omit indemnification",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_indemnification",
+            "action_label": "Demand indemnification",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_quantification_error_burden",
+            "action_label": "Bear quantification error burden",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "pay_contracted_party",
+          "action_label": "Pay the contracted party",
+          "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 1.270.000,00",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 1.270.000,00",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "bndes",
+          "action_id": "omit_indemnification",
+          "action_label": "Omit indemnification",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_indemnification",
+          "action_label": "Demand indemnification",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_quantification_error_burden",
+          "action_label": "Bear quantification error burden",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "reduce_payment_proportionally",
+          "action_label": "Reduce payment proportionally",
+          "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_payment",
+            "action_label": "Effect payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+            "confidence": 0.7,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "reject_late_document",
+            "action_label": "Reject late document",
+            "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_payments",
+            "action_label": "Deduct payments",
+            "evidence": "Fica assegurado ao BNDES o direito de deduzir do pagamento devido ao CONTRATADO... o valor correspondente aos pagamentos efetuados a maior ou em duplicidade",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_emit_non_compliant_document",
+            "action_label": "Not emit non-compliant document",
+            "evidence": "O documento fiscal ou equivalente legal emitido pelo CONTRATADO deverá estar em conformidade com a legislação... sob pena de devolução do documento",
+            "confidence": 0.6,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_payment",
+          "action_label": "Effect payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_payments",
+          "action_label": "Deduct payments",
+          "evidence": "Fica assegurado ao BNDES o direito de deduzir do pagamento devido ao CONTRATADO... o valor correspondente aos pagamentos efetuados a maior ou em duplicidade",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+          "confidence": 0.7,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "reject_late_document",
+          "action_label": "Reject late document",
+          "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_emit_non_compliant_document",
+          "action_label": "Not emit non-compliant document",
+          "evidence": "O documento fiscal ou equivalente legal emitido pelo CONTRATADO deverá estar em conformidade com a legislação... sob pena de devolução do documento",
+          "confidence": 0.6,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment",
+            "action_label": "Request price adjustment",
+            "evidence": "O CONTRATADO poderá requerer o reajuste de preços a cada período de 12 meses.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada mediante solicitação do CONTRATADO, quando ocorrer fato imprevisível",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "initiate_price_revision",
+            "action_label": "Initiate price revision",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "convene_price_reduction_negotiation",
+            "action_label": "Convene negotiation for price reduction",
+            "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_requested_information",
+            "action_label": "Provide requested information",
+            "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment_revision",
+            "action_label": "Request price adjustment/revision before contract end",
+            "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "disability",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_retroactive_effects",
+            "action_label": "Receive retroactive financial effects",
+            "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, não fará jus aos efeitos retroativos",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_price_adjustment_revision_request",
+            "action_label": "Analyze price adjustment/revision request",
+            "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_request_analysis",
+            "action_label": "Suspend request analysis",
+            "evidence": "ficando este prazo suspenso, a critério do BNDES, enquanto o CONTRATADO não apresentar a documentação solicitada",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment",
+          "action_label": "Request price adjustment",
+          "evidence": "O CONTRATADO poderá requerer o reajuste de preços a cada período de 12 meses.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada mediante solicitação do CONTRATADO, quando ocorrer fato imprevisível",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "initiate_price_revision",
+          "action_label": "Initiate price revision",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "convene_price_reduction_negotiation",
+          "action_label": "Convene negotiation for price reduction",
+          "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_requested_information",
+          "action_label": "Provide requested information",
+          "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "disability",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_retroactive_effects",
+          "action_label": "Receive retroactive financial effects",
+          "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, não fará jus aos efeitos retroativos",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_price_adjustment_revision_request",
+          "action_label": "Analyze price adjustment/revision request",
+          "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_request_analysis",
+          "action_label": "Suspend request analysis",
+          "evidence": "ficando este prazo suspenso, a critério do BNDES, enquanto o CONTRATADO não apresentar a documentação solicitada",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment_revision",
+          "action_label": "Request price adjustment/revision before contract end",
+          "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, garantia contratual",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "penalty_for_failure_to_provide_guarantee",
+            "action_label": "Subject to penalty for not providing guarantee",
+            "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_contractual_guarantee",
+            "action_label": "Demand contractual guarantee",
+            "evidence": "O CONTRATADO prestará... garantia contratual, sob pena de aplicação de penalidade",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extend_guarantee_presentation_period",
+            "action_label": "Extend guarantee presentation period",
+            "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado... desde que ocorra motivo justificado e aceito pelo BNDES.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_guarantee_extension",
+            "action_label": "Request guarantee extension",
+            "evidence": "quando solicitado pelo CONTRATADO durante o respectivo transcurso",
+            "confidence": 0.6,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_additional_guarantee",
+            "action_label": "Provide additional guarantee",
+            "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_consent",
+            "action_label": "Obtain guarantor consent",
+            "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_new_guarantee",
+            "action_label": "Obtain new guarantee",
+            "evidence": "cabe ao CONTRATADO obter nova garantia no mesmo prazo",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_guarantor",
+            "action_label": "Notify guarantor",
+            "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, garantia contratual",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_consent",
+          "action_label": "Obtain guarantor consent",
+          "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "notify_guarantor",
+          "action_label": "Notify guarantor",
+          "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "penalty_for_failure_to_provide_guarantee",
+          "action_label": "Subject to penalty for not providing guarantee",
+          "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_additional_guarantee",
+          "action_label": "Provide additional guarantee",
+          "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_new_guarantee",
+          "action_label": "Obtain new guarantee",
+          "evidence": "cabe ao CONTRATADO obter nova garantia no mesmo prazo",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_contractual_guarantee",
+          "action_label": "Demand contractual guarantee",
+          "evidence": "O CONTRATADO prestará... garantia contratual, sob pena de aplicação de penalidade",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extend_guarantee_presentation_period",
+          "action_label": "Extend guarantee presentation period",
+          "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado... desde que ocorra motivo justificado e aceito pelo BNDES.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_guarantee_extension",
+          "action_label": "Request guarantee extension",
+          "evidence": "quando solicitado pelo CONTRATADO durante o respectivo transcurso",
+          "confidence": 0.6,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigações_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigações_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_conditions",
+            "action_label": "Maintain habilitation conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_impediment",
+            "action_label": "Communicate impediment to contract",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_object",
+            "action_label": "Repair object",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, o objeto do Contrato",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages",
+            "action_label": "Repair damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_charges_taxes",
+            "action_label": "Pay charges and taxes",
+            "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_responsibility",
+            "action_label": "Assume responsibility for charges",
+            "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "providenciar_exclusao",
+            "action_label": "Exclusion from Simples Nacional",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "permit_inspection",
+            "action_label": "Permit inspection",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions",
+            "action_label": "Obey instructions",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_dif",
+            "action_label": "Present DIF",
+            "evidence": "apresentar, em até 10 (dez) dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guarantee_no_infringement",
+            "action_label": "Guarantee no infringement",
+            "evidence": "garantir que o objeto do Contrato não infringe quaisquer direitos autorais, patentes ou registros",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_security_norms",
+            "action_label": "Comply with security norms",
+            "evidence": "responsabilizar-se pelo cumprimento das normas de segurança das dependências do BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_conditions",
+          "action_label": "Maintain habilitation conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_impediment",
+          "action_label": "Communicate impediment to contract",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_object",
+          "action_label": "Repair object",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, o objeto do Contrato",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages",
+          "action_label": "Repair damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_charges_taxes",
+          "action_label": "Pay charges and taxes",
+          "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "assume_responsibility",
+          "action_label": "Assume responsibility for charges",
+          "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "providenciar_exclusao",
+          "action_label": "Exclusion from Simples Nacional",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "permit_inspection",
+          "action_label": "Permit inspection",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_instructions",
+          "action_label": "Obey instructions",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_conduta_etica_contratado_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "o CONTRATADO obriga-se a: I. não oferecer...qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_employee_favortism",
+            "action_label": "Prevent employee favoritism",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_family_allocation",
+            "action_label": "Prevent family allocation",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_bndes_policies",
+            "action_label": "Observe BNDES policies",
+            "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainability_practices",
+            "action_label": "Adopt sustainability practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_conflict_of_interest",
+            "action_label": "Inform conflict of interest",
+            "evidence": "informar imediatamente ao BNDES a ocorrência de potencial situação de conflito de interesses",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_investigations",
+            "action_label": "Notify investigations",
+            "evidence": "notificar imediatamente o BNDES sobre qualquer investigação ou procedimento iniciado by govt",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "o CONTRATADO obriga-se a: I. não oferecer...qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_employee_favortism",
+          "action_label": "Prevent employee favoritism",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_family_allocation",
+          "action_label": "Prevent family allocation",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_bndes_policies",
+          "action_label": "Observe BNDES policies",
+          "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_sustainability_practices",
+          "action_label": "Adopt sustainability practices",
+          "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_conflict_of_interest",
+          "action_label": "Inform conflict of interest",
+          "evidence": "informar imediatamente ao BNDES a ocorrência de potencial situação de conflito de interesses",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "notify_investigations",
+          "action_label": "Notify investigations",
+          "evidence": "notificar imediatamente o BNDES sobre qualquer investigação ou procedimento iniciado by govt",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_sigilo_informacoes": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_info_security_policy",
+            "action_label": "Comply with BNDES security policy",
+            "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_access_confidential_info_without_authorization",
+            "action_label": "Do not access confidential info without authorization",
+            "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality_of_info",
+            "action_label": "Maintain confidentiality of information",
+            "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_access_to_info",
+            "action_label": "Limit access to information",
+            "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "report_breaches_of_confidentiality",
+            "action_label": "Report breaches of confidentiality",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_bndes_property",
+            "action_label": "Return BNDES property",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "submit_confidentiality_agreements",
+            "action_label": "Submit confidentiality agreements",
+            "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_terms_of_confidentiality_agreement",
+            "action_label": "Observe confidentiality agreement",
+            "evidence": "observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_info_security_policy",
+          "action_label": "Comply with BNDES security policy",
+          "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_access_confidential_info_without_authorization",
+          "action_label": "Do not access confidential info without authorization",
+          "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality_of_info",
+          "action_label": "Maintain confidentiality of information",
+          "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "report_breaches_of_confidentiality",
+          "action_label": "Report breaches of confidentiality",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "return_bndes_property",
+          "action_label": "Return BNDES property",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_terms_of_confidentiality_agreement",
+          "action_label": "Observe confidentiality agreement",
+          "evidence": "observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_access_to_info",
+          "action_label": "Limit access to information",
+          "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "submit_confidentiality_agreements",
+          "action_label": "Submit confidentiality agreements",
+          "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_acesso_protecao_dados_pessoais": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_obtain_consent",
+            "action_label": "Obtain consent",
+            "evidence": "o CONTRATADO, esta será realizada mediante prévia aprovação do BNDES, responsabilizando-se o CONTRATADO por obter o consentimento dos titulares",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_follow_instructions",
+            "action_label": "Follow instructions",
+            "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_securely_store_data",
+            "action_label": "Securely store data",
+            "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_inform_employees",
+            "action_label": "Inform employees",
+            "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_provide_data_access_channel",
+            "action_label": "Provide data access channel",
+            "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_inform_bndes_of_requests",
+            "action_label": "Inform BNDES of requests",
+            "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_maintain_data_operations_record",
+            "action_label": "Maintain data operations record",
+            "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_report_incidents",
+            "action_label": "Report incidents",
+            "evidence": "Qualquer incidente ao qual o CONTRATADO tiver dado causa [...] deverá ser prontamente comunicado ao BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_delete_data",
+            "action_label": "Delete data",
+            "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "parties_collect_consent",
+            "action_label": "Collect consent",
+            "evidence": "As partes comprometem-se a coletar o consentimento, quando necessário",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_right_of_regress",
+            "action_label": "Right of regress",
+            "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos causados por este",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_treatment_of_data",
+            "action_label": "Data treatment by BNDES",
+            "evidence": "para tratamento pelo BNDES, na forma da Lei nº 13.709/2018",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "parties_omit_to_share_data_without_authorization",
+            "action_label": "Do not share data without authorization",
+            "evidence": "em hipótese alguma, poderão ser compartilhados ou utilizados para outros fins, sem a prévia autorização do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_obtain_consent",
+          "action_label": "Obtain consent",
+          "evidence": "o CONTRATADO, esta será realizada mediante prévia aprovação do BNDES, responsabilizando-se o CONTRATADO por obter o consentimento dos titulares",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_follow_instructions",
+          "action_label": "Follow instructions",
+          "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_maintain_confidentiality",
+          "action_label": "Maintain confidentiality",
+          "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_securely_store_data",
+          "action_label": "Securely store data",
+          "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_inform_employees",
+          "action_label": "Inform employees",
+          "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_provide_data_access_channel",
+          "action_label": "Provide data access channel",
+          "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_inform_bndes_of_requests",
+          "action_label": "Inform BNDES of requests",
+          "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_maintain_data_operations_record",
+          "action_label": "Maintain data operations record",
+          "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_report_incidents",
+          "action_label": "Report incidents",
+          "evidence": "Qualquer incidente ao qual o CONTRATADO tiver dado causa [...] deverá ser prontamente comunicado ao BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_delete_data",
+          "action_label": "Delete data",
+          "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_obrigações_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_obrigações_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments",
+            "action_label": "Make payments to contractor",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments",
+            "action_label": "Receive payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, Guilherme Rebello Lamenza",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "alter_contract_manager",
+            "action_label": "Alter contract manager",
+            "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_access_to_ethics_code",
+            "action_label": "Provide access to ethics code",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_access_to_ethics_code",
+            "action_label": "Request access to ethics code",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_necessary_information",
+            "action_label": "Receive necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_irregular_conduct_investigation",
+            "action_label": "Communicate investigation",
+            "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalty_application",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments",
+          "action_label": "Make payments to contractor",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments",
+          "action_label": "Receive payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, Guilherme Rebello Lamenza",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_access_to_ethics_code",
+          "action_label": "Provide access to ethics code",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_access_to_ethics_code",
+          "action_label": "Request access to ethics code",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_necessary_information",
+          "action_label": "Receive necessary information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_irregular_conduct_investigation",
+          "action_label": "Communicate investigation",
+          "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_penalty_application",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_equidade_genero_valorizacao_diversidade": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prove_absence_of_sanctioning_decision",
+            "action_label": "Prove no sanctioning decision exists",
+            "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_proof_of_absence_of_sanctioning_decision",
+            "action_label": "Request proof of no sanctioning decision",
+            "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract_execution",
+            "action_label": "Suspend contract execution",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_discrimination",
+            "action_label": "Omit discrimination",
+            "evidence": "atos...que importem em discriminação de raça ou gênero, exploração irregular...do trabalho infantil...",
+            "confidence": 0.7,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prove_absence_of_sanctioning_decision",
+          "action_label": "Prove no sanctioning decision exists",
+          "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_proof_of_absence_of_sanctioning_decision",
+          "action_label": "Request proof of no sanctioning decision",
+          "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_contract_execution",
+          "action_label": "Suspend contract execution",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_discrimination",
+          "action_label": "Omit discrimination",
+          "evidence": "atos...que importem em discriminação de raça ou gênero, exploração irregular...do trabalho infantil...",
+          "confidence": 0.7,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_cessão_contrato_credito_sucessão_subcontratação",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_contract_cession",
+            "action_label": "Omit contract cession",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_contract_cession",
+            "action_label": "No right to contract cession",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_credit_cession",
+            "action_label": "Omit credit cession",
+            "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_credit_cession",
+            "action_label": "No right to credit cession",
+            "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_issue_credit_title",
+            "action_label": "Omit issue of credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_issue_credit_title",
+            "action_label": "No right to issue credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "proceed_with_corporate_operation",
+            "action_label": "Proceed with corporate operation",
+            "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+            "confidence": 0.7,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_contractual_conditions",
+            "action_label": "Maintain contractual conditions",
+            "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+            "confidence": 0.7,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_subcontracting",
+            "action_label": "Omit subcontracting",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_subcontracting",
+            "action_label": "No right to subcontracting",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_contract_cession",
+          "action_label": "Omit contract cession",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_contract_cession",
+          "action_label": "No right to contract cession",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_credit_cession",
+          "action_label": "Omit credit cession",
+          "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_credit_cession",
+          "action_label": "No right to credit cession",
+          "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_issue_credit_title",
+          "action_label": "Omit issue of credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_issue_credit_title",
+          "action_label": "No right to issue credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_subcontracting",
+          "action_label": "Omit subcontracting",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_subcontracting",
+          "action_label": "No right to subcontracting",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "proceed_with_corporate_operation",
+          "action_label": "Proceed with corporate operation",
+          "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+          "confidence": 0.7,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_contractual_conditions",
+          "action_label": "Maintain contractual conditions",
+          "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+          "confidence": 0.7,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_requirements",
+            "action_label": "Comply with BNDES requirements",
+            "evidence": "descumprimento de exigência expressamente formulada pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subject_to_penalties",
+            "action_label": "Subject to penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_reconsideration",
+            "action_label": "Request reconsideration",
+            "evidence": "o CONTRATADO poderá requerer a reconsideração",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "appeal_penalty_decision",
+            "action_label": "Appeal penalty decision",
+            "evidence": "interpor o recurso cabível para as demais penalidades",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_credits",
+            "action_label": "Deduct credits",
+            "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ele devidos",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subject_to_penalties",
+          "action_label": "Subject to penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "não impede a extinção do Contrato pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_credits",
+          "action_label": "Deduct credits",
+          "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ele devidos",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_requirements",
+          "action_label": "Comply with BNDES requirements",
+          "evidence": "descumprimento de exigência expressamente formulada pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_reconsideration",
+          "action_label": "Request reconsideration",
+          "evidence": "o CONTRATADO poderá requerer a reconsideração",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "appeal_penalty_decision",
+          "action_label": "Appeal penalty decision",
+          "evidence": "interpor o recurso cabível para as demais penalidades",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_alterações_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_alterações_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "agree_to_contract_alteration",
+            "action_label": "Agree to contract alteration",
+            "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "alter_contract",
+            "action_label": "Alter contract",
+            "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_alteration",
+            "action_label": "Formalize contract alteration",
+            "evidence": "não caberá a recusa das partes à respectiva formalização",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "not_refuse_to_formalize_alteration",
+            "action_label": "Not refuse to formalize alteration",
+            "evidence": "não caberá a recusa das partes à respectiva formalização",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_contract_alteration_that_changes_contract_nature",
+            "action_label": "Omit alteration that changes contract nature",
+            "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "not_modify_contract_nature",
+            "action_label": "Not modify contract nature",
+            "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "answer_for_damages",
+            "action_label": "Answer for damages",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_contract_alteration_that_changes_contract_nature",
+          "action_label": "Omit alteration that changes contract nature",
+          "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "not_modify_contract_nature",
+          "action_label": "Not modify contract nature",
+          "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_alteration",
+          "action_label": "Formalize contract alteration",
+          "evidence": "não caberá a recusa das partes à respectiva formalização",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "not_refuse_to_formalize_alteration",
+          "action_label": "Not refuse to formalize alteration",
+          "evidence": "não caberá a recusa das partes à respectiva formalização",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "answer_for_damages",
+          "action_label": "Answer for damages",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "agree_to_contract_alteration",
+          "action_label": "Agree to contract alteration",
+          "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "alter_contract",
+          "action_label": "Alter contract",
+          "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_extinção_contrato": {
+      "raw": {
+        "clause_id": "clausula_vigésima_extinção_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "The contract may be terminated based on law and specific reasons with BNDES's written authorization.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_by_mutual_agreement",
+            "action_label": "Terminate by mutual agreement",
+            "evidence": "Consensually, formalised in written authorization and grounded by BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_breach",
+            "action_label": "Terminate for breach",
+            "evidence": "inadimplemento total ou parcial de qualquer de suas obrigações, cabendo à parte inocente notificar a outra por escrito",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_due_to_non_release",
+            "action_label": "Terminate due to non-release",
+            "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_due_to_suspension",
+            "action_label": "Terminate due to suspension",
+            "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_bankruptcy",
+            "action_label": "Terminate due to bankruptcy",
+            "evidence": "quando for decretada a falência do CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_lack_of_qualification",
+            "action_label": "Terminate due to lack of qualification",
+            "evidence": "caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_illegal_act",
+            "action_label": "Terminate due to illegal act",
+            "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_dissolution",
+            "action_label": "Terminate due to dissolution",
+            "evidence": "em razão da dissolução do CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_force_majeure",
+            "action_label": "Terminate due to force majeure",
+            "evidence": "quando da ocorrência de caso fortuito ou de força maior",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_written_notification",
+            "action_label": "Provide written notification",
+            "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_opportunity_of_defense",
+            "action_label": "Provide opportunity for defense",
+            "evidence": "e de oportunidade de defesa",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "The contract may be terminated based on law and specific reasons with BNDES's written authorization.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_breach",
+          "action_label": "Terminate for breach",
+          "evidence": "inadimplemento total ou parcial de qualquer de suas obrigações, cabendo à parte inocente notificar a outra por escrito",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_written_notification",
+          "action_label": "Provide written notification",
+          "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_opportunity_of_defense",
+          "action_label": "Provide opportunity for defense",
+          "evidence": "e de oportunidade de defesa",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_by_mutual_agreement",
+          "action_label": "Terminate by mutual agreement",
+          "evidence": "Consensually, formalised in written authorization and grounded by BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_due_to_non_release",
+          "action_label": "Terminate due to non-release",
+          "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_due_to_suspension",
+          "action_label": "Terminate due to suspension",
+          "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_bankruptcy",
+          "action_label": "Terminate due to bankruptcy",
+          "evidence": "quando for decretada a falência do CONTRATADO",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_lack_of_qualification",
+          "action_label": "Terminate due to lack of qualification",
+          "evidence": "caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_illegal_act",
+          "action_label": "Terminate due to illegal act",
+          "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_primeira_disposições_finais": {
+      "raw": {
+        "clause_id": "clausula_vigésima_primeira_disposições_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights",
+            "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights",
+            "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+            "confidence": 0.4,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_from_demanding_strict_compliance",
+            "action_label": "Omit demanding compliance",
+            "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais ... não constituirá renúncia",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights",
+          "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_from_demanding_strict_compliance",
+          "action_label": "Omit demanding compliance",
+          "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais ... não constituirá renúncia",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights",
+          "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+          "confidence": 0.4,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_segunda_foro": {
+      "raw": {
+        "clause_id": "clausula_vigésima_segunda_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "unknown",
+            "action_id": "resolve_litigations",
+            "action_label": "Resolve litigations",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+            "confidence": 0.7,
+            "bearer": "unknown"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "unknown",
+            "action_id": "resolve_litigations_other_forums",
+            "action_label": "Resolve litigations in other forums",
+            "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+            "confidence": 0.7,
+            "bearer": "unknown"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "unknown",
+          "action_id": "resolve_litigations",
+          "action_label": "Resolve litigations",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+          "confidence": 0.7,
+          "bearer": "unknown"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "unknown",
+          "action_id": "resolve_litigations_other_forums",
+          "action_label": "Resolve litigations in other forums",
+          "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+          "confidence": 0.7,
+          "bearer": "unknown"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_economic_financial_equilibrium_clause",
+            "action_label": "Respect economic-financial equilibrium clause.",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "enforce_economic_financial_equilibrium_clause",
+            "action_label": "Enforce economic-financial equilibrium clause.",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_additives_for_allocated_events",
+            "action_label": "Omit additives for allocated events.",
+            "evidence": "'aditivos decorrentes de eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.9,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_create_additives",
+            "action_label": "No right to create additives.",
+            "evidence": "'aditivos decorrentes de eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.8,
+            "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_additives_for_allocated_events",
+          "action_label": "Omit additives for allocated events.",
+          "evidence": "'aditivos decorrentes de eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.9,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_economic_financial_equilibrium_clause",
+          "action_label": "Respect economic-financial equilibrium clause.",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_create_additives",
+          "action_label": "No right to create additives.",
+          "evidence": "'aditivos decorrentes de eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.8,
+          "bearer": "jardim_e_macedo_2001_empreendimentos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "enforce_economic_financial_equilibrium_clause",
+          "action_label": "Enforce economic-financial equilibrium clause.",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

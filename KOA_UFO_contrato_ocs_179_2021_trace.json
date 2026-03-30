@@ -1,0 +1,3774 @@
+{
+  "contract_id": "contrato_ocs_179_2021",
+  "source_file": "KOA_Contrato_OCS_179_2021_-_ZIVA_(Solução_unificada_LAN_e_WLAN).pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_179_2021",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "'33.657.248/0001-89'"
+      },
+      {
+        "agent_id": "ziva_tecnologia_e_solucoes_ltda",
+        "label": "'ZIVA TECNOLOGIA E SOLUÇÕES LTDA.'",
+        "cnpj": "'05.816.526/0001-68'"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_179_2021"
+      },
+      {
+        "agent_id": "ziva_tecnologia_e_solucoes_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_179_2021"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "provide_unified_network_solution",
+      "evidence": "O presente Contrato tem por objeto a aquisição de solução unificada de rede sem fio (WLAN ...)",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_unified_network_solution",
+      "evidence": "O presente Contrato tem por objeto a aquisição de solução unificada de rede sem fio (WLAN ...)",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "execute_supply_and_implementation",
+      "evidence": "execução do fornecimento e implantação da solução, incluindo todas as fases até a emissão do Termo de Recebimento Definitivo",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "provide_continued_services",
+      "evidence": "prestação dos serviços continuados (assistência técnica/suporte) e sob demanda (treinamento)",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_supply_and_implementation",
+      "evidence": "execução do fornecimento e implantação da solução, incluindo todas as fases até a emissão do Termo de Recebimento Definitivo",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_continued_services",
+      "evidence": "prestação dos serviços continuados (assistência técnica/suporte) e sob demanda (treinamento)",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "execute_service_according_to_proposal_and_reference",
+      "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do respectivo Termo de Referência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_service_execution_according_to_proposal_and_reference",
+      "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do respectivo Termo de Referência",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "execute_service_according_to_standards",
+      "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_service_according_to_standards",
+      "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "price_reduction_due_to_non_compliance",
+      "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "impose_price_reduction_due_to_non_compliance",
+      "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "suffer_penalties_for_non_compliance",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "impose_penalties_for_non_compliance",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "receive_indemnization",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "bear_dimensioning_burdens",
+      "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "values_proportionally_reduced",
+      "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "execute_contract_object",
+      "evidence": "O BNDES pagará à CONTRATADA, pela execução do objeto contratado, o valor de até R$ 10.972.443,73",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_contract_object",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, a cada entrega, por meio de crédito em conta bancária",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, a cada entrega, por meio de crédito em conta bancária",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "send_fiscal_document",
+      "evidence": "a CONTRATADA deverá encaminhar 1 (uma) via do documento fiscal ou equivalente legal ao sistema de captação de notas fiscais eletrônicas do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_amounts",
+      "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "payments_subject_to_tax_withholding",
+      "evidence": "Os pagamentos a serem efetuados em favor da CONTRATADA estarão sujeitos, no que couber, às retenções de tributos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "request_price_readjustment",
+      "evidence": "O reajuste de preços (...) poderá ser requerido pelo CONTRATADO a cada período de 12 (doze) meses",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "disability",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "claim_retroactive_price_adjustment_or_revision",
+      "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, não fará jus aos efeitos retroativos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada (...) mediante solicitação do CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "request_price_revisions_or_readjustments",
+      "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "provide_supporting_documentation",
+      "evidence": "o CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_request_analysis",
+      "evidence": "ficando este prazo suspenso, a critério do BNDES, enquanto o CONTRATADO não apresentar a documentação solicitada",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "initiate_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "present_information_for_price_reduction",
+      "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "negotiate_price_reduction",
+      "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_price_adjustment_revision_request",
+      "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "A CONTRATADA prestará garantia contratual, no prazo de até 10 (dez) dias úteis, contados da convocação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "complement_guarantee",
+      "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia prestada",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "obtain_guarantor_consent",
+      "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "obtain_new_guarantee",
+      "evidence": "cabe à CONTRATADA obter nova garantia no mesmo prazo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalty",
+      "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "maintain_qualification",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação e qualificação exigidas quando da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "communicate_penalty",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "repair_contract_object",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "repair_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "pay_taxes",
+      "evidence": "pagar todos os encargos e tributos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "provide_exclusion_proof",
+      "evidence": "providenciar, perante a Receita Federal do Brasil – RFB, comprovando ao BNDES, sua exclusão obrigatória do  Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "allow_inspections",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "obey_bndes_instructions",
+      "evidence": "obedecer às instruções e aos procedimentos estabelecidos pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "appoint_representative",
+      "evidence": "designar 1 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratada",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "allow_central_bank_access",
+      "evidence": "permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "maintain_integrity",
+      "evidence": "A CONTRATADA compromete-se a manter a integridade nas relações público-privadas, agindo de boa-fé.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "maintain_integrity",
+      "evidence": "o BNDES compromete-se a manter a integridade nas relações público-privadas, agindo de boa-fé.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "A CONTRATADA obriga-se a: I. não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "prevent_employee_favortism",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES na execução do objeto do presente Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "not_allocate_family_members",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "observe_code_of_ethics",
+      "evidence": "observar o Código de Ética do Sistema BNDES vigente ao tempo da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "adopt_good_sustainability_practices",
+      "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "cumprir_regras_de_sigilo",
+      "evidence": "Cabe à CONTRATADA cumprir as seguintes regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "cumprir_diretrizes_de_seguranca",
+      "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "nao_acessar_informacoes_sigilosas",
+      "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "manter_sigilo_das_informacoes",
+      "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "informar_violacao_de_sigilo",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "entregar_materiais_ao_bndes",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "nao_utilizar_informacao_sigilosa",
+      "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "apresentar_termos_de_confidencialidade",
+      "evidence": "apresentar, antes do início da prestação do serviço, Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "observar_termo_de_confidencialidade",
+      "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "assegurar_adesao_da_equipe",
+      "evidence": "assegurar a aceitação e adesão às mesmas por profissionais que integrem ou venham a integrar a sua equipe",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contratada",
+      "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Renato Soffiatti",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_administrative_procedure",
+      "evidence": "comunicar à CONTRATADA, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_penalty_application",
+      "evidence": "comunicar à CONTRATADA, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "receive_payments_from_bndes",
+      "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "modify_contract_manager",
+      "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_code_of_ethics",
+      "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "receive_necessary_information",
+      "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions_procedures",
+      "evidence": "comunicar à CONTRATADA, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "omit_contract_cession",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "omit_credit_cession",
+      "evidence": "É vedada ... de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "omit_issuing_credit_titles",
+      "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito em razão do mesmo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "omit_contractual_succession",
+      "evidence": "É vedada a sucessão contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "obtain_bndes_agreement",
+      "evidence": "condicionada aos seguintes requisitos: I. aquiescência prévia do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "maintain_contract_conditions",
+      "evidence": "II. manutenção de todas as condições contratuais e requisitos de habilitação originais",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "subcontract_object",
+      "evidence": "É admitida a subcontratação da parcela do objeto deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "obtain_bndes_agreement_subcontract",
+      "evidence": "condicionada à aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "be_responsible_to_bndes",
+      "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "sujeitando-se, inclusive, às penalidades previstas neste Contrato, na hipótese de não cumprir as obrigações ora pactuadas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "defend_against_penalties",
+      "evidence": "desde que assegurados o contraditório e a ampla defesa, facultada à CONTRATADA a defesa prévia",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "observe_laws",
+      "evidence": "No caso de uso indevido de informações sigilosas, observar-se-ão, no que couber, os termos da Lei nº 12.527/2011",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "alter_contract",
+      "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "no_right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_formalizing_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "compensate_damages",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "compensate_damages_due_to_refusal",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_alterações_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_alteration_via_epistolary",
+      "evidence": "pequenos ajustes necessários ... poderão ser formalizados por meio epistolar",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_written_notification",
+      "evidence": "Os casos de extinção contratual... deverão ser precedidos de notificação escrita à outra parte",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_opportunity_to_defend",
+      "evidence": "oportunidade de defesa",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_breaching_party",
+      "evidence": "cabendo à parte inocente notificar a outra por escrito",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_contractor_bankruptcy",
+      "evidence": "quando for decretada a falência da CONTRATADA",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_loss_qualification",
+      "evidence": "caso a CONTRATADA perca uma das condições de habilitação exigidas quando da contratação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_unlawful_act",
+      "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública... cometido pela CONTRATADA",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_compliance",
+      "evidence": "assinalando-lhe prazo razoável para o cumprimento das obrigações",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_suspension",
+      "evidence": "suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_cessao_descumprimento",
+      "evidence": "descumprimento do previsto na Cláusula de Cessão de Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "adopt_data_security_measures",
+      "evidence": "As partes [...] devendo, para tanto, adotar medidas de segurança sob o aspecto técnico, jurídico e administrativo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "obtain_consent_data_owners",
+      "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispensa tal medida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "omit_share_data_without_consent",
+      "evidence": "em hipótese alguma, poderão ser compartilhados ou utilizados para outros fins, sem a prévia instrução do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "inform_bndes_data_requests",
+      "evidence": "o CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos pelo titular dos dados",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "maintain_data_operation_records",
+      "evidence": "o CONTRATADO deverá manter registro das operações de tratamento de dados pessoais que realizar",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "communicate_data_breaches",
+      "evidence": "qualquer incidente que implique em violação ou risco de violação de dados pessoais deverá ser prontamente comunicado ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "eliminate_data_after_contract",
+      "evidence": "ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "provide_data_access_to_owner",
+      "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado canal em que seja garantida consulta facilitada e gratuita sobre [...] seus dados pessoais.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "ensure_data_security",
+      "evidence": "o CONTRATADO que utilizará recursos de segurança da informação e tecnologia seguros, inclusive quanto a mecanismos de detecção e prevenção de ataques cibernéticos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "follow_bndes_instructions_data_requests",
+      "evidence": "seguindo as orientações fixadas pelo BNDES e pela legislação em vigor para o adequado endereçamento das demandas.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigesima_disposições_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_disposições_finais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "claim_waiver_due_to_tolerance",
+      "evidence": "A omissão ou tolerância (...) não constituirá renúncia ou novação nem impedirá as partes de exercerem os seus direitos",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "subjection",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "be_responsible_for_allocated_risks",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ziva_tecnologia_e_solucoes_ltda",
+      "action_id": "respect_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_primeira_foro",
+      "legal_moment_class": "power",
+      "bearer": "unknown",
+      "action_id": "choose_rio_de_janeiro_forum",
+      "evidence": "The forum is Rio de Janeiro.",
+      "confidence": 0.8
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_unified_network_solution",
+            "action_label": "Provide unified network solution",
+            "evidence": "O presente Contrato tem por objeto a aquisição de solução unificada de rede sem fio (WLAN ...)",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_unified_network_solution",
+            "action_label": "Receive unified network solution",
+            "evidence": "O presente Contrato tem por objeto a aquisição de solução unificada de rede sem fio (WLAN ...)",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_unified_network_solution",
+          "action_label": "Provide unified network solution",
+          "evidence": "O presente Contrato tem por objeto a aquisição de solução unificada de rede sem fio (WLAN ...)",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_unified_network_solution",
+          "action_label": "Receive unified network solution",
+          "evidence": "O presente Contrato tem por objeto a aquisição de solução unificada de rede sem fio (WLAN ...)",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+            "action_id": "execute_supply_and_implementation",
+            "action_label": "execute supply and implementation",
+            "evidence": "execução do fornecimento e implantação da solução, incluindo todas as fases até a emissão do Termo de Recebimento Definitivo",
+            "confidence": 0.6,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+            "action_id": "provide_continued_services",
+            "action_label": "provide continued services",
+            "evidence": "prestação dos serviços continuados (assistência técnica/suporte) e sob demanda (treinamento)",
+            "confidence": 0.6,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "receive_supply_and_implementation",
+            "action_label": "right to receive supply and implementation",
+            "evidence": "execução do fornecimento e implantação da solução, incluindo todas as fases até a emissão do Termo de Recebimento Definitivo",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "receive_continued_services",
+            "action_label": "right to receive continued services",
+            "evidence": "prestação dos serviços continuados (assistência técnica/suporte) e sob demanda (treinamento)",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+          "action_id": "execute_supply_and_implementation",
+          "action_label": "execute supply and implementation",
+          "evidence": "execução do fornecimento e implantação da solução, incluindo todas as fases até a emissão do Termo de Recebimento Definitivo",
+          "confidence": 0.6,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+          "action_id": "provide_continued_services",
+          "action_label": "provide continued services",
+          "evidence": "prestação dos serviços continuados (assistência técnica/suporte) e sob demanda (treinamento)",
+          "confidence": 0.6,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "receive_supply_and_implementation",
+          "action_label": "right to receive supply and implementation",
+          "evidence": "execução do fornecimento e implantação da solução, incluindo todas as fases até a emissão do Termo de Recebimento Definitivo",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "receive_continued_services",
+          "action_label": "right to receive continued services",
+          "evidence": "prestação dos serviços continuados (assistência técnica/suporte) e sob demanda (treinamento)",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_service_according_to_proposal_and_reference",
+            "action_label": "Execute service as specified",
+            "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do respectivo Termo de Referência",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_service_execution_according_to_proposal_and_reference",
+            "action_label": "Demand service as specified",
+            "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do respectivo Termo de Referência",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_service_according_to_proposal_and_reference",
+          "action_label": "Execute service as specified",
+          "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do respectivo Termo de Referência",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_service_execution_according_to_proposal_and_reference",
+          "action_label": "Demand service as specified",
+          "evidence": "A execução do serviço respeitará as especificações constantes da Proposta apresentada pela CONTRATADA e do respectivo Termo de Referência",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_service_according_to_standards",
+            "action_label": "Execute service per standards",
+            "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_service_according_to_standards",
+            "action_label": "Demand service per standards",
+            "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "price_reduction_due_to_non_compliance",
+            "action_label": "Subject to price reduction",
+            "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "impose_price_reduction_due_to_non_compliance",
+            "action_label": "Impose price reduction",
+            "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "suffer_penalties_for_non_compliance",
+            "action_label": "Subject to penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+            "confidence": 0.7,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "impose_penalties_for_non_compliance",
+            "action_label": "Impose penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_service_according_to_standards",
+          "action_label": "Execute service per standards",
+          "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_service_according_to_standards",
+          "action_label": "Demand service per standards",
+          "evidence": "O serviço contratado deverá ser executado de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "price_reduction_due_to_non_compliance",
+          "action_label": "Subject to price reduction",
+          "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "impose_price_reduction_due_to_non_compliance",
+          "action_label": "Impose price reduction",
+          "evidence": "O descumprimento de qualquer meta de nível de serviço pactuada acarretará a aplicação de índice de redução do preço",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "suffer_penalties_for_non_compliance",
+          "action_label": "Subject to penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+          "confidence": 0.7,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "impose_penalties_for_non_compliance",
+          "action_label": "Impose penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "O BNDES pagará à CONTRATADA, pela execução do objeto contratado, o valor de até R$ 10.972.443,73",
+            "confidence": 0.6,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "demand_contract_object",
+            "action_label": "Demand contract object",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+            "action_id": "values_proportionally_reduced",
+            "action_label": "Subject to proportionally reduced values",
+            "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.7,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+            "action_id": "receive_indemnization",
+            "action_label": "No right to receive indemnization",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+            "action_id": "bear_dimensioning_burdens",
+            "action_label": "Bear dimensioning burdens",
+            "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+          "action_id": "receive_indemnization",
+          "action_label": "No right to receive indemnization",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização à CONTRATADA.",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+          "action_id": "bear_dimensioning_burdens",
+          "action_label": "Bear dimensioning burdens",
+          "evidence": "A CONTRATADA deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua Proposta",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+          "action_id": "values_proportionally_reduced",
+          "action_label": "Subject to proportionally reduced values",
+          "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.7,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "ziva_tecnologia_e_solucoes_ltda",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "O BNDES pagará à CONTRATADA, pela execução do objeto contratado, o valor de até R$ 10.972.443,73",
+          "confidence": 0.6,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "demand_contract_object",
+          "action_label": "Demand contract object",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_payment",
+            "action_label": "Effect payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, a cada entrega, por meio de crédito em conta bancária",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, a cada entrega, por meio de crédito em conta bancária",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "send_fiscal_document",
+            "action_label": "Send fiscal document",
+            "evidence": "a CONTRATADA deverá encaminhar 1 (uma) via do documento fiscal ou equivalente legal ao sistema de captação de notas fiscais eletrônicas do BNDES",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "payments_subject_to_tax_withholding",
+            "action_label": "Subject to tax withholding",
+            "evidence": "Os pagamentos a serem efetuados em favor da CONTRATADA estarão sujeitos, no que couber, às retenções de tributos",
+            "confidence": 0.7,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_amounts",
+            "action_label": "Deduct amounts",
+            "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_payment",
+          "action_label": "Effect payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, a cada entrega, por meio de crédito em conta bancária",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, a cada entrega, por meio de crédito em conta bancária",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "send_fiscal_document",
+          "action_label": "Send fiscal document",
+          "evidence": "a CONTRATADA deverá encaminhar 1 (uma) via do documento fiscal ou equivalente legal ao sistema de captação de notas fiscais eletrônicas do BNDES",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_amounts",
+          "action_label": "Deduct amounts",
+          "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "payments_subject_to_tax_withholding",
+          "action_label": "Subject to tax withholding",
+          "evidence": "Os pagamentos a serem efetuados em favor da CONTRATADA estarão sujeitos, no que couber, às retenções de tributos",
+          "confidence": 0.7,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "initiate_price_revision",
+            "action_label": "Initiate price revision",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada (...) mediante solicitação do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_information_for_price_reduction",
+            "action_label": "Present info for price reduction",
+            "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment",
+            "action_label": "Request price readjustment",
+            "evidence": "O reajuste de preços (...) poderá ser requerido pelo CONTRATADO a cada período de 12 (doze) meses",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revisions_or_readjustments",
+            "action_label": "Request price revisions/readjustments",
+            "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "disability",
+            "bearer_hint": "contracted_party",
+            "action_id": "claim_retroactive_price_adjustment_or_revision",
+            "action_label": "Claim retroactive price adjustment/revision",
+            "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, não fará jus aos efeitos retroativos",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "negotiate_price_reduction",
+            "action_label": "Negotiate price reduction",
+            "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supporting_documentation",
+            "action_label": "Provide supporting documentation",
+            "evidence": "o CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_price_adjustment_revision_request",
+            "action_label": "Analyze adjustment/revision request",
+            "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_request_analysis",
+            "action_label": "Suspend request analysis",
+            "evidence": "ficando este prazo suspenso, a critério do BNDES, enquanto o CONTRATADO não apresentar a documentação solicitada",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment",
+          "action_label": "Request price readjustment",
+          "evidence": "O reajuste de preços (...) poderá ser requerido pelo CONTRATADO a cada período de 12 (doze) meses",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "disability",
+          "bearer_hint": "contracted_party",
+          "action_id": "claim_retroactive_price_adjustment_or_revision",
+          "action_label": "Claim retroactive price adjustment/revision",
+          "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, não fará jus aos efeitos retroativos",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada (...) mediante solicitação do CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revisions_or_readjustments",
+          "action_label": "Request price revisions/readjustments",
+          "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supporting_documentation",
+          "action_label": "Provide supporting documentation",
+          "evidence": "o CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_request_analysis",
+          "action_label": "Suspend request analysis",
+          "evidence": "ficando este prazo suspenso, a critério do BNDES, enquanto o CONTRATADO não apresentar a documentação solicitada",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "initiate_price_revision",
+          "action_label": "Initiate price revision",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_information_for_price_reduction",
+          "action_label": "Present info for price reduction",
+          "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "negotiate_price_reduction",
+          "action_label": "Negotiate price reduction",
+          "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_price_adjustment_revision_request",
+          "action_label": "Analyze adjustment/revision request",
+          "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "A CONTRATADA prestará garantia contratual, no prazo de até 10 (dez) dias úteis, contados da convocação",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalty",
+            "action_label": "Apply penalty",
+            "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complement_guarantee",
+            "action_label": "Complement guarantee",
+            "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia prestada",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_consent",
+            "action_label": "Obtain guarantor consent",
+            "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_new_guarantee",
+            "action_label": "Obtain new guarantee",
+            "evidence": "cabe à CONTRATADA obter nova garantia no mesmo prazo",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "A CONTRATADA prestará garantia contratual, no prazo de até 10 (dez) dias úteis, contados da convocação",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complement_guarantee",
+          "action_label": "Complement guarantee",
+          "evidence": "a CONTRATADA deverá providenciar a complementação ou substituição da garantia prestada",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_consent",
+          "action_label": "Obtain guarantor consent",
+          "evidence": "a CONTRATADA deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_new_guarantee",
+          "action_label": "Obtain new guarantee",
+          "evidence": "cabe à CONTRATADA obter nova garantia no mesmo prazo",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalty",
+          "action_label": "Apply penalty",
+          "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigações_contratada": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigações_contratada",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_qualification",
+            "action_label": "Maintain qualification",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação e qualificação exigidas quando da contratação",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_proof_of_qualification",
+            "action_label": "Request proof of qualification",
+            "evidence": "comprovando-as sempre que solicitado pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_contract_object",
+            "action_label": "Repair contract object",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages",
+            "action_label": "Repair damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_taxes",
+            "action_label": "Pay taxes",
+            "evidence": "pagar todos os encargos e tributos",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_exclusion_proof",
+            "action_label": "Provide exclusion proof",
+            "evidence": "providenciar, perante a Receita Federal do Brasil – RFB, comprovando ao BNDES, sua exclusão obrigatória do  Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_inspections",
+            "action_label": "Allow inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_bndes_instructions",
+            "action_label": "Obey BNDES instructions",
+            "evidence": "obedecer às instruções e aos procedimentos estabelecidos pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "appoint_representative",
+            "action_label": "Appoint representative",
+            "evidence": "designar 1 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_central_bank_access",
+            "action_label": "Allow central bank access",
+            "evidence": "permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guarantee_no_infringement",
+            "action_label": "Guarantee no infringement",
+            "evidence": "garantir que o objeto do Contrato não infringe quaisquer direitos autorais, patentes ou registros",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_security_rules",
+            "action_label": "Comply security rules",
+            "evidence": "responsabilizar-se pelo cumprimento das normas de segurança",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_bndes_resources",
+            "action_label": "Return BNDES resources",
+            "evidence": "devolver recursos disponibilizados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_information_for_service",
+            "action_label": "Provide information for service",
+            "evidence": "fornecer todas as informações necessárias para a utilização do serviço contratado pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_escalation_list",
+            "action_label": "Maintain escalation list",
+            "evidence": "Manter, durante toda a vigência do Contrato, o escalation list, para o serviço de suporte",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_preposto_data",
+            "action_label": "Inform preposto data",
+            "evidence": "Informar e manter atualizados o CPF e nome completo do preposto da Contratada perante o BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_technical_responsibility",
+            "action_label": "Assume technical responsibility",
+            "evidence": "Assumir inteira responsabilidade técnica e administrativa em relação ao objeto contratado",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "Manter sigilo relativamente ao objeto contratado",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_security_measures",
+            "action_label": "Adopt security measures",
+            "evidence": "Adotar medidas de segurança adequadas",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_reverse_engineer",
+            "action_label": "Not reverse engineer",
+            "evidence": "Não efetuar a compilação reversa, montagem reversa ou engenharia reversa de qualquer programa aplicativo do BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_documents",
+            "action_label": "Return documents",
+            "evidence": "Devolver, impreterivelmente, ao término do CONTRATO",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "indicate_contact_data",
+            "action_label": "Indicate contact data",
+            "evidence": "Indicar seus dados de endereço, telefone e endereço de correio eletrônico",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_risks",
+            "action_label": "Notify risks",
+            "evidence": "Notificar ao BNDES, por escrito, quaisquer fatos que possam pôr em risco a execução do presente objeto",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "Apresentar, por ocasião da formalização do Contrato, o(s) Termo(s) de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms_professionals",
+            "action_label": "Present confidentiality terms (professionals)",
+            "evidence": "Apresentar, antes do início da prestação dos serviços e a cada novo profissional a ser alocado para atendimento ao BNDES, Termo de Confidencialidade – Modelo B (Profissionais)",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_clarifications",
+            "action_label": "Provide clarifications",
+            "evidence": "Prestar todos os esclarecimentos que lhe forem solicitados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "accept_inspection",
+            "action_label": "Accept inspection",
+            "evidence": "Aceitar, por parte do BNDES, em todos os aspectos, a fiscalização no cumprimento do objeto contratado",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respond_damages",
+            "action_label": "Respond damages",
+            "evidence": "Responder pelos danos comprovadamente causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_data_privacy",
+            "action_label": "Ensure data privacy",
+            "evidence": "Assegurar durante a execução do objeto desta contratação, a utilização das melhores técnicas para garantir o respeito à privacidade e à proteção de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_qualification",
+          "action_label": "Maintain qualification",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação e qualificação exigidas quando da contratação",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_contract_object",
+          "action_label": "Repair contract object",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages",
+          "action_label": "Repair damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_taxes",
+          "action_label": "Pay taxes",
+          "evidence": "pagar todos os encargos e tributos",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_exclusion_proof",
+          "action_label": "Provide exclusion proof",
+          "evidence": "providenciar, perante a Receita Federal do Brasil – RFB, comprovando ao BNDES, sua exclusão obrigatória do  Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "allow_inspections",
+          "action_label": "Allow inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_bndes_instructions",
+          "action_label": "Obey BNDES instructions",
+          "evidence": "obedecer às instruções e aos procedimentos estabelecidos pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "appoint_representative",
+          "action_label": "Appoint representative",
+          "evidence": "designar 1 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "allow_central_bank_access",
+          "action_label": "Allow central bank access",
+          "evidence": "permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_conduta_etica_da_contratada_e_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_integrity",
+            "action_label": "Maintain integrity",
+            "evidence": "A CONTRATADA compromete-se a manter a integridade nas relações público-privadas, agindo de boa-fé.",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "maintain_integrity",
+            "action_label": "Maintain integrity",
+            "evidence": "o BNDES compromete-se a manter a integridade nas relações público-privadas, agindo de boa-fé.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "A CONTRATADA obriga-se a: I. não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_employee_favortism",
+            "action_label": "Prevent employee favortism",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES na execução do objeto do presente Contrato",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_allocate_family_members",
+            "action_label": "Not allocate family members",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_code_of_ethics",
+            "action_label": "Observe code of ethics",
+            "evidence": "observar o Código de Ética do Sistema BNDES vigente ao tempo da contratação",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_good_sustainability_practices",
+            "action_label": "Adopt good sustainability practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_integrity",
+          "action_label": "Maintain integrity",
+          "evidence": "A CONTRATADA compromete-se a manter a integridade nas relações público-privadas, agindo de boa-fé.",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "maintain_integrity",
+          "action_label": "Maintain integrity",
+          "evidence": "o BNDES compromete-se a manter a integridade nas relações público-privadas, agindo de boa-fé.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "A CONTRATADA obriga-se a: I. não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_employee_favortism",
+          "action_label": "Prevent employee favortism",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES na execução do objeto do presente Contrato",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_allocate_family_members",
+          "action_label": "Not allocate family members",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_code_of_ethics",
+          "action_label": "Observe code of ethics",
+          "evidence": "observar o Código de Ética do Sistema BNDES vigente ao tempo da contratação",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_good_sustainability_practices",
+          "action_label": "Adopt good sustainability practices",
+          "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_sigilo_das_informacoes": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_sigilo_das_informacoes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "cumprir_regras_de_sigilo",
+            "action_label": "Comply with confidentiality rules",
+            "evidence": "Cabe à CONTRATADA cumprir as seguintes regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assegurar_adesao_da_equipe",
+            "action_label": "Ensure team adherence",
+            "evidence": "assegurar a aceitação e adesão às mesmas por profissionais que integrem ou venham a integrar a sua equipe",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "cumprir_diretrizes_de_seguranca",
+            "action_label": "Comply with security guidelines",
+            "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "nao_acessar_informacoes_sigilosas",
+            "action_label": "Do not access confidential info",
+            "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "manter_sigilo_das_informacoes",
+            "action_label": "Maintain confidentiality",
+            "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limitar_acesso_a_informacoes",
+            "action_label": "Limit information access",
+            "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação do serviço",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "informar_violacao_de_sigilo",
+            "action_label": "Report confidentiality breach",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "entregar_materiais_ao_bndes",
+            "action_label": "Return materials to BNDES",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "nao_utilizar_informacao_sigilosa",
+            "action_label": "Do not use confidential info",
+            "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "apresentar_termos_de_confidencialidade",
+            "action_label": "Present confidentiality terms",
+            "evidence": "apresentar, antes do início da prestação do serviço, Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observar_termo_de_confidencialidade",
+            "action_label": "Observe confidentiality term",
+            "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "cumprir_regras_de_sigilo",
+          "action_label": "Comply with confidentiality rules",
+          "evidence": "Cabe à CONTRATADA cumprir as seguintes regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "cumprir_diretrizes_de_seguranca",
+          "action_label": "Comply with security guidelines",
+          "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "nao_acessar_informacoes_sigilosas",
+          "action_label": "Do not access confidential info",
+          "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "manter_sigilo_das_informacoes",
+          "action_label": "Maintain confidentiality",
+          "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "informar_violacao_de_sigilo",
+          "action_label": "Report confidentiality breach",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "entregar_materiais_ao_bndes",
+          "action_label": "Return materials to BNDES",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "nao_utilizar_informacao_sigilosa",
+          "action_label": "Do not use confidential info",
+          "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "apresentar_termos_de_confidencialidade",
+          "action_label": "Present confidentiality terms",
+          "evidence": "apresentar, antes do início da prestação do serviço, Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observar_termo_de_confidencialidade",
+          "action_label": "Observe confidentiality term",
+          "evidence": "observar o disposto no Termo de Confidencialidade assinado por seus representantes legais",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "assegurar_adesao_da_equipe",
+          "action_label": "Ensure team adherence",
+          "evidence": "assegurar a aceitação e adesão às mesmas por profissionais que integrem ou venham a integrar a sua equipe",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_obrigações_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_obrigações_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contratada",
+            "action_label": "Make payments",
+            "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments_from_bndes",
+            "action_label": "Receive payments",
+            "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, Renato Soffiatti",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "modify_contract_manager",
+            "action_label": "Modify contract manager",
+            "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_code_of_ethics",
+            "action_label": "Provide code of ethics",
+            "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_necessary_information",
+            "action_label": "Receive necessary information",
+            "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions_procedures",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar à CONTRATADA, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_administrative_procedure",
+            "action_label": "Communicate admin procedure",
+            "evidence": "comunicar à CONTRATADA, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalty_application",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar à CONTRATADA, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contratada",
+          "action_label": "Make payments",
+          "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, Renato Soffiatti",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary information",
+          "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_administrative_procedure",
+          "action_label": "Communicate admin procedure",
+          "evidence": "comunicar à CONTRATADA, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares da CONTRATADA",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_penalty_application",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar à CONTRATADA, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments_from_bndes",
+          "action_label": "Receive payments",
+          "evidence": "realizar os pagamentos devidos à CONTRATADA, nas condições estabelecidas neste Contrato",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "modify_contract_manager",
+          "action_label": "Modify contract manager",
+          "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_code_of_ethics",
+          "action_label": "Provide code of ethics",
+          "evidence": "fornecer à CONTRATADA, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_necessary_information",
+          "action_label": "Receive necessary information",
+          "evidence": "colocar à disposição da CONTRATADA todas as informações necessárias à perfeita execução do serviço objeto deste Contrato",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions_procedures",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar à CONTRATADA, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_cessão_de_contrato_ou_de_crédito_sucessão_contratual_e_subcontratação",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_contract_cession",
+            "action_label": "Omit contract assignment",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_credit_cession",
+            "action_label": "Omit credit assignment",
+            "evidence": "É vedada ... de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_issuing_credit_titles",
+            "action_label": "Omit issuing credit titles",
+            "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito em razão do mesmo",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_contractual_succession",
+            "action_label": "Omit contractual succession",
+            "evidence": "É vedada a sucessão contratual",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "corporate_operation_succession",
+            "action_label": "Perform corporate operation succession",
+            "evidence": "salvo nas hipóteses em que a CONTRATADA realizar as operações societárias de fusão, cisão ou incorporação",
+            "confidence": 0.7,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_bndes_agreement",
+            "action_label": "Obtain BNDES agreement",
+            "evidence": "condicionada aos seguintes requisitos: I. aquiescência prévia do BNDES",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_contract_conditions",
+            "action_label": "Maintain contract conditions",
+            "evidence": "II. manutenção de todas as condições contratuais e requisitos de habilitação originais",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "assume_integral_position",
+            "action_label": "Assume integral position",
+            "evidence": "o sucessor assumirá integralmente a posição do sucedido",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "execute_contract",
+            "action_label": "Execute contract",
+            "evidence": "passando a ser responsável pela execução do presente Contrato",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_credits",
+            "action_label": "Receive credits",
+            "evidence": "fazendo jus, por conseguinte, ao recebimento dos créditos dele decorrentes",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "subcontract_object",
+            "action_label": "Subcontract object",
+            "evidence": "É admitida a subcontratação da parcela do objeto deste Contrato",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_bndes_agreement_subcontract",
+            "action_label": "Obtain BNDES agreement for subcontract",
+            "evidence": "condicionada à aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_responsible_to_bndes",
+            "action_label": "Be responsible to BNDES",
+            "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "sujeitando-se, inclusive, às penalidades previstas neste Contrato, na hipótese de não cumprir as obrigações ora pactuadas",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "a CONTRATADA deverá apresentar os Termos de Confidencialidade, conforme modelos anexos a este Contrato, assinados pelo representante legal da SUBCONTRATADA",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_contract_cession",
+          "action_label": "Omit contract assignment",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_credit_cession",
+          "action_label": "Omit credit assignment",
+          "evidence": "É vedada ... de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_issuing_credit_titles",
+          "action_label": "Omit issuing credit titles",
+          "evidence": "bem como a emissão, por parte da CONTRATADA, de qualquer título de crédito em razão do mesmo",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_contractual_succession",
+          "action_label": "Omit contractual succession",
+          "evidence": "É vedada a sucessão contratual",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_bndes_agreement",
+          "action_label": "Obtain BNDES agreement",
+          "evidence": "condicionada aos seguintes requisitos: I. aquiescência prévia do BNDES",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_contract_conditions",
+          "action_label": "Maintain contract conditions",
+          "evidence": "II. manutenção de todas as condições contratuais e requisitos de habilitação originais",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "subcontract_object",
+          "action_label": "Subcontract object",
+          "evidence": "É admitida a subcontratação da parcela do objeto deste Contrato",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_bndes_agreement_subcontract",
+          "action_label": "Obtain BNDES agreement for subcontract",
+          "evidence": "condicionada à aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_responsible_to_bndes",
+          "action_label": "Be responsible to BNDES",
+          "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "sujeitando-se, inclusive, às penalidades previstas neste Contrato, na hipótese de não cumprir as obrigações ora pactuadas",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "defend_against_penalties",
+            "action_label": "Right to defend against penalties",
+            "evidence": "desde que assegurados o contraditório e a ampla defesa, facultada à CONTRATADA a defesa prévia",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_laws",
+            "action_label": "Observe laws",
+            "evidence": "No caso de uso indevido de informações sigilosas, observar-se-ão, no que couber, os termos da Lei nº 12.527/2011",
+            "confidence": 0.7,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "A CONTRATADA ficará sujeita às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "defend_against_penalties",
+          "action_label": "Right to defend against penalties",
+          "evidence": "desde que assegurados o contraditório e a ampla defesa, facultada à CONTRATADA a defesa prévia",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "As penalidades indicadas nesta Cláusula somente poderão ser aplicadas após procedimento administrativo",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "A imposição de sanção prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_laws",
+          "action_label": "Observe laws",
+          "evidence": "No caso de uso indevido de informações sigilosas, observar-se-ão, no que couber, os termos da Lei nº 12.527/2011",
+          "confidence": 0.7,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_alterações_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_alterações_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "alter_contract",
+            "action_label": "Alter contract",
+            "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_alteration",
+            "action_label": "Formalize contract change",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_formalizing_contract_alteration",
+            "action_label": "Omit formalizing contract change",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "compensate_damages",
+            "action_label": "Compensate damages",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "compensate_damages_due_to_refusal",
+            "action_label": "Subject to compensate damages for refusal",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_alteration_via_epistolary",
+            "action_label": "Formalize alteration via epistolary",
+            "evidence": "pequenos ajustes necessários ... poderão ser formalizados por meio epistolar",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "alter_contract",
+          "action_label": "Alter contract",
+          "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_alteration",
+          "action_label": "Formalize contract change",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_formalizing_contract_alteration",
+          "action_label": "Omit formalizing contract change",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "compensate_damages",
+          "action_label": "Compensate damages",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "compensate_damages_due_to_refusal",
+          "action_label": "Subject to compensate damages for refusal",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos eventualmente causados",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_alteration_via_epistolary",
+          "action_label": "Formalize alteration via epistolary",
+          "evidence": "pequenos ajustes necessários ... poderão ser formalizados por meio epistolar",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_extinção_do_contrato": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_extinção_do_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_breaching_party",
+            "action_label": "Notify breaching party",
+            "evidence": "cabendo à parte inocente notificar a outra por escrito",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_compliance",
+            "action_label": "Demand compliance",
+            "evidence": "assinalando-lhe prazo razoável para o cumprimento das obrigações",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_suspension",
+            "action_label": "Terminate due to suspension",
+            "evidence": "suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_contractor_bankruptcy",
+            "action_label": "Terminate due to bankruptcy",
+            "evidence": "quando for decretada a falência da CONTRATADA",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_loss_qualification",
+            "action_label": "Terminate due to loss of qualification",
+            "evidence": "caso a CONTRATADA perca uma das condições de habilitação exigidas quando da contratação",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_unlawful_act",
+            "action_label": "Terminate due to unlawful act",
+            "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública... cometido pela CONTRATADA",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_written_notification",
+            "action_label": "Provide written notification",
+            "evidence": "Os casos de extinção contratual... deverão ser precedidos de notificação escrita à outra parte",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_opportunity_to_defend",
+            "action_label": "Provide opportunity to defend",
+            "evidence": "oportunidade de defesa",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_cessao_descumprimento",
+            "action_label": "Terminate due to Clause VI",
+            "evidence": "descumprimento do previsto na Cláusula de Cessão de Contrato",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_extincao",
+            "action_label": "Terminate due to extinction",
+            "evidence": "em razão da dissolução / do falecimento] da CONTRATADA",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_force_majeure",
+            "action_label": "Terminate due to force majeure",
+            "evidence": "ocorrência de caso fortuito ou de força maior",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_written_notification",
+          "action_label": "Provide written notification",
+          "evidence": "Os casos de extinção contratual... deverão ser precedidos de notificação escrita à outra parte",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_opportunity_to_defend",
+          "action_label": "Provide opportunity to defend",
+          "evidence": "oportunidade de defesa",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_breaching_party",
+          "action_label": "Notify breaching party",
+          "evidence": "cabendo à parte inocente notificar a outra por escrito",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_contractor_bankruptcy",
+          "action_label": "Terminate due to bankruptcy",
+          "evidence": "quando for decretada a falência da CONTRATADA",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_loss_qualification",
+          "action_label": "Terminate due to loss of qualification",
+          "evidence": "caso a CONTRATADA perca uma das condições de habilitação exigidas quando da contratação",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_unlawful_act",
+          "action_label": "Terminate due to unlawful act",
+          "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública... cometido pela CONTRATADA",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_compliance",
+          "action_label": "Demand compliance",
+          "evidence": "assinalando-lhe prazo razoável para o cumprimento das obrigações",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_suspension",
+          "action_label": "Terminate due to suspension",
+          "evidence": "suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_cessao_descumprimento",
+          "action_label": "Terminate due to Clause VI",
+          "evidence": "descumprimento do previsto na Cláusula de Cessão de Contrato",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_acesso_e_protecao_de_dados_pessoais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_data_security_measures",
+            "action_label": "Adopt data security measures",
+            "evidence": "As partes [...] devendo, para tanto, adotar medidas de segurança sob o aspecto técnico, jurídico e administrativo",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_consent_data_owners",
+            "action_label": "Obtain data owner consent",
+            "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispensa tal medida",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_share_data_without_consent",
+            "action_label": "Don't share data without consent",
+            "evidence": "em hipótese alguma, poderão ser compartilhados ou utilizados para outros fins, sem a prévia instrução do BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_data_requests",
+            "action_label": "Inform BNDES of data requests",
+            "evidence": "o CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos pelo titular dos dados",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_data_operation_records",
+            "action_label": "Maintain data operation records",
+            "evidence": "o CONTRATADO deverá manter registro das operações de tratamento de dados pessoais que realizar",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_data_breaches",
+            "action_label": "Communicate data breaches",
+            "evidence": "qualquer incidente que implique em violação ou risco de violação de dados pessoais deverá ser prontamente comunicado ao BNDES",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "eliminate_data_after_contract",
+            "action_label": "Eliminate data after contract",
+            "evidence": "ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_access_to_owner",
+            "action_label": "Provide data access to owner",
+            "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado canal em que seja garantida consulta facilitada e gratuita sobre [...] seus dados pessoais.",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "follow_bndes_instructions_data_requests",
+            "action_label": "Follow BNDES instructions on data requests",
+            "evidence": "seguindo as orientações fixadas pelo BNDES e pela legislação em vigor para o adequado endereçamento das demandas.",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subject_to_damages_data_misuse",
+            "action_label": "Subject to damages for data misuse",
+            "evidence": "deve se responsabilizar por eventuais danos que o BNDES venha a sofrer em decorrência de uso indevido de dados pessoais por parte do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_data_security",
+            "action_label": "Ensure data security",
+            "evidence": "o CONTRATADO que utilizará recursos de segurança da informação e tecnologia seguros, inclusive quanto a mecanismos de detecção e prevenção de ataques cibernéticos",
+            "confidence": 0.9,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_operation_records",
+            "action_label": "Provide data operation records",
+            "evidence": "disponibilizando, sempre que solicitado pelo BNDES, as informações necessárias à produção do relatório de impacto indicado na LGPD.",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "collaborate_investigation_audits",
+            "action_label": "Collaborate with data audits",
+            "evidence": "cabe ao CONTRATADO disponibilizar as informações e documentos solicitados e colaborar com qualquer investigação ou auditoria que venha a ser realizada.",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_data_security_measures",
+          "action_label": "Adopt data security measures",
+          "evidence": "As partes [...] devendo, para tanto, adotar medidas de segurança sob o aspecto técnico, jurídico e administrativo",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_consent_data_owners",
+          "action_label": "Obtain data owner consent",
+          "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispensa tal medida",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_share_data_without_consent",
+          "action_label": "Don't share data without consent",
+          "evidence": "em hipótese alguma, poderão ser compartilhados ou utilizados para outros fins, sem a prévia instrução do BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_data_requests",
+          "action_label": "Inform BNDES of data requests",
+          "evidence": "o CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos pelo titular dos dados",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_data_operation_records",
+          "action_label": "Maintain data operation records",
+          "evidence": "o CONTRATADO deverá manter registro das operações de tratamento de dados pessoais que realizar",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_data_breaches",
+          "action_label": "Communicate data breaches",
+          "evidence": "qualquer incidente que implique em violação ou risco de violação de dados pessoais deverá ser prontamente comunicado ao BNDES",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "eliminate_data_after_contract",
+          "action_label": "Eliminate data after contract",
+          "evidence": "ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_data_access_to_owner",
+          "action_label": "Provide data access to owner",
+          "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado canal em que seja garantida consulta facilitada e gratuita sobre [...] seus dados pessoais.",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "ensure_data_security",
+          "action_label": "Ensure data security",
+          "evidence": "o CONTRATADO que utilizará recursos de segurança da informação e tecnologia seguros, inclusive quanto a mecanismos de detecção e prevenção de ataques cibernéticos",
+          "confidence": 0.9,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "follow_bndes_instructions_data_requests",
+          "action_label": "Follow BNDES instructions on data requests",
+          "evidence": "seguindo as orientações fixadas pelo BNDES e pela legislação em vigor para o adequado endereçamento das demandas.",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_disposições_finais": {
+      "raw": {
+        "clause_id": "clausula_vigesima_disposições_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights under contract",
+            "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "claim_waiver_due_to_tolerance",
+            "action_label": "Claim waiver due to tolerance",
+            "evidence": "A omissão ou tolerância (...) não constituirá renúncia ou novação nem impedirá as partes de exercerem os seus direitos",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights under contract",
+          "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "claim_waiver_due_to_tolerance",
+          "action_label": "Claim waiver due to tolerance",
+          "evidence": "A omissão ou tolerância (...) não constituirá renúncia ou novação nem impedirá as partes de exercerem os seus direitos",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_economic_financial_equilibrium_clause",
+            "action_label": "Respect economic-financial equilibrium clause",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.7,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_responsible_for_allocated_risks",
+            "action_label": "Be responsible for allocated risks",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+            "confidence": 0.8,
+            "bearer": "ziva_tecnologia_e_solucoes_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_responsible_for_allocated_risks",
+          "action_label": "Be responsible for allocated risks",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade da CONTRATADA'",
+          "confidence": 0.8,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_economic_financial_equilibrium_clause",
+          "action_label": "Respect economic-financial equilibrium clause",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.7,
+          "bearer": "ziva_tecnologia_e_solucoes_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_primeira_foro": {
+      "raw": {
+        "clause_id": "clausula_vigesima_primeira_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "unknown",
+            "action_id": "choose_rio_de_janeiro_forum",
+            "action_label": "Choose Rio de Janeiro forum",
+            "evidence": "The forum is Rio de Janeiro.",
+            "confidence": 0.8,
+            "bearer": "unknown"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "unknown",
+          "action_id": "choose_rio_de_janeiro_forum",
+          "action_label": "Choose Rio de Janeiro forum",
+          "evidence": "The forum is Rio de Janeiro.",
+          "confidence": 0.8,
+          "bearer": "unknown"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

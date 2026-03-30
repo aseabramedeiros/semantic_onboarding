@@ -1,0 +1,3690 @@
+{
+  "contract_id": "contrato_ocs_112_2021",
+  "source_file": "KOA_Contrato_OCS_112_2021_-_Oi_(Link_Bloomberg_DC_principal).pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_112_2021",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "oi_s_a_em_recuperacao_judicial",
+        "label": "OI S.A. EM RECUPERACAO JUDICIAL",
+        "cnpj": "76.535.764/0001-43"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_112_2021"
+      },
+      {
+        "agent_id": "oi_s_a_em_recuperacao_judicial",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_112_2021"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "provide_data_communication_service",
+      "evidence": "prestação de serviço de comunicação de dados para acesso permanente, dedicado e exclusivo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_data_communication_service",
+      "evidence": "O presente Contrato tem por objeto a prestação de serviço de comunicação de dados",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_implementation",
+      "evidence": "prazo para demanda pelo BNDES para início da implantação pela Contratada",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "begin_implementation",
+      "evidence": "prazo para demanda pelo BNDES para início da implantação pela Contratada",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "complete_implementation",
+      "evidence": "prazo para a implantação propriamente dita, incluindo todas as fases até a emissão do Termo de Recebimento da Implantação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "provide_data_communication_service",
+      "evidence": "serviço de comunicação de dados para acesso permanente, dedicado e exclusivo à rede da Agência de Notícias Bloomberg",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "execute_contract_subject",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_contract_subject_execution",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_price_reduction",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_price_reduction",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "require_execution_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unknown",
+      "action_id": "support_object_receipt",
+      "evidence": "com o apoio do Fiscal do Contrato",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay_contracted_value",
+      "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 34.595,73",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 34.595,73",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "bear_burdens_of_quantification_errors",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "immunity",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "avoid_indemnification_for_partial_demand",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "demand_indemnification_for_partial_demand",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "suffer_proportional_value_reduction",
+      "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "execute_contract_object",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_contract_object",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_payment",
+      "evidence": "O BNDES efetuará o pagamento [...] em até 10 (dez) dias úteis a contar da data de apresentação do documento fiscal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "present_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "permission_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_payment_to_subcontractor",
+      "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "provide_supporting_documents",
+      "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: certidões de regularidade fiscal exigidas na fase de habilitação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_from_payment",
+      "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "issue_invoice_according_to_municipality",
+      "evidence": "o CONTRATADO deverá providenciar o cadastro junto à Secretaria Municipal de Fazenda",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_payment_with_interest",
+      "evidence": "aos valores devidos serão acrescidos juros de mora",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "request_price_readjustment",
+      "evidence": "O CONTRATADO (...) poderá ser requerido (...) a cada período de 12 (doze) meses",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada por (...) solicitação do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "revise_prices",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_price_reduction",
+      "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "provide_requested_information",
+      "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "request_price_adjustment_or_revision",
+      "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "omit_request_after_deadline",
+      "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "request_price_adjustment_or_revision_after_deadline",
+      "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis... garantia contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "obtain_guarantor_agreement",
+      "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "obtain_new_guarantee",
+      "evidence": "Recusando-se o garantidor a manter a garantia, cabe ao CONTRATADO obter nova garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "complement_or_renew_guarantee",
+      "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extend_guarantee_period",
+      "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado... desde que ocorra motivo justificado e aceito pelo BNDES.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "maintain_qualification_conditions",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação exigidas quando da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "communicate_penalty_imposition",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "repair_contract_object",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "repair_damages_to_bndes",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "pay_taxes_and_fees",
+      "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "exclude_from_simples_nacional",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "obey_bndes_instructions",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "maintain_organized_equipment",
+      "evidence": "Manter organizados e devidamente identificados seus equipamentos e canais de comunicação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "uninstall_infrastructure",
+      "evidence": "A desinstalação da infraestrutura e retirada dos equipamentos de cada CONTRATADA",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "refrain_from_offering_undue_advantage",
+      "evidence": "O CONTRATADO obriga-se a não oferecer, prometer, dar, autorizar, solicitar ou aceitar qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "prevent_favoritism",
+      "evidence": "O CONTRATADO obriga-se a impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "avoid_allocating_family_members",
+      "evidence": "O CONTRATADO obriga-se a providenciar para que não sejam alocados familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "observe_bndes_code_of_ethics",
+      "evidence": "O CONTRATADO obriga-se a observar o Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "adopt_good_environmental_practices",
+      "evidence": "O CONTRATADO obriga-se a adotar boas práticas de sustentabilidade ambiental",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "maintain_integrity",
+      "evidence": "O CONTRATADO e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "maintain_confidentiality",
+      "evidence": "deverá manter o sigilo dos mesmos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "provide_signature",
+      "evidence": "o CONTRATADO deverá providenciar a assinatura... dos Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "orient_professionals",
+      "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_signature",
+      "evidence": "Assim que solicitado pelo Gestor do Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "adopt_correct_security_measures",
+      "evidence": "As partes assumem o compromisso de ... adotar medidas corretas de segurança",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "follow_bndes_instructions",
+      "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "right_of_regress",
+      "evidence": "O BNDES possui direito de regresso em face do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "provide_data_access",
+      "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal... em que seja garantida consulta facilitada",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "inform_bndes_requests",
+      "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "maintain_data_processing_records",
+      "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "communicate_data_breach",
+      "evidence": "Qualquer incidente que implique em violação...de dados pessoais deverá ser prontamente comunicado ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "eliminate_personal_data",
+      "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar ... todo e qualquer dado pessoal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_sharing_data_without_authorization",
+      "evidence": "Os dados coletados somente poderão ser utilizados pelas partes...sendo que, em hipótese alguma, poderão ser compartilhados...sem a prévia autorização do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contracted_party",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "receive_payments_from_bndes",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, José Wilson Freire",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_inspector",
+      "evidence": "designar o Fiscal do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_receipt_committee",
+      "evidence": "designar a Comissão de Recebimento",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_documents",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions",
+      "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_investigation",
+      "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_penalty",
+      "evidence": "comunicar ao CONTRATADO, por escrito: e c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "not_cede_contract",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "not_issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "present_supporting_documents",
+      "evidence": "cabendo ao CONTRATADO apresentar, sempre que solicitado pelo BNDES, os respectivos documentos comprobatórios.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "execute_contract_adequately",
+      "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "merge_acquire_split",
+      "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "maintain_contract_conditions",
+      "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "subcontract_last_mile",
+      "evidence": "É admitida a subcontratação da parcela do objeto deste Contrato referente à última milha",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "sujeitando-se, inclusive, às penalidades previstas neste Contrato, na hipótese de não cumprir as obrigações ora pactuadas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "contracted_party_subject_to_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa... III. suspensão",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "impose_penalties",
+      "evidence": "Em caso de inexecução...o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "request_reconsideration_of_penalty",
+      "evidence": "Contra a decisão de aplicação de penalidade, o CONTRATADO poderá requerer a reconsideração",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extinguish_contract",
+      "evidence": "A imposição de penalidade prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "judicial_collection_of_debt",
+      "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "refrain_from_denaturing_contract_purpose",
+      "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_amendment",
+      "evidence": "não caberá a recusa das partes à respectiva formalização",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "compensate_damages_for_refusal_to_amend",
+      "evidence": "deverá responder pelos danos eventualmente causados",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_contract_amendment",
+      "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "subject_to_paying_damages_for_unjustified_refusal",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no  Parágrafo anterior, deverá responder pelos danos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_bankruptcy",
+      "evidence": "IV. quando for decretada a falência do CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_inability",
+      "evidence": "V. caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_cessao",
+      "evidence": "VI. na hipótese de descumprimento do previsto na Cláusula de Cessão de Contrato ou de Crédito",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_inidonea",
+      "evidence": "VII. caso o CONTRATADO seja declarada inidônea pela União, por Estado ou pelo Distrito Federal",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_suspensao_licitar",
+      "evidence": "VIII. em função da suspensão do direito de o CONTRATADO licitar ou contratar com o BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_ato_lesivo",
+      "evidence": "IX. na hipótese de caracterização de ato lesivo à Administração Pública",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_dissolucao",
+      "evidence": "X. em razão da dissolução do CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "be_subject_to_termination_forca_maior",
+      "evidence": "XI. quando da ocorrência de caso fortuito ou de força maior",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_consensually",
+      "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação, e ainda: I. Consensualmente",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_breach",
+      "evidence": "II. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_disposicoes_finais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_vigesima_disposicoes_finais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_strict_compliance",
+      "evidence": "omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais não constituirá renúncia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigesima_primeira_foro",
+      "legal_moment_class": "power",
+      "bearer": "unknown",
+      "action_id": "choose_rio_de_janeiro_court",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_primeira_foro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unknown",
+      "action_id": "choose_other_court",
+      "evidence": "afastado qualquer outro, por mais privilegiado que seja.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "bear_risks",
+      "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "subjection",
+      "bearer": "oi_s_a_em_recuperacao_judicial",
+      "action_id": "subject_to_risk_allocation",
+      "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+      "confidence": 0.7
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_communication_service",
+            "action_label": "Provide data communication service",
+            "evidence": "prestação de serviço de comunicação de dados para acesso permanente, dedicado e exclusivo",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_data_communication_service",
+            "action_label": "Receive data communication service",
+            "evidence": "O presente Contrato tem por objeto a prestação de serviço de comunicação de dados",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_data_communication_service",
+          "action_label": "Provide data communication service",
+          "evidence": "prestação de serviço de comunicação de dados para acesso permanente, dedicado e exclusivo",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_data_communication_service",
+          "action_label": "Receive data communication service",
+          "evidence": "O presente Contrato tem por objeto a prestação de serviço de comunicação de dados",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_implementation",
+            "action_label": "Demand implementation",
+            "evidence": "prazo para demanda pelo BNDES para início da implantação pela Contratada",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "begin_implementation",
+            "action_label": "Begin implementation",
+            "evidence": "prazo para demanda pelo BNDES para início da implantação pela Contratada",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complete_implementation",
+            "action_label": "Complete implementation",
+            "evidence": "prazo para a implantação propriamente dita, incluindo todas as fases até a emissão do Termo de Recebimento da Implantação",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_communication_service",
+            "action_label": "Provide data communication service",
+            "evidence": "serviço de comunicação de dados para acesso permanente, dedicado e exclusivo à rede da Agência de Notícias Bloomberg",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_implementation",
+          "action_label": "Demand implementation",
+          "evidence": "prazo para demanda pelo BNDES para início da implantação pela Contratada",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "begin_implementation",
+          "action_label": "Begin implementation",
+          "evidence": "prazo para demanda pelo BNDES para início da implantação pela Contratada",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complete_implementation",
+          "action_label": "Complete implementation",
+          "evidence": "prazo para a implantação propriamente dita, incluindo todas as fases até a emissão do Termo de Recebimento da Implantação",
+          "confidence": 0.7,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_data_communication_service",
+          "action_label": "Provide data communication service",
+          "evidence": "serviço de comunicação de dados para acesso permanente, dedicado e exclusivo à rede da Agência de Notícias Bloomberg",
+          "confidence": 0.7,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_subject",
+            "action_label": "Execute contract subject",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_contract_subject_execution",
+            "action_label": "Expect contract subject execution",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_subject",
+          "action_label": "Execute contract subject",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_contract_subject_execution",
+          "action_label": "Expect contract subject execution",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services to standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "require_execution_to_standards",
+            "action_label": "Require service execution to standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_price_reduction",
+            "action_label": "Apply price reduction for non-compliance",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_price_reduction",
+            "action_label": "Subject to price reduction",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services to standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_price_reduction",
+          "action_label": "Apply price reduction for non-compliance",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_price_reduction",
+          "action_label": "Subject to price reduction",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "require_execution_to_standards",
+          "action_label": "Require service execution to standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Right to effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "unknown",
+            "action_id": "support_object_receipt",
+            "action_label": "Support object receipt",
+            "evidence": "com o apoio do Fiscal do Contrato",
+            "confidence": 0.6,
+            "bearer": "unknown"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Right to effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "unknown",
+          "action_id": "support_object_receipt",
+          "action_label": "Support object receipt",
+          "evidence": "com o apoio do Fiscal do Contrato",
+          "confidence": 0.6,
+          "bearer": "unknown"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+            "confidence": 0.6,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "receive_contract_object",
+            "action_label": "Receive contract object",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "pay_contracted_value",
+            "action_label": "Pay contracted value",
+            "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 34.595,73",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 34.595,73",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+            "action_id": "bear_burdens_of_quantification_errors",
+            "action_label": "Bear burdens of quantification errors",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+            "action_id": "suffer_proportional_value_reduction",
+            "action_label": "Suffer proportional value reduction",
+            "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "immunity",
+            "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+            "action_id": "avoid_indemnification_for_partial_demand",
+            "action_label": "Avoid indemnification for partial demand",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+            "action_id": "demand_indemnification_for_partial_demand",
+            "action_label": "Demand indemnification for partial demand",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "pay_contracted_value",
+          "action_label": "Pay contracted value",
+          "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 34.595,73",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES pagará ao CONTRATADO... o valor de até R$ 34.595,73",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+          "action_id": "bear_burdens_of_quantification_errors",
+          "action_label": "Bear burdens of quantification errors",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "immunity",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "avoid_indemnification_for_partial_demand",
+          "action_label": "Avoid indemnification for partial demand",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+          "action_id": "demand_indemnification_for_partial_demand",
+          "action_label": "Demand indemnification for partial demand",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+          "action_id": "suffer_proportional_value_reduction",
+          "action_label": "Suffer proportional value reduction",
+          "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.7,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "oi_s_a_em_recuperacao_judicial",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+          "confidence": 0.6,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+          "action_id": "receive_contract_object",
+          "action_label": "Receive contract object",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_payment",
+            "action_label": "Effect payment",
+            "evidence": "O BNDES efetuará o pagamento [...] em até 10 (dez) dias úteis a contar da data de apresentação do documento fiscal",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive Payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supporting_documents",
+            "action_label": "Provide supporting documents",
+            "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: certidões de regularidade fiscal exigidas na fase de habilitação",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "permission_to_omit",
+            "bearer_hint": "bndes",
+            "action_id": "omit_payment_to_subcontractor",
+            "action_label": "Omit payment to subcontractor",
+            "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "issue_invoice_according_to_municipality",
+            "action_label": "Issue invoice according to municipality",
+            "evidence": "o CONTRATADO deverá providenciar o cadastro junto à Secretaria Municipal de Fazenda",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_payment_with_interest",
+            "action_label": "Provide payment with interest",
+            "evidence": "aos valores devidos serão acrescidos juros de mora",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_from_payment",
+            "action_label": "Deduct from payment",
+            "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_payment",
+          "action_label": "Effect payment",
+          "evidence": "O BNDES efetuará o pagamento [...] em até 10 (dez) dias úteis a contar da data de apresentação do documento fiscal",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "permission_to_omit",
+          "bearer_hint": "bndes",
+          "action_id": "omit_payment_to_subcontractor",
+          "action_label": "Omit payment to subcontractor",
+          "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive Payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supporting_documents",
+          "action_label": "Provide supporting documents",
+          "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: certidões de regularidade fiscal exigidas na fase de habilitação",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_from_payment",
+          "action_label": "Deduct from payment",
+          "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "issue_invoice_according_to_municipality",
+          "action_label": "Issue invoice according to municipality",
+          "evidence": "o CONTRATADO deverá providenciar o cadastro junto à Secretaria Municipal de Fazenda",
+          "confidence": 0.7,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_payment_with_interest",
+          "action_label": "Provide payment with interest",
+          "evidence": "aos valores devidos serão acrescidos juros de mora",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment",
+            "action_label": "Request price readjustment",
+            "evidence": "O CONTRATADO (...) poderá ser requerido (...) a cada período de 12 (doze) meses",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada por (...) solicitação do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "revise_prices",
+            "action_label": "Revise prices",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "request_price_reduction",
+            "action_label": "Request price reduction",
+            "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_requested_information",
+            "action_label": "Provide requested information",
+            "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment_or_revision",
+            "action_label": "Request price adjustment/revision",
+            "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_request_after_deadline",
+            "action_label": "Omit request after deadline",
+            "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment_or_revision_after_deadline",
+            "action_label": "No right to request adjustment/revision after deadline",
+            "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment",
+          "action_label": "Request price readjustment",
+          "evidence": "O CONTRATADO (...) poderá ser requerido (...) a cada período de 12 (doze) meses",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada por (...) solicitação do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "revise_prices",
+          "action_label": "Revise prices",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "request_price_reduction",
+          "action_label": "Request price reduction",
+          "evidence": "o BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_requested_information",
+          "action_label": "Provide requested information",
+          "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment_or_revision",
+          "action_label": "Request price adjustment/revision",
+          "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_request_after_deadline",
+          "action_label": "Omit request after deadline",
+          "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment_or_revision_after_deadline",
+          "action_label": "No right to request adjustment/revision after deadline",
+          "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis... garantia contratual",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_contractual_guarantee",
+            "action_label": "Demand guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_agreement",
+            "action_label": "Obtain guarantor agreement",
+            "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_new_guarantee",
+            "action_label": "Obtain new guarantee",
+            "evidence": "Recusando-se o garantidor a manter a garantia, cabe ao CONTRATADO obter nova garantia",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extend_guarantee_period",
+            "action_label": "Extend guarantee period",
+            "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado... desde que ocorra motivo justificado e aceito pelo BNDES.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complement_or_renew_guarantee",
+            "action_label": "Complement/renew guarantee",
+            "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis... garantia contratual",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_agreement",
+          "action_label": "Obtain guarantor agreement",
+          "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_new_guarantee",
+          "action_label": "Obtain new guarantee",
+          "evidence": "Recusando-se o garantidor a manter a garantia, cabe ao CONTRATADO obter nova garantia",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complement_or_renew_guarantee",
+          "action_label": "Complement/renew guarantee",
+          "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_contractual_guarantee",
+          "action_label": "Demand guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extend_guarantee_period",
+          "action_label": "Extend guarantee period",
+          "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado... desde que ocorra motivo justificado e aceito pelo BNDES.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigações_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigações_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_qualification_conditions",
+            "action_label": "Maintain qualification conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação exigidas quando da contratação",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_penalty_imposition",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_contract_object",
+            "action_label": "Repair contract object",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages_to_bndes",
+            "action_label": "Repair damages to BNDES",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_taxes_and_fees",
+            "action_label": "Pay taxes and fees",
+            "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "exclude_from_simples_nacional",
+            "action_label": "Exclude from Simples Nacional",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_bndes_instructions",
+            "action_label": "Obey BNDES instructions",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_organized_equipment",
+            "action_label": "Maintain organized equipment",
+            "evidence": "Manter organizados e devidamente identificados seus equipamentos e canais de comunicação",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "uninstall_infrastructure",
+            "action_label": "Uninstall infrastructure",
+            "evidence": "A desinstalação da infraestrutura e retirada dos equipamentos de cada CONTRATADA",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_new_installations",
+            "action_label": "Provide new installations",
+            "evidence": "Proceder a novas instalações de canais de comunicação e outros serviços",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "Fornecer todas as informações necessárias para a utilização do serviço contratado pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_escalation_list",
+            "action_label": "Maintain escalation list",
+            "evidence": "Manter, durante toda a vigência do CONTRATO, o “escalation list” atualizada",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_representative_info",
+            "action_label": "Provide representative info",
+            "evidence": "Informar o CPF, nome completo e informações para contato atualizadas acerca do preposto da CONTRATADA perante o BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_abnormalities",
+            "action_label": "Inform abnormalities",
+            "evidence": "Comunicar imediatamente ao BNDES qualquer anormalidade de caráter urgente",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "identify_employees",
+            "action_label": "Identify employees",
+            "evidence": "Identificar seus funcionários com crachás da empresa",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "attend_bndes_requests",
+            "action_label": "Attend BNDES requests",
+            "evidence": "Durante a fase de encerramento do CONTRATO, atender a todas as solicitações do BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainability_practices",
+            "action_label": "Adopt sustainability practices",
+            "evidence": "Adotar, sempre que cabível, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_security_compliance",
+            "action_label": "Ensure security compliance",
+            "evidence": "Responsabilizar-se pelo cumprimento das normas de segurança das dependências do BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_resources",
+            "action_label": "Return resources",
+            "evidence": "Devolver recursos disponibilizados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "implement_permanent_supervision",
+            "action_label": "Implement permanent supervision",
+            "evidence": "Implantar, de forma adequada, a supervisão permanente dos serviços",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "Manter sigilo relativamente ao objeto contratado",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_perform_reverse_engineering",
+            "action_label": "Not perform reverse engineering",
+            "evidence": "Não efetuar a compilação reversa, montagem reversa ou engenharia reversa",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "indicate_contact_info",
+            "action_label": "Indicate contact info",
+            "evidence": "Indicar seus dados de endereço, telefone e endereço de e-mail",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_potential_risks",
+            "action_label": "Notify potential risks",
+            "evidence": "Notificar ao BNDES, por escrito, quaisquer fatos que possam pôr em risco a execução do presente objeto",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_laws",
+            "action_label": "Comply with laws",
+            "evidence": "Cumprir, durante a execução do Contrato, as leis federais, estaduais e municipais",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_dif",
+            "action_label": "Present DIF",
+            "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guarantee_no_copyright_infringement",
+            "action_label": "Guarantee no copyright infringement",
+            "evidence": "garantir que o objeto do Contrato não infringe quaisquer direitos autorais",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "impede_employee_participation",
+            "action_label": "Prevent employee participation",
+            "evidence": "Impedir a participação, direta ou indireta, de empregado ou dirigente do BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "permit_inspections",
+            "action_label": "Permit inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "bndes_request",
+            "action_label": "Attend to BNDES requests",
+            "evidence": "Durante a fase de encerramento do CONTRATO, atender a todas as solicitações do BNDES",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_qualification_conditions",
+          "action_label": "Maintain qualification conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação exigidas quando da contratação",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_penalty_imposition",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_contract_object",
+          "action_label": "Repair contract object",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages_to_bndes",
+          "action_label": "Repair damages to BNDES",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_taxes_and_fees",
+          "action_label": "Pay taxes and fees",
+          "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "exclude_from_simples_nacional",
+          "action_label": "Exclude from Simples Nacional",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_bndes_instructions",
+          "action_label": "Obey BNDES instructions",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_organized_equipment",
+          "action_label": "Maintain organized equipment",
+          "evidence": "Manter organizados e devidamente identificados seus equipamentos e canais de comunicação",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "uninstall_infrastructure",
+          "action_label": "Uninstall infrastructure",
+          "evidence": "A desinstalação da infraestrutura e retirada dos equipamentos de cada CONTRATADA",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "refrain_from_offering_undue_advantage",
+            "action_label": "Refrain from offering undue advantage",
+            "evidence": "O CONTRATADO obriga-se a não oferecer, prometer, dar, autorizar, solicitar ou aceitar qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_favoritism",
+            "action_label": "Prevent favoritism",
+            "evidence": "O CONTRATADO obriga-se a impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "avoid_allocating_family_members",
+            "action_label": "Avoid allocating family members",
+            "evidence": "O CONTRATADO obriga-se a providenciar para que não sejam alocados familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_bndes_code_of_ethics",
+            "action_label": "Observe BNDES code of ethics",
+            "evidence": "O CONTRATADO obriga-se a observar o Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_good_environmental_practices",
+            "action_label": "Adopt good environmental practices",
+            "evidence": "O CONTRATADO obriga-se a adotar boas práticas de sustentabilidade ambiental",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "maintain_integrity",
+            "action_label": "Maintain integrity",
+            "evidence": "O CONTRATADO e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "refrain_from_offering_undue_advantage",
+          "action_label": "Refrain from offering undue advantage",
+          "evidence": "O CONTRATADO obriga-se a não oferecer, prometer, dar, autorizar, solicitar ou aceitar qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_favoritism",
+          "action_label": "Prevent favoritism",
+          "evidence": "O CONTRATADO obriga-se a impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "avoid_allocating_family_members",
+          "action_label": "Avoid allocating family members",
+          "evidence": "O CONTRATADO obriga-se a providenciar para que não sejam alocados familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_bndes_code_of_ethics",
+          "action_label": "Observe BNDES code of ethics",
+          "evidence": "O CONTRATADO obriga-se a observar o Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_good_environmental_practices",
+          "action_label": "Adopt good environmental practices",
+          "evidence": "O CONTRATADO obriga-se a adotar boas práticas de sustentabilidade ambiental",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "maintain_integrity",
+          "action_label": "Maintain integrity",
+          "evidence": "O CONTRATADO e o BNDES comprometem-se a manter a integridade nas relações público-privadas",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_sigilo_das_informações": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "deverá manter o sigilo dos mesmos",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "orient_professionals",
+            "action_label": "Orient professionals",
+            "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_signature",
+            "action_label": "Provide signature",
+            "evidence": "o CONTRATADO deverá providenciar a assinatura... dos Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "request_signature",
+            "action_label": "Request signature",
+            "evidence": "Assim que solicitado pelo Gestor do Contrato",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality",
+          "action_label": "Maintain confidentiality",
+          "evidence": "deverá manter o sigilo dos mesmos",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_signature",
+          "action_label": "Provide signature",
+          "evidence": "o CONTRATADO deverá providenciar a assinatura... dos Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "orient_professionals",
+          "action_label": "Orient professionals",
+          "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "request_signature",
+          "action_label": "Request signature",
+          "evidence": "Assim que solicitado pelo Gestor do Contrato",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_acesso_protecao_dados_pessoais": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "adopt_correct_security_measures",
+            "action_label": "Adopt security measures",
+            "evidence": "As partes assumem o compromisso de ... adotar medidas corretas de segurança",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "follow_bndes_instructions",
+            "action_label": "Follow BNDES instructions",
+            "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "right_of_regress",
+            "action_label": "Right of regress",
+            "evidence": "O BNDES possui direito de regresso em face do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_access",
+            "action_label": "Provide data access",
+            "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal... em que seja garantida consulta facilitada",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_requests",
+            "action_label": "Inform BNDES of requests",
+            "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_data_processing_records",
+            "action_label": "Maintain data records",
+            "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_data_breach",
+            "action_label": "Communicate data breach",
+            "evidence": "Qualquer incidente que implique em violação...de dados pessoais deverá ser prontamente comunicado ao BNDES",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "eliminate_personal_data",
+            "action_label": "Eliminate personal data",
+            "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar ... todo e qualquer dado pessoal",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_sharing_data_without_authorization",
+            "action_label": "Do not share data without authorization",
+            "evidence": "Os dados coletados somente poderão ser utilizados pelas partes...sendo que, em hipótese alguma, poderão ser compartilhados...sem a prévia autorização do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "adopt_correct_security_measures",
+          "action_label": "Adopt security measures",
+          "evidence": "As partes assumem o compromisso de ... adotar medidas corretas de segurança",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "follow_bndes_instructions",
+          "action_label": "Follow BNDES instructions",
+          "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "right_of_regress",
+          "action_label": "Right of regress",
+          "evidence": "O BNDES possui direito de regresso em face do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_data_access",
+          "action_label": "Provide data access",
+          "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal... em que seja garantida consulta facilitada",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_requests",
+          "action_label": "Inform BNDES of requests",
+          "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_data_processing_records",
+          "action_label": "Maintain data records",
+          "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_data_breach",
+          "action_label": "Communicate data breach",
+          "evidence": "Qualquer incidente que implique em violação...de dados pessoais deverá ser prontamente comunicado ao BNDES",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "eliminate_personal_data",
+          "action_label": "Eliminate personal data",
+          "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar ... todo e qualquer dado pessoal",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_sharing_data_without_authorization",
+          "action_label": "Do not share data without authorization",
+          "evidence": "Os dados coletados somente poderão ser utilizados pelas partes...sendo que, em hipótese alguma, poderão ser compartilhados...sem a prévia autorização do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_obrigações_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_obrigações_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contracted_party",
+            "action_label": "Make payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments_from_bndes",
+            "action_label": "Receive payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, José Wilson Freire",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_inspector",
+            "action_label": "Designate contract inspector",
+            "evidence": "designar o Fiscal do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_receipt_committee",
+            "action_label": "Designate receipt committee",
+            "evidence": "designar a Comissão de Recebimento",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_documents",
+            "action_label": "Provide documents",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_documents",
+            "action_label": "Request documents",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_information",
+            "action_label": "Provide information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_information",
+            "action_label": "Obtain information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_instructions",
+            "action_label": "Receive instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_investigation",
+            "action_label": "Communicate investigation",
+            "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_investigation",
+            "action_label": "Receive investigation notice",
+            "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar ao CONTRATADO, por escrito: e c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_penalty_notice",
+            "action_label": "Receive penalty notice",
+            "evidence": "comunicar ao CONTRATADO, por escrito: e c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contracted_party",
+          "action_label": "Make payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments_from_bndes",
+          "action_label": "Receive payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, José Wilson Freire",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_inspector",
+          "action_label": "Designate contract inspector",
+          "evidence": "designar o Fiscal do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_receipt_committee",
+          "action_label": "Designate receipt committee",
+          "evidence": "designar a Comissão de Recebimento",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_documents",
+          "action_label": "Provide documents",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_information",
+          "action_label": "Provide information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_investigation",
+          "action_label": "Communicate investigation",
+          "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar ao CONTRATADO, por escrito: e c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+        "candidates": [
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_cede_contract",
+            "action_label": "Not cede contract",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_issue_credit_title",
+            "action_label": "Not issue credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "merge_acquire_split",
+            "action_label": "Merge/Acquire/Split",
+            "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_contract_conditions",
+            "action_label": "Maintain contract conditions",
+            "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais.",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "subcontract_last_mile",
+            "action_label": "Subcontract last mile",
+            "evidence": "É admitida a subcontratação da parcela do objeto deste Contrato referente à última milha",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_supporting_documents",
+            "action_label": "Present supporting documents",
+            "evidence": "cabendo ao CONTRATADO apresentar, sempre que solicitado pelo BNDES, os respectivos documentos comprobatórios.",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_adequately",
+            "action_label": "Execute contract adequately",
+            "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "sujeitando-se, inclusive, às penalidades previstas neste Contrato, na hipótese de não cumprir as obrigações ora pactuadas",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_cede_contract",
+          "action_label": "Not cede contract",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_issue_credit_title",
+          "action_label": "Not issue credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo.",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_supporting_documents",
+          "action_label": "Present supporting documents",
+          "evidence": "cabendo ao CONTRATADO apresentar, sempre que solicitado pelo BNDES, os respectivos documentos comprobatórios.",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_adequately",
+          "action_label": "Execute contract adequately",
+          "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "merge_acquire_split",
+          "action_label": "Merge/Acquire/Split",
+          "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_contract_conditions",
+          "action_label": "Maintain contract conditions",
+          "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais.",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "subcontract_last_mile",
+          "action_label": "Subcontract last mile",
+          "evidence": "É admitida a subcontratação da parcela do objeto deste Contrato referente à última milha",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "sujeitando-se, inclusive, às penalidades previstas neste Contrato, na hipótese de não cumprir as obrigações ora pactuadas",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_subject_to_penalties",
+            "action_label": "Subject to penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa... III. suspensão",
+            "confidence": 0.9,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "impose_penalties",
+            "action_label": "Impose penalties",
+            "evidence": "Em caso de inexecução...o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_reconsideration_of_penalty",
+            "action_label": "Request penalty reconsideration",
+            "evidence": "Contra a decisão de aplicação de penalidade, o CONTRATADO poderá requerer a reconsideração",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extinguish_contract",
+            "action_label": "Extinguish contract",
+            "evidence": "A imposição de penalidade prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "judicial_collection_of_debt",
+            "action_label": "Cobrança judicial",
+            "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+            "confidence": 0.6,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_subject_to_penalties",
+          "action_label": "Subject to penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa... III. suspensão",
+          "confidence": 0.9,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "impose_penalties",
+          "action_label": "Impose penalties",
+          "evidence": "Em caso de inexecução...o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_reconsideration_of_penalty",
+          "action_label": "Request penalty reconsideration",
+          "evidence": "Contra a decisão de aplicação de penalidade, o CONTRATADO poderá requerer a reconsideração",
+          "confidence": 0.7,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extinguish_contract",
+          "action_label": "Extinguish contract",
+          "evidence": "A imposição de penalidade prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "judicial_collection_of_debt",
+          "action_label": "Cobrança judicial",
+          "evidence": "ressalvada a possibilidade de cobrança judicial da diferença eventualmente não coberta pelos mencionados créditos.",
+          "confidence": 0.6,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_alteracoes_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_amendment",
+            "action_label": "Formalize contract amendment",
+            "evidence": "não caberá a recusa das partes à respectiva formalização",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_contract_amendment",
+            "action_label": "Demand contract amendment",
+            "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "refrain_from_denaturing_contract_purpose",
+            "action_label": "Refrain from denaturing contract",
+            "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "compensate_damages_for_refusal_to_amend",
+            "action_label": "Compensate damages",
+            "evidence": "deverá responder pelos danos eventualmente causados",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "subject_to_paying_damages_for_unjustified_refusal",
+            "action_label": "Subject to damages for refusal",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no  Parágrafo anterior, deverá responder pelos danos",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "refrain_from_denaturing_contract_purpose",
+          "action_label": "Refrain from denaturing contract",
+          "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_amendment",
+          "action_label": "Formalize contract amendment",
+          "evidence": "não caberá a recusa das partes à respectiva formalização",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "compensate_damages_for_refusal_to_amend",
+          "action_label": "Compensate damages",
+          "evidence": "deverá responder pelos danos eventualmente causados",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_contract_amendment",
+          "action_label": "Demand contract amendment",
+          "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "subject_to_paying_damages_for_unjustified_refusal",
+          "action_label": "Subject to damages for refusal",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no  Parágrafo anterior, deverá responder pelos danos",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_extincao_contrato": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_extincao_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_consensually",
+            "action_label": "Terminate contract consensually",
+            "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação, e ainda: I. Consensualmente",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_due_breach",
+            "action_label": "Terminate contract due to breach",
+            "evidence": "II. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_contract_terms",
+            "action_label": "Comply with contract terms",
+            "evidence": "II. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.6,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_due_breach",
+            "action_label": "Subject to termination for breach",
+            "evidence": "II. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_no_liberation",
+            "action_label": "Terminate contract no liberation",
+            "evidence": "II. na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_suspension",
+            "action_label": "Subject to termination after suspension",
+            "evidence": "III. em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_suspension",
+            "action_label": "Terminate contract after suspension",
+            "evidence": "III. em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 (cento e vinte) dias",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_bankruptcy",
+            "action_label": "Subject to termination for bankruptcy",
+            "evidence": "IV. quando for decretada a falência do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_bankruptcy",
+            "action_label": "Terminate contract for bankruptcy",
+            "evidence": "IV. quando for decretada a falência do CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_inability",
+            "action_label": "Subject to termination lose ability",
+            "evidence": "V. caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_inability",
+            "action_label": "Terminate contract lose ability",
+            "evidence": "V. caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_cessao",
+            "action_label": "Subject to termination for assignment",
+            "evidence": "VI. na hipótese de descumprimento do previsto na Cláusula de Cessão de Contrato ou de Crédito",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_cessao",
+            "action_label": "Terminate contract for assignment",
+            "evidence": "VI. na hipótese de descumprimento do previsto na Cláusula de Cessão de Contrato ou de Crédito",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_inidonea",
+            "action_label": "Subject to termination inidonea",
+            "evidence": "VII. caso o CONTRATADO seja declarada inidônea pela União, por Estado ou pelo Distrito Federal",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_inidonea",
+            "action_label": "Terminate contract inidonea",
+            "evidence": "VII. caso o CONTRATADO seja declarada inidônea pela União, por Estado ou pelo Distrito Federal",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_suspensao_licitar",
+            "action_label": "Subject to termination suspensao licitar",
+            "evidence": "VIII. em função da suspensão do direito de o CONTRATADO licitar ou contratar com o BNDES",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_suspensao_licitar",
+            "action_label": "Terminate contract suspensao licitar",
+            "evidence": "VIII. em função da suspensão do direito de o CONTRATADO licitar ou contratar com o BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_ato_lesivo",
+            "action_label": "Subject to termination ato lesivo",
+            "evidence": "IX. na hipótese de caracterização de ato lesivo à Administração Pública",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_ato_lesivo",
+            "action_label": "Terminate contract ato lesivo",
+            "evidence": "IX. na hipótese de caracterização de ato lesivo à Administração Pública",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_dissolucao",
+            "action_label": "Subject to termination dissolucao",
+            "evidence": "X. em razão da dissolução do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_dissolucao",
+            "action_label": "Terminate contract dissolucao",
+            "evidence": "X. em razão da dissolução do CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_termination_forca_maior",
+            "action_label": "Subject to termination for forca maior",
+            "evidence": "XI. quando da ocorrência de caso fortuito ou de força maior",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_forca_maior",
+            "action_label": "Terminate contract for forca maior",
+            "evidence": "XI. quando da ocorrência de caso fortuito ou de força maior",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_bankruptcy",
+          "action_label": "Subject to termination for bankruptcy",
+          "evidence": "IV. quando for decretada a falência do CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_inability",
+          "action_label": "Subject to termination lose ability",
+          "evidence": "V. caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_cessao",
+          "action_label": "Subject to termination for assignment",
+          "evidence": "VI. na hipótese de descumprimento do previsto na Cláusula de Cessão de Contrato ou de Crédito",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_inidonea",
+          "action_label": "Subject to termination inidonea",
+          "evidence": "VII. caso o CONTRATADO seja declarada inidônea pela União, por Estado ou pelo Distrito Federal",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_suspensao_licitar",
+          "action_label": "Subject to termination suspensao licitar",
+          "evidence": "VIII. em função da suspensão do direito de o CONTRATADO licitar ou contratar com o BNDES",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_ato_lesivo",
+          "action_label": "Subject to termination ato lesivo",
+          "evidence": "IX. na hipótese de caracterização de ato lesivo à Administração Pública",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_dissolucao",
+          "action_label": "Subject to termination dissolucao",
+          "evidence": "X. em razão da dissolução do CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_termination_forca_maior",
+          "action_label": "Subject to termination for forca maior",
+          "evidence": "XI. quando da ocorrência de caso fortuito ou de força maior",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_consensually",
+          "action_label": "Terminate contract consensually",
+          "evidence": "O presente Contrato poderá ser extinto de acordo com as hipóteses previstas na legislação, e ainda: I. Consensualmente",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_due_breach",
+          "action_label": "Terminate contract due to breach",
+          "evidence": "II. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_disposicoes_finais": {
+      "raw": {
+        "clause_id": "clausula_vigesima_disposicoes_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_strict_compliance",
+            "action_label": "Demand strict compliance",
+            "evidence": "omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais não constituirá renúncia",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights",
+            "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights",
+          "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_strict_compliance",
+          "action_label": "Demand strict compliance",
+          "evidence": "omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais não constituirá renúncia",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_primeira_foro": {
+      "raw": {
+        "clause_id": "clausula_vigesima_primeira_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "unknown",
+            "action_id": "choose_rio_de_janeiro_court",
+            "action_label": "Choose Rio court",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios",
+            "confidence": 0.7,
+            "bearer": "unknown"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "unknown",
+            "action_id": "choose_other_court",
+            "action_label": "Choose another court",
+            "evidence": "afastado qualquer outro, por mais privilegiado que seja.",
+            "confidence": 0.7,
+            "bearer": "unknown"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "unknown",
+          "action_id": "choose_rio_de_janeiro_court",
+          "action_label": "Choose Rio court",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios",
+          "confidence": 0.7,
+          "bearer": "unknown"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "unknown",
+          "action_id": "choose_other_court",
+          "action_label": "Choose another court",
+          "evidence": "afastado qualquer outro, por mais privilegiado que seja.",
+          "confidence": 0.7,
+          "bearer": "unknown"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_risks",
+            "action_label": "Bear allocated risks",
+            "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subject_to_risk_allocation",
+            "action_label": "Subject to risk allocation",
+            "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "oi_s_a_em_recuperacao_judicial"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_risks",
+          "action_label": "Bear allocated risks",
+          "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subject_to_risk_allocation",
+          "action_label": "Subject to risk allocation",
+          "evidence": "eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO",
+          "confidence": 0.7,
+          "bearer": "oi_s_a_em_recuperacao_judicial"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

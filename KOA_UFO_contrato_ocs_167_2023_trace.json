@@ -1,0 +1,2683 @@
+{
+  "contract_id": "contrato_ocs_167_2023",
+  "source_file": "KOA_Contrato_OCS_167_2023_-_BTV_notebooks_Positivo.pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_167_2023",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "tyco_servicos_de_comercio_de_informatica_ltda",
+        "label": "TYCO SERVIÇOS DE COMÉRCIO DE INFORMÁTICA LTDA",
+        "cnpj": "33.260.627/0001-30"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_167_2023"
+      },
+      {
+        "agent_id": "tyco_servicos_de_comercio_de_informatica_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_167_2023"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "provide_notebooks",
+      "evidence": "O presente Contrato tem por objeto o fornecimento de computadores portáteis (notebooks)",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_notebooks",
+      "evidence": "O presente Contrato tem por objeto o fornecimento de computadores portáteis (notebooks)",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_contract_duration",
+      "evidence": "Contract will last 6 months from signing.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "execute_contract_object",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_execution",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quarta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_recebimento_objeto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_garantia_dos_bens_fornecidos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "provide_warranty_for_goods",
+      "evidence": "A garantia será de 36 (trinta e seis) meses, contados do recebimento definitivo dos bens em questão",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_garantia_dos_bens_fornecidos",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_goods_warranty",
+      "evidence": "A garantia será de 36 (trinta e seis) meses, contados do recebimento definitivo dos bens em questão",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_garantia_dos_bens_fornecidos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "solve_defects",
+      "evidence": "O CONTRATADO deverá solucionar todos os vícios e defeitos apresentados pelos bens, dentro do período de garantia",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_garantia_dos_bens_fornecidos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "solve_defects_in_5_days",
+      "evidence": "no prazo de 5 (cinco) dias a contar da data da abertura do chamado",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_garantia_dos_bens_fornecidos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "replace_defective_goods",
+      "evidence": "podendo substitui-los por outros bens, novos e perfeitos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quinta_garantia_dos_bens_fornecidos",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "have_defective_goods_replaced",
+      "evidence": "podendo substitui-los por outros bens, novos e perfeitos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "demand_indemnification",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "bear_burden_quantification_error",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "execute_contract_object",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_payment_for_execution",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 690.030,00",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay_contracted_party",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, em parcela única",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "send_document_digitally",
+      "evidence": "o Contratado deverá encaminhar o documento fiscal ou equivalente em meio digital",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "include_required_information",
+      "evidence": "O documento fiscal ou equivalente legal deverá respeitar a legislação tributária e conter, minimamente, as seguintes informações",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "provide_supporting_documents",
+      "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: I. certidões de regularidade fiscal",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "reject_out_of_time_document",
+      "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_penalty_from_payment",
+      "evidence": "direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO, por qualquer penalidade tributária incidente pelo atraso.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_payments",
+      "evidence": "O BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "review_prices",
+      "evidence": "O BNDES (...) têm direito à revisão de preços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "request_price_review",
+      "evidence": "O CONTRATADO têm direito à revisão de preços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "request_price_review_before_contract_end",
+      "evidence": "O CONTRATADO deverá solicitar a revisão de preços até o encerramento do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "disability",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "cannot_request_price_review_after_contract_end",
+      "evidence": "caso o CONTRATADO não solicite a revisão de preços nos prazos fixados acima, não fará jus à mesma",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_price_revision_request",
+      "evidence": "o BNDES deverá analisar o pedido de revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "omit_celebration_additives",
+      "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "no_right_celebrate_additives",
+      "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "obtain_guarantor_consent",
+      "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extend_guarantee_presentation_period",
+      "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "obtain_new_guarantee",
+      "evidence": "cabe ao CONTRATADO obter nova garantia no mesmo prazo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "summon_contracted_party_to_provide_guarantee",
+      "evidence": "contados da convocação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "maintain_qualification_conditions",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "communicate_penalty_imposition",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "repair_object_of_contract",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "repair_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "pay_charges_and_taxes",
+      "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "assume_responsibility_for_tax_documents",
+      "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "exclude_from_simples_nacional",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "allow_inspections",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "obey_instructions",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "appoint_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "maintain_integrity_public_private_relations",
+      "evidence": "O CONTRATADO [...] comprometem-se a manter a integridade nas relações público-privadas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "act_in_good_faith",
+      "evidence": "agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "act_according_to_principles",
+      "evidence": "de acordo com os princípios da moralidade administrativa e da impessoalidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "prevent_favoritism",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "prevent_allocation_of_family",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "remove_agents_causing_impediments",
+      "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "communicate_facts_to_bndes",
+      "evidence": "além de comunicar tal fato ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "maintain_integrity_public_private_relations_bndes",
+      "evidence": "O [...] BNDES comprometem-se a manter a integridade nas relações público-privadas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "act_in_good_faith_bndes",
+      "evidence": "agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "act_according_to_principles_bndes",
+      "evidence": "de acordo com os princípios da moralidade administrativa e da impessoalidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "maintain_confidentiality",
+      "evidence": "deverá manter o sigilo dos mesmos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "provide_signed_confidentiality_terms",
+      "evidence": "o CONTRATADO deverá providenciar a assinatura...dos Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "orient_professionals",
+      "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "not_maintain_confidentiality",
+      "evidence": "Caso o CONTRATADO venha a ter acesso a dados...deverá manter o sigilo",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_warning",
+      "evidence": "advertência",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "be_subject_to_warning",
+      "evidence": "advertência",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_fine",
+      "evidence": "multa",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "be_subject_to_fine",
+      "evidence": "multa",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_temporarily",
+      "evidence": "suspensão temporária",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "be_subject_to_suspension",
+      "evidence": "suspensão temporária",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "request_reconsideration",
+      "evidence": "o CONTRATADO poderá requerer a reconsideração",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "tyco_servicos_de_comercio_de_informatica_ltda",
+      "action_id": "interpose_appeal",
+      "evidence": "interpor o recurso cabível",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_amendment",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "no_right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "must_formalize_amendment",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "agree_to_contract_amendment",
+      "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "compensate_for_refusal",
+      "evidence": "deverá responder pelos danos eventualmente causados",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_alterações_contratuais",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "face_penalties_for_refusal",
+      "evidence": "deverá responder pelos danos eventualmente causados, sem prejuízo das demais consequências",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_consensually",
+      "evidence": "O Contrato poderá ser extinto Consensualmente, formalizada em autorização escrita e fundamentada do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_other_party_of_breach",
+      "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_for_lack_of_area",
+      "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_for_suspension",
+      "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 (cento e vinte) dias",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_for_breach",
+      "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_disposições_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "Parties can exercise their rights at any time, even with prior omission/tolerance.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_disposições_finais",
+      "legal_moment_class": "permission_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_enforcement",
+      "evidence": "Omission in enforcing obligations does not constitute a waiver.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_disposições_finais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "claim_waiver",
+      "evidence": "Omission in enforcing does not constitute a waiver, preventing claims based on it.",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_vigésima_segunda_foro",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "choose_rio_de_janeiro_forum",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_vigésima_segunda_foro",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "be_subject_to_rio_de_janeiro_forum",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_vigésima_segunda_foro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "choose_different_forum",
+      "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+      "confidence": 0.8
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_notebooks",
+            "action_label": "Provide notebooks",
+            "evidence": "O presente Contrato tem por objeto o fornecimento de computadores portáteis (notebooks)",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_notebooks",
+            "action_label": "Receive notebooks",
+            "evidence": "O presente Contrato tem por objeto o fornecimento de computadores portáteis (notebooks)",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_notebooks",
+          "action_label": "Provide notebooks",
+          "evidence": "O presente Contrato tem por objeto o fornecimento de computadores portáteis (notebooks)",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_notebooks",
+          "action_label": "Receive notebooks",
+          "evidence": "O presente Contrato tem por objeto o fornecimento de computadores portáteis (notebooks)",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "expect_contract_duration",
+            "action_label": "Expect contract duration",
+            "evidence": "Contract will last 6 months from signing.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "expect_contract_duration",
+          "action_label": "Expect contract duration",
+          "evidence": "Contract will last 6 months from signing.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_execution",
+            "action_label": "Demand execution",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_execution",
+          "action_label": "Demand execution",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quarta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_garantia_dos_bens_fornecidos": {
+      "raw": {
+        "clause_id": "clausula_quinta_garantia_dos_bens_fornecidos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_warranty_for_goods",
+            "action_label": "Provide warranty",
+            "evidence": "A garantia será de 36 (trinta e seis) meses, contados do recebimento definitivo dos bens em questão",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_goods_warranty",
+            "action_label": "Receive goods warranty",
+            "evidence": "A garantia será de 36 (trinta e seis) meses, contados do recebimento definitivo dos bens em questão",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "solve_defects",
+            "action_label": "Solve defects",
+            "evidence": "O CONTRATADO deverá solucionar todos os vícios e defeitos apresentados pelos bens, dentro do período de garantia",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "replace_defective_goods",
+            "action_label": "Replace defective goods",
+            "evidence": "podendo substitui-los por outros bens, novos e perfeitos",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "have_defective_goods_replaced",
+            "action_label": "Have defective goods replaced",
+            "evidence": "podendo substitui-los por outros bens, novos e perfeitos",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "solve_defects_in_5_days",
+            "action_label": "Solve defects within 5 days",
+            "evidence": "no prazo de 5 (cinco) dias a contar da data da abertura do chamado",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_warranty_for_goods",
+          "action_label": "Provide warranty",
+          "evidence": "A garantia será de 36 (trinta e seis) meses, contados do recebimento definitivo dos bens em questão",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_goods_warranty",
+          "action_label": "Receive goods warranty",
+          "evidence": "A garantia será de 36 (trinta e seis) meses, contados do recebimento definitivo dos bens em questão",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "solve_defects",
+          "action_label": "Solve defects",
+          "evidence": "O CONTRATADO deverá solucionar todos os vícios e defeitos apresentados pelos bens, dentro do período de garantia",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "solve_defects_in_5_days",
+          "action_label": "Solve defects within 5 days",
+          "evidence": "no prazo de 5 (cinco) dias a contar da data da abertura do chamado",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "replace_defective_goods",
+          "action_label": "Replace defective goods",
+          "evidence": "podendo substitui-los por outros bens, novos e perfeitos",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "have_defective_goods_replaced",
+          "action_label": "Have defective goods replaced",
+          "evidence": "podendo substitui-los por outros bens, novos e perfeitos",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+            "confidence": 0.6,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_payment_for_execution",
+            "action_label": "Receive service and pay",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 690.030,00",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_burden_quantification_error",
+            "action_label": "Bear burden of quantification error",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_indemnification",
+            "action_label": "Demand indemnification",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_indemnification",
+          "action_label": "Demand indemnification",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_burden_quantification_error",
+          "action_label": "Bear burden of quantification error",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+          "confidence": 0.6,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_payment_for_execution",
+          "action_label": "Receive service and pay",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 690.030,00",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pay_contracted_party",
+            "action_label": "Pay the contracted party",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, em parcela única",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "reject_out_of_time_document",
+            "action_label": "Reject out of time document",
+            "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_penalty_from_payment",
+            "action_label": "Deduct penalty from payment",
+            "evidence": "direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO, por qualquer penalidade tributária incidente pelo atraso.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "send_document_digitally",
+            "action_label": "Send document digitally",
+            "evidence": "o Contratado deverá encaminhar o documento fiscal ou equivalente em meio digital",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "include_required_information",
+            "action_label": "Include required information",
+            "evidence": "O documento fiscal ou equivalente legal deverá respeitar a legislação tributária e conter, minimamente, as seguintes informações",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supporting_documents",
+            "action_label": "Provide supporting documents",
+            "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: I. certidões de regularidade fiscal",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_payments",
+            "action_label": "Deduct payments",
+            "evidence": "O BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "pay_contracted_party",
+          "action_label": "Pay the contracted party",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, em parcela única",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "send_document_digitally",
+          "action_label": "Send document digitally",
+          "evidence": "o Contratado deverá encaminhar o documento fiscal ou equivalente em meio digital",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "include_required_information",
+          "action_label": "Include required information",
+          "evidence": "O documento fiscal ou equivalente legal deverá respeitar a legislação tributária e conter, minimamente, as seguintes informações",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supporting_documents",
+          "action_label": "Provide supporting documents",
+          "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: I. certidões de regularidade fiscal",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "reject_out_of_time_document",
+          "action_label": "Reject out of time document",
+          "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_penalty_from_payment",
+          "action_label": "Deduct penalty from payment",
+          "evidence": "direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO, por qualquer penalidade tributária incidente pelo atraso.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_payments",
+          "action_label": "Deduct payments",
+          "evidence": "O BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "review_prices",
+            "action_label": "Review prices",
+            "evidence": "O BNDES (...) têm direito à revisão de preços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_review",
+            "action_label": "Request price review",
+            "evidence": "O CONTRATADO têm direito à revisão de preços",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_review_before_contract_end",
+            "action_label": "Request price review before contract end",
+            "evidence": "O CONTRATADO deverá solicitar a revisão de preços até o encerramento do Contrato",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "disability",
+            "bearer_hint": "contracted_party",
+            "action_id": "cannot_request_price_review_after_contract_end",
+            "action_label": "Cannot request price review after contract end",
+            "evidence": "caso o CONTRATADO não solicite a revisão de preços nos prazos fixados acima, não fará jus à mesma",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_price_revision_request",
+            "action_label": "Analyze price revision request",
+            "evidence": "o BNDES deverá analisar o pedido de revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "review_prices",
+          "action_label": "Review prices",
+          "evidence": "O BNDES (...) têm direito à revisão de preços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_review",
+          "action_label": "Request price review",
+          "evidence": "O CONTRATADO têm direito à revisão de preços",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_review_before_contract_end",
+          "action_label": "Request price review before contract end",
+          "evidence": "O CONTRATADO deverá solicitar a revisão de preços até o encerramento do Contrato",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "disability",
+          "bearer_hint": "contracted_party",
+          "action_id": "cannot_request_price_review_after_contract_end",
+          "action_label": "Cannot request price review after contract end",
+          "evidence": "caso o CONTRATADO não solicite a revisão de preços nos prazos fixados acima, não fará jus à mesma",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_price_revision_request",
+          "action_label": "Analyze price revision request",
+          "evidence": "o BNDES deverá analisar o pedido de revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_celebration_additives",
+            "action_label": "Omit celebration of addenda",
+            "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_celebrate_additives",
+            "action_label": "No right to celebrate addenda",
+            "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_celebration_additives",
+          "action_label": "Omit celebration of addenda",
+          "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_celebrate_additives",
+          "action_label": "No right to celebrate addenda",
+          "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "summon_contracted_party_to_provide_guarantee",
+            "action_label": "Summon guarantee",
+            "evidence": "contados da convocação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extend_guarantee_presentation_period",
+            "action_label": "Extend guarantee period",
+            "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_consent",
+            "action_label": "Obtain guarantor consent",
+            "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_new_guarantee",
+            "action_label": "Obtain new guarantee",
+            "evidence": "cabe ao CONTRATADO obter nova garantia no mesmo prazo",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_consent",
+          "action_label": "Obtain guarantor consent",
+          "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extend_guarantee_presentation_period",
+          "action_label": "Extend guarantee period",
+          "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_new_guarantee",
+          "action_label": "Obtain new guarantee",
+          "evidence": "cabe ao CONTRATADO obter nova garantia no mesmo prazo",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "summon_contracted_party_to_provide_guarantee",
+          "action_label": "Summon guarantee",
+          "evidence": "contados da convocação",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigações_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigações_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_qualification_conditions",
+            "action_label": "Maintain qualification conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_penalty_imposition",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_object_of_contract",
+            "action_label": "Repair object",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages",
+            "action_label": "Repair damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_charges_and_taxes",
+            "action_label": "Pay charges and taxes",
+            "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_responsibility_for_tax_documents",
+            "action_label": "Assume responsibility for tax documents",
+            "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "exclude_from_simples_nacional",
+            "action_label": "Exclude from Simples Nacional",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_inspections",
+            "action_label": "Allow inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions",
+            "action_label": "Obey instructions",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "appoint_representative",
+            "action_label": "Appoint representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "answer_for_expenses",
+            "action_label": "Answer for expenses",
+            "evidence": "responder, em relação aos seus profissionais, por todas as despesas decorrentes da execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_dif",
+            "action_label": "Present DIF",
+            "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_technical_responsibility",
+            "action_label": "Assume technical responsibility",
+            "evidence": "assumir inteira responsabilidade técnica e administrativa em relação ao objeto contratado",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "meet_bndes_demands",
+            "action_label": "Meet BNDES demands",
+            "evidence": "atender prontamente quaisquer exigências do representante do BNDES, no que diz respeito às suas necessidades",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_clarifications",
+            "action_label": "Provide clarifications",
+            "evidence": "prestar todos os esclarecimentos que lhe forem solicitados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_unauthorized_disclosure",
+            "action_label": "Notify unauthorized disclosure",
+            "evidence": "notificar prontamente ao BNDES qualquer divulgação ou uso não autorizado de informações",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "report_irregularities",
+            "action_label": "Report irregularities",
+            "evidence": "informar ao BNDES toda e qualquer irregularidade observada no curso da execução contratual",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "identify_employees",
+            "action_label": "Identify employees",
+            "evidence": "identificar seus funcionários com crachás da empresa e informar os horários em que estes efetuarão os serviços no BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_documents",
+            "action_label": "Return documents",
+            "evidence": "devolver, impreterivelmente, ao término do Contrato, ou a qualquer tempo a pedido do BNDES, todos os documentos",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_resources",
+            "action_label": "Return resources",
+            "evidence": "devolver ao final do Contrato recursos fornecidos pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainability_practices",
+            "action_label": "Adopt sustainability practices",
+            "evidence": "adotar, sempre que cabível, na execução do Contrato, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_security_compliance",
+            "action_label": "Ensure security compliance",
+            "evidence": "responsabilizar-se pelo cumprimento das normas de segurança das dependências do BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_laws",
+            "action_label": "Comply with laws",
+            "evidence": "cumprir, durante a execução do Contrato, as leis federais, estaduais e municipais vigentes ou que entrarem em vigor",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "do_not_transfer_responsibility",
+            "action_label": "Do not transfer responsibility",
+            "evidence": "não podendo, sob qualquer hipótese, transferir a terceiros a responsabilidade por problemas ou falhas",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "use_or_copy_bndes_info_without_permission",
+            "action_label": "No right to use BNDES info",
+            "evidence": "Não usar, copiar, duplicar ou de alguma outra forma reproduzir ou reter todas ou quaisquer informações do BNDES, exceto se autorizada",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "reverse_engineer_bndes_software",
+            "action_label": "No right to reverse engineer",
+            "evidence": "Não efetuar a compilação reversa, montagem reversa ou engenharia reversa de qualquer programa aplicativo do BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_qualification_conditions",
+          "action_label": "Maintain qualification conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_penalty_imposition",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_object_of_contract",
+          "action_label": "Repair object",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages",
+          "action_label": "Repair damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_charges_and_taxes",
+          "action_label": "Pay charges and taxes",
+          "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "assume_responsibility_for_tax_documents",
+          "action_label": "Assume responsibility for tax documents",
+          "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "exclude_from_simples_nacional",
+          "action_label": "Exclude from Simples Nacional",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "allow_inspections",
+          "action_label": "Allow inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_instructions",
+          "action_label": "Obey instructions",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "appoint_representative",
+          "action_label": "Appoint representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_conduta_ética_do_contratado_e_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_integrity_public_private_relations",
+            "action_label": "Maintain integrity in public-private relations",
+            "evidence": "O CONTRATADO [...] comprometem-se a manter a integridade nas relações público-privadas",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "act_in_good_faith",
+            "action_label": "Act in good faith",
+            "evidence": "agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "act_according_to_principles",
+            "action_label": "Act according to principles",
+            "evidence": "de acordo com os princípios da moralidade administrativa e da impessoalidade",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_undue_advantage",
+            "action_label": "Prevent undue advantage",
+            "evidence": "tomar todas as medidas ao seu alcance para impedir administradores [...] de fazê-lo",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_favoritism",
+            "action_label": "Prevent favoritism",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_allocation_of_family",
+            "action_label": "Prevent allocation of family",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_policies_and_code",
+            "action_label": "Observe policies and code",
+            "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainable_practices",
+            "action_label": "Adopt sustainable practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "remove_agents_causing_impediments",
+            "action_label": "Remove agents causing impediments",
+            "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_facts_to_bndes",
+            "action_label": "Communicate facts to BNDES",
+            "evidence": "além de comunicar tal fato ao BNDES",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "maintain_integrity_public_private_relations_bndes",
+            "action_label": "Maintain integrity in public-private relations",
+            "evidence": "O [...] BNDES comprometem-se a manter a integridade nas relações público-privadas",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "act_in_good_faith_bndes",
+            "action_label": "Act in good faith",
+            "evidence": "agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "act_according_to_principles_bndes",
+            "action_label": "Act according to principles",
+            "evidence": "de acordo com os princípios da moralidade administrativa e da impessoalidade",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_integrity_public_private_relations",
+          "action_label": "Maintain integrity in public-private relations",
+          "evidence": "O CONTRATADO [...] comprometem-se a manter a integridade nas relações público-privadas",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "act_in_good_faith",
+          "action_label": "Act in good faith",
+          "evidence": "agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "act_according_to_principles",
+          "action_label": "Act according to principles",
+          "evidence": "de acordo com os princípios da moralidade administrativa e da impessoalidade",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_favoritism",
+          "action_label": "Prevent favoritism",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_allocation_of_family",
+          "action_label": "Prevent allocation of family",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "remove_agents_causing_impediments",
+          "action_label": "Remove agents causing impediments",
+          "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_facts_to_bndes",
+          "action_label": "Communicate facts to BNDES",
+          "evidence": "além de comunicar tal fato ao BNDES",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "maintain_integrity_public_private_relations_bndes",
+          "action_label": "Maintain integrity in public-private relations",
+          "evidence": "O [...] BNDES comprometem-se a manter a integridade nas relações público-privadas",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "act_in_good_faith_bndes",
+          "action_label": "Act in good faith",
+          "evidence": "agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "act_according_to_principles_bndes",
+          "action_label": "Act according to principles",
+          "evidence": "de acordo com os princípios da moralidade administrativa e da impessoalidade",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_sigilo_das_informações": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_sigilo_das_informações",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "deverá manter o sigilo dos mesmos",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "not_maintain_confidentiality",
+            "action_label": "Not maintain confidentiality (counterpart)",
+            "evidence": "Caso o CONTRATADO venha a ter acesso a dados...deverá manter o sigilo",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "orient_professionals",
+            "action_label": "Instruct professionals",
+            "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_signed_confidentiality_terms",
+            "action_label": "Provide signed confidentiality terms",
+            "evidence": "o CONTRATADO deverá providenciar a assinatura...dos Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality",
+          "action_label": "Maintain confidentiality",
+          "evidence": "deverá manter o sigilo dos mesmos",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_signed_confidentiality_terms",
+          "action_label": "Provide signed confidentiality terms",
+          "evidence": "o CONTRATADO deverá providenciar a assinatura...dos Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "orient_professionals",
+          "action_label": "Instruct professionals",
+          "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "not_maintain_confidentiality",
+          "action_label": "Not maintain confidentiality (counterpart)",
+          "evidence": "Caso o CONTRATADO venha a ter acesso a dados...deverá manter o sigilo",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.8,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_warning",
+            "action_label": "Apply warning",
+            "evidence": "advertência",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_warning",
+            "action_label": "Be subject to warning",
+            "evidence": "advertência",
+            "confidence": 0.7,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_fine",
+            "action_label": "Apply fine",
+            "evidence": "multa",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_fine",
+            "action_label": "Be subject to fine",
+            "evidence": "multa",
+            "confidence": 0.7,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_temporarily",
+            "action_label": "Suspend temporarily",
+            "evidence": "suspensão temporária",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_suspension",
+            "action_label": "Be subject to suspension",
+            "evidence": "suspensão temporária",
+            "confidence": 0.7,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_reconsideration",
+            "action_label": "Request reconsideration",
+            "evidence": "o CONTRATADO poderá requerer a reconsideração",
+            "confidence": 0.6,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracted_party",
+            "action_id": "interpose_appeal",
+            "action_label": "Interpose appeal",
+            "evidence": "interpor o recurso cabível",
+            "confidence": 0.6,
+            "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.8,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_warning",
+          "action_label": "Apply warning",
+          "evidence": "advertência",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_warning",
+          "action_label": "Be subject to warning",
+          "evidence": "advertência",
+          "confidence": 0.7,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_fine",
+          "action_label": "Apply fine",
+          "evidence": "multa",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_fine",
+          "action_label": "Be subject to fine",
+          "evidence": "multa",
+          "confidence": 0.7,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_temporarily",
+          "action_label": "Suspend temporarily",
+          "evidence": "suspensão temporária",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_suspension",
+          "action_label": "Be subject to suspension",
+          "evidence": "suspensão temporária",
+          "confidence": 0.7,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_reconsideration",
+          "action_label": "Request reconsideration",
+          "evidence": "o CONTRATADO poderá requerer a reconsideração",
+          "confidence": 0.6,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracted_party",
+          "action_id": "interpose_appeal",
+          "action_label": "Interpose appeal",
+          "evidence": "interpor o recurso cabível",
+          "confidence": 0.6,
+          "bearer": "tyco_servicos_de_comercio_de_informatica_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_alterações_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_alterações_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "agree_to_contract_amendment",
+            "action_label": "Agree to contract amendment",
+            "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_amendment",
+            "action_label": "Formalize amendment if essential",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "must_formalize_amendment",
+            "action_label": "Must formalize amendment",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "compensate_for_refusal",
+            "action_label": "Compensate damages for refusal",
+            "evidence": "deverá responder pelos danos eventualmente causados",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "face_penalties_for_refusal",
+            "action_label": "Subject to penalties",
+            "evidence": "deverá responder pelos danos eventualmente causados, sem prejuízo das demais consequências",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_amendment",
+          "action_label": "Formalize amendment if essential",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "must_formalize_amendment",
+          "action_label": "Must formalize amendment",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "agree_to_contract_amendment",
+          "action_label": "Agree to contract amendment",
+          "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "compensate_for_refusal",
+          "action_label": "Compensate damages for refusal",
+          "evidence": "deverá responder pelos danos eventualmente causados",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "face_penalties_for_refusal",
+          "action_label": "Subject to penalties",
+          "evidence": "deverá responder pelos danos eventualmente causados, sem prejuízo das demais consequências",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_extinção_contrato": {
+      "raw": {
+        "clause_id": "clausula_vigésima_extinção_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_consensually",
+            "action_label": "Terminate contract consensually",
+            "evidence": "O Contrato poderá ser extinto Consensualmente, formalizada em autorização escrita e fundamentada do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_other_party_of_breach",
+            "action_label": "Notify other party of breach",
+            "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_for_breach",
+            "action_label": "Terminate contract for breach",
+            "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_for_lack_of_area",
+            "action_label": "Terminate for lack of area",
+            "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_for_suspension",
+            "action_label": "Terminate for suspension",
+            "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 (cento e vinte) dias",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_consensually",
+          "action_label": "Terminate contract consensually",
+          "evidence": "O Contrato poderá ser extinto Consensualmente, formalizada em autorização escrita e fundamentada do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_other_party_of_breach",
+          "action_label": "Notify other party of breach",
+          "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_for_lack_of_area",
+          "action_label": "Terminate for lack of area",
+          "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_for_suspension",
+          "action_label": "Terminate for suspension",
+          "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 (cento e vinte) dias",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_for_breach",
+          "action_label": "Terminate contract for breach",
+          "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_primeira_disposições_finais": {
+      "raw": {
+        "clause_id": "clausula_vigésima_primeira_disposições_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights",
+            "evidence": "Parties can exercise their rights at any time, even with prior omission/tolerance.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_enforcement",
+            "action_label": "Omit enforcement",
+            "evidence": "Omission in enforcing obligations does not constitute a waiver.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "claim_waiver",
+            "action_label": "Claim waiver",
+            "evidence": "Omission in enforcing does not constitute a waiver, preventing claims based on it.",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights",
+          "evidence": "Parties can exercise their rights at any time, even with prior omission/tolerance.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_enforcement",
+          "action_label": "Omit enforcement",
+          "evidence": "Omission in enforcing obligations does not constitute a waiver.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "claim_waiver",
+          "action_label": "Claim waiver",
+          "evidence": "Omission in enforcing does not constitute a waiver, preventing claims based on it.",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_segunda_foro": {
+      "raw": {
+        "clause_id": "clausula_vigésima_segunda_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "choose_rio_de_janeiro_forum",
+            "action_label": "Choose Rio forum",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "be_subject_to_rio_de_janeiro_forum",
+            "action_label": "Subject to Rio forum",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "choose_different_forum",
+            "action_label": "Choose different forum",
+            "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "choose_rio_de_janeiro_forum",
+          "action_label": "Choose Rio forum",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "be_subject_to_rio_de_janeiro_forum",
+          "action_label": "Subject to Rio forum",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "choose_different_forum",
+          "action_label": "Choose different forum",
+          "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

@@ -1,0 +1,3753 @@
+{
+  "contract_id": "contrato_ocs_018_2023",
+  "source_file": "KOA_Contrato_OCS_018_2023_-_Asper.pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_018_2023",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "asper_tecnologia_ltda",
+        "label": "ASPER TECNOLOGIA LTDA",
+        "cnpj": "21.538.196/0001-42"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_018_2023"
+      },
+      {
+        "agent_id": "asper_tecnologia_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_018_2023"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "provide_software_subscription",
+      "evidence": "prestação continuada de serviços de subscrição de uso, atualização e suporte técnico especializado do software Elastic Stack",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "implement_software",
+      "evidence": "serviço de implantação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_software_services",
+      "evidence": "O presente Contrato tem por objeto a prestação continuada de serviços de subscrição de uso",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "receive_payment_for_services",
+      "evidence": "prestação continuada de serviços de subscrição de uso, atualização e suporte técnico especializado do software Elastic Stack",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "apresentar_manifestacao_sobre_prorrogacao",
+      "evidence": "O CONTRATADO deverá, no prazo de até 5 (cinco) dias úteis apresentar sua manifestação sobre a prorrogação do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "comunicar_interesse_prorrogacao",
+      "evidence": "o CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato até 90 (noventa) dias antes",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "sujeicao_as_penalidades",
+      "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "execute_contract_object_according_to_specifications",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_execution_per_specifications",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_price_reduction_indexes",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "be_subject_to_price_reduction_indexes",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effectuate_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay_contracted_party",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 335.000,00",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "demand_indemnification",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "bear_cost_quantification_error",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "accept_price_reduction_partial_execution",
+      "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 335.000,00",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "partially_execute_and_receive",
+      "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, anualmente e de forma antecipada",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_direct_payment",
+      "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "claim_direct_payment",
+      "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "apresentação do documento fiscal ou equivalente legal",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_amounts",
+      "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "reimburse_values",
+      "evidence": "a devolução total ou proporcional dos valores antecipados, que deverá ocorrer no prazo de até 10 (dez) dias corridos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "payment_with_interest",
+      "evidence": "aos valores devidos serão acrescidos juros de mora de 0,5% (meio por cento) ao mês",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "request_price_readjustment_revision",
+      "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até a prorrogação ou o encerramento do Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_readjustment_revision_request",
+      "evidence": "O BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "request_price_readjustment",
+      "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada [...] mediante solicitação do CONTRATADO",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "present_information_requested_by_bndes",
+      "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "penalty_for_not_providing_guarantee",
+      "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extend_guarantee_presentation_deadline",
+      "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado, por igual período",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "obtain_new_guarantee",
+      "evidence": "cabe ao CONTRATADO obter nova garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "obtain_guarantor_consent",
+      "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "maintain_conditions_of_habilitation",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "communicate_penalty_impeding_contract",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "repair_defects",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "repair_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "pay_taxes",
+      "evidence": "pagar todos os encargos e tributos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "assume_full_responsibility",
+      "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "provide_exclusion_from_simples_nacional",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "allow_inspections",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "obey_instructions_and_procedures",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "maintain_integrity_public_private_relations",
+      "evidence": "O CONTRATADO e o BNDES comprometem-se a manter a integridade nas relações público-privadas, agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "prevent_employee_favoritism",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "not_allocate_family_members",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "comply_with_bndes_policies",
+      "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "adopt_sustainable_practices",
+      "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "comply_with_bndes_info_security_policy",
+      "evidence": "Cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "not_access_confidential_info",
+      "evidence": "Não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "maintain_info_secrecy",
+      "evidence": "Manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "limit_info_access",
+      "evidence": "Limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "inform_violation_to_bndes",
+      "evidence": "Informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "return_bndes_material",
+      "evidence": "Entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "Apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "observe_confidentiality_term",
+      "evidence": "Observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "obtain_consent_data_subjects",
+      "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispense tal medida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "follow_bndes_instructions_data_treatment",
+      "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "maintain_data_confidentiality",
+      "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "inform_employees_about_data_clause",
+      "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "right_of_recourse_against_contractor",
+      "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos causados por este",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "provide_channel_for_data_subject_access",
+      "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "inform_bndes_about_data_requests",
+      "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "maintain_data_treatment_records",
+      "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais que realizar no âmbito do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "communicate_data_breaches_to_bndes",
+      "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "delete_data_at_end_of_contract",
+      "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contracted_party",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Frederico Henrique Bohm Argolo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager_substitute",
+      "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência, Carlos Roberto Marques Junior",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_ethical_info",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_virtual_machines",
+      "evidence": "Disponibilizar as máquinas virtuais necessárias para execução do serviço de implantação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_technical_staff",
+      "evidence": "Disponibilizar profissionais técnicos para acompanhar a execução do serviço de implantação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions",
+      "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_irregularities",
+      "evidence": "b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO, concedendo-lhe prazo para defesa",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_penalties",
+      "evidence": "c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "prove_absence_of_discriminatory_acts",
+      "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora ...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_proof_absence_discrimination",
+      "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_contract_execution",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "disability",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "continue_contract_execution_after_discriminatory_act",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES até a comprovação do cumprimento da reparação imposta",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "fulfill_imposed_reparation",
+      "evidence": "comprovação do cumprimento da reparação imposta",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "assign_contract",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "present_supporting_documents",
+      "evidence": "cabendo ao CONTRATADO apresentar, sempre que solicitado pelo BNDES, os respectivos documentos comprobatórios",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "be_responsible_for_subcontractor",
+      "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_risks",
+      "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_subcontracting_risks",
+      "evidence": "aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "omit_total_or_partial_non_performance",
+      "evidence": "Em caso de inexecução total ou parcial do Contrato... o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "request_reconsideration",
+      "evidence": "o CONTRATADO poderá requerer a reconsideração",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "interpose_appeal",
+      "evidence": "interpor o recurso cabível para as demais penalidades",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extinguish_contract",
+      "evidence": "A imposição de penalidade prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_credit",
+      "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_alteracoes_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "agree_to_contract_alteration",
+      "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alteracoes_contratuais",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "liable_for_damages_refusal_contract_alteration",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada deverá responder pelos danos eventualmente causados",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_alteracoes_contratuais",
+      "legal_moment_class": "no_right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_formalization_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_consensually",
+      "evidence": "Contrato poderá ser extinto...formalizada em autorização escrita e fundamentada do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_execution_of_contract",
+      "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_other_party_of_breach",
+      "evidence": "cabendo à parte inocente notificar a outra por escrito",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_breach",
+      "evidence": "razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_bankruptcy",
+      "evidence": "quando for decretada a falência do CONTRATADO",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_suspension_of_licensing",
+      "evidence": "em função da suspensão do direito de o CONTRATADO licitar ou contratar com o BNDES",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_lesive_act",
+      "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública...cometido pelo CONTRATADO",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_dissolution",
+      "evidence": "em razão da dissolução do CONTRATADO",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_due_to_force_majeure",
+      "evidence": "quando da ocorrência de caso fortuito ou de força maior, regularmente comprovado",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_extincao_do_contrato",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_impeding_execution",
+      "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_vigesima_primeira_disposicoes_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_primeira_disposicoes_finais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_strict_compliance_after_omission",
+      "evidence": "A omissão ou tolerância ... não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_segunda_foro",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "choose_rio_de_janeiro_forum",
+      "evidence": "Competent forum is Rio de Janeiro to solve disputes arising from this Contract.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_vigesima_segunda_foro",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "be_subject_to_rio_de_janeiro_forum",
+      "evidence": "Competent forum is Rio de Janeiro to solve disputes arising from this Contract.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_vigesima_segunda_foro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "sue_in_another_forum",
+      "evidence": "Competent forum is Rio de Janeiro ... any other [forum] is rejected.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "respect_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "asper_tecnologia_ltda",
+      "action_id": "not_add_events_supervenientes_allocated_in_risk_matrix",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_respect_for_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "no_right_to_add_events_supervenientes_allocated_in_risk_matrix",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.4
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_software_subscription",
+            "action_label": "Provide software subscription service",
+            "evidence": "prestação continuada de serviços de subscrição de uso, atualização e suporte técnico especializado do software Elastic Stack",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment_for_services",
+            "action_label": "Receive payment for services",
+            "evidence": "prestação continuada de serviços de subscrição de uso, atualização e suporte técnico especializado do software Elastic Stack",
+            "confidence": 0.5,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_software_services",
+            "action_label": "Receive software services",
+            "evidence": "O presente Contrato tem por objeto a prestação continuada de serviços de subscrição de uso",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "implement_software",
+            "action_label": "Implement software",
+            "evidence": "serviço de implantação",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_software_subscription",
+          "action_label": "Provide software subscription service",
+          "evidence": "prestação continuada de serviços de subscrição de uso, atualização e suporte técnico especializado do software Elastic Stack",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "implement_software",
+          "action_label": "Implement software",
+          "evidence": "serviço de implantação",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_software_services",
+          "action_label": "Receive software services",
+          "evidence": "O presente Contrato tem por objeto a prestação continuada de serviços de subscrição de uso",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment_for_services",
+          "action_label": "Receive payment for services",
+          "evidence": "prestação continuada de serviços de subscrição de uso, atualização e suporte técnico especializado do software Elastic Stack",
+          "confidence": 0.5,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "apresentar_manifestacao_sobre_prorrogacao",
+            "action_label": "Present manifestation on contract extension",
+            "evidence": "O CONTRATADO deverá, no prazo de até 5 (cinco) dias úteis apresentar sua manifestação sobre a prorrogação do Contrato",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comunicar_interesse_prorrogacao",
+            "action_label": "Communicate interest in extension",
+            "evidence": "o CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato até 90 (noventa) dias antes",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "sujeicao_as_penalidades",
+            "action_label": "Subject to penalties",
+            "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato.",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "apresentar_manifestacao_sobre_prorrogacao",
+          "action_label": "Present manifestation on contract extension",
+          "evidence": "O CONTRATADO deverá, no prazo de até 5 (cinco) dias úteis apresentar sua manifestação sobre a prorrogação do Contrato",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comunicar_interesse_prorrogacao",
+          "action_label": "Communicate interest in extension",
+          "evidence": "o CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato até 90 (noventa) dias antes",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "sujeicao_as_penalidades",
+          "action_label": "Subject to penalties",
+          "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato.",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_object_according_to_specifications",
+            "action_label": "Execute contract object per specs",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_execution_per_specifications",
+            "action_label": "Expect execution per specs",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_object_according_to_specifications",
+          "action_label": "Execute contract object per specs",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_execution_per_specifications",
+          "action_label": "Expect execution per specs",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services according to standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_services_according_to_standards",
+            "action_label": "Demand services according to standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_price_reduction_indexes",
+            "action_label": "Apply price reduction indexes",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_price_reduction_indexes",
+            "action_label": "Be subject to price reduction indexes",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services according to standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_price_reduction_indexes",
+          "action_label": "Apply price reduction indexes",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_price_reduction_indexes",
+          "action_label": "Be subject to price reduction indexes",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_services_according_to_standards",
+          "action_label": "Demand services according to standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effectuate_object_receipt",
+            "action_label": "Effectuate object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "receive_object",
+            "action_label": "Receive object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effectuate_object_receipt",
+          "action_label": "Effectuate object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "receive_object",
+          "action_label": "Receive object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pay_contracted_party",
+            "action_label": "Pay contracted party",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 335.000,00",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 335.000,00",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "accept_price_reduction_partial_execution",
+            "action_label": "Accept price reduction",
+            "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "partially_execute_and_receive",
+            "action_label": "Partially execute/receive",
+            "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_indemnification",
+            "action_label": "Demand indemnification",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_cost_quantification_error",
+            "action_label": "Bear cost of error",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "pay_contracted_party",
+          "action_label": "Pay contracted party",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 335.000,00",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_indemnification",
+          "action_label": "Demand indemnification",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_cost_quantification_error",
+          "action_label": "Bear cost of error",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "accept_price_reduction_partial_execution",
+          "action_label": "Accept price reduction",
+          "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até R$ 335.000,00",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "partially_execute_and_receive",
+          "action_label": "Partially execute/receive",
+          "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payment",
+            "action_label": "Make payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, anualmente e de forma antecipada",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "apresentação do documento fiscal ou equivalente legal",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_amounts",
+            "action_label": "Deduct amounts",
+            "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "reimburse_values",
+            "action_label": "Reimburse values",
+            "evidence": "a devolução total ou proporcional dos valores antecipados, que deverá ocorrer no prazo de até 10 (dez) dias corridos",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "payment_with_interest",
+            "action_label": "Subject to interest",
+            "evidence": "aos valores devidos serão acrescidos juros de mora de 0,5% (meio por cento) ao mês",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "bndes",
+            "action_id": "omit_direct_payment",
+            "action_label": "Omit direct payment to subcontractor",
+            "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "supplier",
+            "action_id": "claim_direct_payment",
+            "action_label": "No right to claim direct payment",
+            "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payment",
+          "action_label": "Make payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, anualmente e de forma antecipada",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "bndes",
+          "action_id": "omit_direct_payment",
+          "action_label": "Omit direct payment to subcontractor",
+          "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "supplier",
+          "action_id": "claim_direct_payment",
+          "action_label": "No right to claim direct payment",
+          "evidence": "O BNDES não efetuará pagamento diretamente em favor do(s) Subcontratado(s)",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "apresentação do documento fiscal ou equivalente legal",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_amounts",
+          "action_label": "Deduct amounts",
+          "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "reimburse_values",
+          "action_label": "Reimburse values",
+          "evidence": "a devolução total ou proporcional dos valores antecipados, que deverá ocorrer no prazo de até 10 (dez) dias corridos",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "payment_with_interest",
+          "action_label": "Subject to interest",
+          "evidence": "aos valores devidos serão acrescidos juros de mora de 0,5% (meio por cento) ao mês",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment",
+            "action_label": "Request price readjustment",
+            "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada [...] mediante solicitação do CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_information_requested_by_bndes",
+            "action_label": "Present information requested by BNDES",
+            "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment_revision",
+            "action_label": "Request price adjustment/revision",
+            "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até a prorrogação ou o encerramento do Contrato",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_readjustment_revision_request",
+            "action_label": "Analyze readjustment/revision request",
+            "evidence": "O BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment_revision",
+          "action_label": "Request price adjustment/revision",
+          "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até a prorrogação ou o encerramento do Contrato",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_readjustment_revision_request",
+          "action_label": "Analyze readjustment/revision request",
+          "evidence": "O BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment",
+          "action_label": "Request price readjustment",
+          "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada [...] mediante solicitação do CONTRATADO",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_information_requested_by_bndes",
+          "action_label": "Present information requested by BNDES",
+          "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "penalty_for_not_providing_guarantee",
+            "action_label": "Subject to penalty for not providing guarantee",
+            "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_guarantee",
+            "action_label": "Right to receive guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extend_guarantee_presentation_deadline",
+            "action_label": "Extend guarantee deadline",
+            "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado, por igual período",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_consent",
+            "action_label": "Obtain guarantor consent",
+            "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_new_guarantee",
+            "action_label": "Obtain new guarantee",
+            "evidence": "cabe ao CONTRATADO obter nova garantia",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "penalty_for_not_providing_guarantee",
+          "action_label": "Subject to penalty for not providing guarantee",
+          "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extend_guarantee_presentation_deadline",
+          "action_label": "Extend guarantee deadline",
+          "evidence": "O prazo previsto para a apresentação da garantia poderá ser prorrogado, por igual período",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_new_guarantee",
+          "action_label": "Obtain new guarantee",
+          "evidence": "cabe ao CONTRATADO obter nova garantia",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_guarantee",
+          "action_label": "Right to receive guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, contados da convocação, garantia contratual",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_consent",
+          "action_label": "Obtain guarantor consent",
+          "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigações_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigações_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_conditions_of_habilitation",
+            "action_label": "Maintain habilitation conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_penalty_impeding_contract",
+            "action_label": "Communicate penalty impeding contract",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_defects",
+            "action_label": "Repair defects",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages",
+            "action_label": "Repair damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_taxes",
+            "action_label": "Pay taxes",
+            "evidence": "pagar todos os encargos e tributos",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_full_responsibility",
+            "action_label": "Assume full responsibility",
+            "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_exclusion_from_simples_nacional",
+            "action_label": "Provide exclusion from Simples Nacional",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "allow_inspections",
+            "action_label": "Allow inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "inspect_and_supervise",
+            "action_label": "Inspect and supervise",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions_and_procedures",
+            "action_label": "Obey instructions and procedures",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_dif",
+            "action_label": "Present DIF",
+            "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_email_and_website",
+            "action_label": "Inform email and website",
+            "evidence": "Informar, em até 10 (dez) dias úteis, a contar da solicitação do BNDES, um endereço de correio eletrônico (e-mail) e endereço do site",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "activate_elastic_stack",
+            "action_label": "Activate Elastic Stack",
+            "evidence": "Ativar a subscrição do Elastic Stack em nível Platinum",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "deliver_implementation_plan",
+            "action_label": "Deliver implementation plan",
+            "evidence": "Entregar o Plano de Implantação, para execução do serviço de Implantação",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_proportional_value",
+            "action_label": "Return proportional value",
+            "evidence": "devolver ao BNDES o valor proporcional referente ao período não atendido",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assist_contractual_transition",
+            "action_label": "Assist contractual transition",
+            "evidence": "atender às solicitações do BNDES relativas à transição contratual",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guarantee_no_copyright_infringement",
+            "action_label": "Guarantee no copyright infringement",
+            "evidence": "garantir que o objeto do Contrato não infringe quaisquer direitos autorais, patentes ou registros",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_compliance_security_rules",
+            "action_label": "Ensure compliance security rules",
+            "evidence": "responsabilizar-se pelo cumprimento das normas de segurança das dependências do BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_resources",
+            "action_label": "Return resources",
+            "evidence": "devolver recursos disponibilizados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_conditions_of_habilitation",
+          "action_label": "Maintain habilitation conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_penalty_impeding_contract",
+          "action_label": "Communicate penalty impeding contract",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_defects",
+          "action_label": "Repair defects",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages",
+          "action_label": "Repair damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_taxes",
+          "action_label": "Pay taxes",
+          "evidence": "pagar todos os encargos e tributos",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "assume_full_responsibility",
+          "action_label": "Assume full responsibility",
+          "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_exclusion_from_simples_nacional",
+          "action_label": "Provide exclusion from Simples Nacional",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "allow_inspections",
+          "action_label": "Allow inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_instructions_and_procedures",
+          "action_label": "Obey instructions and procedures",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_conduta_etica_contratado_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_conduta_etica_contratado_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_integrity_public_private_relations",
+            "action_label": "Maintain integrity in relations",
+            "evidence": "O CONTRATADO e o BNDES comprometem-se a manter a integridade nas relações público-privadas, agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainable_practices",
+            "action_label": "Adopt sustainable practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_employee_favoritism",
+            "action_label": "Prevent employee favoritism",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_allocate_family_members",
+            "action_label": "Not allocate family members",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_policies",
+            "action_label": "Comply with BNDES policies",
+            "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_integrity_public_private_relations",
+          "action_label": "Maintain integrity in relations",
+          "evidence": "O CONTRATADO e o BNDES comprometem-se a manter a integridade nas relações público-privadas, agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_employee_favoritism",
+          "action_label": "Prevent employee favoritism",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_allocate_family_members",
+          "action_label": "Not allocate family members",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_policies",
+          "action_label": "Comply with BNDES policies",
+          "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_sustainable_practices",
+          "action_label": "Adopt sustainable practices",
+          "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_sigilo_informacoes": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_sigilo_informacoes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_info_security_policy",
+            "action_label": "Comply with BNDES security policy",
+            "evidence": "Cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_access_confidential_info",
+            "action_label": "Not access confidential info",
+            "evidence": "Não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_info_secrecy",
+            "action_label": "Maintain info secrecy",
+            "evidence": "Manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_info_access",
+            "action_label": "Limit info access",
+            "evidence": "Limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_violation_to_bndes",
+            "action_label": "Inform violation to BNDES",
+            "evidence": "Informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_bndes_material",
+            "action_label": "Return BNDES material",
+            "evidence": "Entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "Apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_confidentiality_term",
+            "action_label": "Observe confidentiality term",
+            "evidence": "Observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_info_security_policy",
+          "action_label": "Comply with BNDES security policy",
+          "evidence": "Cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_access_confidential_info",
+          "action_label": "Not access confidential info",
+          "evidence": "Não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_info_secrecy",
+          "action_label": "Maintain info secrecy",
+          "evidence": "Manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_info_access",
+          "action_label": "Limit info access",
+          "evidence": "Limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_violation_to_bndes",
+          "action_label": "Inform violation to BNDES",
+          "evidence": "Informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "return_bndes_material",
+          "action_label": "Return BNDES material",
+          "evidence": "Entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "Apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_confidentiality_term",
+          "action_label": "Observe confidentiality term",
+          "evidence": "Observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_acesso_protecao_dados_pessoais": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_acesso_protecao_dados_pessoais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_consent_data_subjects",
+            "action_label": "Obtain data subject consent",
+            "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispense tal medida",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "follow_bndes_instructions_data_treatment",
+            "action_label": "Follow BNDES instructions on data",
+            "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_data_confidentiality",
+            "action_label": "Maintain data confidentiality",
+            "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_employees_about_data_clause",
+            "action_label": "Inform employees about data clause",
+            "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "right_of_recourse_against_contractor",
+            "action_label": "Right of recourse against contractor",
+            "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos causados por este",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_channel_for_data_subject_access",
+            "action_label": "Provide channel for data access",
+            "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_about_data_requests",
+            "action_label": "Inform BNDES about data requests",
+            "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_data_treatment_records",
+            "action_label": "Maintain data treatment records",
+            "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais que realizar no âmbito do Contrato",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_data_breaches_to_bndes",
+            "action_label": "Communicate data breaches to BNDES",
+            "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "delete_data_at_end_of_contract",
+            "action_label": "Delete data at end of contract",
+            "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "process_personal_data_from_licitation",
+            "action_label": "Process personal data from licitation",
+            "evidence": "para tratamento pelo BNDES, na forma da Lei nº 13.709/2018.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_consent_data_subjects",
+          "action_label": "Obtain data subject consent",
+          "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispense tal medida",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "follow_bndes_instructions_data_treatment",
+          "action_label": "Follow BNDES instructions on data",
+          "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_data_confidentiality",
+          "action_label": "Maintain data confidentiality",
+          "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_employees_about_data_clause",
+          "action_label": "Inform employees about data clause",
+          "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "right_of_recourse_against_contractor",
+          "action_label": "Right of recourse against contractor",
+          "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos causados por este",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_channel_for_data_subject_access",
+          "action_label": "Provide channel for data access",
+          "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_about_data_requests",
+          "action_label": "Inform BNDES about data requests",
+          "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_data_treatment_records",
+          "action_label": "Maintain data treatment records",
+          "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais que realizar no âmbito do Contrato",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_data_breaches_to_bndes",
+          "action_label": "Communicate data breaches to BNDES",
+          "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "delete_data_at_end_of_contract",
+          "action_label": "Delete data at end of contract",
+          "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_obrigações_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_obrigações_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contracted_party",
+            "action_label": "Make payments to contractor",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments_from_bndes",
+            "action_label": "Receive payments from BNDES",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, Frederico Henrique Bohm Argolo",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager_substitute",
+            "action_label": "Designate contract manager substitute",
+            "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência, Carlos Roberto Marques Junior",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "change_contract_manager",
+            "action_label": "Change contract manager",
+            "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_contract_manager_info",
+            "action_label": "Provide contract manager info",
+            "evidence": "mediante comunicação escrita ao CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_ethical_info",
+            "action_label": "Provide ethical info",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_necessary_information",
+            "action_label": "Receive necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_virtual_machines",
+            "action_label": "Provide virtual machines",
+            "evidence": "Disponibilizar as máquinas virtuais necessárias para execução do serviço de implantação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_virtual_machines",
+            "action_label": "Receive virtual machines",
+            "evidence": "Disponibilizar as máquinas virtuais necessárias para execução do serviço de implantação",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_technical_staff",
+            "action_label": "Provide technical staff",
+            "evidence": "Disponibilizar profissionais técnicos para acompanhar a execução do serviço de implantação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_irregularities",
+            "action_label": "Communicate irregularities",
+            "evidence": "b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO, concedendo-lhe prazo para defesa",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalties",
+            "action_label": "Communicate penalties",
+            "evidence": "c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contracted_party",
+          "action_label": "Make payments to contractor",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, Frederico Henrique Bohm Argolo",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager_substitute",
+          "action_label": "Designate contract manager substitute",
+          "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência, Carlos Roberto Marques Junior",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_ethical_info",
+          "action_label": "Provide ethical info",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_virtual_machines",
+          "action_label": "Provide virtual machines",
+          "evidence": "Disponibilizar as máquinas virtuais necessárias para execução do serviço de implantação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_technical_staff",
+          "action_label": "Provide technical staff",
+          "evidence": "Disponibilizar profissionais técnicos para acompanhar a execução do serviço de implantação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_irregularities",
+          "action_label": "Communicate irregularities",
+          "evidence": "b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO, concedendo-lhe prazo para defesa",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_penalties",
+          "action_label": "Communicate penalties",
+          "evidence": "c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_equidade_genero_valorizacao_diversidade": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_equidade_genero_valorizacao_diversidade",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prove_absence_of_discriminatory_acts",
+            "action_label": "Prove no discrimination",
+            "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora ...",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_proof_absence_discrimination",
+            "action_label": "Request proof of no discrimination",
+            "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract_execution",
+            "action_label": "Suspend contract execution",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "disability",
+            "bearer_hint": "contracted_party",
+            "action_id": "continue_contract_execution_after_discriminatory_act",
+            "action_label": "Continue execution after discriminatory act",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES até a comprovação do cumprimento da reparação imposta",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "fulfill_imposed_reparation",
+            "action_label": "Fulfill reparation",
+            "evidence": "comprovação do cumprimento da reparação imposta",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prove_absence_of_discriminatory_acts",
+          "action_label": "Prove no discrimination",
+          "evidence": "O CONTRATADO deverá comprovar, sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora ...",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_proof_absence_discrimination",
+          "action_label": "Request proof of no discrimination",
+          "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_contract_execution",
+          "action_label": "Suspend contract execution",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "disability",
+          "bearer_hint": "contracted_party",
+          "action_id": "continue_contract_execution_after_discriminatory_act",
+          "action_label": "Continue execution after discriminatory act",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES até a comprovação do cumprimento da reparação imposta",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "fulfill_imposed_reparation",
+          "action_label": "Fulfill reparation",
+          "evidence": "comprovação do cumprimento da reparação imposta",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_cessao_de_contrato_ou_de_credito_sucessao_contratual_e_subcontratacao",
+        "candidates": [
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "assign_contract",
+            "action_label": "No right to assign contract",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "issue_credit_title",
+            "action_label": "No right to issue credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_risks",
+            "action_label": "Analyze risks of corporate operations",
+            "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_subcontracting_risks",
+            "action_label": "Analyze risks of subcontracting",
+            "evidence": "aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_supporting_documents",
+            "action_label": "Present supporting documents",
+            "evidence": "cabendo ao CONTRATADO apresentar, sempre que solicitado pelo BNDES, os respectivos documentos comprobatórios",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_responsible_for_subcontractor",
+            "action_label": "Be responsible for subcontractor",
+            "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "assign_contract",
+          "action_label": "No right to assign contract",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "issue_credit_title",
+          "action_label": "No right to issue credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_supporting_documents",
+          "action_label": "Present supporting documents",
+          "evidence": "cabendo ao CONTRATADO apresentar, sempre que solicitado pelo BNDES, os respectivos documentos comprobatórios",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_responsible_for_subcontractor",
+          "action_label": "Be responsible for subcontractor",
+          "evidence": "permanecerá como responsável perante o BNDES pela adequada execução do ajuste",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_risks",
+          "action_label": "Analyze risks of corporate operations",
+          "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_subcontracting_risks",
+          "action_label": "Analyze risks of subcontracting",
+          "evidence": "aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal operação",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_total_or_partial_non_performance",
+            "action_label": "Omit total/partial non-performance",
+            "evidence": "Em caso de inexecução total ou parcial do Contrato... o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Subject to penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_reconsideration",
+            "action_label": "Request reconsideration",
+            "evidence": "o CONTRATADO poderá requerer a reconsideração",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "interpose_appeal",
+            "action_label": "Interpose appeal",
+            "evidence": "interpor o recurso cabível para as demais penalidades",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extinguish_contract",
+            "action_label": "Extinguish contract",
+            "evidence": "A imposição de penalidade prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_credit",
+            "action_label": "Deduct credit",
+            "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_total_or_partial_non_performance",
+          "action_label": "Omit total/partial non-performance",
+          "evidence": "Em caso de inexecução total ou parcial do Contrato... o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Subject to penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_reconsideration",
+          "action_label": "Request reconsideration",
+          "evidence": "o CONTRATADO poderá requerer a reconsideração",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "interpose_appeal",
+          "action_label": "Interpose appeal",
+          "evidence": "interpor o recurso cabível para as demais penalidades",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extinguish_contract",
+          "action_label": "Extinguish contract",
+          "evidence": "A imposição de penalidade prevista nesta Cláusula não impede a extinção do Contrato pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_credit",
+          "action_label": "Deduct credit",
+          "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_alteracoes_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_alteracoes_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "agree_to_contract_alteration",
+            "action_label": "Agree to contract alteration",
+            "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_alteration",
+            "action_label": "Formalize contract alteration",
+            "evidence": "não caberá a recusa das partes à respectiva formalização",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_formalization_contract_alteration",
+            "action_label": "Omit formalization contract alteration",
+            "evidence": "não caberá a recusa das partes à respectiva formalização",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "liable_for_damages_refusal_contract_alteration",
+            "action_label": "Liable for damages - refusal contract alteration",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada deverá responder pelos danos eventualmente causados",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "agree_to_contract_alteration",
+          "action_label": "Agree to contract alteration",
+          "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_alteration",
+          "action_label": "Formalize contract alteration",
+          "evidence": "não caberá a recusa das partes à respectiva formalização",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "liable_for_damages_refusal_contract_alteration",
+          "action_label": "Liable for damages - refusal contract alteration",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada deverá responder pelos danos eventualmente causados",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_formalization_contract_alteration",
+          "action_label": "Omit formalization contract alteration",
+          "evidence": "não caberá a recusa das partes à respectiva formalização",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_extincao_do_contrato": {
+      "raw": {
+        "clause_id": "clausula_vigesima_extincao_do_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_consensually",
+            "action_label": "Terminate contract consensually",
+            "evidence": "Contrato poderá ser extinto...formalizada em autorização escrita e fundamentada do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_other_party_of_breach",
+            "action_label": "Notify breach",
+            "evidence": "cabendo à parte inocente notificar a outra por escrito",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_breach",
+            "action_label": "Terminate for breach",
+            "evidence": "razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "bndes",
+            "action_id": "omit_impeding_execution",
+            "action_label": "Not impede execution",
+            "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_execution_of_contract",
+            "action_label": "Suspend execution",
+            "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_bankruptcy",
+            "action_label": "Terminate due to bankruptcy",
+            "evidence": "quando for decretada a falência do CONTRATADO",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_suspension_of_licensing",
+            "action_label": "Terminate due to suspension",
+            "evidence": "em função da suspensão do direito de o CONTRATADO licitar ou contratar com o BNDES",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_lesive_act",
+            "action_label": "Terminate due to act lesive",
+            "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública...cometido pelo CONTRATADO",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_dissolution",
+            "action_label": "Terminate due to dissolution",
+            "evidence": "em razão da dissolução do CONTRATADO",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_due_to_force_majeure",
+            "action_label": "Terminate due to force majeure",
+            "evidence": "quando da ocorrência de caso fortuito ou de força maior, regularmente comprovado",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_consensually",
+          "action_label": "Terminate contract consensually",
+          "evidence": "Contrato poderá ser extinto...formalizada em autorização escrita e fundamentada do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_execution_of_contract",
+          "action_label": "Suspend execution",
+          "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_other_party_of_breach",
+          "action_label": "Notify breach",
+          "evidence": "cabendo à parte inocente notificar a outra por escrito",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_breach",
+          "action_label": "Terminate for breach",
+          "evidence": "razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_bankruptcy",
+          "action_label": "Terminate due to bankruptcy",
+          "evidence": "quando for decretada a falência do CONTRATADO",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_suspension_of_licensing",
+          "action_label": "Terminate due to suspension",
+          "evidence": "em função da suspensão do direito de o CONTRATADO licitar ou contratar com o BNDES",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_lesive_act",
+          "action_label": "Terminate due to act lesive",
+          "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública...cometido pelo CONTRATADO",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_dissolution",
+          "action_label": "Terminate due to dissolution",
+          "evidence": "em razão da dissolução do CONTRATADO",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_due_to_force_majeure",
+          "action_label": "Terminate due to force majeure",
+          "evidence": "quando da ocorrência de caso fortuito ou de força maior, regularmente comprovado",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "bndes",
+          "action_id": "omit_impeding_execution",
+          "action_label": "Not impede execution",
+          "evidence": "na ausência de liberação, por parte do BNDES, de área, local ou objeto necessário para a sua execução",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_primeira_disposicoes_finais": {
+      "raw": {
+        "clause_id": "clausula_vigesima_primeira_disposicoes_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights",
+            "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_strict_compliance_after_omission",
+            "action_label": "Demand compliance",
+            "evidence": "A omissão ou tolerância ... não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights",
+          "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_strict_compliance_after_omission",
+          "action_label": "Demand compliance",
+          "evidence": "A omissão ou tolerância ... não impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_segunda_foro": {
+      "raw": {
+        "clause_id": "clausula_vigesima_segunda_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "choose_rio_de_janeiro_forum",
+            "action_label": "Choose Rio forum",
+            "evidence": "Competent forum is Rio de Janeiro to solve disputes arising from this Contract.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "be_subject_to_rio_de_janeiro_forum",
+            "action_label": "Be subject to Rio forum",
+            "evidence": "Competent forum is Rio de Janeiro to solve disputes arising from this Contract.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "sue_in_another_forum",
+            "action_label": "Sue in another forum",
+            "evidence": "Competent forum is Rio de Janeiro ... any other [forum] is rejected.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "choose_rio_de_janeiro_forum",
+          "action_label": "Choose Rio forum",
+          "evidence": "Competent forum is Rio de Janeiro to solve disputes arising from this Contract.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "be_subject_to_rio_de_janeiro_forum",
+          "action_label": "Be subject to Rio forum",
+          "evidence": "Competent forum is Rio de Janeiro to solve disputes arising from this Contract.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "sue_in_another_forum",
+          "action_label": "Sue in another forum",
+          "evidence": "Competent forum is Rio de Janeiro ... any other [forum] is rejected.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_economic_financial_equilibrium_clause",
+            "action_label": "Respect economic-financial equilibrium clause.",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.8,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_respect_for_economic_financial_equilibrium_clause",
+            "action_label": "Demand respect for economic-financial equilibrium clause.",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_add_events_supervenientes_allocated_in_risk_matrix",
+            "action_label": "Do not add events allocated in risk matrix.",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.7,
+            "bearer": "asper_tecnologia_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "no_right_to_add_events_supervenientes_allocated_in_risk_matrix",
+            "action_label": "No right to add events allocated in risk matrix.",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.4,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_economic_financial_equilibrium_clause",
+          "action_label": "Respect economic-financial equilibrium clause.",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.8,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_add_events_supervenientes_allocated_in_risk_matrix",
+          "action_label": "Do not add events allocated in risk matrix.",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.7,
+          "bearer": "asper_tecnologia_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_respect_for_economic_financial_equilibrium_clause",
+          "action_label": "Demand respect for economic-financial equilibrium clause.",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "no_right_to_add_events_supervenientes_allocated_in_risk_matrix",
+          "action_label": "No right to add events allocated in risk matrix.",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.4,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

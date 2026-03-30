@@ -1,0 +1,4016 @@
+{
+  "contract_id": "contrato_ocs_160_2022",
+  "source_file": "KOA_Contrato_OCS_160_2022_-_Suporte_servidores_(Unitech).pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_160_2022",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "unitech_rio_comercio_e_servicos_ltda",
+        "label": "'UNITECH RIO COMERCIO E SERVICOS LTDA.'",
+        "cnpj": "32.578.387/0001-54"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_160_2022"
+      },
+      {
+        "agent_id": "unitech_rio_comercio_e_servicos_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_160_2022"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "provide_technical_support_services",
+      "evidence": "prestação continuada de serviços de suporte técnico para equipamentos servidores de TI",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_technical_support_services",
+      "evidence": "prestação continuada de serviços de suporte técnico para equipamentos servidores de TI",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "apresentar_manifestacao_prorrogacao",
+      "evidence": "O CONTRATADO deverá [...] apresentar [...] sua manifestação sobre a prorrogação do Contrato.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "comunicar_interesse_prorrogacao",
+      "evidence": "O CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "subject_to_penalties",
+      "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "execute_contract_object",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_execution_according_to_specifications",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_price_reduction_indices",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "be_subject_to_price_reduction_indices",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_service_execution_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_receipt_of_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_receipt_of_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unknown",
+      "action_id": "support_receipt_of_object",
+      "evidence": "com o apoio da Equipe Técnica",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay_contracted_party",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "demand_indemnization",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "accept_proportional_reduction",
+      "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "bear_quantification_errors",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "partially_execute",
+      "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25 (vinte e cinco) do mesmo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "ensure_invoice_compliance",
+      "evidence": "O documento fiscal ou equivalente legal emitido pelo CONTRATADO deverá estar em conformidade com a legislação do Município",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "attach_documents",
+      "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: certidões de regularidade fiscal exigidas na fase de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "reject_invoice",
+      "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "suffer_deduction",
+      "evidence": "e no direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_from_payment",
+      "evidence": "e no direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "provide_supporting_documents",
+      "evidence": "Em casos de dispensa ou benefício fiscal que implique em redução ou eliminação da retenção de tributos, o CONTRATADO fornecerá todos os documentos comprobatórios.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "suffer_tax_withholding",
+      "evidence": "Os pagamentos a serem efetuados em favor do CONTRATADO estarão sujeitos, no que couber, às retenções de tributos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_price_revision",
+      "evidence": "BNDES has the right to initiate price revision.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "Contracted party has the right to request price revision.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "submit_price_revision_request",
+      "evidence": "CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "provide_supporting_documentation_price_revision",
+      "evidence": "CONTRATADO deverá apresentar planilhas de custos unitários...evidenciando o quanto o aumento de preços ocorrido repercute no valor pactuado.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_price_revision_request",
+      "evidence": "BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "request_price_adjustment",
+      "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante reajuste ou revisão de preços.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "request_price_adjustment_within_deadline",
+      "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até a prorrogação ou o encerramento do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "negotiate_price_reduction",
+      "evidence": "BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "provide_information_requested_by_bndes",
+      "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "immunity",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "avoid_indemnification",
+      "evidence": "o CONTRATADO fará jus à integralidade dos valores apurados...não podendo, todavia, reclamar qualquer indenização em razão da rescisão do mesmo.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "refrain_from_additives",
+      "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "demand_additives",
+      "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "absorb_risks",
+      "evidence": "alocação do risco à parte com maior capacidade para geri-lo e absorvê-lo, identificam os riscos...estabelecem os respectivos responsáveis",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "absorb_risks",
+      "evidence": "alocação do risco à parte com maior capacidade para geri-lo e absorvê-lo, identificam os riscos...estabelecem os respectivos responsáveis",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "maintain_qualification_conditions",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "report_impediment_to_contract_with_bndes",
+      "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "repair_defects",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, o objeto do Contrato em que se verificarem vícios",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "repair_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "pay_taxes",
+      "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "assume_responsibility_for_charges",
+      "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal que seja emitido em desacordo com a legislação aplicável",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "ensure_simples_nacional_exclusion",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "permit_inspections",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "obey_instructions",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "omit_offering_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "prevent_favoritism_participation",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "omit_favoritism_participation",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "prevent_family_allocation",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "omit_family_allocation",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "remove_impeding_agents",
+      "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "inform_bndes_impeding_agents",
+      "evidence": "além de comunicar tal fato ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "prevent_undue_advantage",
+      "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados [...] de fazê-lo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "observe_bndes_policies_code_ethics",
+      "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "comply_with_secrecy_rules",
+      "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "ensure_team_adherence",
+      "evidence": "assegurar a aceitação e adesão às mesmas por profissionais que integrem ou venham a integrar a sua equipe",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "comply_with_bndes_security_policy",
+      "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "not_access_confidential_info",
+      "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "maintain_info_secrecy",
+      "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "limit_info_access",
+      "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "inform_bndes_of_violation",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "return_bndes_property",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "not_use_confidential_info",
+      "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "adopt_security_measures",
+      "evidence": "deverão, para tanto, adotar medidas corretas de segurança sob o aspecto técnico, jurídico e administrativo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "obtain_consent_of_data_holders",
+      "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispense tal medida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "follow_bndes_instructions",
+      "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "maintain_confidentiality",
+      "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "store_data_securely",
+      "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "inform_employees_data_protection",
+      "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "provide_channel_data_holders",
+      "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada e gratuita",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "inform_bndes_data_requests",
+      "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos pelo titular dos dados",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "maintain_data_operations_registry",
+      "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "communicate_data_breaches",
+      "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "receive_payments",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, José Maciel Franco Junior",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager_substitute",
+      "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência, quem o estiver substituindo na função",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_fiscal",
+      "evidence": "designar o Fiscal do Contrato que auxiliará o Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_receipt_committee",
+      "evidence": "designar a Comissão de Recebimento, a quem caberá o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_ethics_code_copy",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "receive_ethics_code_copy",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "receive_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "prove_absence_of_discrimination_sanctions",
+      "evidence": "O CONTRATADO deverá comprovar sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora [...] que importem em discriminação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_proof_of_absence_of_discrimination_sanctions",
+      "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora [...] que importem em discriminação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_contract_execution",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "face_contract_suspension",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "omit_contract_assignment",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "no_right_to_assign_contract",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "omit_credit_assignment",
+      "evidence": "ou de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "no_right_to_assign_credit",
+      "evidence": "ou de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "omit_issuing_credit_titles",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "no_right_to_issue_credit_titles",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "omit_subcontracting",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "no_right_to_subcontract",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "maintain_contractual_conditions",
+      "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "perform_merger_division_incorporation",
+      "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "contracted_party_subjection_to_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "bndes_power_to_extinguish_contract",
+      "evidence": "não impede a extinção do Contrato pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "bndes_power_to_apply_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "contracted_party_right_to_reconsider",
+      "evidence": "o CONTRATADO poderá requerer a reconsideração",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "contracted_party_duty_to_comply_with_bndes_demands",
+      "evidence": "descumprimento de exigência expressamente formulada pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_alteration",
+      "evidence": "In cases where alteration is essential, parties shall not refuse formalization.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "seek_damages_for_refusal",
+      "evidence": "A party refusing alteration must answer for damages caused.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "compensate_for_damages",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "agree_contract_alteration",
+      "evidence": "The Contract may be altered, by agreement between the parties.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_alteration_via_addendum",
+      "evidence": "Contractual changes will be formalized by addendum.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_alteration_via_letter",
+      "evidence": "alterações...poderão ser celebrados por meio epistolar",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extinguish_contract_consensually",
+      "evidence": "O presente Contrato poderá ser extinto... Consensualmente, formalizada em autorização escrita e fundamentada do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_of_breach",
+      "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável para o cumprimento das obrigações",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_for_contracted_party_bankruptcy",
+      "evidence": "quando for decretada a falência do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_if_contracted_party_loses_qualifications",
+      "evidence": "caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_for_dissolution",
+      "evidence": "em razão da dissolução do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_for_breach",
+      "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_if_suspension_exceeds_120_days",
+      "evidence": "suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 (cento e vinte) dias",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_for_lesivo_acts",
+      "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública, nos termos da Lei nº 12.846/2013",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_written_notification",
+      "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "unitech_rio_comercio_e_servicos_ltda",
+      "action_id": "provide_notice_of_rescission",
+      "evidence": "mediante aviso prévio por escrito, com antecedência mínima de 90 (noventa) dias",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_disposições_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigésima_disposições_finais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "claim_waiver_or_novation",
+      "evidence": "A omissão ou tolerância ... não constituirá renúncia ou novação",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_foro",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "be_subject_to_rio_de_janeiro_court",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_vigésima_primeira_foro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "sue_in_other_court",
+      "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+      "confidence": 0.8
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_technical_support_services",
+            "action_label": "Provide technical support services",
+            "evidence": "prestação continuada de serviços de suporte técnico para equipamentos servidores de TI",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_technical_support_services",
+            "action_label": "Receive technical support",
+            "evidence": "prestação continuada de serviços de suporte técnico para equipamentos servidores de TI",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_technical_support_services",
+          "action_label": "Provide technical support services",
+          "evidence": "prestação continuada de serviços de suporte técnico para equipamentos servidores de TI",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_technical_support_services",
+          "action_label": "Receive technical support",
+          "evidence": "prestação continuada de serviços de suporte técnico para equipamentos servidores de TI",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "apresentar_manifestacao_prorrogacao",
+            "action_label": "Present manifestation about extension",
+            "evidence": "O CONTRATADO deverá [...] apresentar [...] sua manifestação sobre a prorrogação do Contrato.",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comunicar_interesse_prorrogacao",
+            "action_label": "Communicate interest in extension",
+            "evidence": "O CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subject_to_penalties",
+            "action_label": "Subject to penalties",
+            "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato.",
+            "confidence": 0.7,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "apresentar_manifestacao_prorrogacao",
+          "action_label": "Present manifestation about extension",
+          "evidence": "O CONTRATADO deverá [...] apresentar [...] sua manifestação sobre a prorrogação do Contrato.",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comunicar_interesse_prorrogacao",
+          "action_label": "Communicate interest in extension",
+          "evidence": "O CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subject_to_penalties",
+          "action_label": "Subject to penalties",
+          "evidence": "ficará sujeito às penalidades previstas na Cláusula de Penalidades deste Contrato.",
+          "confidence": 0.7,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta.",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_execution_according_to_specifications",
+            "action_label": "Demand execution as specified",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta.",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_execution_according_to_specifications",
+          "action_label": "Demand execution as specified",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services according to standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_service_execution_according_to_standards",
+            "action_label": "Demand service execution",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_price_reduction_indices",
+            "action_label": "Apply price reduction indices",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_price_reduction_indices",
+            "action_label": "Be subject to price reduction",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+            "confidence": 0.6,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services according to standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_price_reduction_indices",
+          "action_label": "Apply price reduction indices",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_price_reduction_indices",
+          "action_label": "Be subject to price reduction",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos no Anexo I",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_service_execution_according_to_standards",
+          "action_label": "Demand service execution",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "sem prejuízo da aplicação das penalidades previstas neste Contrato, quando cabíveis.",
+          "confidence": 0.6,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_receipt_of_object",
+            "action_label": "Effect receipt of object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "effect_receipt_of_object",
+            "action_label": "Power to effect receipt of object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "unknown",
+            "action_id": "support_receipt_of_object",
+            "action_label": "Support receipt of object",
+            "evidence": "com o apoio da Equipe Técnica",
+            "confidence": 0.6,
+            "bearer": "unknown"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_receipt_of_object",
+          "action_label": "Effect receipt of object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "effect_receipt_of_object",
+          "action_label": "Power to effect receipt of object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "unknown",
+          "action_id": "support_receipt_of_object",
+          "action_label": "Support receipt of object",
+          "evidence": "com o apoio da Equipe Técnica",
+          "confidence": 0.6,
+          "bearer": "unknown"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pay_contracted_party",
+            "action_label": "Pay the contracted party",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "accept_proportional_reduction",
+            "action_label": "Subject to proportional reduction",
+            "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "partially_execute",
+            "action_label": "Partially execute contract",
+            "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_indemnization",
+            "action_label": "No right to indemnization",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_quantification_errors",
+            "action_label": "Bear costs of quantification errors",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "pay_contracted_party",
+          "action_label": "Pay the contracted party",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado, o valor de até",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_indemnization",
+          "action_label": "No right to indemnization",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "accept_proportional_reduction",
+          "action_label": "Subject to proportional reduction",
+          "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_quantification_errors",
+          "action_label": "Bear costs of quantification errors",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "partially_execute",
+          "action_label": "Partially execute contract",
+          "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_payment",
+            "action_label": "Effect payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25 (vinte e cinco) do mesmo",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "reject_invoice",
+            "action_label": "Reject invoice",
+            "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_presenting_out_of_time_invoice",
+            "action_label": "Omit presenting out-of-time invoice",
+            "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+            "confidence": 0.7,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "suffer_deduction",
+            "action_label": "Suffer deduction",
+            "evidence": "e no direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_from_payment",
+            "action_label": "Deduct from payment",
+            "evidence": "e no direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supporting_documents",
+            "action_label": "Provide supporting documents",
+            "evidence": "Em casos de dispensa ou benefício fiscal que implique em redução ou eliminação da retenção de tributos, o CONTRATADO fornecerá todos os documentos comprobatórios.",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "suffer_tax_withholding",
+            "action_label": "Suffer tax withholding",
+            "evidence": "Os pagamentos a serem efetuados em favor do CONTRATADO estarão sujeitos, no que couber, às retenções de tributos",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "register_with_municipal_tax_authorities",
+            "action_label": "Register with municipal tax authorities",
+            "evidence": "Caso o CONTRATADO emita documento fiscal ou equivalente legal autorizado por Município diferente daquele onde se localiza o estabelecimento do BNDES tomador do serviço e destinatário da cobrança, deverá providenciar o cadastro",
+            "confidence": 0.7,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_invoice_compliance",
+            "action_label": "Ensure invoice compliance",
+            "evidence": "O documento fiscal ou equivalente legal emitido pelo CONTRATADO deverá estar em conformidade com a legislação do Município",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "attach_documents",
+            "action_label": "Attach documents",
+            "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: certidões de regularidade fiscal exigidas na fase de habilitação",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "return_invoice_or_request_correction",
+            "action_label": "Return invoice or request correction",
+            "evidence": "Caso sejam verificadas divergências, o BNDES devolverá o documento fiscal ou equivalente legal ao CONTRATADO ou solicitará a emissão de carta de correção, quando cabível",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_amounts",
+            "action_label": "Deduct amounts",
+            "evidence": "Além de outras hipóteses previstas em lei ou no Contrato, o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas, indenizações",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pay_interest_on_late_payment",
+            "action_label": "Pay interest on late payment",
+            "evidence": "Caso o BNDES não efetue o pagamento na forma prevista nesta Cláusula, em decorrência de fato não atribuível ao CONTRATADO, aos valores devidos serão acrescidos juros de mora",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_overpayments",
+            "action_label": "Deduct overpayments",
+            "evidence": "Fica assegurado ao BNDES o direito de deduzir do pagamento devido ao CONTRATADO, por força deste Contrato ou de outro contrato mantido com o BNDES, o valor correspondente aos pagamentos efetuados a maior ou em duplicidade",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_payment",
+          "action_label": "Effect payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente, por meio de crédito em conta bancária",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25 (vinte e cinco) do mesmo",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "ensure_invoice_compliance",
+          "action_label": "Ensure invoice compliance",
+          "evidence": "O documento fiscal ou equivalente legal emitido pelo CONTRATADO deverá estar em conformidade com a legislação do Município",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "attach_documents",
+          "action_label": "Attach documents",
+          "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: certidões de regularidade fiscal exigidas na fase de habilitação",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "reject_invoice",
+          "action_label": "Reject invoice",
+          "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "suffer_deduction",
+          "action_label": "Suffer deduction",
+          "evidence": "e no direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_from_payment",
+          "action_label": "Deduct from payment",
+          "evidence": "e no direito do BNDES se ressarcir, preferencialmente, mediante desconto do valor a ser pago ao CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supporting_documents",
+          "action_label": "Provide supporting documents",
+          "evidence": "Em casos de dispensa ou benefício fiscal que implique em redução ou eliminação da retenção de tributos, o CONTRATADO fornecerá todos os documentos comprobatórios.",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "suffer_tax_withholding",
+          "action_label": "Suffer tax withholding",
+          "evidence": "Os pagamentos a serem efetuados em favor do CONTRATADO estarão sujeitos, no que couber, às retenções de tributos",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "BNDES has the right to initiate price revision.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "Contracted party has the right to request price revision.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "submit_price_revision_request",
+            "action_label": "Submit price revision request",
+            "evidence": "CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supporting_documentation_price_revision",
+            "action_label": "Provide supporting documentation for price revision",
+            "evidence": "CONTRATADO deverá apresentar planilhas de custos unitários...evidenciando o quanto o aumento de preços ocorrido repercute no valor pactuado.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_price_revision_request",
+            "action_label": "Analyze price revision request",
+            "evidence": "BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment",
+            "action_label": "Request price adjustment",
+            "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante reajuste ou revisão de preços.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment_within_deadline",
+            "action_label": "Request price adjustment within deadline",
+            "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até a prorrogação ou o encerramento do Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "negotiate_price_reduction",
+            "action_label": "Negotiate price reduction",
+            "evidence": "BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_information_requested_by_bndes",
+            "action_label": "Provide information to BNDES",
+            "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "immunity",
+            "bearer_hint": "contracted_party",
+            "action_id": "avoid_indemnification",
+            "action_label": "Avoid indemnification after contract termination",
+            "evidence": "o CONTRATADO fará jus à integralidade dos valores apurados...não podendo, todavia, reclamar qualquer indenização em razão da rescisão do mesmo.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_request_indemnification",
+            "action_label": "Omit request for indemnification after contract termination",
+            "evidence": "não podendo, todavia, reclamar qualquer indenização em razão da rescisão do mesmo.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments_up_to_termination",
+            "action_label": "Receive payments up to termination",
+            "evidence": "o CONTRATADO fará jus à integralidade dos valores apurados no processo de reajuste e/ou revisão de preços até o término do Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "rescindir o Contrato, mediante aviso prévio ao CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "BNDES has the right to initiate price revision.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "Contracted party has the right to request price revision.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "submit_price_revision_request",
+          "action_label": "Submit price revision request",
+          "evidence": "CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supporting_documentation_price_revision",
+          "action_label": "Provide supporting documentation for price revision",
+          "evidence": "CONTRATADO deverá apresentar planilhas de custos unitários...evidenciando o quanto o aumento de preços ocorrido repercute no valor pactuado.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_price_revision_request",
+          "action_label": "Analyze price revision request",
+          "evidence": "BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment",
+          "action_label": "Request price adjustment",
+          "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante reajuste ou revisão de preços.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment_within_deadline",
+          "action_label": "Request price adjustment within deadline",
+          "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até a prorrogação ou o encerramento do Contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "negotiate_price_reduction",
+          "action_label": "Negotiate price reduction",
+          "evidence": "BNDES poderá convocar o CONTRATADO para negociar a redução dos preços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_information_requested_by_bndes",
+          "action_label": "Provide information to BNDES",
+          "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "immunity",
+          "bearer_hint": "contracted_party",
+          "action_id": "avoid_indemnification",
+          "action_label": "Avoid indemnification after contract termination",
+          "evidence": "o CONTRATADO fará jus à integralidade dos valores apurados...não podendo, todavia, reclamar qualquer indenização em razão da rescisão do mesmo.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "absorb_risks",
+            "action_label": "Absorb allocated risks",
+            "evidence": "alocação do risco à parte com maior capacidade para geri-lo e absorvê-lo, identificam os riscos...estabelecem os respectivos responsáveis",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "absorb_risks",
+            "action_label": "Absorb allocated risks",
+            "evidence": "alocação do risco à parte com maior capacidade para geri-lo e absorvê-lo, identificam os riscos...estabelecem os respectivos responsáveis",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "contracted_party",
+            "action_id": "refrain_from_additives",
+            "action_label": "Refrain from contract additives",
+            "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_additives",
+            "action_label": "No right to demand additives",
+            "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "contracted_party",
+          "action_id": "refrain_from_additives",
+          "action_label": "Refrain from contract additives",
+          "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_additives",
+          "action_label": "No right to demand additives",
+          "evidence": "É vedada a celebração de aditivos decorrentes de eventos supervenientes alocados, na Matriz de Riscos, como de responsabilidade do CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "absorb_risks",
+          "action_label": "Absorb allocated risks",
+          "evidence": "alocação do risco à parte com maior capacidade para geri-lo e absorvê-lo, identificam os riscos...estabelecem os respectivos responsáveis",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "absorb_risks",
+          "action_label": "Absorb allocated risks",
+          "evidence": "alocação do risco à parte com maior capacidade para geri-lo e absorvê-lo, identificam os riscos...estabelecem os respectivos responsáveis",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_obrigacoes_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_obrigacoes_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_qualification_conditions",
+            "action_label": "Maintain qualification conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "report_impediment_to_contract_with_bndes",
+            "action_label": "Report impediment to contract",
+            "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_defects",
+            "action_label": "Repair defects",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, o objeto do Contrato em que se verificarem vícios",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages",
+            "action_label": "Repair damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_taxes",
+            "action_label": "Pay taxes",
+            "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_responsibility_for_charges",
+            "action_label": "Assume responsibility for charges",
+            "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal que seja emitido em desacordo com a legislação aplicável",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_simples_nacional_exclusion",
+            "action_label": "Ensure Simples Nacional exclusion",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "permit_inspections",
+            "action_label": "Permit inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions",
+            "action_label": "Obey instructions",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_dif",
+            "action_label": "Present DIF",
+            "evidence": "apresentar, em até 10 (dez) dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF, adequadamente preenchida",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_reverse_charge_number",
+            "action_label": "Inform reverse charge number",
+            "evidence": "Informar, em até 10 (dez) dias úteis após a convocação do BNDES, o número de telefone com tarifação reversa (tipo 0800)",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "Manter sigilo relativamente ao objeto contratado",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "answer_clarifications",
+            "action_label": "Answer clarifications",
+            "evidence": "Prestar todos os esclarecimentos que lhe forem solicitados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_agreement_representative",
+            "action_label": "Present confidentiality agreement (representative)",
+            "evidence": "Apresentar, antes do início da prestação dos serviços, Termo de Confidencialidade – Modelo A (Representante)",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_agreement_professionals",
+            "action_label": "Present confidentiality agreement (professionals)",
+            "evidence": "Apresentar, antes do início da prestação dos serviços e a cada novo profissional a ser alocado para atendimento ao BNDES, Termo de Confidencialidade – Modelo B (Profissionais)",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_technical_responsibility",
+            "action_label": "Assume technical responsibility",
+            "evidence": "Assumir inteira responsabilidade técnica e administrativa pelo respectivo objeto contratado",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_security_compliance",
+            "action_label": "Ensure security compliance",
+            "evidence": "Responsabilizar-se pelo cumprimento das normas de segurança das dependências do BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_resources",
+            "action_label": "Return resources",
+            "evidence": "Devolver recursos disponibilizados pelo BNDES, revogar perfis de acesso de seus profissionais, eliminar suas caixas postais",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respond_damages",
+            "action_label": "Respond damages",
+            "evidence": "Responder pelos danos comprovadamente causados ao BNDES ou a terceiros, decorrentes de sua culpa ou dolo",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_qualification_conditions",
+          "action_label": "Maintain qualification conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "report_impediment_to_contract_with_bndes",
+          "action_label": "Report impediment to contract",
+          "evidence": "comunicar a imposição de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_defects",
+          "action_label": "Repair defects",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, o objeto do Contrato em que se verificarem vícios",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages",
+          "action_label": "Repair damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_taxes",
+          "action_label": "Pay taxes",
+          "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "assume_responsibility_for_charges",
+          "action_label": "Assume responsibility for charges",
+          "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES em virtude de documento fiscal que seja emitido em desacordo com a legislação aplicável",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "ensure_simples_nacional_exclusion",
+          "action_label": "Ensure Simples Nacional exclusion",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "permit_inspections",
+          "action_label": "Permit inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_instructions",
+          "action_label": "Obey instructions",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_offering_undue_advantage",
+            "action_label": "Omit offering undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_undue_advantage",
+            "action_label": "Prevent undue advantage",
+            "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados [...] de fazê-lo",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_favoritism_participation",
+            "action_label": "Prevent favoritism/participation",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_favoritism_participation",
+            "action_label": "Omit favoritism/participation",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_family_allocation",
+            "action_label": "Prevent family allocation",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_family_allocation",
+            "action_label": "Omit family allocation",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_bndes_policies_code_ethics",
+            "action_label": "Observe BNDES policies/code",
+            "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainable_practices",
+            "action_label": "Adopt sustainable practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "remove_impeding_agents",
+            "action_label": "Remove impeding agents",
+            "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_impeding_agents",
+            "action_label": "Inform BNDES of impeding agents",
+            "evidence": "além de comunicar tal fato ao BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_offering_undue_advantage",
+          "action_label": "Omit offering undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_favoritism_participation",
+          "action_label": "Prevent favoritism/participation",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_favoritism_participation",
+          "action_label": "Omit favoritism/participation",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_family_allocation",
+          "action_label": "Prevent family allocation",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_family_allocation",
+          "action_label": "Omit family allocation",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "remove_impeding_agents",
+          "action_label": "Remove impeding agents",
+          "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_impeding_agents",
+          "action_label": "Inform BNDES of impeding agents",
+          "evidence": "além de comunicar tal fato ao BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_undue_advantage",
+          "action_label": "Prevent undue advantage",
+          "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados [...] de fazê-lo",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_bndes_policies_code_ethics",
+          "action_label": "Observe BNDES policies/code",
+          "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_sigilo_das_informações": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_secrecy_rules",
+            "action_label": "Comply with secrecy rules",
+            "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_team_adherence",
+            "action_label": "Ensure team adherence",
+            "evidence": "assegurar a aceitação e adesão às mesmas por profissionais que integrem ou venham a integrar a sua equipe",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_bndes_security_policy",
+            "action_label": "Comply with BNDES policy",
+            "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_access_confidential_info",
+            "action_label": "Do not access confidential info",
+            "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_info_secrecy",
+            "action_label": "Maintain info secrecy",
+            "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_info_access",
+            "action_label": "Limit info access",
+            "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_of_violation",
+            "action_label": "Inform BNDES of violation",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_bndes_property",
+            "action_label": "Return BNDES property",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_use_confidential_info",
+            "action_label": "Not use confidential info",
+            "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_confidentiality_term",
+            "action_label": "Observe confidentiality term",
+            "evidence": "observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_secrecy_rules",
+          "action_label": "Comply with secrecy rules",
+          "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "ensure_team_adherence",
+          "action_label": "Ensure team adherence",
+          "evidence": "assegurar a aceitação e adesão às mesmas por profissionais que integrem ou venham a integrar a sua equipe",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_bndes_security_policy",
+          "action_label": "Comply with BNDES policy",
+          "evidence": "cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_access_confidential_info",
+          "action_label": "Do not access confidential info",
+          "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_info_secrecy",
+          "action_label": "Maintain info secrecy",
+          "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_info_access",
+          "action_label": "Limit info access",
+          "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_of_violation",
+          "action_label": "Inform BNDES of violation",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "return_bndes_property",
+          "action_label": "Return BNDES property",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_use_confidential_info",
+          "action_label": "Not use confidential info",
+          "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_acesso_protecao_dados_pessoais": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_acesso_protecao_dados_pessoais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_security_measures",
+            "action_label": "Adopt security measures",
+            "evidence": "deverão, para tanto, adotar medidas corretas de segurança sob o aspecto técnico, jurídico e administrativo",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_consent_of_data_holders",
+            "action_label": "Obtain data holder consent",
+            "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispense tal medida",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "follow_bndes_instructions",
+            "action_label": "Follow BNDES instructions",
+            "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "store_data_securely",
+            "action_label": "Store data securely",
+            "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_employees_data_protection",
+            "action_label": "Inform employees of data protection",
+            "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_channel_data_holders",
+            "action_label": "Provide channel to data holders",
+            "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada e gratuita",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_data_requests",
+            "action_label": "Inform BNDES of data requests",
+            "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos pelo titular dos dados",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_data_operations_registry",
+            "action_label": "Maintain data operations registry",
+            "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_data_breaches",
+            "action_label": "Communicate data breaches",
+            "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "eliminate_data_end_contract",
+            "action_label": "Eliminate data end contract",
+            "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "regress_against_contracted",
+            "action_label": "Regress against contracted",
+            "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos causados por este",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "demand_data_operations_registry",
+            "action_label": "Demand data operations registry",
+            "evidence": "disponibilizando, sempre que solicitado pelo BNDES, as informações necessárias à produção do Relatório de Impacto de Dados Pessoais",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_security_measures",
+          "action_label": "Adopt security measures",
+          "evidence": "deverão, para tanto, adotar medidas corretas de segurança sob o aspecto técnico, jurídico e administrativo",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_consent_of_data_holders",
+          "action_label": "Obtain data holder consent",
+          "evidence": "responsabilizando-se o CONTRATADO por obter o consentimento dos titulares, salvo nos casos em que a legislação dispense tal medida",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "follow_bndes_instructions",
+          "action_label": "Follow BNDES instructions",
+          "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality",
+          "action_label": "Maintain confidentiality",
+          "evidence": "O CONTRATADO deve manter a confidencialidade dos dados pessoais obtidos em razão do presente contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "store_data_securely",
+          "action_label": "Store data securely",
+          "evidence": "Os dados deverão ser armazenados de maneira segura pelo CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_employees_data_protection",
+          "action_label": "Inform employees of data protection",
+          "evidence": "O CONTRATADO dará conhecimento formal para seus empregados e/ou prestadores de serviço acerca das disposições previstas nesta Cláusula",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_channel_data_holders",
+          "action_label": "Provide channel to data holders",
+          "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada e gratuita",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_data_requests",
+          "action_label": "Inform BNDES of data requests",
+          "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos pelo titular dos dados",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_data_operations_registry",
+          "action_label": "Maintain data operations registry",
+          "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_data_breaches",
+          "action_label": "Communicate data breaches",
+          "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_obrigações_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_obrigações_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments",
+            "action_label": "Make payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments",
+            "action_label": "Receive payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, José Maciel Franco Junior",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager_substitute",
+            "action_label": "Designate contract manager substitute",
+            "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência, quem o estiver substituindo na função",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_fiscal",
+            "action_label": "Designate contract fiscal",
+            "evidence": "designar o Fiscal do Contrato que auxiliará o Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_receipt_committee",
+            "action_label": "Designate receipt committee",
+            "evidence": "designar a Comissão de Recebimento, a quem caberá o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_ethics_code_copy",
+            "action_label": "Provide ethics code copy",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_ethics_code_copy",
+            "action_label": "Receive ethics code copy",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_necessary_information",
+            "action_label": "Receive necessary information",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito:  a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_investigation_opening",
+            "action_label": "Communicate investigation opening",
+            "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO, concedendo-lhe prazo para defesa",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalty_application",
+            "action_label": "Communicate penalty application",
+            "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments",
+          "action_label": "Make payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments",
+          "action_label": "Receive payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, José Maciel Franco Junior",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager_substitute",
+          "action_label": "Designate contract manager substitute",
+          "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência, quem o estiver substituindo na função",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_fiscal",
+          "action_label": "Designate contract fiscal",
+          "evidence": "designar o Fiscal do Contrato que auxiliará o Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_receipt_committee",
+          "action_label": "Designate receipt committee",
+          "evidence": "designar a Comissão de Recebimento, a quem caberá o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_ethics_code_copy",
+          "action_label": "Provide ethics code copy",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_ethics_code_copy",
+          "action_label": "Receive ethics code copy",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_necessary_information",
+          "action_label": "Receive necessary information",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_equidade_genero_valorizacao_diversidade": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_equidade_genero_valorizacao_diversidade",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prove_absence_of_discrimination_sanctions",
+            "action_label": "Prove absence of discrimination sanctions",
+            "evidence": "O CONTRATADO deverá comprovar sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora [...] que importem em discriminação",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_proof_of_absence_of_discrimination_sanctions",
+            "action_label": "Request proof of absence of discrimination sanctions",
+            "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora [...] que importem em discriminação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract_execution",
+            "action_label": "Suspend contract execution",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "face_contract_suspension",
+            "action_label": "Face contract suspension",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prove_absence_of_discrimination_sanctions",
+          "action_label": "Prove absence of discrimination sanctions",
+          "evidence": "O CONTRATADO deverá comprovar sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora [...] que importem em discriminação",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_proof_of_absence_of_discrimination_sanctions",
+          "action_label": "Request proof of absence of discrimination sanctions",
+          "evidence": "sempre que solicitado pelo BNDES, a inexistência de decisão administrativa final sancionadora [...] que importem em discriminação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_contract_execution",
+          "action_label": "Suspend contract execution",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "face_contract_suspension",
+          "action_label": "Face contract suspension",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_cessão_contrato_credito_sucessão_contratual_subcontratação",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_contract_assignment",
+            "action_label": "Omit contract assignment",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_assign_contract",
+            "action_label": "No right to assign contract",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_credit_assignment",
+            "action_label": "Omit credit assignment",
+            "evidence": "ou de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_assign_credit",
+            "action_label": "No right to assign credit",
+            "evidence": "ou de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_issuing_credit_titles",
+            "action_label": "Omit issuing credit titles",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_issue_credit_titles",
+            "action_label": "No right to issue credit titles",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "perform_merger_division_incorporation",
+            "action_label": "Perform merger/division/incorporation",
+            "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+            "confidence": 0.6,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_contractual_conditions",
+            "action_label": "Maintain contractual conditions",
+            "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais.",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_subcontracting",
+            "action_label": "Omit subcontracting",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "no_right_to_subcontract",
+            "action_label": "No right to subcontract",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_contract_assignment",
+          "action_label": "Omit contract assignment",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_assign_contract",
+          "action_label": "No right to assign contract",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_credit_assignment",
+          "action_label": "Omit credit assignment",
+          "evidence": "ou de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_assign_credit",
+          "action_label": "No right to assign credit",
+          "evidence": "ou de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_issuing_credit_titles",
+          "action_label": "Omit issuing credit titles",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_issue_credit_titles",
+          "action_label": "No right to issue credit titles",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_subcontracting",
+          "action_label": "Omit subcontracting",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "no_right_to_subcontract",
+          "action_label": "No right to subcontract",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_contractual_conditions",
+          "action_label": "Maintain contractual conditions",
+          "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais.",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "perform_merger_division_incorporation",
+          "action_label": "Perform merger/division/incorporation",
+          "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+          "confidence": 0.6,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_subjection_to_penalties",
+            "action_label": "Subject to penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_power_to_apply_penalties",
+            "action_label": "Power to apply penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_duty_to_comply_with_bndes_demands",
+            "action_label": "Duty to comply with BNDES demands",
+            "evidence": "descumprimento de exigência expressamente formulada pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "contracted_party_right_to_reconsider",
+            "action_label": "Right to reconsideration",
+            "evidence": "o CONTRATADO poderá requerer a reconsideração",
+            "confidence": 0.8,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "bndes_power_to_extinguish_contract",
+            "action_label": "Power to terminate contract",
+            "evidence": "não impede a extinção do Contrato pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_subjection_to_penalties",
+          "action_label": "Subject to penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "bndes_power_to_extinguish_contract",
+          "action_label": "Power to terminate contract",
+          "evidence": "não impede a extinção do Contrato pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "bndes_power_to_apply_penalties",
+          "action_label": "Power to apply penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_right_to_reconsider",
+          "action_label": "Right to reconsideration",
+          "evidence": "o CONTRATADO poderá requerer a reconsideração",
+          "confidence": 0.8,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "contracted_party_duty_to_comply_with_bndes_demands",
+          "action_label": "Duty to comply with BNDES demands",
+          "evidence": "descumprimento de exigência expressamente formulada pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_alteracoes_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "agree_contract_alteration",
+            "action_label": "Agree to contract alteration",
+            "evidence": "The Contract may be altered, by agreement between the parties.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_alteration",
+            "action_label": "Formalize contract alteration",
+            "evidence": "In cases where alteration is essential, parties shall not refuse formalization.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "seek_damages_for_refusal",
+            "action_label": "Seek damages for refusal",
+            "evidence": "A party refusing alteration must answer for damages caused.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "compensate_for_damages",
+            "action_label": "Compensate for damages",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "make_alteration_via_addendum",
+            "action_label": "Make alteration via addendum",
+            "evidence": "Contractual changes will be formalized by addendum.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "make_alteration_via_letter",
+            "action_label": "Make alteration via letter",
+            "evidence": "alterações...poderão ser celebrados por meio epistolar",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_alteration",
+          "action_label": "Formalize contract alteration",
+          "evidence": "In cases where alteration is essential, parties shall not refuse formalization.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "seek_damages_for_refusal",
+          "action_label": "Seek damages for refusal",
+          "evidence": "A party refusing alteration must answer for damages caused.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "compensate_for_damages",
+          "action_label": "Compensate for damages",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "agree_contract_alteration",
+          "action_label": "Agree to contract alteration",
+          "evidence": "The Contract may be altered, by agreement between the parties.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "make_alteration_via_addendum",
+          "action_label": "Make alteration via addendum",
+          "evidence": "Contractual changes will be formalized by addendum.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "make_alteration_via_letter",
+          "action_label": "Make alteration via letter",
+          "evidence": "alterações...poderão ser celebrados por meio epistolar",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_extincao_contrato": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_extincao_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extinguish_contract_consensually",
+            "action_label": "Extinguish consensually",
+            "evidence": "O presente Contrato poderá ser extinto... Consensualmente, formalizada em autorização escrita e fundamentada do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_notice_of_rescission",
+            "action_label": "Provide notice of rescission",
+            "evidence": "mediante aviso prévio por escrito, com antecedência mínima de 90 (noventa) dias",
+            "confidence": 0.7,
+            "bearer": "unitech_rio_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_for_breach",
+            "action_label": "Terminate for breach",
+            "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_of_breach",
+            "action_label": "Notify of breach",
+            "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável para o cumprimento das obrigações",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract",
+            "action_label": "Suspend Contract",
+            "evidence": "suspensão da execução do Contrato, por ordem escrita do BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_if_suspension_exceeds_120_days",
+            "action_label": "Terminate after 120 day suspension",
+            "evidence": "suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 (cento e vinte) dias",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_for_contracted_party_bankruptcy",
+            "action_label": "Terminate if Contractor bankrupt",
+            "evidence": "quando for decretada a falência do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_if_contracted_party_loses_qualifications",
+            "action_label": "Terminate if qualifications lost",
+            "evidence": "caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_for_lesivo_acts",
+            "action_label": "Terminate for lesivo acts",
+            "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública, nos termos da Lei nº 12.846/2013",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_for_dissolution",
+            "action_label": "Terminate for dissolution",
+            "evidence": "em razão da dissolução do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_written_notification",
+            "action_label": "Provide written notification",
+            "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "defend_oneself",
+            "action_label": "Defend oneself",
+            "evidence": "e de oportunidade de defesa",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extinguish_contract_consensually",
+          "action_label": "Extinguish consensually",
+          "evidence": "O presente Contrato poderá ser extinto... Consensualmente, formalizada em autorização escrita e fundamentada do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_of_breach",
+          "action_label": "Notify of breach",
+          "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável para o cumprimento das obrigações",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_for_contracted_party_bankruptcy",
+          "action_label": "Terminate if Contractor bankrupt",
+          "evidence": "quando for decretada a falência do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_if_contracted_party_loses_qualifications",
+          "action_label": "Terminate if qualifications lost",
+          "evidence": "caso o CONTRATADO perca uma das condições de habilitação exigidas quando da contratação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_for_dissolution",
+          "action_label": "Terminate for dissolution",
+          "evidence": "em razão da dissolução do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_for_breach",
+          "action_label": "Terminate for breach",
+          "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_if_suspension_exceeds_120_days",
+          "action_label": "Terminate after 120 day suspension",
+          "evidence": "suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 (cento e vinte) dias",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_for_lesivo_acts",
+          "action_label": "Terminate for lesivo acts",
+          "evidence": "na hipótese de caracterização de ato lesivo à Administração Pública, nos termos da Lei nº 12.846/2013",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_written_notification",
+          "action_label": "Provide written notification",
+          "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_notice_of_rescission",
+          "action_label": "Provide notice of rescission",
+          "evidence": "mediante aviso prévio por escrito, com antecedência mínima de 90 (noventa) dias",
+          "confidence": 0.7,
+          "bearer": "unitech_rio_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_disposições_finais": {
+      "raw": {
+        "clause_id": "clausula_vigésima_disposições_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights",
+            "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "claim_waiver_or_novation",
+            "action_label": "Claim waiver or novation",
+            "evidence": "A omissão ou tolerância ... não constituirá renúncia ou novação",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights",
+          "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "claim_waiver_or_novation",
+          "action_label": "Claim waiver or novation",
+          "evidence": "A omissão ou tolerância ... não constituirá renúncia ou novação",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigésima_primeira_foro": {
+      "raw": {
+        "clause_id": "clausula_vigésima_primeira_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "be_subject_to_rio_de_janeiro_court",
+            "action_label": "Be subject to Rio court",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "sue_in_other_court",
+            "action_label": "Sue in other court",
+            "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "be_subject_to_rio_de_janeiro_court",
+          "action_label": "Be subject to Rio court",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "sue_in_other_court",
+          "action_label": "Sue in other court",
+          "evidence": "afastado qualquer outro, por mais privilegiado que seja",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

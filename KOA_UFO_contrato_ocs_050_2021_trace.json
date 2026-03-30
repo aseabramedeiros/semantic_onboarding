@@ -1,0 +1,2878 @@
+{
+  "contract_id": "contrato_ocs_050_2021",
+  "source_file": "KOA_Contrato_OCS_050_2021_-_IBM_Connect_Direct_Ortec.pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_050_2021",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "33.657.248/0001-89"
+      },
+      {
+        "agent_id": "ortec_participacoes_empresariais_ltda",
+        "label": "'ORTEC PARTICIPAÇÕES EMPRESARIAIS LTDA.'",
+        "cnpj": "32.287.634-0001-63"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_050_2021"
+      },
+      {
+        "agent_id": "ortec_participacoes_empresariais_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_050_2021"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "provide_technical_support_and_software_update",
+      "evidence": "O presente Contrato tem por objeto a prestação de serviço de suporte técnico e atualização de software IBM Sterling ConnectDirect",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_technical_support_and_software_update",
+      "evidence": "O presente Contrato tem por objeto a prestação de serviço de suporte técnico e atualização de software IBM Sterling ConnectDirect",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "maintain_contract_for_60_months",
+      "evidence": "Contrato terá duração de 60 meses, a contar da data de sua assinatura.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "enforce_contract_for_60_months",
+      "evidence": "Contrato terá duração de 60 meses, a contar da data de sua assinatura.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "execute_contract_object",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes das Especificações Técnicas e da proposta apresentada pelo CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_execution_according_specifications",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes das Especificações Técnicas e da proposta apresentada pelo CONTRATADO",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_price_reduction_index",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "be_subject_to_price_reduction_index",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_services_executed_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "right_to_receive_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "power_to_receive_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pay",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "complement_quantities",
+      "evidence": "O CONTRATADO deverá complementá-los, caso os quantitativos previstos inicialmente em sua proposta não sejam satisfatórios.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "accept_price_reduction",
+      "evidence": "os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "partially_execute_receive",
+      "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effectuar_pagamento",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "apresentar_documento_fiscal",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "encaminhar_documento_fiscal_por_email",
+      "evidence": "o CONTRATADO deverá encaminhar 1 (uma) via do documento fiscal ou equivalente legal à caixa de e-mail nfe@bndes.gov.br",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "emitir_documento_fiscal_em_conformidade_com_legislacao",
+      "evidence": "O documento fiscal ou equivalente legal emitido pela CONTRATADA deverá estar em conformidade com a legislação do Município",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "pagar_juros_de_mora",
+      "evidence": "aos valores devidos serão acrescidos juros de mora de 0,5% (meio por cento) ao mês",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_economic_financial_equilibrium",
+      "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "request_price_readjustment",
+      "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES ou mediante solicitação do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "present_supporting_documents_revision",
+      "evidence": "o CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "request_price_adjustment_before_contract_end",
+      "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "request_price_adjustment_after_deadline",
+      "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_readjustment_request",
+      "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "present_information_for_price_reduction",
+      "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_analysis_readjustment_request",
+      "evidence": "ficando este prazo suspenso, a critério do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "maintain_conditions",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação exigidas quando da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "communicate_penalty",
+      "evidence": "comunicar a imposição, a si ou a qualquer consorciada, de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "repair_object",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "repair_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "pay_taxes",
+      "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "providenciar_exclusao",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "permit_inspections",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "obey_instructions",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigações_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "permit_access_banco_central",
+      "evidence": "permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações atinentes aos serviços prestados",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "omit_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "take_measures_to_prevent_corruption",
+      "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados... de fazê-lo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "omit_favoring_bndes_employees",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES na execução do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "omit_allocate_bndes_employee_family",
+      "evidence": "não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "observe_bndes_code_of_ethics",
+      "evidence": "observar o Código de Ética do Sistema BNDES vigente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "remove_agents",
+      "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "communicate_to_bndes",
+      "evidence": "além de comunicar tal fato ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "adopt_sustainable_practices",
+      "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "maintain_confidentiality",
+      "evidence": "deverá manter o sigilo dos mesmos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "provide_confidentiality_agreements",
+      "evidence": "o CONTRATADO deverá providenciar a assinatura ... dos Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "orient_professionals_about_confidentiality",
+      "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_confidentiality_agreements",
+      "evidence": "Assim que solicitado pelo Gestor do Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "subjection",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "signing_confidentiality_agreements",
+      "evidence": "o CONTRATADO deverá providenciar a assinatura... dos Termos de Confidencialidade",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contracted_party",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Frederico Henrique Bohm Argolo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager_substitute",
+      "evidence": "designar, o substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "alter_contract_manager",
+      "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_code_of_ethics",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_necessary_information",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions",
+      "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_administrative_procedure",
+      "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_penalty",
+      "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_obrigações_contratante",
+      "legal_moment_class": "right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "receive_payments",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "omit_contract_cession",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "contract_cession",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "omit_issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "omit_subcontracting",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "subcontracting",
+      "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "corporate_restructuring",
+      "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_risks_prejudice",
+      "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "maintain_contract_conditions",
+      "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+      "legal_moment_class": "subjection",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "aquiescence_bndes",
+      "evidence": "aquiescência prévia do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "comply_with_contract",
+      "evidence": "Em caso de inexecução total ou parcial do Contrato...o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "be_subject_to_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quinta_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quinta_penalidades",
+      "legal_moment_class": "disability",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "avoid_participation_in_bndes_licitations",
+      "evidence": "suspensão temporária de participação em licitação e impedimento de contratar com o BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quinta_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "refrain_from_tax_fraud",
+      "evidence": "tenham sofrido condenação definitiva por praticarem, por meios dolosos, fraude fiscal",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quinta_penalidades",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "refrain_from_frustrating_bidding",
+      "evidence": "tenham praticado atos ilícitos visando frustrar os objetivos da licitação",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "respond_to_damages_from_refusal",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_alterações_contratuais",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "be_liable_for_refusal_damages",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_alterações_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_alterações_contratuais",
+      "legal_moment_class": "no_right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_formalization_of_contract_alteration",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_sexta_alterações_contratuais",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "alter_contract",
+      "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_extinção_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_contract_execution",
+      "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_extinção_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_of_breach",
+      "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável para o cumprimento das obrigações",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_extinção_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_written_notice",
+      "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_extinção_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_upon_breach",
+      "evidence": "cabível a sua resolução: I. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_extinção_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "defend_against_termination",
+      "evidence": "Os casos de extinção contratual...deverão ser precedidos...de oportunidade de defesa",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_extinção_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "O presente Contrato poderá ser extinto...na ausência de liberação, por parte do BNDES...",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_disposições_finais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_disposições_finais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_strict_compliance",
+      "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento [...] não constituirá renúncia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_foro",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "submit_to_rio_de_janeiro_court",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_foro",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "take_action_in_another_forum",
+      "evidence": "afastado qualquer outro, por mais privilegiado que seja.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "not_use_additives_allocated_events",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "respect_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "ortec_participacoes_empresariais_ltda",
+      "action_id": "claim_additives_for_allocated_risks",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.7
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_technical_support_and_software_update",
+            "action_label": "Provide technical support and software update",
+            "evidence": "O presente Contrato tem por objeto a prestação de serviço de suporte técnico e atualização de software IBM Sterling ConnectDirect",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_technical_support_and_software_update",
+            "action_label": "Receive technical support and software update",
+            "evidence": "O presente Contrato tem por objeto a prestação de serviço de suporte técnico e atualização de software IBM Sterling ConnectDirect",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_technical_support_and_software_update",
+          "action_label": "Provide technical support and software update",
+          "evidence": "O presente Contrato tem por objeto a prestação de serviço de suporte técnico e atualização de software IBM Sterling ConnectDirect",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_technical_support_and_software_update",
+          "action_label": "Receive technical support and software update",
+          "evidence": "O presente Contrato tem por objeto a prestação de serviço de suporte técnico e atualização de software IBM Sterling ConnectDirect",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "maintain_contract_for_60_months",
+            "action_label": "Maintain contract",
+            "evidence": "Contrato terá duração de 60 meses, a contar da data de sua assinatura.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "enforce_contract_for_60_months",
+            "action_label": "Enforce contract terms",
+            "evidence": "Contrato terá duração de 60 meses, a contar da data de sua assinatura.",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "maintain_contract_for_60_months",
+          "action_label": "Maintain contract",
+          "evidence": "Contrato terá duração de 60 meses, a contar da data de sua assinatura.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "enforce_contract_for_60_months",
+          "action_label": "Enforce contract terms",
+          "evidence": "Contrato terá duração de 60 meses, a contar da data de sua assinatura.",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes das Especificações Técnicas e da proposta apresentada pelo CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_execution_according_specifications",
+            "action_label": "Expect execution according to specs",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes das Especificações Técnicas e da proposta apresentada pelo CONTRATADO",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes das Especificações Técnicas e da proposta apresentada pelo CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_execution_according_specifications",
+          "action_label": "Expect execution according to specs",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes das Especificações Técnicas e da proposta apresentada pelo CONTRATADO",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services to standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_services_executed_according_to_standards",
+            "action_label": "Demand services be to standard",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_price_reduction_index",
+            "action_label": "Apply price reduction index",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_price_reduction_index",
+            "action_label": "Subject to price reduction",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services to standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_price_reduction_index",
+          "action_label": "Apply price reduction index",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_price_reduction_index",
+          "action_label": "Subject to price reduction",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_services_executed_according_to_standards",
+          "action_label": "Demand services be to standard",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "receive_object",
+            "action_label": "Receive the object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "right_to_receive_object",
+            "action_label": "Right to receive object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "power_to_receive_object",
+            "action_label": "Power to receive object",
+            "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "receive_object",
+          "action_label": "Receive the object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "right_to_receive_object",
+          "action_label": "Right to receive object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "power_to_receive_object",
+          "action_label": "Power to receive object",
+          "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complement_quantities",
+            "action_label": "Complement quantities",
+            "evidence": "O CONTRATADO deverá complementá-los, caso os quantitativos previstos inicialmente em sua proposta não sejam satisfatórios.",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "accept_price_reduction",
+            "action_label": "Accept price reduction",
+            "evidence": "os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.7,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "partially_execute_receive",
+            "action_label": "Partially execute/receive object",
+            "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pay",
+            "action_label": "Pay for executed object",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "pay",
+          "action_label": "Pay for executed object",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complement_quantities",
+          "action_label": "Complement quantities",
+          "evidence": "O CONTRATADO deverá complementá-los, caso os quantitativos previstos inicialmente em sua proposta não sejam satisfatórios.",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "accept_price_reduction",
+          "action_label": "Accept price reduction",
+          "evidence": "os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.7,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "partially_execute_receive",
+          "action_label": "Partially execute/receive object",
+          "evidence": "Na hipótese de o objeto ser, a critério do BNDES, parcialmente executado e recebido",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effectuar_pagamento",
+            "action_label": "Effect payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "apresentar_documento_fiscal",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_fiscal_document",
+            "action_label": "Receive fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "encaminhar_documento_fiscal_por_email",
+            "action_label": "Send invoice via email",
+            "evidence": "o CONTRATADO deverá encaminhar 1 (uma) via do documento fiscal ou equivalente legal à caixa de e-mail nfe@bndes.gov.br",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "emitir_documento_fiscal_em_conformidade_com_legislacao",
+            "action_label": "Issue compliant invoice",
+            "evidence": "O documento fiscal ou equivalente legal emitido pela CONTRATADA deverá estar em conformidade com a legislação do Município",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "pagar_juros_de_mora",
+            "action_label": "Pay late payment interest",
+            "evidence": "aos valores devidos serão acrescidos juros de mora de 0,5% (meio por cento) ao mês",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effectuar_pagamento",
+          "action_label": "Effect payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "apresentar_documento_fiscal",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_fiscal_document",
+          "action_label": "Receive fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "encaminhar_documento_fiscal_por_email",
+          "action_label": "Send invoice via email",
+          "evidence": "o CONTRATADO deverá encaminhar 1 (uma) via do documento fiscal ou equivalente legal à caixa de e-mail nfe@bndes.gov.br",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "emitir_documento_fiscal_em_conformidade_com_legislacao",
+          "action_label": "Issue compliant invoice",
+          "evidence": "O documento fiscal ou equivalente legal emitido pela CONTRATADA deverá estar em conformidade com a legislação do Município",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "pagar_juros_de_mora",
+          "action_label": "Pay late payment interest",
+          "evidence": "aos valores devidos serão acrescidos juros de mora de 0,5% (meio por cento) ao mês",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "request_economic_financial_equilibrium",
+            "action_label": "Request economic-financial equilibrium",
+            "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_readjustment",
+            "action_label": "Request price readjustment",
+            "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES ou mediante solicitação do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_supporting_documents_revision",
+            "action_label": "Present supporting documents for revision",
+            "evidence": "o CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_information_for_price_reduction",
+            "action_label": "Present information for price reduction",
+            "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment_before_contract_end",
+            "action_label": "Request price adjustment before contract end",
+            "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment_after_deadline",
+            "action_label": "Request price adjustment after deadline",
+            "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_readjustment_request",
+            "action_label": "Analyze readjustment request",
+            "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_analysis_readjustment_request",
+            "action_label": "Suspend analysis of readjustment request",
+            "evidence": "ficando este prazo suspenso, a critério do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "request_economic_financial_equilibrium",
+          "action_label": "Request economic-financial equilibrium",
+          "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_readjustment",
+          "action_label": "Request price readjustment",
+          "evidence": "O reajuste de preços, na forma prevista na legislação, poderá ser requerido pelo CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "A revisão de preços poderá ser realizada por iniciativa do BNDES ou mediante solicitação do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_supporting_documents_revision",
+          "action_label": "Present supporting documents for revision",
+          "evidence": "o CONTRATADO deverá formular ao BNDES requerimento para a revisão do Contrato, comprovando a ocorrência do fato gerador",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment_before_contract_end",
+          "action_label": "Request price adjustment before contract end",
+          "evidence": "O CONTRATADO deverá solicitar o reajuste e/ou a revisão de preços até o encerramento do Contrato",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment_after_deadline",
+          "action_label": "Request price adjustment after deadline",
+          "evidence": "caso o CONTRATADO não solicite o reajuste e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_readjustment_request",
+          "action_label": "Analyze readjustment request",
+          "evidence": "o BNDES deverá analisar o pedido de reajuste e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_information_for_price_reduction",
+          "action_label": "Present information for price reduction",
+          "evidence": "cabendo ao CONTRATADO apresentar as informações solicitadas pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_analysis_readjustment_request",
+          "action_label": "Suspend analysis of readjustment request",
+          "evidence": "ficando este prazo suspenso, a critério do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_obrigações_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_obrigações_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_conditions",
+            "action_label": "Maintain qualification conditions",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação exigidas quando da contratação",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_penalty",
+            "action_label": "Communicate penalties",
+            "evidence": "comunicar a imposição, a si ou a qualquer consorciada, de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_object",
+            "action_label": "Repair the contract object",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages",
+            "action_label": "Repair damages to BNDES",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_taxes",
+            "action_label": "Pay taxes",
+            "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "providenciar_exclusao",
+            "action_label": "Provide proof of exclusion from Simples Nacional",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "permit_inspections",
+            "action_label": "Permit inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_instructions",
+            "action_label": "Obey instructions",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "permit_access_banco_central",
+            "action_label": "Permit access to Banco Central",
+            "evidence": "permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações atinentes aos serviços prestados",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_dif",
+            "action_label": "Present DIF",
+            "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "guarantee_no_infringement",
+            "action_label": "Guarantee no infringement",
+            "evidence": "garantir que o objeto do Contrato não infringe quaisquer direitos autorais, patentes ou registros",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "exigir_comprovacao_regularidade",
+            "action_label": "Require proof of tax regularity",
+            "evidence": "podendo o BNDES, a qualquer momento, exigir do CONTRATADO a comprovação de sua regularidade",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_conditions",
+          "action_label": "Maintain qualification conditions",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação exigidas quando da contratação",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_penalty",
+          "action_label": "Communicate penalties",
+          "evidence": "comunicar a imposição, a si ou a qualquer consorciada, de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_object",
+          "action_label": "Repair the contract object",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir, às suas expensas, no total ou em parte, o objeto do Contrato",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages",
+          "action_label": "Repair damages to BNDES",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_taxes",
+          "action_label": "Pay taxes",
+          "evidence": "pagar todos os encargos e tributos, que incidam ou venham a incidir, direta ou indiretamente, sobre o objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "providenciar_exclusao",
+          "action_label": "Provide proof of exclusion from Simples Nacional",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "permit_inspections",
+          "action_label": "Permit inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_instructions",
+          "action_label": "Obey instructions",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES, para a adequada execução do Contrato",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "permit_access_banco_central",
+          "action_label": "Permit access to Banco Central",
+          "evidence": "permitir ao Banco Central do Brasil acesso a termos firmados, documentos e informações atinentes aos serviços prestados",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_conduta_ética_do_contratado_e_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_undue_advantage",
+            "action_label": "Omit undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "take_measures_to_prevent_corruption",
+            "action_label": "Prevent corruption",
+            "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados... de fazê-lo",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_favoring_bndes_employees",
+            "action_label": "Omit favoring BNDES employees",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES na execução do objeto",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_allocate_bndes_employee_family",
+            "action_label": "Omit allocating BNDES employee family",
+            "evidence": "não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_bndes_code_of_ethics",
+            "action_label": "Observe BNDES ethics",
+            "evidence": "observar o Código de Ética do Sistema BNDES vigente",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainable_practices",
+            "action_label": "Adopt sustainable practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "remove_agents",
+            "action_label": "Remove Agents",
+            "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_to_bndes",
+            "action_label": "Communicate to BNDES",
+            "evidence": "além de comunicar tal fato ao BNDES",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_undue_advantage",
+          "action_label": "Omit undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "take_measures_to_prevent_corruption",
+          "action_label": "Prevent corruption",
+          "evidence": "tomar todas as medidas ao seu alcance para impedir administradores, empregados... de fazê-lo",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_favoring_bndes_employees",
+          "action_label": "Omit favoring BNDES employees",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES na execução do objeto",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_allocate_bndes_employee_family",
+          "action_label": "Omit allocating BNDES employee family",
+          "evidence": "não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_bndes_code_of_ethics",
+          "action_label": "Observe BNDES ethics",
+          "evidence": "observar o Código de Ética do Sistema BNDES vigente",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "remove_agents",
+          "action_label": "Remove Agents",
+          "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_to_bndes",
+          "action_label": "Communicate to BNDES",
+          "evidence": "além de comunicar tal fato ao BNDES",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_sustainable_practices",
+          "action_label": "Adopt sustainable practices",
+          "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_sigilo_das_informações": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality",
+            "action_label": "Maintain confidentiality",
+            "evidence": "deverá manter o sigilo dos mesmos",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "orient_professionals_about_confidentiality",
+            "action_label": "Orient professionals",
+            "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_confidentiality_agreements",
+            "action_label": "Provide confidentiality agreements",
+            "evidence": "o CONTRATADO deverá providenciar a assinatura ... dos Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "request_confidentiality_agreements",
+            "action_label": "Request confidentiality agreements",
+            "evidence": "Assim que solicitado pelo Gestor do Contrato",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "signing_confidentiality_agreements",
+            "action_label": "Sign confidentiality agreements",
+            "evidence": "o CONTRATADO deverá providenciar a assinatura... dos Termos de Confidencialidade",
+            "confidence": 0.6,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality",
+          "action_label": "Maintain confidentiality",
+          "evidence": "deverá manter o sigilo dos mesmos",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_confidentiality_agreements",
+          "action_label": "Provide confidentiality agreements",
+          "evidence": "o CONTRATADO deverá providenciar a assinatura ... dos Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "orient_professionals_about_confidentiality",
+          "action_label": "Orient professionals",
+          "evidence": "bem como orientar os profissionais envolvidos a cumprir esta obrigação",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "request_confidentiality_agreements",
+          "action_label": "Request confidentiality agreements",
+          "evidence": "Assim que solicitado pelo Gestor do Contrato",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "signing_confidentiality_agreements",
+          "action_label": "Sign confidentiality agreements",
+          "evidence": "o CONTRATADO deverá providenciar a assinatura... dos Termos de Confidencialidade",
+          "confidence": 0.6,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_obrigações_contratante": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_obrigações_contratante",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contracted_party",
+            "action_label": "Make payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments",
+            "action_label": "Receive payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.7,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, Frederico Henrique Bohm Argolo",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager_substitute",
+            "action_label": "Designate contract manager substitute",
+            "evidence": "designar, o substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "alter_contract_manager",
+            "action_label": "Alter contract manager",
+            "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_code_of_ethics",
+            "action_label": "Provide code of ethics",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_necessary_information",
+            "action_label": "Provide necessary info",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_administrative_procedure",
+            "action_label": "Communicate administrative procedure",
+            "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contracted_party",
+          "action_label": "Make payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, Frederico Henrique Bohm Argolo",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager_substitute",
+          "action_label": "Designate contract manager substitute",
+          "evidence": "designar, o substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "alter_contract_manager",
+          "action_label": "Alter contract manager",
+          "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_code_of_ethics",
+          "action_label": "Provide code of ethics",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_necessary_information",
+          "action_label": "Provide necessary info",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços objeto deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_administrative_procedure",
+          "action_label": "Communicate administrative procedure",
+          "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments",
+          "action_label": "Receive payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.7,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_cessão_contrato_credito_sucessão_subcontratação",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_contract_cession",
+            "action_label": "Omit contract assignment",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "contract_cession",
+            "action_label": "No right to assign contract",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_issue_credit_title",
+            "action_label": "Omit issue credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "issue_credit_title",
+            "action_label": "No right to issue credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "corporate_restructuring",
+            "action_label": "Corporate restructuring",
+            "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_subcontracting",
+            "action_label": "Omit subcontracting",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "subcontracting",
+            "action_label": "No right to subcontract",
+            "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_risks_prejudice",
+            "action_label": "Analyze risks/prejudice",
+            "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_contract_conditions",
+            "action_label": "Maintain contract conditions",
+            "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "aquiescence_bndes",
+            "action_label": "Subject to BNDES aquiescence",
+            "evidence": "aquiescência prévia do BNDES",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_contract_cession",
+          "action_label": "Omit contract assignment",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "contract_cession",
+          "action_label": "No right to assign contract",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente, ou de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_issue_credit_title",
+          "action_label": "Omit issue credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "issue_credit_title",
+          "action_label": "No right to issue credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito em razão do mesmo",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_subcontracting",
+          "action_label": "Omit subcontracting",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "subcontracting",
+          "action_label": "No right to subcontract",
+          "evidence": "É vedada a subcontratação para a execução do objeto deste Contrato.",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "corporate_restructuring",
+          "action_label": "Corporate restructuring",
+          "evidence": "É admitida a sucessão contratual nas hipóteses em que o CONTRATADO realizar as operações societárias de fusão, cisão ou incorporação",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_risks_prejudice",
+          "action_label": "Analyze risks/prejudice",
+          "evidence": "BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_contract_conditions",
+          "action_label": "Maintain contract conditions",
+          "evidence": "manutenção de todas as condições contratuais e requisitos de habilitação originais",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "aquiescence_bndes",
+          "action_label": "Subject to BNDES aquiescence",
+          "evidence": "aquiescência prévia do BNDES",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quinta_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_quinta_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_contract",
+            "action_label": "Comply with contract",
+            "evidence": "Em caso de inexecução total ou parcial do Contrato...o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_penalties",
+            "action_label": "Be subject to penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.9,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "disability",
+            "bearer_hint": "contracted_party",
+            "action_id": "avoid_participation_in_bndes_licitations",
+            "action_label": "Avoid BNDES licitations",
+            "evidence": "suspensão temporária de participação em licitação e impedimento de contratar com o BNDES",
+            "confidence": 0.7,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "refrain_from_tax_fraud",
+            "action_label": "Refrain from tax fraud",
+            "evidence": "tenham sofrido condenação definitiva por praticarem, por meios dolosos, fraude fiscal",
+            "confidence": 0.7,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "refrain_from_frustrating_bidding",
+            "action_label": "Refrain from frustating bidding",
+            "evidence": "tenham praticado atos ilícitos visando frustrar os objetivos da licitação",
+            "confidence": 0.7,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_contract",
+          "action_label": "Comply with contract",
+          "evidence": "Em caso de inexecução total ou parcial do Contrato...o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_penalties",
+          "action_label": "Be subject to penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.9,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "disability",
+          "bearer_hint": "contracted_party",
+          "action_id": "avoid_participation_in_bndes_licitations",
+          "action_label": "Avoid BNDES licitations",
+          "evidence": "suspensão temporária de participação em licitação e impedimento de contratar com o BNDES",
+          "confidence": 0.7,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "refrain_from_tax_fraud",
+          "action_label": "Refrain from tax fraud",
+          "evidence": "tenham sofrido condenação definitiva por praticarem, por meios dolosos, fraude fiscal",
+          "confidence": 0.7,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "refrain_from_frustrating_bidding",
+          "action_label": "Refrain from frustating bidding",
+          "evidence": "tenham praticado atos ilícitos visando frustrar os objetivos da licitação",
+          "confidence": 0.7,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_alterações_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_alterações_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "alter_contract",
+            "action_label": "Alter contract",
+            "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_alteration",
+            "action_label": "Formalize contract alteration",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_omission",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_formalization_of_contract_alteration",
+            "action_label": "Omit formalization of contract alteration",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "respond_to_damages_from_refusal",
+            "action_label": "Respond to damages from refusal",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "be_liable_for_refusal_damages",
+            "action_label": "Be liable for refusal damages",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "respond_to_damages_from_refusal",
+          "action_label": "Respond to damages from refusal",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "be_liable_for_refusal_damages",
+          "action_label": "Be liable for refusal damages",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_alteration",
+          "action_label": "Formalize contract alteration",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_omission",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_formalization_of_contract_alteration",
+          "action_label": "Omit formalization of contract alteration",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "alter_contract",
+          "action_label": "Alter contract",
+          "evidence": "O presente Contrato poderá ser alterado, por acordo entre as partes",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_extinção_contrato": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_extinção_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract_execution",
+            "action_label": "Suspend contract execution",
+            "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "O presente Contrato poderá ser extinto...na ausência de liberação, por parte do BNDES...",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_upon_breach",
+            "action_label": "Terminate contract for breach",
+            "evidence": "cabível a sua resolução: I. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_of_breach",
+            "action_label": "Notify of breach",
+            "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável para o cumprimento das obrigações",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "defend_against_termination",
+            "action_label": "Right to defend against termination",
+            "evidence": "Os casos de extinção contratual...deverão ser precedidos...de oportunidade de defesa",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "provide_written_notice",
+            "action_label": "Provide written notice",
+            "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_contract_execution",
+          "action_label": "Suspend contract execution",
+          "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_of_breach",
+          "action_label": "Notify of breach",
+          "evidence": "cabendo à parte inocente notificar a outra por escrito, assinalando-lhe prazo razoável para o cumprimento das obrigações",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "provide_written_notice",
+          "action_label": "Provide written notice",
+          "evidence": "deverão ser precedidos de notificação escrita à outra parte do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_upon_breach",
+          "action_label": "Terminate contract for breach",
+          "evidence": "cabível a sua resolução: I. em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "defend_against_termination",
+          "action_label": "Right to defend against termination",
+          "evidence": "Os casos de extinção contratual...deverão ser precedidos...de oportunidade de defesa",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "O presente Contrato poderá ser extinto...na ausência de liberação, por parte do BNDES...",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_disposições_finais": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_disposições_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "demand_strict_compliance",
+            "action_label": "Demand strict compliance",
+            "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento [...] não constituirá renúncia",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights at any time",
+            "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights at any time",
+          "evidence": "nem impedirá as partes de exercerem os seus direitos a qualquer tempo.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "demand_strict_compliance",
+          "action_label": "Demand strict compliance",
+          "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento [...] não constituirá renúncia",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_foro": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "submit_to_rio_de_janeiro_court",
+            "action_label": "Submit to Rio de Janeiro court",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "take_action_in_another_forum",
+            "action_label": "No action in other forum",
+            "evidence": "afastado qualquer outro, por mais privilegiado que seja.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "submit_to_rio_de_janeiro_court",
+          "action_label": "Submit to Rio de Janeiro court",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "take_action_in_another_forum",
+          "action_label": "No action in other forum",
+          "evidence": "afastado qualquer outro, por mais privilegiado que seja.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_economic_financial_equilibrium_clause",
+            "action_label": "Respect economic equilibrium clause",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.7,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_use_additives_allocated_events",
+            "action_label": "Not use additives for allocated events",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.8,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "claim_additives_for_allocated_risks",
+            "action_label": "No right to claim additives",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.7,
+            "bearer": "ortec_participacoes_empresariais_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_use_additives_allocated_events",
+          "action_label": "Not use additives for allocated events",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.8,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_economic_financial_equilibrium_clause",
+          "action_label": "Respect economic equilibrium clause",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.7,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "claim_additives_for_allocated_risks",
+          "action_label": "No right to claim additives",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.7,
+          "bearer": "ortec_participacoes_empresariais_ltda"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}
