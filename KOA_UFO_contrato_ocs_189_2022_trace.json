@@ -1,0 +1,3088 @@
+{
+  "contract_id": "contrato_ocs_0189_2022",
+  "source_file": "KOA_Contrato_OCS_189_2022_-_Algar_STFC_Unificado.pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_0189_2022",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "'33.657.248/0001-89'"
+      },
+      {
+        "agent_id": "algar_telecom_s_a",
+        "label": "'ALGAR TELECOM S/A'",
+        "cnpj": "'71.208.516/0001-74'"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_0189_2022"
+      },
+      {
+        "agent_id": "algar_telecom_s_a",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_0189_2022"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "provide_fixed_switched_telephone_service",
+      "evidence": "O presente Contrato tem por objeto a prestação de Serviço Telefônico Fixo Comutado (STFC)",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_fixed_switched_telephone_service",
+      "evidence": "O presente Contrato tem por objeto a prestação de Serviço Telefônico Fixo Comutado (STFC)",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "apresentar_manifestacao_sobre_prorrogacao",
+      "evidence": "O CONTRATADO deverá, no prazo de até 5 dias úteis, apresentar manifestação sobre a prorrogação do Contrato.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "comunicar_interesse_quanto_a_prorrogacao",
+      "evidence": "O CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato até 90 dias antes...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "subjection",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "sujeito_as_penalidades",
+      "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação, ... ficará sujeito às penalidades previstas.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "execute_contract_object",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "expect_execution_according_specifications",
+      "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "subjection",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "be_subject_to_price_reduction",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "stipulate_service_levels",
+      "evidence": "padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_services_meet_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_object",
+      "evidence": "O BNDES efetuará o recebimento do objeto",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "demand_indemnification_for_non_demand",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "bear_onus_of_quantification_error",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta...",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "price_reduction_for_partial_execution",
+      "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "execute_contract_object",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "receive_payment_for_execution",
+      "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente por meio de crédito em conta bancária, em até 10 (dez) dias úteis.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "present_fiscal_document",
+      "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "include_required_information",
+      "evidence": "O documento fiscal ou equivalente legal deverá respeitar a legislação tributária e conter, minimamente, as seguintes informações",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_omission",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_payment_if_document_not_presented",
+      "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "provide_digital_document",
+      "evidence": "o Contratado deverá encaminhar o documento fiscal ou equivalente em meio digital",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "provide_supporting_documents",
+      "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: I. certidões de regularidade fiscal exigidas na fase de habilitação",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_from_payment",
+      "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "receive_payment",
+      "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_from_payment",
+      "evidence": "Fica assegurado ao BNDES o direito de deduzir do pagamento devido ao CONTRATADO o valor correspondente aos pagamentos efetuados a maior",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "prevent_undue_advantage",
+      "evidence": "O CONTRATADO obriga-se a não oferecer, prometer, dar... qualquer vantagem indevida.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "prevent_employee_favored",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "not_allow_employee_favored",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "not_allocate_family_members",
+      "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "observe_ethics_policies",
+      "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "adopt_sustainable_practices",
+      "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "maintain_integrity",
+      "evidence": "O BNDES comprometem-se a manter a integridade nas relações público-privadas, agindo de boa-fé",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "remove_agents",
+      "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "inform_bndes",
+      "evidence": "além de comunicar tal fato ao BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "comply_with_information_security_directives",
+      "evidence": "Cabe ao CONTRATADO cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "not_access_confidential_information_without_authorization",
+      "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "maintain_confidentiality_of_information",
+      "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "report_confidentiality_breaches",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "return_materials_at_contract_end",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "not_use_confidential_information",
+      "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "present_confidentiality_agreements",
+      "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "observe_confidentiality_agreement_of_legal_representative",
+      "evidence": "observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "limit_access_to_information",
+      "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços objeto deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "protect_data_privacy_rights",
+      "evidence": "As partes assumem o compromisso de proteger os direitos fundamentais de liberdade e de privacidade.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "follow_bndes_instructions_data_processing",
+      "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "right_of_recourse_data_breach",
+      "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "provide_data_access_channel",
+      "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "inform_bndes_data_requests",
+      "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "maintain_data_processing_records",
+      "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "report_data_breach",
+      "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "delete_data_after_contract",
+      "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "process_public_data",
+      "evidence": "para tratamento pelo BNDES, na forma da Lei nº 13.709/2018.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "collect_consent",
+      "evidence": "As partes comprometem-se a coletar o consentimento, quando necessário, conforme previsto na Lei no 13.709/2018",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_payments_to_contracted_party",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager",
+      "evidence": "designar, como Gestor do Contrato, Fernanda Pereira Goulart",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designate_contract_manager_substitute",
+      "evidence": "designar, como substituto do Gestor do Contrato, ... Eduardo Vieira de Oliveira Aguiar",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "provide_documents_to_contracted_party",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "make_information_available",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_instructions_to_contracted_party",
+      "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_opening_administrative_procedure",
+      "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "communicate_application_penalty",
+      "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "receive_payments_from_bndes",
+      "evidence": "pagamentos devidos ao CONTRATADO",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_quarta_obrigações_bndes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "request_documents_from_bndes",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "omit_contract_assignment",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "assign_contract",
+      "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "omit_credit_assignment",
+      "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "assign_credit",
+      "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "omit_issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "issue_credit_title",
+      "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_risks_and_prejudices",
+      "evidence": "aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "subjection",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "subjected_to_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa... III. suspensão...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalties",
+      "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades:",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "request_reconsideration",
+      "evidence": "o CONTRATADO poderá requerer a reconsideração para a decisão de advertência",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_penalidades",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_amounts_owed",
+      "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ele devidos",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "not_change_nature_contract",
+      "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "change_nature_contract",
+      "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "permission_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "alter_contract",
+      "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "compensate_damages",
+      "evidence": "deverá responder pelos danos eventualmente causados",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "formalize_contract_change",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "refrain_from_refusing_formalization",
+      "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "unknown",
+      "action_id": "demand_compensation_for_damages",
+      "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+      "confidence": 0.5
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "notify_in_case_of_breach",
+      "evidence": "cabendo à parte inocente notificar a outra por escrito",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "extinguish_contract_consensually",
+      "evidence": "O presente Contrato poderá ser extinto...formalizada em autorização escrita e fundamentada do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_contract",
+      "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_breach",
+      "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_nona_extincao_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract_suspension",
+      "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_disposicoes_finais",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "exercise_rights",
+      "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_vigesima_disposicoes_finais",
+      "legal_moment_class": "permission_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_enforcement",
+      "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais...não constituirá renúncia",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_vigesima_primeira_foro",
+      "legal_moment_class": "subjection",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "be_subject_to_rio_de_janeiro_court",
+      "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "request_price_adjustment",
+      "evidence": "Parties can request reajuste (reajustment) and revisão de preços (revision of prices)",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_price_adjustment_request",
+      "evidence": "BNDES has 60 days to analyze price adjustment requests.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "request_additives_for_allocated_risks",
+      "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "respect_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "enforce_economic_financial_equilibrium_clause",
+      "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "maintain_conditions_of_qualification",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "communicate_imposition_of_penalty",
+      "evidence": "comunicar a imposição a si de penalidade que acarrete o impedimento de contratar com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "repair_correct_remove_reconstruct_or_replace",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "repair_all_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "pay_all_fees_and_taxes",
+      "evidence": "pagar todos os encargos e tributos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "assume_full_responsibility_for_any_burdens",
+      "evidence": "assumir a responsabilidade integral por quaisquer ônus",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "provide_exclusion_from_simples_nacional",
+      "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "permit_inspections",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "obey_instructions_and_procedures",
+      "evidence": "obedecer às instruções e aos procedimentos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "algar_telecom_s_a",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_fixed_switched_telephone_service",
+            "action_label": "Provide fixed switched telephone service",
+            "evidence": "O presente Contrato tem por objeto a prestação de Serviço Telefônico Fixo Comutado (STFC)",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "receive_fixed_switched_telephone_service",
+            "action_label": "Receive fixed switched telephone service",
+            "evidence": "O presente Contrato tem por objeto a prestação de Serviço Telefônico Fixo Comutado (STFC)",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_fixed_switched_telephone_service",
+          "action_label": "Provide fixed switched telephone service",
+          "evidence": "O presente Contrato tem por objeto a prestação de Serviço Telefônico Fixo Comutado (STFC)",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "receive_fixed_switched_telephone_service",
+          "action_label": "Receive fixed switched telephone service",
+          "evidence": "O presente Contrato tem por objeto a prestação de Serviço Telefônico Fixo Comutado (STFC)",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "apresentar_manifestacao_sobre_prorrogacao",
+            "action_label": "Present manifestation about extension",
+            "evidence": "O CONTRATADO deverá, no prazo de até 5 dias úteis, apresentar manifestação sobre a prorrogação do Contrato.",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comunicar_interesse_quanto_a_prorrogacao",
+            "action_label": "Communicate interest in extension",
+            "evidence": "O CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato até 90 dias antes...",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "sujeito_as_penalidades",
+            "action_label": "Subject to penalties",
+            "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação, ... ficará sujeito às penalidades previstas.",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "apresentar_manifestacao_sobre_prorrogacao",
+          "action_label": "Present manifestation about extension",
+          "evidence": "O CONTRATADO deverá, no prazo de até 5 dias úteis, apresentar manifestação sobre a prorrogação do Contrato.",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comunicar_interesse_quanto_a_prorrogacao",
+          "action_label": "Communicate interest in extension",
+          "evidence": "O CONTRATADO deverá comunicar ao Gestor seu interesse quanto à prorrogação do contrato até 90 dias antes...",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "sujeito_as_penalidades",
+          "action_label": "Subject to penalties",
+          "evidence": "Caso o CONTRATADO se recuse a celebrar aditivo contratual de prorrogação, ... ficará sujeito às penalidades previstas.",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "expect_execution_according_specifications",
+            "action_label": "Expect execution according to specifications",
+            "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência e da proposta apresentada pelo CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "expect_execution_according_specifications",
+          "action_label": "Expect execution according to specifications",
+          "evidence": "A execução do objeto contratado respeitará as especificações constantes do Termo de Referência",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services per standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_services_meet_standards",
+            "action_label": "Demand services meet standards",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "stipulate_service_levels",
+            "action_label": "Stipulate service levels",
+            "evidence": "padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "be_subject_to_price_reduction",
+            "action_label": "Subject to price reduction",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services per standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "be_subject_to_price_reduction",
+          "action_label": "Subject to price reduction",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço previstos",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "stipulate_service_levels",
+          "action_label": "Stipulate service levels",
+          "evidence": "padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_services_meet_standards",
+          "action_label": "Demand services meet standards",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "receive_object",
+            "action_label": "Receive object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_object",
+            "action_label": "Receive object",
+            "evidence": "O BNDES efetuará o recebimento do objeto",
+            "confidence": 0.5,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "receive_object",
+          "action_label": "Receive object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_object",
+          "action_label": "Receive object",
+          "evidence": "O BNDES efetuará o recebimento do objeto",
+          "confidence": 0.5,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_contract_object",
+            "action_label": "Execute contract object",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+            "confidence": 0.6,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment_for_execution",
+            "action_label": "Receive payment for execution",
+            "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+            "confidence": 0.6,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_onus_of_quantification_error",
+            "action_label": "Bear onus of quantification error",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta...",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "price_reduction_for_partial_execution",
+            "action_label": "Price reduction for partial execution",
+            "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+            "confidence": 0.7,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_indemnification_for_non_demand",
+            "action_label": "Demand indemnification for non-demand",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_indemnification_for_non_demand",
+          "action_label": "Demand indemnification for non-demand",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_onus_of_quantification_error",
+          "action_label": "Bear onus of quantification error",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta...",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "price_reduction_for_partial_execution",
+          "action_label": "Price reduction for partial execution",
+          "evidence": "Na hipótese de o objeto ser parcialmente executado e recebido, os valores previstos nesta Cláusula serão proporcionalmente reduzidos",
+          "confidence": 0.7,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_contract_object",
+          "action_label": "Execute contract object",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+          "confidence": 0.6,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment_for_execution",
+          "action_label": "Receive payment for execution",
+          "evidence": "O BNDES pagará ao CONTRATADO, pela execução do objeto contratado...",
+          "confidence": 0.6,
+          "bearer": "algar_telecom_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payment",
+            "action_label": "Make payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente por meio de crédito em conta bancária, em até 10 (dez) dias úteis.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato.",
+            "confidence": 0.7,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_omission",
+            "bearer_hint": "bndes",
+            "action_id": "omit_payment_if_document_not_presented",
+            "action_label": "Omit payment if document late",
+            "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_digital_document",
+            "action_label": "Provide digital document",
+            "evidence": "o Contratado deverá encaminhar o documento fiscal ou equivalente em meio digital",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "include_required_information",
+            "action_label": "Include required information",
+            "evidence": "O documento fiscal ou equivalente legal deverá respeitar a legislação tributária e conter, minimamente, as seguintes informações",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_supporting_documents",
+            "action_label": "Provide supporting documents",
+            "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: I. certidões de regularidade fiscal exigidas na fase de habilitação",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_from_payment",
+            "action_label": "Deduct from payment",
+            "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_from_payment",
+            "action_label": "Deduct overpayments",
+            "evidence": "Fica assegurado ao BNDES o direito de deduzir do pagamento devido ao CONTRATADO o valor correspondente aos pagamentos efetuados a maior",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payment",
+          "action_label": "Make payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato, mensalmente por meio de crédito em conta bancária, em até 10 (dez) dias úteis.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "O documento fiscal ou equivalente legal deverá ser apresentado ao BNDES no mês de sua emissão e até o dia 25",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "include_required_information",
+          "action_label": "Include required information",
+          "evidence": "O documento fiscal ou equivalente legal deverá respeitar a legislação tributária e conter, minimamente, as seguintes informações",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_omission",
+          "bearer_hint": "bndes",
+          "action_id": "omit_payment_if_document_not_presented",
+          "action_label": "Omit payment if document late",
+          "evidence": "A apresentação do documento de cobrança fora do prazo previsto nesta cláusula poderá implicar em sua rejeição",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_digital_document",
+          "action_label": "Provide digital document",
+          "evidence": "o Contratado deverá encaminhar o documento fiscal ou equivalente em meio digital",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_supporting_documents",
+          "action_label": "Provide supporting documents",
+          "evidence": "Ao documento fiscal ou equivalente legal deverão ser anexados: I. certidões de regularidade fiscal exigidas na fase de habilitação",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_from_payment",
+          "action_label": "Deduct from payment",
+          "evidence": "o BNDES poderá descontar, do montante expresso no documento fiscal ou equivalente legal, os valores referentes a multas",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "O BNDES efetuará o pagamento referente ao objeto deste Contrato.",
+          "confidence": 0.7,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_from_payment",
+          "action_label": "Deduct overpayments",
+          "evidence": "Fica assegurado ao BNDES o direito de deduzir do pagamento devido ao CONTRATADO o valor correspondente aos pagamentos efetuados a maior",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_conduta_etica_do_contratado_e_do_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_undue_advantage",
+            "action_label": "Prevent undue advantage",
+            "evidence": "O CONTRATADO obriga-se a não oferecer, prometer, dar... qualquer vantagem indevida.",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_employee_favored",
+            "action_label": "Prevent employee favored",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_allow_employee_favored",
+            "action_label": "Not allow employee favored",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_allocate_family_members",
+            "action_label": "Not allocate family members",
+            "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_ethics_policies",
+            "action_label": "Observe ethics policies",
+            "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_sustainable_practices",
+            "action_label": "Adopt sustainable practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "remove_agents",
+            "action_label": "Remove Agents",
+            "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes",
+            "action_label": "Inform BNDES",
+            "evidence": "além de comunicar tal fato ao BNDES",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "maintain_integrity",
+            "action_label": "Maintain integrity",
+            "evidence": "O BNDES comprometem-se a manter a integridade nas relações público-privadas, agindo de boa-fé",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_undue_advantage",
+          "action_label": "Prevent undue advantage",
+          "evidence": "O CONTRATADO obriga-se a não oferecer, prometer, dar... qualquer vantagem indevida.",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "não oferecer, prometer, dar, autorizar, solicitar ou aceitar, direta ou indiretamente, qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_employee_favored",
+          "action_label": "Prevent employee favored",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_allow_employee_favored",
+          "action_label": "Not allow employee favored",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_allocate_family_members",
+          "action_label": "Not allocate family members",
+          "evidence": "providenciar para que não sejam alocados, na execução dos serviços, familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_ethics_policies",
+          "action_label": "Observe ethics policies",
+          "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "adopt_sustainable_practices",
+          "action_label": "Adopt sustainable practices",
+          "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "maintain_integrity",
+          "action_label": "Maintain integrity",
+          "evidence": "O BNDES comprometem-se a manter a integridade nas relações público-privadas, agindo de boa-fé",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "remove_agents",
+          "action_label": "Remove Agents",
+          "evidence": "compete ao CONTRATADO afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes",
+          "action_label": "Inform BNDES",
+          "evidence": "além de comunicar tal fato ao BNDES",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_sigilo_das_informações": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_sigilo_das_informações",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_information_security_directives",
+            "action_label": "Comply with security directives",
+            "evidence": "Cabe ao CONTRATADO cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_access_confidential_information_without_authorization",
+            "action_label": "Do not access confidential info unauthorized",
+            "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_confidentiality_of_information",
+            "action_label": "Maintain confidentiality",
+            "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "limit_access_to_information",
+            "action_label": "Limit access to information",
+            "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços objeto deste Contrato",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "report_confidentiality_breaches",
+            "action_label": "Report confidentiality breaches",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_materials_at_contract_end",
+            "action_label": "Return materials at contract end",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_use_confidential_information",
+            "action_label": "Not use confidential info",
+            "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_agreements",
+            "action_label": "Present confidentiality agreements",
+            "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_confidentiality_agreement_of_legal_representative",
+            "action_label": "Observe confidentiality agreement",
+            "evidence": "observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_information_security_directives",
+          "action_label": "Comply with security directives",
+          "evidence": "Cabe ao CONTRATADO cumprir as diretrizes e normas da Política Corporativa de Segurança da Informação do BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_access_confidential_information_without_authorization",
+          "action_label": "Do not access confidential info unauthorized",
+          "evidence": "não acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_confidentiality_of_information",
+          "action_label": "Maintain confidentiality",
+          "evidence": "manter sigilo dessas informações, não podendo copiá-las, reproduzi-las, retê-las",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "report_confidentiality_breaches",
+          "action_label": "Report confidentiality breaches",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo ora estabelecidas",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "return_materials_at_contract_end",
+          "action_label": "Return materials at contract end",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_use_confidential_information",
+          "action_label": "Not use confidential info",
+          "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso no âmbito deste Contrato",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_agreements",
+          "action_label": "Present confidentiality agreements",
+          "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_confidentiality_agreement_of_legal_representative",
+          "action_label": "Observe confidentiality agreement",
+          "evidence": "observar o disposto no Termo de Confidencialidade assinado por seu Representante Legal",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "limit_access_to_information",
+          "action_label": "Limit access to information",
+          "evidence": "limitar o acesso às informações aos profissionais envolvidos na prestação dos serviços objeto deste Contrato",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_acesso_e_protecao_de_dados_pessoais",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "protect_data_privacy_rights",
+            "action_label": "Protect data privacy rights",
+            "evidence": "As partes assumem o compromisso de proteger os direitos fundamentais de liberdade e de privacidade.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "follow_bndes_instructions_data_processing",
+            "action_label": "Follow BNDES instructions",
+            "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais.",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "right_of_recourse_data_breach",
+            "action_label": "Right of recourse",
+            "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_data_access_channel",
+            "action_label": "Provide data access channel",
+            "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_bndes_data_requests",
+            "action_label": "Inform BNDES of data requests",
+            "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_data_processing_records",
+            "action_label": "Maintain data processing records",
+            "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "report_data_breach",
+            "action_label": "Report data breach",
+            "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES.",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "delete_data_after_contract",
+            "action_label": "Delete data after contract",
+            "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "process_public_data",
+            "action_label": "Process public data",
+            "evidence": "para tratamento pelo BNDES, na forma da Lei nº 13.709/2018.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "collect_consent",
+            "action_label": "Collect Consent",
+            "evidence": "As partes comprometem-se a coletar o consentimento, quando necessário, conforme previsto na Lei no 13.709/2018",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "protect_data_privacy_rights",
+          "action_label": "Protect data privacy rights",
+          "evidence": "As partes assumem o compromisso de proteger os direitos fundamentais de liberdade e de privacidade.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "follow_bndes_instructions_data_processing",
+          "action_label": "Follow BNDES instructions",
+          "evidence": "O CONTRATADO deverá seguir as instruções recebidas do BNDES em relação ao tratamento de dados pessoais.",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "right_of_recourse_data_breach",
+          "action_label": "Right of recourse",
+          "evidence": "O BNDES possui direito de regresso em face do CONTRATADO em razão de eventuais danos.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_data_access_channel",
+          "action_label": "Provide data access channel",
+          "evidence": "O CONTRATADO deverá disponibilizar ao titular do dado um canal ou sistema em que seja garantida consulta facilitada",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_bndes_data_requests",
+          "action_label": "Inform BNDES of data requests",
+          "evidence": "O CONTRATADO deverá informar imediatamente ao BNDES todas as solicitações recebidas em razão do exercício dos direitos",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_data_processing_records",
+          "action_label": "Maintain data processing records",
+          "evidence": "O CONTRATADO deverá manter registro de todas as operações de tratamento de dados pessoais",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "report_data_breach",
+          "action_label": "Report data breach",
+          "evidence": "Qualquer incidente que implique em violação ou risco de violação ou vazamento de dados pessoais deverá ser prontamente comunicado ao BNDES.",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "delete_data_after_contract",
+          "action_label": "Delete data after contract",
+          "evidence": "Ao final da vigência do Contrato, o CONTRATADO deverá eliminar de sua base de informações todo e qualquer dado pessoal",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "process_public_data",
+          "action_label": "Process public data",
+          "evidence": "para tratamento pelo BNDES, na forma da Lei nº 13.709/2018.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "collect_consent",
+          "action_label": "Collect Consent",
+          "evidence": "As partes comprometem-se a coletar o consentimento, quando necessário, conforme previsto na Lei no 13.709/2018",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_obrigações_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_obrigações_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_payments_to_contracted_party",
+            "action_label": "Make payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments_from_bndes",
+            "action_label": "Receive payments",
+            "evidence": "pagamentos devidos ao CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager",
+            "action_label": "Designate manager",
+            "evidence": "designar, como Gestor do Contrato, Fernanda Pereira Goulart",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designate_contract_manager_substitute",
+            "action_label": "Designate substitute manager",
+            "evidence": "designar, como substituto do Gestor do Contrato, ... Eduardo Vieira de Oliveira Aguiar",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "provide_documents_to_contracted_party",
+            "action_label": "Provide documents",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_documents_from_bndes",
+            "action_label": "Request documents",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética",
+            "confidence": 0.7,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "make_information_available",
+            "action_label": "Make info available",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "access_necessary_information",
+            "action_label": "Access info",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+            "confidence": 0.7,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_instructions_to_contracted_party",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_opening_administrative_procedure",
+            "action_label": "Communicate procedure opening",
+            "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "right_to_defend_administrative_procedure",
+            "action_label": "Right to defend",
+            "evidence": "concedendo-lhe prazo para defesa",
+            "confidence": 0.6,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "communicate_application_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_payments_to_contracted_party",
+          "action_label": "Make payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager",
+          "action_label": "Designate manager",
+          "evidence": "designar, como Gestor do Contrato, Fernanda Pereira Goulart",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designate_contract_manager_substitute",
+          "action_label": "Designate substitute manager",
+          "evidence": "designar, como substituto do Gestor do Contrato, ... Eduardo Vieira de Oliveira Aguiar",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "provide_documents_to_contracted_party",
+          "action_label": "Provide documents",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "make_information_available",
+          "action_label": "Make info available",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_instructions_to_contracted_party",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_opening_administrative_procedure",
+          "action_label": "Communicate procedure opening",
+          "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares do CONTRATADO",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "communicate_application_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade, nos termos deste Contrato",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payments_from_bndes",
+          "action_label": "Receive payments",
+          "evidence": "pagamentos devidos ao CONTRATADO",
+          "confidence": 0.7,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_documents_from_bndes",
+          "action_label": "Request documents",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, cópia do Código de Ética",
+          "confidence": 0.7,
+          "bearer": "algar_telecom_s_a"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_cessao_contrato_credito_sucessao_subcontratacao",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_contract_assignment",
+            "action_label": "Omit contract assignment",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "assign_contract",
+            "action_label": "No right to assign contract",
+            "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_credit_assignment",
+            "action_label": "Omit credit assignment",
+            "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "assign_credit",
+            "action_label": "No right to assign credit",
+            "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "omit_issue_credit_title",
+            "action_label": "Omit issuing credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "issue_credit_title",
+            "action_label": "No right to issue credit title",
+            "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_risks_and_prejudices",
+            "action_label": "Analyze risks and prejudices",
+            "evidence": "aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_contract_assignment",
+          "action_label": "Omit contract assignment",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "assign_contract",
+          "action_label": "No right to assign contract",
+          "evidence": "É vedada a cessão deste Contrato, total ou parcialmente",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_credit_assignment",
+          "action_label": "Omit credit assignment",
+          "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "assign_credit",
+          "action_label": "No right to assign credit",
+          "evidence": "É vedada [...] de qualquer crédito dele decorrente",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "omit_issue_credit_title",
+          "action_label": "Omit issuing credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "issue_credit_title",
+          "action_label": "No right to issue credit title",
+          "evidence": "bem como a emissão, por parte do CONTRATADO, de qualquer título de crédito",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "o CONTRATADO deverá apresentar os Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_risks_and_prejudices",
+          "action_label": "Analyze risks and prejudices",
+          "evidence": "aquiescência prévia do BNDES, que analisará eventuais riscos ou prejuízos decorrentes de tal alteração contratual",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_penalidades": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_penalidades",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "subjected_to_penalties",
+            "action_label": "Subjected to penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa... III. suspensão...",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalties",
+            "action_label": "Apply penalties",
+            "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades:",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_reconsideration",
+            "action_label": "Request reconsideration",
+            "evidence": "o CONTRATADO poderá requerer a reconsideração para a decisão de advertência",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_amounts_owed",
+            "action_label": "Deduct amounts owed",
+            "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ele devidos",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "subjected_to_penalties",
+          "action_label": "Subjected to penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades: I. advertência; II. multa... III. suspensão...",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalties",
+          "action_label": "Apply penalties",
+          "evidence": "o CONTRATADO ficará sujeito às seguintes penalidades:",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_reconsideration",
+          "action_label": "Request reconsideration",
+          "evidence": "o CONTRATADO poderá requerer a reconsideração para a decisão de advertência",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_amounts_owed",
+          "action_label": "Deduct amounts owed",
+          "evidence": "A multa aplicada ao CONTRATADO e os prejuízos causados ao BNDES serão deduzidos de quaisquer créditos a ele devidos",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_oitava_alteracoes_contratuais": {
+      "raw": {
+        "clause_id": "clausula_decima_oitava_alteracoes_contratuais",
+        "candidates": [
+          {
+            "legal_moment_class": "permission_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "alter_contract",
+            "action_label": "Alter contract",
+            "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "formalize_contract_change",
+            "action_label": "Formalize contract change",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "refrain_from_refusing_formalization",
+            "action_label": "Refrain from refusing formalization",
+            "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "compensate_damages",
+            "action_label": "Compensate damages",
+            "evidence": "deverá responder pelos danos eventualmente causados",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "unknown",
+            "action_id": "demand_compensation_for_damages",
+            "action_label": "Demand compensation",
+            "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+            "confidence": 0.5,
+            "bearer": "unknown"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "not_change_nature_contract",
+            "action_label": "Not change nature of contract",
+            "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "change_nature_contract",
+            "action_label": "No right to change contract nature",
+            "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "not_change_nature_contract",
+          "action_label": "Not change nature of contract",
+          "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "change_nature_contract",
+          "action_label": "No right to change contract nature",
+          "evidence": "é vedada a modificação contratual que desnature o objeto da contratação",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "alter_contract",
+          "action_label": "Alter contract",
+          "evidence": "O presente Contrato poderá ser alterado por acordo entre as partes",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "compensate_damages",
+          "action_label": "Compensate damages",
+          "evidence": "deverá responder pelos danos eventualmente causados",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "formalize_contract_change",
+          "action_label": "Formalize contract change",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "refrain_from_refusing_formalization",
+          "action_label": "Refrain from refusing formalization",
+          "evidence": "não caberá a recusa das partes à respectiva formalização, salvo em caso de justo motivo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "unknown",
+          "action_id": "demand_compensation_for_damages",
+          "action_label": "Demand compensation",
+          "evidence": "A parte que, injustificadamente, se recusar a promover a alteração contratual indicada no Parágrafo anterior, deverá responder pelos danos",
+          "confidence": 0.5,
+          "bearer": "unknown"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_nona_extincao_contrato": {
+      "raw": {
+        "clause_id": "clausula_decima_nona_extincao_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "extinguish_contract_consensually",
+            "action_label": "Extinguish contract consensually",
+            "evidence": "O presente Contrato poderá ser extinto...formalizada em autorização escrita e fundamentada do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracting_party",
+            "action_id": "notify_in_case_of_breach",
+            "action_label": "Notify in case of breach",
+            "evidence": "cabendo à parte inocente notificar a outra por escrito",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "terminate_contract_breach",
+            "action_label": "Terminate contract (breach)",
+            "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract",
+            "action_label": "Suspend contract",
+            "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract_suspension",
+            "action_label": "Terminate contract (suspension)",
+            "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracting_party",
+          "action_id": "notify_in_case_of_breach",
+          "action_label": "Notify in case of breach",
+          "evidence": "cabendo à parte inocente notificar a outra por escrito",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "extinguish_contract_consensually",
+          "action_label": "Extinguish contract consensually",
+          "evidence": "O presente Contrato poderá ser extinto...formalizada em autorização escrita e fundamentada do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_contract",
+          "action_label": "Suspend contract",
+          "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "terminate_contract_breach",
+          "action_label": "Terminate contract (breach)",
+          "evidence": "em razão do inadimplemento total ou parcial de qualquer de suas obrigações",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract_suspension",
+          "action_label": "Terminate contract (suspension)",
+          "evidence": "em virtude da suspensão da execução do Contrato, por ordem escrita do BNDES, por prazo superior a 120 dias",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_disposicoes_finais": {
+      "raw": {
+        "clause_id": "clausula_vigesima_disposicoes_finais",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "exercise_rights",
+            "action_label": "Exercise rights",
+            "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "permission_to_omit",
+            "bearer_hint": "contracting_party",
+            "action_id": "omit_enforcement",
+            "action_label": "Omit enforcement",
+            "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais...não constituirá renúncia",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "exercise_rights",
+          "action_label": "Exercise rights",
+          "evidence": "não impedirá as partes de exercerem os seus direitos a qualquer tempo",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "permission_to_omit",
+          "bearer_hint": "contracting_party",
+          "action_id": "omit_enforcement",
+          "action_label": "Omit enforcement",
+          "evidence": "A omissão ou tolerância quanto à exigência do estrito cumprimento das obrigações contratuais...não constituirá renúncia",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_vigesima_primeira_foro": {
+      "raw": {
+        "clause_id": "clausula_vigesima_primeira_foro",
+        "candidates": [
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracting_party",
+            "action_id": "be_subject_to_rio_de_janeiro_court",
+            "action_label": "Subject to Rio court",
+            "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracting_party",
+          "action_id": "be_subject_to_rio_de_janeiro_court",
+          "action_label": "Subject to Rio court",
+          "evidence": "É competente o foro da cidade do Rio de Janeiro para solucionar eventuais litígios decorrentes deste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_adjustment",
+            "action_label": "Request price adjustment",
+            "evidence": "Parties can request reajuste (reajustment) and revisão de preços (revision of prices)",
+            "confidence": 0.7,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_price_adjustment_request",
+            "action_label": "Analyze price adjustment request",
+            "evidence": "BNDES has 60 days to analyze price adjustment requests.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_adjustment",
+          "action_label": "Request price adjustment",
+          "evidence": "Parties can request reajuste (reajustment) and revisão de preços (revision of prices)",
+          "confidence": 0.7,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_price_adjustment_request",
+          "action_label": "Analyze price adjustment request",
+          "evidence": "BNDES has 60 days to analyze price adjustment requests.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_economic_financial_equilibrium_clause",
+            "action_label": "Respect the economic-financial equilibrium clause",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.7,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracting_party",
+            "action_id": "enforce_economic_financial_equilibrium_clause",
+            "action_label": "Enforce economic-financial equilibrium clause",
+            "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_additives_for_allocated_risks",
+            "action_label": "No right to request additives for allocated risks",
+            "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.8,
+            "bearer": "algar_telecom_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_additives_for_allocated_risks",
+          "action_label": "No right to request additives for allocated risks",
+          "evidence": "'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.8,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_economic_financial_equilibrium_clause",
+          "action_label": "Respect the economic-financial equilibrium clause",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.7,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracting_party",
+          "action_id": "enforce_economic_financial_equilibrium_clause",
+          "action_label": "Enforce economic-financial equilibrium clause",
+          "evidence": "'respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_obrigacoes_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_obrigacoes_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "maintain_conditions_of_qualification",
+            "action_label": "Maintain conditions of qualification",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "communicate_imposition_of_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar a imposição a si de penalidade que acarrete o impedimento de contratar com o BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "repair_correct_remove_reconstruct_or_replace",
+            "action_label": "Repair, correct, etc.",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "repair_all_damages",
+            "action_label": "Repair all damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "pay_all_fees_and_taxes",
+            "action_label": "Pay all fees and taxes",
+            "evidence": "pagar todos os encargos e tributos",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "assume_full_responsibility_for_any_burdens",
+            "action_label": "Assume full responsibility",
+            "evidence": "assumir a responsabilidade integral por quaisquer ônus",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "provide_exclusion_from_simples_nacional",
+            "action_label": "Provide exclusion from Simples Nacional",
+            "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "permit_inspections",
+            "action_label": "Permit inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "obey_instructions_and_procedures",
+            "action_label": "Obey instructions",
+            "evidence": "obedecer às instruções e aos procedimentos",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "present_information_declaration",
+            "action_label": "Present information declaration",
+            "evidence": "apresentar, em até 10 dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "be_responsible_for_safety_standards",
+            "action_label": "Responsible for safety",
+            "evidence": "responsabilizar-se pelo cumprimento das normas de segurança",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "algar_telecom_s_a",
+            "action_id": "return_resources_revoke_access_delete_mailboxes",
+            "action_label": "Return resources, etc.",
+            "evidence": "devolver recursos disponibilizados pelo BNDES, revogar perfis de acesso de seus profissionais, eliminar suas caixas postais",
+            "confidence": 0.9,
+            "bearer": "algar_telecom_s_a"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "maintain_conditions_of_qualification",
+          "action_label": "Maintain conditions of qualification",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "communicate_imposition_of_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar a imposição a si de penalidade que acarrete o impedimento de contratar com o BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "repair_correct_remove_reconstruct_or_replace",
+          "action_label": "Repair, correct, etc.",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "repair_all_damages",
+          "action_label": "Repair all damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "pay_all_fees_and_taxes",
+          "action_label": "Pay all fees and taxes",
+          "evidence": "pagar todos os encargos e tributos",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "assume_full_responsibility_for_any_burdens",
+          "action_label": "Assume full responsibility",
+          "evidence": "assumir a responsabilidade integral por quaisquer ônus",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "provide_exclusion_from_simples_nacional",
+          "action_label": "Provide exclusion from Simples Nacional",
+          "evidence": "providenciar, perante a Receita Federal do Brasil - RFB, comprovando ao BNDES, sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "permit_inspections",
+          "action_label": "Permit inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "obey_instructions_and_procedures",
+          "action_label": "Obey instructions",
+          "evidence": "obedecer às instruções e aos procedimentos",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "algar_telecom_s_a",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "algar_telecom_s_a"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}

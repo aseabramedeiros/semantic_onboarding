@@ -1,0 +1,2889 @@
+{
+  "contract_id": "contrato_ocs_298_2024",
+  "source_file": "KOA_Contrato_OCS_298_2024_-_GEMELO_(Datacenter).pl",
+  "role_grounding": {
+    "contract_id": "contrato_ocs_298_2024",
+    "agents": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "label": "'BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL – BNDES'",
+        "cnpj": "'33.657.248/0001-89'"
+      },
+      {
+        "agent_id": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+        "label": "'GEMELO DO BRASIL DATA CENTERS, COMÉRCIO E SERVIÇOS LTDA'",
+        "cnpj": "'03.888.247/0001-84'"
+      }
+    ],
+    "roles": [
+      {
+        "agent_id": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+        "role_class": "service_customer_role",
+        "contract_id": "contrato_ocs_298_2024"
+      },
+      {
+        "agent_id": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+        "role_class": "hired_service_provider_role",
+        "contract_id": "contrato_ocs_298_2024"
+      }
+    ]
+  },
+  "selected_moments": [
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "provide_technical_support",
+      "evidence": "prestação continuada de serviços de suporte técnico e manutenção corretiva e preventiva, com reposição de peças, para o data center principal do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_primeira_objeto",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "receive_technical_support",
+      "evidence": "prestação continuada de serviços de suporte técnico e manutenção corretiva e preventiva, com reposição de peças, para o data center principal do BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "terminate_contract",
+      "evidence": "poder de ser rescindido unilateralmente pelo BNDES a partir do 31º mês",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_segunda_vigencia",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "inform_termination",
+      "evidence": "desde que informado com 90 dias de antecedência.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "indicate_contract_responsible",
+      "evidence": "cabendo ao CONTRATADO: I. indicar o responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "present_professionals_list",
+      "evidence": "II. apresentar uma listagem contendo a identificação dos profissionais alocados na execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "present_proof_of_legal_link",
+      "evidence": "III. apresentar a comprovação de vínculo jurídico dos profissionais designados para a prestação dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "present_occupational_health_certificate",
+      "evidence": "IV. apresentar cópia do Atestado de Saúde Ocupacional Admissional dos profissionais designados para a prestação dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "present_confidentiality_terms",
+      "evidence": "V. apresentar os termos de confidencialidade assinados pelos profissionais designados para a prestação de serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "dispose_qualified_personnel_registry",
+      "evidence": "O CONTRATADO deverá dispor de cadastro de pessoal qualificado para proceder à substituição dos profissionais alocados na execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "replace_immediately",
+      "evidence": "a substituição deverá ser realizada imediatamente",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "submit_replacement_request",
+      "evidence": "o CONTRATADO deverá submeter ao BNDES um pedido de substituição",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "present_documents_paragrafo_primeiro",
+      "evidence": "aprovada a substituição, o CONTRATADO deverá apresentar os documentos listados no Parágrafo Primeiro desta Cláusula",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "convene_meeting",
+      "evidence": "O BNDES convocará o CONTRATADO a comparecer à reunião preliminar",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "execute_services_according_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_price_reduction_index",
+      "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_quarta_niveis_servico",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "demand_service_execution_to_standards",
+      "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_quinta_recebimento_objeto",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "effect_object_receipt",
+      "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor...",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "subjection",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "bear_dimensioning_burdens",
+      "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "demand_indemnification_for_partial_demand",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "complement_quantities",
+      "evidence": "O CONTRATADO deverá complementá-los, caso os quantitativos previstos inicialmente em sua proposta não sejam satisfatórios",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "permission_to_omit",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "omit_demand_total_object",
+      "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_sexta_preco",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "present_monthly_spreadsheets",
+      "evidence": "que serão aferidas através de planilhas a serem apresentadas, mensalmente, pelo CONTRATADO",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "request_price_revision",
+      "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante repactuação ou revisão de preços.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "right_to_action",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "request_price_revision",
+      "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante repactuação ou revisão de preços.",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "analyze_price_revision",
+      "evidence": "o BNDES deverá analisar o pedido de repactuação e/ou revisão de preços em até 60 (sessenta) dias",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "solicit_price_revision_reajuste",
+      "evidence": "O CONTRATADO deverá solicitar a repactuação e/ou a revisão de preços até o encerramento do Contrato",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "not_solicit_price_revision_reajuste",
+      "evidence": "caso o CONTRATADO não solicite a repactuação e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "demand_price_revision_reajuste",
+      "evidence": "caso o CONTRATADO não solicite a repactuação e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "provide_contractual_guarantee",
+      "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, ... garantia contratual",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "subjection",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "penalty_for_not_providing_guarantee",
+      "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "apply_penalty",
+      "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "complement_or_renew_guarantee",
+      "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "obtain_guarantor_consent",
+      "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_garantia_contratual",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "notify_guarantor_of_changes",
+      "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora... no prazo de até 10 (dez) dias úteis",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "maintain_qualification",
+      "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "communicate_penalty",
+      "evidence": "comunicar a imposição, a si ou a qualquer consorciada, de penalidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "repair_defects",
+      "evidence": "reparar, corrigir, remover, reconstruir ou substituir...o objeto do Contrato em que se verificarem vícios, defeitos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "repair_damages",
+      "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "pay_taxes",
+      "evidence": "pagar todos os encargos e tributos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "assume_responsibility_for_onus",
+      "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "exclude_from_simples_nacional",
+      "evidence": "providenciar...sua exclusão obrigatória do Simples Nacional",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "permit_inspections",
+      "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "obey_bndes_instructions",
+      "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "designate_representative",
+      "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "pay_salaries_to_professionals",
+      "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "comply_with_labor_laws",
+      "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "pay_salaries",
+      "evidence": "pagar os salários e demais verbas passadas diretamente ao profissional...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "pay_insumos",
+      "evidence": "pagar os salários e os insumos dos profissionais alocados na execução dos serviços...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "observe_collective_bargaining_agreements",
+      "evidence": "observar as obrigações previstas na norma coletiva aplicável à categoria profissional do empregado...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "respect_minimum_wage",
+      "evidence": "respeitar o piso salarial estipulado na proposta...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "comply_with_labor_obligations",
+      "evidence": "cumprir as obrigações trabalhistas de acordo com os valores e especificações indicados na planilha de custos...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "attend_to_safety_legislation",
+      "evidence": "atender a legislação relativa à segurança e à medicina do trabalho...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "pay_transportation_and_food_vouchers",
+      "evidence": "pagar antecipadamente, em parcela única mensal, os insumos referentes a vale-transporte e auxílio-alimentação...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "provide_medical_assistance",
+      "evidence": "prestar assistência médica mínima por plano básico de saúde...",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "não oferecer, prometer, dar... qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "not_offer_undue_advantage",
+      "evidence": "não oferecer, prometer, dar... qualquer vantagem indevida",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "prevent_favored_participation",
+      "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "prevent_allocation_of_family_members",
+      "evidence": "providenciar para que não sejam alocados...familiares de dirigente ou empregado do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "observe_policies_and_code_of_ethics",
+      "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "inform_conflict_of_interest",
+      "evidence": "informar imediatamente ao BNDES a ocorrência de potencial situação de conflito de interesses",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "notify_investigation",
+      "evidence": "notificar imediatamente o BNDES sobre qualquer investigação ou procedimento",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "remove_agents_causing_impediments",
+      "evidence": "afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos e favorecimentos aludidos",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "notify_removal_of_agents",
+      "evidence": "comunicar tal fato ao BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_terceira_conduta_etica",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "prevent_undue_advantage_by_others",
+      "evidence": "tomar todas as medidas ao seu alcance para impedir administradores... de fazê-lo",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "cumprir_regras_sigilo",
+      "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "nao_copiar_reproduzir_informacoes",
+      "evidence": "não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "informar_violacao_regras_sigilo",
+      "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "entregar_material_propriedade_bndes",
+      "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+      "legal_moment_class": "duty_to_omit",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "nao_utilizar_informacao_sigilosa",
+      "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "apresentar_termos_confidencialidade",
+      "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+      "legal_moment_class": "right_to_action",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "acessar_informacoes_sigilosas_com_autorizacao",
+      "evidence": "acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "realizar_pagamentos_devidos",
+      "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designar_gestor_contrato",
+      "evidence": "designar, como Gestor do Contrato, José Maciel Franco Junior",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designar_substituto_gestor_contrato",
+      "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "designar_fiscal_contrato",
+      "evidence": "designar o Fiscal do Contrato que auxiliará o Gestor do Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "fornecer_acesso_codigo_etica",
+      "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "disponibilizar_informacoes",
+      "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "comunicar_instrucoes",
+      "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "comunicar_abertura_procedimento",
+      "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "comunicar_aplicacao_penalidade",
+      "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "alterar_gestor_contrato",
+      "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "prove_lack_of_discrimination",
+      "evidence": "O CONTRATADO deverá comprovar... a inexistência de decisão administrativa final sancionadora... em razão da prática de atos... que importem em discriminação de raça ou gênero",
+      "confidence": 0.9
+    },
+    {
+      "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "suspend_contract_execution",
+      "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+      "legal_moment_class": "right_to_action",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "verify_information",
+      "evidence": "sem prejuízo da verificação do sistema informativo interno do BNDES",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "present_fiscal_document",
+      "evidence": "Apresentar nota fiscal, fatura, boleto bancário com código de barras, ou recibo de pagamento a autônomo.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "deduct_amounts",
+      "evidence": "BNDES pode deduzir valores referentes a multas, indenizações, ou qualquer obrigação decorrente do descumprimento da legislação.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "power",
+      "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes",
+      "action_id": "withhold_payment",
+      "evidence": "BNDES pode reter o pagamento da fatura mensal se não forem apresentados os comprovantes de pagamento.",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "right_to_action",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "receive_payment",
+      "evidence": "Direito ao crédito em conta bancária no prazo de 10 dias úteis após a apresentação do documento fiscal.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "include_requisite_information",
+      "evidence": "O documento fiscal deve conter número da Ordem de Compra/Serviço – OCS, número SAP do Contrato, etc.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "pay_salaries",
+      "evidence": "Obrigação de pagamento de salários, adicionais, horas extras, etc.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "provide_salary_evidence",
+      "evidence": "Apresentar comprovantes de adimplemento dos salários e benefícios.",
+      "confidence": 0.7
+    },
+    {
+      "clause_id": "clausula_setima_pagamento",
+      "legal_moment_class": "subjection",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "suffer_rejection",
+      "evidence": "Apresentação fora do prazo implica rejeição ou desconto do valor a ser pago.",
+      "confidence": 0.6
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "no_right_to_action",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "request_additives_for_allocated_events",
+      "evidence": "'vedacao_aditivos', 'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+      "confidence": 0.8
+    },
+    {
+      "clause_id": "clausula_nona_matriz_riscos",
+      "legal_moment_class": "duty_to_act",
+      "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda",
+      "action_id": "respect_economic_financial_balance_clause",
+      "evidence": "'deve respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+      "confidence": 0.7
+    }
+  ],
+  "clauses": {
+    "clausula_primeira_objeto": {
+      "raw": {
+        "clause_id": "clausula_primeira_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_technical_support",
+            "action_label": "Provide technical support",
+            "evidence": "prestação continuada de serviços de suporte técnico e manutenção corretiva e preventiva, com reposição de peças, para o data center principal do BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "receive_technical_support",
+            "action_label": "Receive technical support",
+            "evidence": "prestação continuada de serviços de suporte técnico e manutenção corretiva e preventiva, com reposição de peças, para o data center principal do BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_technical_support",
+          "action_label": "Provide technical support",
+          "evidence": "prestação continuada de serviços de suporte técnico e manutenção corretiva e preventiva, com reposição de peças, para o data center principal do BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "receive_technical_support",
+          "action_label": "Receive technical support",
+          "evidence": "prestação continuada de serviços de suporte técnico e manutenção corretiva e preventiva, com reposição de peças, para o data center principal do BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_segunda_vigencia": {
+      "raw": {
+        "clause_id": "clausula_segunda_vigencia",
+        "candidates": [
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "terminate_contract",
+            "action_label": "Terminate contract",
+            "evidence": "poder de ser rescindido unilateralmente pelo BNDES a partir do 31º mês",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "inform_termination",
+            "action_label": "Inform termination",
+            "evidence": "desde que informado com 90 dias de antecedência.",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "terminate_contract",
+          "action_label": "Terminate contract",
+          "evidence": "poder de ser rescindido unilateralmente pelo BNDES a partir do 31º mês",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "inform_termination",
+          "action_label": "Inform termination",
+          "evidence": "desde que informado com 90 dias de antecedência.",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_terceira_local_prazo_condicoes_execucao_objeto": {
+      "raw": {
+        "clause_id": "clausula_terceira_local_prazo_condicoes_execucao_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "indicate_contract_responsible",
+            "action_label": "Indicate contract responsible",
+            "evidence": "cabendo ao CONTRATADO: I. indicar o responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_professionals_list",
+            "action_label": "Present professionals list",
+            "evidence": "II. apresentar uma listagem contendo a identificação dos profissionais alocados na execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_proof_of_legal_link",
+            "action_label": "Present proof of legal link",
+            "evidence": "III. apresentar a comprovação de vínculo jurídico dos profissionais designados para a prestação dos serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_occupational_health_certificate",
+            "action_label": "Present health certificate",
+            "evidence": "IV. apresentar cópia do Atestado de Saúde Ocupacional Admissional dos profissionais designados para a prestação dos serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_confidentiality_terms",
+            "action_label": "Present confidentiality terms",
+            "evidence": "V. apresentar os termos de confidencialidade assinados pelos profissionais designados para a prestação de serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "dispose_qualified_personnel_registry",
+            "action_label": "Dispose qualified registry",
+            "evidence": "O CONTRATADO deverá dispor de cadastro de pessoal qualificado para proceder à substituição dos profissionais alocados na execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "replace_immediately",
+            "action_label": "Replace immediately",
+            "evidence": "a substituição deverá ser realizada imediatamente",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "submit_replacement_request",
+            "action_label": "Submit replacement request",
+            "evidence": "o CONTRATADO deverá submeter ao BNDES um pedido de substituição",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_documents_paragrafo_primeiro",
+            "action_label": "Present documents from 1st paragraph",
+            "evidence": "aprovada a substituição, o CONTRATADO deverá apresentar os documentos listados no Parágrafo Primeiro desta Cláusula",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "convene_meeting",
+            "action_label": "Convene meeting",
+            "evidence": "O BNDES convocará o CONTRATADO a comparecer à reunião preliminar",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "indicate_contract_responsible",
+          "action_label": "Indicate contract responsible",
+          "evidence": "cabendo ao CONTRATADO: I. indicar o responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_professionals_list",
+          "action_label": "Present professionals list",
+          "evidence": "II. apresentar uma listagem contendo a identificação dos profissionais alocados na execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_proof_of_legal_link",
+          "action_label": "Present proof of legal link",
+          "evidence": "III. apresentar a comprovação de vínculo jurídico dos profissionais designados para a prestação dos serviços",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_occupational_health_certificate",
+          "action_label": "Present health certificate",
+          "evidence": "IV. apresentar cópia do Atestado de Saúde Ocupacional Admissional dos profissionais designados para a prestação dos serviços",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_confidentiality_terms",
+          "action_label": "Present confidentiality terms",
+          "evidence": "V. apresentar os termos de confidencialidade assinados pelos profissionais designados para a prestação de serviços",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "dispose_qualified_personnel_registry",
+          "action_label": "Dispose qualified registry",
+          "evidence": "O CONTRATADO deverá dispor de cadastro de pessoal qualificado para proceder à substituição dos profissionais alocados na execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "replace_immediately",
+          "action_label": "Replace immediately",
+          "evidence": "a substituição deverá ser realizada imediatamente",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "submit_replacement_request",
+          "action_label": "Submit replacement request",
+          "evidence": "o CONTRATADO deverá submeter ao BNDES um pedido de substituição",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_documents_paragrafo_primeiro",
+          "action_label": "Present documents from 1st paragraph",
+          "evidence": "aprovada a substituição, o CONTRATADO deverá apresentar os documentos listados no Parágrafo Primeiro desta Cláusula",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "convene_meeting",
+          "action_label": "Convene meeting",
+          "evidence": "O BNDES convocará o CONTRATADO a comparecer à reunião preliminar",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quarta_niveis_servico": {
+      "raw": {
+        "clause_id": "clausula_quarta_niveis_servico",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "execute_services_according_to_standards",
+            "action_label": "Execute services to standards.",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_service_execution_to_standards",
+            "action_label": "Demand service execution to standards.",
+            "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+            "confidence": 0.6,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "apply_price_reduction_index",
+            "action_label": "Apply price reduction index.",
+            "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "execute_services_according_to_standards",
+          "action_label": "Execute services to standards.",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade...estipulados pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "apply_price_reduction_index",
+          "action_label": "Apply price reduction index.",
+          "evidence": "O descumprimento dos níveis de serviço acarretará a aplicação dos índices de redução do preço",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "demand_service_execution_to_standards",
+          "action_label": "Demand service execution to standards.",
+          "evidence": "Os serviços contratados deverão ser executados de acordo com os padrões de qualidade, disponibilidade e desempenho estipulados pelo BNDES",
+          "confidence": 0.6,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_quinta_recebimento_objeto": {
+      "raw": {
+        "clause_id": "clausula_quinta_recebimento_objeto",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor...",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "effect_object_receipt",
+            "action_label": "Effect object receipt",
+            "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor...",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor...",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "effect_object_receipt",
+          "action_label": "Effect object receipt",
+          "evidence": "O BNDES efetuará o recebimento do objeto, através do Gestor...",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_sexta_preco": {
+      "raw": {
+        "clause_id": "clausula_sexta_preco",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complement_quantities",
+            "action_label": "Complement quantities",
+            "evidence": "O CONTRATADO deverá complementá-los, caso os quantitativos previstos inicialmente em sua proposta não sejam satisfatórios",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "bear_dimensioning_burdens",
+            "action_label": "Bear dimensioning burdens",
+            "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "permission_to_omit",
+            "bearer_hint": "bndes",
+            "action_id": "omit_demand_total_object",
+            "action_label": "Omit total object demand",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_indemnification_for_partial_demand",
+            "action_label": "Demand indemnification",
+            "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_monthly_spreadsheets",
+            "action_label": "Present monthly spreadsheets",
+            "evidence": "que serão aferidas através de planilhas a serem apresentadas, mensalmente, pelo CONTRATADO",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "bear_dimensioning_burdens",
+          "action_label": "Bear dimensioning burdens",
+          "evidence": "O CONTRATADO deverá arcar com os ônus decorrentes de eventual equívoco no dimensionamento dos quantitativos de sua proposta",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_indemnification_for_partial_demand",
+          "action_label": "Demand indemnification",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato, não será devida indenização ao CONTRATADO.",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complement_quantities",
+          "action_label": "Complement quantities",
+          "evidence": "O CONTRATADO deverá complementá-los, caso os quantitativos previstos inicialmente em sua proposta não sejam satisfatórios",
+          "confidence": 0.8,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "permission_to_omit",
+          "bearer_hint": "bndes",
+          "action_id": "omit_demand_total_object",
+          "action_label": "Omit total object demand",
+          "evidence": "Caso o BNDES não demande o total do objeto previsto neste Contrato",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_monthly_spreadsheets",
+          "action_label": "Present monthly spreadsheets",
+          "evidence": "que serão aferidas através de planilhas a serem apresentadas, mensalmente, pelo CONTRATADO",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_oitava_equilibrio_economico_financeiro_contrato": {
+      "raw": {
+        "clause_id": "clausula_oitava_equilibrio_economico_financeiro_contrato",
+        "candidates": [
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante repactuação ou revisão de preços.",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_price_revision",
+            "action_label": "Request price revision",
+            "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante repactuação ou revisão de preços.",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "analyze_price_revision",
+            "action_label": "Analyze price revision request",
+            "evidence": "o BNDES deverá analisar o pedido de repactuação e/ou revisão de preços em até 60 (sessenta) dias",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "solicit_price_revision_reajuste",
+            "action_label": "Solicit price revision/reajuste",
+            "evidence": "O CONTRATADO deverá solicitar a repactuação e/ou a revisão de preços até o encerramento do Contrato",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_solicit_price_revision_reajuste",
+            "action_label": "Not solicit price revision/reajuste",
+            "evidence": "caso o CONTRATADO não solicite a repactuação e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "demand_price_revision_reajuste",
+            "action_label": "Demand price revision/reajuste",
+            "evidence": "caso o CONTRATADO não solicite a repactuação e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante repactuação ou revisão de preços.",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_price_revision",
+          "action_label": "Request price revision",
+          "evidence": "O BNDES e o CONTRATADO têm direito ao equilíbrio econômico-financeiro do Contrato, a ser realizado mediante repactuação ou revisão de preços.",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "analyze_price_revision",
+          "action_label": "Analyze price revision request",
+          "evidence": "o BNDES deverá analisar o pedido de repactuação e/ou revisão de preços em até 60 (sessenta) dias",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "solicit_price_revision_reajuste",
+          "action_label": "Solicit price revision/reajuste",
+          "evidence": "O CONTRATADO deverá solicitar a repactuação e/ou a revisão de preços até o encerramento do Contrato",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_solicit_price_revision_reajuste",
+          "action_label": "Not solicit price revision/reajuste",
+          "evidence": "caso o CONTRATADO não solicite a repactuação e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "demand_price_revision_reajuste",
+          "action_label": "Demand price revision/reajuste",
+          "evidence": "caso o CONTRATADO não solicite a repactuação e/ou revisão de preços nos prazos fixados acima, operar-se-á a renúncia",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_garantia_contratual": {
+      "raw": {
+        "clause_id": "clausula_decima_garantia_contratual",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_contractual_guarantee",
+            "action_label": "Provide contractual guarantee",
+            "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, ... garantia contratual",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "penalty_for_not_providing_guarantee",
+            "action_label": "Subject to penalty",
+            "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "apply_penalty",
+            "action_label": "Apply penalty",
+            "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "complement_or_renew_guarantee",
+            "action_label": "Complement/renew guarantee",
+            "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obtain_guarantor_consent",
+            "action_label": "Obtain guarantor consent",
+            "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_guarantor_of_changes",
+            "action_label": "Notify guarantor of changes",
+            "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora... no prazo de até 10 (dez) dias úteis",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_contractual_guarantee",
+          "action_label": "Provide contractual guarantee",
+          "evidence": "O CONTRATADO prestará, no prazo de até 10 (dez) dias úteis, ... garantia contratual",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "penalty_for_not_providing_guarantee",
+          "action_label": "Subject to penalty",
+          "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "apply_penalty",
+          "action_label": "Apply penalty",
+          "evidence": "sob pena de aplicação de penalidade nos termos deste Contrato",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "complement_or_renew_guarantee",
+          "action_label": "Complement/renew guarantee",
+          "evidence": "o CONTRATADO deverá providenciá-la no prazo estipulado pelo BNDES.",
+          "confidence": 0.8,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obtain_guarantor_consent",
+          "action_label": "Obtain guarantor consent",
+          "evidence": "o CONTRATADO deve obter do garantidor anuência em relação à manutenção da garantia",
+          "confidence": 0.8,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "notify_guarantor_of_changes",
+          "action_label": "Notify guarantor of changes",
+          "evidence": "o CONTRATADO deverá notificar a entidade fiadora/seguradora... no prazo de até 10 (dez) dias úteis",
+          "confidence": 0.8,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_primeira_obrigacoes_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_primeira_obrigacoes_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_qualification",
+            "action_label": "Maintain qualification",
+            "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "request_proof_of_qualification",
+            "action_label": "Request qualification proof",
+            "evidence": "comprovando-as sempre que solicitado pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "communicate_penalty",
+            "action_label": "Communicate penalty",
+            "evidence": "comunicar a imposição, a si ou a qualquer consorciada, de penalidade",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_defects",
+            "action_label": "Repair defects",
+            "evidence": "reparar, corrigir, remover, reconstruir ou substituir...o objeto do Contrato em que se verificarem vícios, defeitos",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "repair_damages",
+            "action_label": "Repair damages",
+            "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_taxes",
+            "action_label": "Pay taxes",
+            "evidence": "pagar todos os encargos e tributos",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "demand_proof_of_tax_payment",
+            "action_label": "Demand tax payment proof",
+            "evidence": "podendo o BNDES, a qualquer momento, exigir do CONTRATADO a comprovação de sua regularidade",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "assume_responsibility_for_onus",
+            "action_label": "Assume responsibility for onus",
+            "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "exclude_from_simples_nacional",
+            "action_label": "Exclude from Simples Nacional",
+            "evidence": "providenciar...sua exclusão obrigatória do Simples Nacional",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "permit_inspections",
+            "action_label": "Permit inspections",
+            "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "obey_bndes_instructions",
+            "action_label": "Obey BNDES instructions",
+            "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "designate_representative",
+            "action_label": "Designate representative",
+            "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "submit_dif",
+            "action_label": "Submit DIF",
+            "evidence": "apresentar, em até 10 (dez) dias úteis após a convocação, a Declaração de Informações para Fornecimento - DIF, adequadamente preenchida",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "orient_professionals_to_be_cordial",
+            "action_label": "Orient cordial behavior",
+            "evidence": "orientar os profissionais alocados na execução dos serviços para que se comportem de forma cordial",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "control_attendance",
+            "action_label": "Control attendance",
+            "evidence": "controlar a frequência, a assiduidade e a pontualidade dos empregados",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_uniforms",
+            "action_label": "Provide uniforms",
+            "evidence": "fornecer uniformes a cada um dos empregados",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_safety",
+            "action_label": "Ensure safety",
+            "evidence": "zelar pela segurança dos profissionais alocados na execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_overtime",
+            "action_label": "Prevent overtime",
+            "evidence": "impedir que os profissionais alocados na execução dos serviços realizem horas extraordinárias",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prove_salary_payments",
+            "action_label": "Prove salary payments",
+            "evidence": "Comprovar... o pagamento dos salários...através da apresentação ao BNDES, do comprovante de depósito",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_cost_information",
+            "action_label": "Provide cost information",
+            "evidence": "fornecer, sempre que solicitado pelo BNDES, comprovação documental do conteúdo das informações apresentadas na planilha de custos",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_tools_and_equipment",
+            "action_label": "Provide tools and equipment",
+            "evidence": "fornecer todas as ferramentas, equipamentos e materiais necessários à execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "support_contract_transition",
+            "action_label": "Support contract transition",
+            "evidence": "atender às solicitações do BNDES relativas à transição contratual entre o CONTRATADO e o seu sucessor",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "ensure_compliance_with_security_norms",
+            "action_label": "Ensure security compliance",
+            "evidence": "responsabilizar-se pelo cumprimento das normas de segurança das dependências do BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_id_badges",
+            "action_label": "Return ID badges",
+            "evidence": "devolver, ao final do Contrato, os crachás de identificação fornecidos pelo BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "investigate_social_backgrounds",
+            "action_label": "Investigate social backgrounds",
+            "evidence": "responsabilizar-se pela investigação de antecedentes sociais dos profissionais alocados na execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "return_resources_and_revoke_access",
+            "action_label": "Return resources and revoke access",
+            "evidence": "devolver recursos disponibilizados pelo BNDES, revogar perfis de acesso de seus profissionais, eliminar suas caixas postais",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "maintain_qualification",
+          "action_label": "Maintain qualification",
+          "evidence": "manter durante a vigência deste Contrato todas as condições de habilitação",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "communicate_penalty",
+          "action_label": "Communicate penalty",
+          "evidence": "comunicar a imposição, a si ou a qualquer consorciada, de penalidade",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_defects",
+          "action_label": "Repair defects",
+          "evidence": "reparar, corrigir, remover, reconstruir ou substituir...o objeto do Contrato em que se verificarem vícios, defeitos",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "repair_damages",
+          "action_label": "Repair damages",
+          "evidence": "reparar todos os danos e prejuízos causados ao BNDES ou a terceiros",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_taxes",
+          "action_label": "Pay taxes",
+          "evidence": "pagar todos os encargos e tributos",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "assume_responsibility_for_onus",
+          "action_label": "Assume responsibility for onus",
+          "evidence": "assumir a responsabilidade integral por quaisquer ônus que venham a ser impostos ao BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "exclude_from_simples_nacional",
+          "action_label": "Exclude from Simples Nacional",
+          "evidence": "providenciar...sua exclusão obrigatória do Simples Nacional",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "permit_inspections",
+          "action_label": "Permit inspections",
+          "evidence": "permitir vistorias e acompanhamento da execução do objeto pelo Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "obey_bndes_instructions",
+          "action_label": "Obey BNDES instructions",
+          "evidence": "obedecer às instruções e aos procedimentos, estabelecidos pelo BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "designate_representative",
+          "action_label": "Designate representative",
+          "evidence": "designar 01 (um) preposto como responsável pelo Contrato firmado com o BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado": {
+      "raw": {
+        "clause_id": "clausula_decima_segunda_obrigacoes_trabalhistas_previdenciarias_contratado",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_salaries_to_professionals",
+            "action_label": "Pay salaries to professionals",
+            "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_labor_laws",
+            "action_label": "Comply with labor laws",
+            "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_salaries",
+            "action_label": "Pay salaries",
+            "evidence": "pagar os salários e demais verbas passadas diretamente ao profissional...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_insumos",
+            "action_label": "Pay insumos",
+            "evidence": "pagar os salários e os insumos dos profissionais alocados na execução dos serviços...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_collective_bargaining_agreements",
+            "action_label": "Observe collective agreements",
+            "evidence": "observar as obrigações previstas na norma coletiva aplicável à categoria profissional do empregado...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_minimum_wage",
+            "action_label": "Respect minimum wage",
+            "evidence": "respeitar o piso salarial estipulado na proposta...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "comply_with_labor_obligations",
+            "action_label": "Comply with labor obligations",
+            "evidence": "cumprir as obrigações trabalhistas de acordo com os valores e especificações indicados na planilha de custos...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "attend_to_safety_legislation",
+            "action_label": "Attend to safety legislation",
+            "evidence": "atender a legislação relativa à segurança e à medicina do trabalho...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_transportation_and_food_vouchers",
+            "action_label": "Pay transport/food vouchers",
+            "evidence": "pagar antecipadamente, em parcela única mensal, os insumos referentes a vale-transporte e auxílio-alimentação...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_medical_assistance",
+            "action_label": "Provide medical assistance",
+            "evidence": "prestar assistência médica mínima por plano básico de saúde...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "maintain_and_update_records",
+            "action_label": "Maintain and update records",
+            "evidence": "Devem ser mantidos e atualizados pelo CONTRATADO...os registros, anotações e documentos que comprovem o cumprimento das obrigações trabalhistas e previdenciárias...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "exhibit_electronic_copies",
+            "action_label": "Exhibit electronic copies",
+            "evidence": "bem como exibidos por meio de cópias eletrônicas, sempre que solicitadas pelo BNDES, os registros, anotações e documentos...",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "reimburse_bndes",
+            "action_label": "Reimburse BNDES",
+            "evidence": "cabendo-lhe reembolsar o BNDES ou suas subsidiárias de todas as despesas que estes tiverem...resultantes de sua condenação judicial a honrar obrigações trabalhistas",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_salaries_to_professionals",
+          "action_label": "Pay salaries to professionals",
+          "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_labor_laws",
+          "action_label": "Comply with labor laws",
+          "evidence": "O CONTRATADO deverá cumprir todas as obrigações trabalhistas e previdenciárias relativas aos profissionais designados para a prestação de serviço...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_salaries",
+          "action_label": "Pay salaries",
+          "evidence": "pagar os salários e demais verbas passadas diretamente ao profissional...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_insumos",
+          "action_label": "Pay insumos",
+          "evidence": "pagar os salários e os insumos dos profissionais alocados na execução dos serviços...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_collective_bargaining_agreements",
+          "action_label": "Observe collective agreements",
+          "evidence": "observar as obrigações previstas na norma coletiva aplicável à categoria profissional do empregado...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_minimum_wage",
+          "action_label": "Respect minimum wage",
+          "evidence": "respeitar o piso salarial estipulado na proposta...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "comply_with_labor_obligations",
+          "action_label": "Comply with labor obligations",
+          "evidence": "cumprir as obrigações trabalhistas de acordo com os valores e especificações indicados na planilha de custos...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "attend_to_safety_legislation",
+          "action_label": "Attend to safety legislation",
+          "evidence": "atender a legislação relativa à segurança e à medicina do trabalho...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_transportation_and_food_vouchers",
+          "action_label": "Pay transport/food vouchers",
+          "evidence": "pagar antecipadamente, em parcela única mensal, os insumos referentes a vale-transporte e auxílio-alimentação...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_medical_assistance",
+          "action_label": "Provide medical assistance",
+          "evidence": "prestar assistência médica mínima por plano básico de saúde...",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_terceira_conduta_etica": {
+      "raw": {
+        "clause_id": "clausula_decima_terceira_conduta_etica",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "não oferecer, prometer, dar... qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "not_offer_undue_advantage",
+            "action_label": "Not offer undue advantage",
+            "evidence": "não oferecer, prometer, dar... qualquer vantagem indevida",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_undue_advantage_by_others",
+            "action_label": "Prevent undue advantage by others",
+            "evidence": "tomar todas as medidas ao seu alcance para impedir administradores... de fazê-lo",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_favored_participation",
+            "action_label": "Prevent favored participation",
+            "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "prevent_allocation_of_family_members",
+            "action_label": "Prevent allocation of family members",
+            "evidence": "providenciar para que não sejam alocados...familiares de dirigente ou empregado do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "observe_policies_and_code_of_ethics",
+            "action_label": "Observe policies and code of ethics",
+            "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "adopt_good_sustainability_practices",
+            "action_label": "Adopt good sustainability practices",
+            "evidence": "adotar, na execução dos serviços, boas práticas de sustentabilidade ambiental",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "inform_conflict_of_interest",
+            "action_label": "Inform conflict of interest",
+            "evidence": "informar imediatamente ao BNDES a ocorrência de potencial situação de conflito de interesses",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_investigation",
+            "action_label": "Notify investigation",
+            "evidence": "notificar imediatamente o BNDES sobre qualquer investigação ou procedimento",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "remove_agents_causing_impediments",
+            "action_label": "Remove agents causing impediments",
+            "evidence": "afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos e favorecimentos aludidos",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "notify_removal_of_agents",
+            "action_label": "Notify removal of agents",
+            "evidence": "comunicar tal fato ao BNDES",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "não oferecer, prometer, dar... qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "not_offer_undue_advantage",
+          "action_label": "Not offer undue advantage",
+          "evidence": "não oferecer, prometer, dar... qualquer vantagem indevida",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_favored_participation",
+          "action_label": "Prevent favored participation",
+          "evidence": "impedir o favorecimento ou a participação de empregado ou dirigente do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_allocation_of_family_members",
+          "action_label": "Prevent allocation of family members",
+          "evidence": "providenciar para que não sejam alocados...familiares de dirigente ou empregado do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "observe_policies_and_code_of_ethics",
+          "action_label": "Observe policies and code of ethics",
+          "evidence": "observar a Política para Transações com Partes Relacionadas e o Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "inform_conflict_of_interest",
+          "action_label": "Inform conflict of interest",
+          "evidence": "informar imediatamente ao BNDES a ocorrência de potencial situação de conflito de interesses",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "notify_investigation",
+          "action_label": "Notify investigation",
+          "evidence": "notificar imediatamente o BNDES sobre qualquer investigação ou procedimento",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "remove_agents_causing_impediments",
+          "action_label": "Remove agents causing impediments",
+          "evidence": "afastar imediatamente da execução do Contrato os agentes que impliquem a ocorrência dos impedimentos e favorecimentos aludidos",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "notify_removal_of_agents",
+          "action_label": "Notify removal of agents",
+          "evidence": "comunicar tal fato ao BNDES",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prevent_undue_advantage_by_others",
+          "action_label": "Prevent undue advantage by others",
+          "evidence": "tomar todas as medidas ao seu alcance para impedir administradores... de fazê-lo",
+          "confidence": 0.8,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_quarta_sigilo_informacoes": {
+      "raw": {
+        "clause_id": "clausula_decima_quarta_sigilo_informacoes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "cumprir_regras_sigilo",
+            "action_label": "Comply with secrecy rules",
+            "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "acessar_informacoes_sigilosas_com_autorizacao",
+            "action_label": "Access confidential info with permission",
+            "evidence": "acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+            "confidence": 0.6,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "nao_copiar_reproduzir_informacoes",
+            "action_label": "Do not copy or reproduce information",
+            "evidence": "não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "informar_violacao_regras_sigilo",
+            "action_label": "Report confidentiality breaches",
+            "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "entregar_material_propriedade_bndes",
+            "action_label": "Deliver BNDES property",
+            "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_omit",
+            "bearer_hint": "contracted_party",
+            "action_id": "nao_utilizar_informacao_sigilosa",
+            "action_label": "Do not use confidential information",
+            "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "apresentar_termos_confidencialidade",
+            "action_label": "Present confidentiality agreements",
+            "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "cumprir_regras_sigilo",
+          "action_label": "Comply with secrecy rules",
+          "evidence": "Cabe ao CONTRATADO cumprir as seguintes regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "nao_copiar_reproduzir_informacoes",
+          "action_label": "Do not copy or reproduce information",
+          "evidence": "não podendo copiá-las, reproduzi-las, retê-las ou praticar qualquer outra forma de uso",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "informar_violacao_regras_sigilo",
+          "action_label": "Report confidentiality breaches",
+          "evidence": "informar imediatamente ao BNDES qualquer violação das regras de sigilo",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "entregar_material_propriedade_bndes",
+          "action_label": "Deliver BNDES property",
+          "evidence": "entregar ao BNDES, ao término da vigência deste Contrato, todo e qualquer material de propriedade deste",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_omit",
+          "bearer_hint": "contracted_party",
+          "action_id": "nao_utilizar_informacao_sigilosa",
+          "action_label": "Do not use confidential information",
+          "evidence": "assumindo o compromisso de não utilizar qualquer informação sigilosa a que teve acesso",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "apresentar_termos_confidencialidade",
+          "action_label": "Present confidentiality agreements",
+          "evidence": "apresentar, antes do início da prestação dos serviços, Termos de Confidencialidade",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "acessar_informacoes_sigilosas_com_autorizacao",
+          "action_label": "Access confidential info with permission",
+          "evidence": "acessar informações sigilosas do BNDES, salvo quando previamente autorizado por escrito",
+          "confidence": 0.6,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_sexta_obrigacoes_bndes": {
+      "raw": {
+        "clause_id": "clausula_decima_sexta_obrigacoes_bndes",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "realizar_pagamentos_devidos",
+            "action_label": "Make due payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payments",
+            "action_label": "Receive payments",
+            "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+            "confidence": 0.6,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designar_gestor_contrato",
+            "action_label": "Designate contract manager",
+            "evidence": "designar, como Gestor do Contrato, José Maciel Franco Junior",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designar_substituto_gestor_contrato",
+            "action_label": "Designate contract manager substitute",
+            "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "alterar_gestor_contrato",
+            "action_label": "Change contract manager",
+            "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "designar_fiscal_contrato",
+            "action_label": "Designate contract inspector",
+            "evidence": "designar o Fiscal do Contrato que auxiliará o Gestor do Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "fornecer_acesso_codigo_etica",
+            "action_label": "Provide access to ethics code",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "solicitar_acesso_codigo_etica",
+            "action_label": "Request access to ethics code",
+            "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+            "confidence": 0.6,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "disponibilizar_informacoes",
+            "action_label": "Provide necessary info",
+            "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "comunicar_instrucoes",
+            "action_label": "Communicate instructions",
+            "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "comunicar_abertura_procedimento",
+            "action_label": "Communicate opening of procedure",
+            "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "bndes",
+            "action_id": "comunicar_aplicacao_penalidade",
+            "action_label": "Communicate application of penalty",
+            "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade",
+            "confidence": 0.9,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "realizar_pagamentos_devidos",
+          "action_label": "Make due payments",
+          "evidence": "realizar os pagamentos devidos ao CONTRATADO, nas condições estabelecidas neste Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designar_gestor_contrato",
+          "action_label": "Designate contract manager",
+          "evidence": "designar, como Gestor do Contrato, José Maciel Franco Junior",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designar_substituto_gestor_contrato",
+          "action_label": "Designate contract manager substitute",
+          "evidence": "designar, como substituto do Gestor do Contrato, para atuar em sua eventual ausência",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "designar_fiscal_contrato",
+          "action_label": "Designate contract inspector",
+          "evidence": "designar o Fiscal do Contrato que auxiliará o Gestor do Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "fornecer_acesso_codigo_etica",
+          "action_label": "Provide access to ethics code",
+          "evidence": "fornecer ao CONTRATADO, quando solicitado ao Gestor do Contrato, acesso ao Código de Ética do Sistema BNDES",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "disponibilizar_informacoes",
+          "action_label": "Provide necessary info",
+          "evidence": "colocar à disposição do CONTRATADO todas as informações necessárias à perfeita execução dos serviços",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "comunicar_instrucoes",
+          "action_label": "Communicate instructions",
+          "evidence": "comunicar ao CONTRATADO, por escrito: a) quaisquer instruções ou procedimentos sobre assuntos relacionados ao Contrato",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "comunicar_abertura_procedimento",
+          "action_label": "Communicate opening of procedure",
+          "evidence": "comunicar ao CONTRATADO, por escrito: b) a abertura de procedimento administrativo para a apuração de condutas irregulares",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "comunicar_aplicacao_penalidade",
+          "action_label": "Communicate application of penalty",
+          "evidence": "comunicar ao CONTRATADO, por escrito: c) a aplicação de eventual penalidade",
+          "confidence": 0.9,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "bndes",
+          "action_id": "alterar_gestor_contrato",
+          "action_label": "Change contract manager",
+          "evidence": "alterar, quando conveniente, o Gestor do Contrato e/ou o seu substituto, por outro profissional",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_decima_setima_equidade_genero_valorizacao_diversidade": {
+      "raw": {
+        "clause_id": "clausula_decima_setima_equidade_genero_valorizacao_diversidade",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "prove_lack_of_discrimination",
+            "action_label": "Prove lack of discrimination",
+            "evidence": "O CONTRATADO deverá comprovar... a inexistência de decisão administrativa final sancionadora... em razão da prática de atos... que importem em discriminação de raça ou gênero",
+            "confidence": 0.9,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "suspend_contract_execution",
+            "action_label": "Suspend contract execution",
+            "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "bndes",
+            "action_id": "verify_information",
+            "action_label": "Verify Information",
+            "evidence": "sem prejuízo da verificação do sistema informativo interno do BNDES",
+            "confidence": 0.7,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "prove_lack_of_discrimination",
+          "action_label": "Prove lack of discrimination",
+          "evidence": "O CONTRATADO deverá comprovar... a inexistência de decisão administrativa final sancionadora... em razão da prática de atos... que importem em discriminação de raça ou gênero",
+          "confidence": 0.9,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "suspend_contract_execution",
+          "action_label": "Suspend contract execution",
+          "evidence": "a execução do objeto contratual poderá ser suspensa pelo BNDES",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "bndes",
+          "action_id": "verify_information",
+          "action_label": "Verify Information",
+          "evidence": "sem prejuízo da verificação do sistema informativo interno do BNDES",
+          "confidence": 0.7,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_setima_pagamento": {
+      "raw": {
+        "clause_id": "clausula_setima_pagamento",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "present_fiscal_document",
+            "action_label": "Present fiscal document",
+            "evidence": "Apresentar nota fiscal, fatura, boleto bancário com código de barras, ou recibo de pagamento a autônomo.",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "receive_payment",
+            "action_label": "Receive payment",
+            "evidence": "Direito ao crédito em conta bancária no prazo de 10 dias úteis após a apresentação do documento fiscal.",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "include_requisite_information",
+            "action_label": "Include requisite information",
+            "evidence": "O documento fiscal deve conter número da Ordem de Compra/Serviço – OCS, número SAP do Contrato, etc.",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "subjection",
+            "bearer_hint": "contracted_party",
+            "action_id": "suffer_rejection",
+            "action_label": "Subject to rejection/deduction",
+            "evidence": "Apresentação fora do prazo implica rejeição ou desconto do valor a ser pago.",
+            "confidence": 0.6,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "deduct_amounts",
+            "action_label": "Deduct amounts",
+            "evidence": "BNDES pode deduzir valores referentes a multas, indenizações, ou qualquer obrigação decorrente do descumprimento da legislação.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "pay_salaries",
+            "action_label": "Pay Salaries",
+            "evidence": "Obrigação de pagamento de salários, adicionais, horas extras, etc.",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "provide_salary_evidence",
+            "action_label": "Provide Salary Evidence",
+            "evidence": "Apresentar comprovantes de adimplemento dos salários e benefícios.",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "power",
+            "bearer_hint": "bndes",
+            "action_id": "withhold_payment",
+            "action_label": "Withhold Payment",
+            "evidence": "BNDES pode reter o pagamento da fatura mensal se não forem apresentados os comprovantes de pagamento.",
+            "confidence": 0.8,
+            "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "present_fiscal_document",
+          "action_label": "Present fiscal document",
+          "evidence": "Apresentar nota fiscal, fatura, boleto bancário com código de barras, ou recibo de pagamento a autônomo.",
+          "confidence": 0.8,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "deduct_amounts",
+          "action_label": "Deduct amounts",
+          "evidence": "BNDES pode deduzir valores referentes a multas, indenizações, ou qualquer obrigação decorrente do descumprimento da legislação.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "power",
+          "bearer_hint": "bndes",
+          "action_id": "withhold_payment",
+          "action_label": "Withhold Payment",
+          "evidence": "BNDES pode reter o pagamento da fatura mensal se não forem apresentados os comprovantes de pagamento.",
+          "confidence": 0.8,
+          "bearer": "banco_nacional_de_desenvolvimento_economico_e_social_bndes"
+        },
+        {
+          "legal_moment_class": "right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "receive_payment",
+          "action_label": "Receive payment",
+          "evidence": "Direito ao crédito em conta bancária no prazo de 10 dias úteis após a apresentação do documento fiscal.",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "include_requisite_information",
+          "action_label": "Include requisite information",
+          "evidence": "O documento fiscal deve conter número da Ordem de Compra/Serviço – OCS, número SAP do Contrato, etc.",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "pay_salaries",
+          "action_label": "Pay Salaries",
+          "evidence": "Obrigação de pagamento de salários, adicionais, horas extras, etc.",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "provide_salary_evidence",
+          "action_label": "Provide Salary Evidence",
+          "evidence": "Apresentar comprovantes de adimplemento dos salários e benefícios.",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "subjection",
+          "bearer_hint": "contracted_party",
+          "action_id": "suffer_rejection",
+          "action_label": "Subject to rejection/deduction",
+          "evidence": "Apresentação fora do prazo implica rejeição ou desconto do valor a ser pago.",
+          "confidence": 0.6,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    },
+    "clausula_nona_matriz_riscos": {
+      "raw": {
+        "clause_id": "clausula_nona_matriz_riscos",
+        "candidates": [
+          {
+            "legal_moment_class": "duty_to_act",
+            "bearer_hint": "contracted_party",
+            "action_id": "respect_economic_financial_balance_clause",
+            "action_label": "Respect economic-financial balance clause",
+            "evidence": "'deve respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+            "confidence": 0.7,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          },
+          {
+            "legal_moment_class": "no_right_to_action",
+            "bearer_hint": "contracted_party",
+            "action_id": "request_additives_for_allocated_events",
+            "action_label": "No right to request additives for allocated events",
+            "evidence": "'vedacao_aditivos', 'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+            "confidence": 0.8,
+            "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+          }
+        ]
+      },
+      "selected": [
+        {
+          "legal_moment_class": "no_right_to_action",
+          "bearer_hint": "contracted_party",
+          "action_id": "request_additives_for_allocated_events",
+          "action_label": "No right to request additives for allocated events",
+          "evidence": "'vedacao_aditivos', 'eventos supervenientes alocados na Matriz de Riscos, como de responsabilidade do CONTRATADO'",
+          "confidence": 0.8,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        },
+        {
+          "legal_moment_class": "duty_to_act",
+          "bearer_hint": "contracted_party",
+          "action_id": "respect_economic_financial_balance_clause",
+          "action_label": "Respect economic-financial balance clause",
+          "evidence": "'deve respeitar o disposto na Cláusula de Equilíbrio Econômico-Financeiro'",
+          "confidence": 0.7,
+          "bearer": "gemelo_do_brasil_data_centers_comercio_e_servicos_ltda"
+        }
+      ],
+      "validation_errors": []
+    }
+  }
+}
